@@ -2,16 +2,16 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 
-function Wurzburg4A() {
+function Wurzburg5A() {
   return ( 
     <div>
       <Timeline timelineProgress="25" timelineReference="16th A.D."/>
       <div className="clue-background">
-        <div className="clue-background-title">The Peasants’ War</div>
-        <div className="clue-background-div">Go up towards the castle</div>
-        <div className="clue-background-div">(Rückermainstraße 2, 97070 Würzburg), </div>
+        <div className="clue-background-title">Julius Echter</div>
+        <div className="clue-background-div">Meet julius echter von mespelbrunn</div>
+        <div className="clue-background-div">(QWWJ+V8 Würzburg), </div>
         <div className="clue-background-div">...arrived?</div>
-        <Link to="/wuerzburg/peasants/memorial">
+        <Link to="/wuerzburg/julius/statue">
             <div className="gameNext-button">
                 Yes
             </div>
@@ -21,4 +21,4 @@ function Wurzburg4A() {
   );
 }
 
-export default Wurzburg4A;
+export default Wurzburg5A;

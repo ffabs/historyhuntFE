@@ -18,7 +18,7 @@ class Wurzburg3C extends Component {
                     <Weather /> 
                 </div>
                 <div className="clue-background-div">Can you see the shade of the sundial on the building?</div>
-                <Link to="/wuerzburg/kilianus/citycouncil">
+                <Link to="/wuerzburg/citycouncil/sundial/clue">
                     <div className="gameNext-button">
                         Yes
                     </div>

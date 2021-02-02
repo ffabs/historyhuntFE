@@ -17,7 +17,16 @@ import Wurzburg2E from './Games/Wurzburg/Wurzburg2/Wurzburg2E';
 import Wurzburg3A from './Games/Wurzburg/Wurzburg3/Wurzburg3A';
 import Wurzburg3B from './Games/Wurzburg/Wurzburg3/Wurzburg3B';
 import Wurzburg3C from './Games/Wurzburg/Wurzburg3/Wurzburg3C';
+import Wurzburg3D from './Games/Wurzburg/Wurzburg3/Wurzburg3D';
+import Wurzburg3E from './Games/Wurzburg/Wurzburg3/Wurzburg3E';
 import Wurzburg4A from './Games/Wurzburg/Wurzburg4/Wurzburg4A';
+import Wurzburg4B from './Games/Wurzburg/Wurzburg4/Wurzburg4B';
+import Wurzburg4C from './Games/Wurzburg/Wurzburg4/Wurzburg4C';
+import Wurzburg4D from './Games/Wurzburg/Wurzburg4/Wurzburg4D';
+import Wurzburg5A from './Games/Wurzburg/Wurzburg5/Wurzburg5A';
+import Wurzburg5B from './Games/Wurzburg/Wurzburg5/Wurzburg5B';
+import Wurzburg5C from './Games/Wurzburg/Wurzburg5/Wurzburg5C';
+import Wurzburg5D from './Games/Wurzburg/Wurzburg5/Wurzburg5D';
 
 function App() {
   return (
@@ -72,8 +81,35 @@ function App() {
           <Route exact={true} path='/wuerzburg/citycouncil/sundial' render={() => (
             <Wurzburg3C />
           )}/>
+          <Route exact={true} path='/wuerzburg/citycouncil/sundial/clue' render={() => (
+            <Wurzburg3D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/citycouncil/sundial/clueAnswer' render={() => (
+            <Wurzburg3E />
+          )}/>
           <Route exact={true} path='/wuerzburg/peasants' render={() => (
             <Wurzburg4A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/peasants/memorial' render={() => (
+            <Wurzburg4B />
+          )}/> 
+          <Route exact={true} path='/wuerzburg/peasants/memorial/clue' render={() => (
+            <Wurzburg4C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/peasants/memorial/clueAnswer' render={() => (
+            <Wurzburg4D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/julius' render={() => (
+            <Wurzburg5A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/julius/statue' render={() => (
+            <Wurzburg5B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/julius/statue/clue' render={() => (
+            <Wurzburg5C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/julius/statue/clueAnswer' render={() => (
+            <Wurzburg5D />
           )}/>
           <Route render={() => (
             <Redirect to="/" />

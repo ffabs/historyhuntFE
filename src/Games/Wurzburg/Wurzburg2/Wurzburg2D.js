@@ -43,7 +43,6 @@ class Wurzburg2D extends Component {
     }
 
     showErrors = event => {
-        console.log("errors");
         let firstInputCheck;
         let secondInputCheck;
         let thirdInputCheck;
@@ -90,7 +89,7 @@ class Wurzburg2D extends Component {
     }
 
     render() {
-        console.log(this.props.inside);
+        // console.log(this.props.inside);
 
         if(this.state.answers === "right"){
             return (
