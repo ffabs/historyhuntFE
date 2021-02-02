@@ -13,7 +13,7 @@ function Wurzburg5D() {
         <div className="clue-background-div">re-establishment of the university</div>
         <div className="clue-background-div">extension of the fortress </div>
         <div className="clue-background-div">witch hunts</div>
-        <Link to="/wuerzburg/julius/statue/clue">
+        <Link to="/wuerzburg/falkenhous">
             <div className="gameNext-button">
                 Yes
             </div>

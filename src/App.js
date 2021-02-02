@@ -27,6 +27,31 @@ import Wurzburg5A from './Games/Wurzburg/Wurzburg5/Wurzburg5A';
 import Wurzburg5B from './Games/Wurzburg/Wurzburg5/Wurzburg5B';
 import Wurzburg5C from './Games/Wurzburg/Wurzburg5/Wurzburg5C';
 import Wurzburg5D from './Games/Wurzburg/Wurzburg5/Wurzburg5D';
+import Wurzburg6A from './Games/Wurzburg/Wurzburg6/Wurzburg6A';
+import Wurzburg6B from './Games/Wurzburg/Wurzburg6/Wurzburg6B';
+import Wurzburg6C from './Games/Wurzburg/Wurzburg6/Wurzburg6C';
+import Wurzburg6D from './Games/Wurzburg/Wurzburg6/Wurzburg6D';
+import Wurzburg7A from './Games/Wurzburg/Wurzburg7/Wurzburg7A';
+import Wurzburg7B from './Games/Wurzburg/Wurzburg7/Wurzburg7B';
+import Wurzburg7C from './Games/Wurzburg/Wurzburg7/Wurzburg7C';
+import Wurzburg7D from './Games/Wurzburg/Wurzburg7/Wurzburg7D';
+import Wurzburg7E from './Games/Wurzburg/Wurzburg7/Wurzburg7E';
+import Wurzburg8A from './Games/Wurzburg/Wurzburg8/Wurzburg8A';
+import Wurzburg8B from './Games/Wurzburg/Wurzburg8/Wurzburg8B';
+import Wurzburg8C from './Games/Wurzburg/Wurzburg8/Wurzburg8C';
+import Wurzburg8D from './Games/Wurzburg/Wurzburg8/Wurzburg8D';
+import Wurzburg9A from './Games/Wurzburg/Wurzburg9/Wurzburg9A';
+import Wurzburg9B from './Games/Wurzburg/Wurzburg9/Wurzburg9B';
+import Wurzburg9C from './Games/Wurzburg/Wurzburg9/Wurzburg9C';
+import Wurzburg9D from './Games/Wurzburg/Wurzburg9/Wurzburg9D';
+import Wurzburg10A from './Games/Wurzburg/Wurzburg10/Wurzburg10A';
+import Wurzburg10B from './Games/Wurzburg/Wurzburg10/Wurzburg10B';
+import Wurzburg10C from './Games/Wurzburg/Wurzburg10/Wurzburg10C';
+import Wurzburg10D from './Games/Wurzburg/Wurzburg10/Wurzburg10D';
+import Wurzburg11A from './Games/Wurzburg/Wurzburg11/Wurzburg11A';
+import Wurzburg11B from './Games/Wurzburg/Wurzburg11/Wurzburg11B';
+import Wurzburg11C from './Games/Wurzburg/Wurzburg11/Wurzburg11C';
+import Wurzburg11D from './Games/Wurzburg/Wurzburg11/Wurzburg11D';
 
 function App() {
   return (
@@ -110,6 +135,81 @@ function App() {
           )}/>
           <Route exact={true} path='/wuerzburg/julius/statue/clueAnswer' render={() => (
             <Wurzburg5D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/falkenhous' render={() => (
+            <Wurzburg6A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/falkenhous/taxes' render={() => (
+            <Wurzburg6B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/falkenhous/taxes/clue' render={() => (
+            <Wurzburg6C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/falkenhous/taxes/clueAnswer' render={() => (
+            <Wurzburg6D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz"' render={() => (
+            <Wurzburg7A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/intro' render={() => (
+            <Wurzburg7B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/intro/clue' render={() => (
+            <Wurzburg7C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/garden/clue' render={() => (
+            <Wurzburg7D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/garden/clueAnswer' render={() => (
+            <Wurzburg7E />
+          )}/>
+          <Route exact={true} path='/wuerzburg/ringpark' render={() => (
+            <Wurzburg8A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/ringpark/intro' render={() => (
+            <Wurzburg8B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/ringpark/intro/clue' render={() => (
+            <Wurzburg8C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/ringpark/intro/clueAnswer' render={() => (
+            <Wurzburg8D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/xrays' render={() => (
+            <Wurzburg9A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/xrays/intro' render={() => (
+            <Wurzburg9B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/xrays/intro/clue' render={() => (
+            <Wurzburg9C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/xrays/intro/clueAnswer' render={() => (
+            <Wurzburg9D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/worldwar' render={() => (
+            <Wurzburg10A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/worldwar/intro' render={() => (
+            <Wurzburg10B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/worldwar/intro/clue' render={() => (
+            <Wurzburg10C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/worldwar/intro/clueAnswer' render={() => (
+            <Wurzburg10D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/currenttimes' render={() => (
+            <Wurzburg11A />
+          )}/>
+          <Route exact={true} path='/wuerzburg/currenttimes/intro' render={() => (
+            <Wurzburg11B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/currenttimes/intro/clue' render={() => (
+            <Wurzburg11C />
+          )}/>
+          <Route exact={true} path='/wuerzburg/currenttimes/intro/clueAnswer' render={() => (
+            <Wurzburg11D />
           )}/>
           <Route render={() => (
             <Redirect to="/" />
