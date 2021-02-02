@@ -14,7 +14,7 @@ class WurzburgWeather extends Component {
 
     loadWeather = event => {
         // fetch('https://fcc-weather-api.glitch.me/api/current?lat=49.79391&lon=9.95121')
-        fetch('http://api.openweathermap.org/data/2.5/weather?id=2805615&appid=d8bd4ed0e2dd2c7b7a676613c6300127')
+        fetch('https://api.openweathermap.org/data/2.5/weather?id=2805615&appid=d8bd4ed0e2dd2c7b7a676613c6300127')
         .then(res => res.json())
         .then(resData => 
             this.setState({
