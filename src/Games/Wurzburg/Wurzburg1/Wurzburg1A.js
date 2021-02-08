@@ -11,6 +11,14 @@ function Wurzburg1A() {
         <div className="clue-background-div">Archeological finds have proven that since 1000 B.C. Celtics were in the area where the fortress is now.</div>
         <div className="clue-background-div">After becoming a Roman fort, this area was settled by the Alamanni and finally, in the 6th century, by the Franks.</div>
         <div className="clue-background-div">Despite all these original settlements, officially Würzburg history still had to begin. To see how Würzburg history started, come at the old bridge...</div>
+        <iframe 
+          className="clue-map"
+          title="map"
+          // frameborder="0" 
+          style={{ border: 0 }}
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm8AYjzaQokcRtSwOtsofR5w&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+          // allowfullscreen 
+        />
         <div className="clue-background-div">...are you there?</div>
         <Link to="/wuerzburg/bridge">
           <div className="gameNext-button">

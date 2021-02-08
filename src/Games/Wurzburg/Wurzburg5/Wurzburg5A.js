@@ -10,6 +10,14 @@ function Wurzburg5A() {
         <div className="clue-background-title">Julius Echter</div>
         <div className="clue-background-div">Meet julius echter von mespelbrunn</div>
         <div className="clue-background-div">(QWWJ+V8 Würzburg), </div>
+        <iframe 
+          className="clue-map"
+          title="map"
+          // frameborder="0" 
+          style={{ border: 0 }}
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOZAkOzOQokcRlMHDK2aTkRE&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+          // allowfullscreen 
+        />
         <div className="clue-background-div">...arrived?</div>
         <Link to="/wuerzburg/julius/statue">
             <div className="gameNext-button">

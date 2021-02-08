@@ -148,7 +148,7 @@ function App() {
           <Route exact={true} path='/wuerzburg/falkenhous/taxes/clueAnswer' render={() => (
             <Wurzburg6D />
           )}/>
-          <Route exact={true} path='/wuerzburg/residenz"' render={() => (
+          <Route exact={true} path='/wuerzburg/residenz' render={() => (
             <Wurzburg7A />
           )}/>
           <Route exact={true} path='/wuerzburg/residenz/intro' render={() => (

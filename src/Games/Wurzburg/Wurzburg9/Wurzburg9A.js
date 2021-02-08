@@ -10,6 +10,14 @@ function Wurzburg9A() {
         <div className="clue-background-title">X Rays</div>
         <div className="clue-background-div">Get to know a scientist</div>
         <div className="clue-background-div">(QWWJ+V8 Würzburg), </div>
+        <iframe 
+          className="clue-map"
+          title="map"
+          // frameborder="0" 
+          style={{ border: 0 }}
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8bRERbqRokcRyqGnD1_BOPc&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+          // allowfullscreen 
+        />
         <div className="clue-background-div">...arrived?</div>
         <Link to="/wuerzburg/xrays/intro">
             <div className="gameNext-button">
