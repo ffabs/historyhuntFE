@@ -38,7 +38,7 @@ function Wurzburg2B() {
         <div className="buttons-section">
             <Link to="/wuerzburg/kilianus/dom/inside">
                 <div className="gameNext-button">
-                    Yes
+                    Yes, I am in!
                 </div>
             </Link>
             <Link to="/wuerzburg/kilianus/dom/virtuallyinside">

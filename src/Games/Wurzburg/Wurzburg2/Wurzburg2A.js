@@ -8,7 +8,7 @@ function Wurzburg2A() {
       <Timeline timelineProgress="2" timelineReference="8th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Kilian’s Cathedral</div>
-        <div className="clue-background-div">Dom St. Kilian, so ancient that it was consecreted in the presence of the Frankish king Charlemagne, survived through the centuries and is still here today documenting centuries of city, church and art history.</div>
+        <div className="clue-background-div">Dom St. Kilian, so ancient that it was consecreted in the presence of the Frankish king Charlemagne, is still here today documenting centuries of city, church and art history.</div>
         <iframe 
           className="clue-map"
           title="map"

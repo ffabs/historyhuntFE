@@ -47,9 +47,7 @@ class Wurzburg2D extends Component {
                     <Timeline timelineProgress="3" timelineReference="12th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
-                        <div className="clue-background-div">The cathedral, having survived through the centuries, shows many different artistic styles. The monument for the prince-bishop Lorenz von Bibra shows the transition from Gothic to Renaissance.</div>
-                        <div className="clue-background-div">Comparing Lorenz's tombstone (the 3rd last to the left) with the older monuments at his right, what is kept from the Gothic tradition?</div>
-                        
+                        <div className="clue-background-div">Comparing Lorenz's tombstone with the older ones at his right, what is kept from the Gothic tradition?</div>
                     </div>
                     <div className="buttons-section">
 
