@@ -18,7 +18,7 @@ function Wurzburg3B() {
         The Jewish pogrom happened in 1349.)</div>
       </div>
       <div className="question-section">
-        <div>Ready?</div>
+        <div className="clue-background-div">Ready?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/citycouncil/sundial">

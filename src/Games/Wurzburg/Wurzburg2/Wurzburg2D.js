@@ -8,83 +8,29 @@ class Wurzburg2D extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            firstInputValue: "",
-            firstInputCSS: "formInput",
-            secondInputValue: "",
-            secondInputCSS: "formInput",
-            thirdInputValue: "",
-            thirdInputCSS: "formInput",
+            inputValue: "details",
+            inputValueCSS: "select-input",
             answers: "wrong"
         };
     }
 
-    firstInput = event => {
-        const firstInputAdded = event.target.value.toLowerCase();
+    updateAnswer = event => {
+        let inputValue = event.target.value;
         this.setState({
-            firstInputCSS: "formInput",
-            firstInputValue: firstInputAdded
+            inputValue: inputValue
         });
     }
 
-    secondInput = event => {
-        const secondInputAdded = event.target.value.toLowerCase();
-        this.setState({
-            secondInputCSS: "formInput",
-            secondInputValue: secondInputAdded
-        });
-    }
-
-    thirdInput = event => {
-        const thirdInputAdded = event.target.value.toLowerCase();
-        this.setState({
-            thirdInputCSS: "formInput",
-            thirdInputValue: thirdInputAdded
-        });
-    }
-
-    showErrors = event => {
-        let firstInputCheck;
-        let secondInputCheck;
-        let thirdInputCheck;
-        if (this.state.firstInputValue === "kilianus") {
-            firstInputCheck = "right";
-        } else {
-            firstInputCheck = "wrong";
-        }
-
-        if (this.state.secondInputValue === "totnan") {
-            secondInputCheck = "right";
-        } else {
-            secondInputCheck = "wrong";
-        }
-
-        if (this.state.thirdInputValue === "kolonatus") {
-            thirdInputCheck = "right";
-        } else {
-            thirdInputCheck = "wrong";
-        } 
-
-        this.setState({
-            firstInputCSS: firstInputCheck,
-            secondInputCSS: secondInputCheck,
-            thirdInputCSS: thirdInputCheck
-        });
-    }
-
-    checkAllInputs = event => {
-        if (
-            this.state.firstInputValue === "kilianus" &&
-            this.state.secondInputValue === "totnan" &&
-            this.state.thirdInputValue === "kolonatus"
-            ) {
+    checkAnswer = event => {
+        if (this.state.inputValue === "emblems") {
             this.setState({
                 answers: "right"
             });
         } else {
             this.setState({
-                answers: "wrong"
+                answers: "wrong",
+                inputValueCSS: "wrong-select-input",
             });
-            this.showErrors();
         }
     }
 
@@ -101,44 +47,29 @@ class Wurzburg2D extends Component {
                     <Timeline timelineProgress="3" timelineReference="12th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
-                        <div className="clue-background-div">The cathedral, having survived through the centuries, shows many different architectural styles.</div>
-                        <div className="clue-background-div">
-                        Find a bishop that will join this time travel:
-                        - Lorenz von Bibra (Martin lutero e tomba figa nella chiesa)
-                        </div>
-                        <div> I am
-                            <input
-                                type="text" 
-                                name="firstInput"
-                                onChange={this.firstInput}
-                                className={this.state.firstInputCSS}
-                            />
-                        </div>
+                        <div className="clue-background-div">The cathedral, having survived through the centuries, shows many different artistic styles. The monument for the prince-bishop Lorenz von Bibra shows the transition from Gothic to Renaissance.</div>
+                        <div className="clue-background-div">Comparing Lorenz's tombstone (the 3rd last to the left) with the older monuments at his right, what is kept from the Gothic tradition?</div>
+                        
+                    </div>
+                    <div className="buttons-section">
 
-                        <div> I sit next to
-                            <select type="select" name="secondInput" onChange={this.secondInput} className={this.state.secondInputCSS}>
-                                <option value="rolls"> 🧻 Toilet paper </option>
-                                <option value="tofu"> 🍢 Tofu </option>
-                                <option value="soymilk"> 🥛 Soymilk </option>
+                        <div className="number-form"> 
+                            <select onChange={this.updateAnswer} className={this.state.inputValueCSS}>
+                                <option value="details"> 🔎 abundance of details </option>
+                                <option value="angels"> 👼 angels </option>
+                                <option value="columns"> 🏛️ columns </option>
+                                <option value="emblems"> ⚜️ emblems </option>
+                                <option value="nature"> 🍃 nature </option>
+                                <option value="sword"> 🗡️ sword </option>
                             </select>
                         </div>
-
-                        <div> and I have
-                            <select type="text" name="thirdInput" onChange={this.thirdInput} className={this.state.thirdInputCSS}>
-                                <option value="rolls"> 🧻 Toilet paper </option>
-                                <option value="tofu"> 🍢 Tofu </option>
-                                <option value="soymilk"> 🥛 Soymilk </option>
-                            </select>
-                        </div>
-            </div>
-            <div className="buttons-section">
 
                         <div 
                             type="button" 
-                            onClick={this.checkAllInputs}
+                            onClick={this.checkAnswer}
                             className="gameNext-button"
                         >
-                            Check answers
+                            Check answer
                         </div>
                     </div>
                 </div>  

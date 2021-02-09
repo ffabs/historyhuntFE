@@ -120,14 +120,20 @@ input[type=number] {
 .number-form {
     display: flex;
     margin-top: 20px;
+
 }
 .select-input {
     height: 46px;
-    font-style: normal;
-    font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    text-align: center;
+    cursor: pointer;
+}
+.wrong-select-input {
+    height: 46px;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    border: 1px solid red;
 }
 .number-input {
     width: 58px;

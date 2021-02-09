@@ -8,14 +8,13 @@ function Wurzburg3A() {
       <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The City Council</div>
-        <div className="clue-background-div">Come back at Grafeneckart</div>
-        <div className="clue-background-div">(Rückermainstraße 2, 97070 Würzburg), </div>
+        <div className="clue-background-div">Come back towards the bridge but stop at the oldest part of the town hall this time.</div>
         <iframe 
           className="clue-map"
           title="map"
           // frameborder="0" 
           style={{ border: 0 }}
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJP70VHDSQokcR5KaO6hSVBjc&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQO13xyRokcRt0VftfVsiVk&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
           // allowfullscreen 
         />
       </div>
