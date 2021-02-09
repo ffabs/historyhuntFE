@@ -5,10 +5,10 @@ import '../Wurzburg.css';
 function Wurzburg3A() {
   return ( 
     <div>
-      <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
+      <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The City Council</div>
-        <div className="clue-background-div">Come back towards the bridge but stop at the oldest part of the town hall this time.</div>
+        <div className="clue-background-div">Come back towards the bridge and this time stop at the building with the clock tower.</div>
         <iframe 
           className="clue-map"
           title="map"

@@ -5,20 +5,15 @@ import '../Wurzburg.css';
 function Wurzburg3B() {
   return ( 
     <div>
-      <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
+      <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The City Council</div>
-        <div className="clue-background-div">In 1256 the city council was first mentioned but banned just 40 years later. In 1316 the Grafeneckart was turned into the Rathaus or town hall. 
-        The Bürgerspital hospital was founded by the rich citizens.</div>
-        <div className="clue-background-div">
-        However, the bishop did not allow a representative new building.
-        The citizens of the city revolted several times against the prince-bishop and were defeated.</div>
-        <div className="clue-background-div">
-        (The first university was founded in 1402.
-        The Jewish pogrom happened in 1349.)</div>
+        <div className="clue-background-div">In the 12th century the people of Würzburg formed a corporation to contrast the increasing demands of the prince-bishops. As a sign of breach of trust, in 1253 the bishop left the city to live protected in the castle and in 1256 the city council was banned.</div>
+        <div className="clue-background-div">Nevertheless, in 1316 the city council procured this tower building which has since served as the Rathaus or town hall.</div>
+        {/* <div className="clue-background-div">The Bürgerspital hospital was founded by the rich citizens.</div> */}
       </div>
       <div className="question-section">
-        <div className="clue-background-div">Ready?</div>
+        <div className="clue-background-div">Ready for the clue?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/citycouncil/sundial">

@@ -8,8 +8,7 @@ function Wurzburg4A() {
       <Timeline timelineProgress="5" timelineReference="16th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The Peasants’ War</div>
-        <div className="clue-background-div">Go up towards the castle</div>
-        <div className="clue-background-div">(Rückermainstraße 2, 97070 Würzburg), </div>
+        <div className="clue-background-div">Go up towards the castle and stop half way in a panorama point.</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -19,17 +18,19 @@ function Wurzburg4A() {
           // allowfullscreen 
         />
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">...arrived?</div>
       </div>
-      <div className="buttons-section">
-        <Link to="/wuerzburg/peasants/memorial">
-            <div className="gameNext-button">
-                Yes
-            </div>
-        </Link>
+      
+        <div className="buttons-section">
+          <Link to="/wuerzburg/peasants/memorial">
+              <div className="gameNext-button">
+                  Yes
+              </div>
+              
+          </Link>
+        </div>
       </div>
-    </div>  
   );
 }
 

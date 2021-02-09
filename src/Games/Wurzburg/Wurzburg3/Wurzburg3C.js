@@ -11,7 +11,7 @@ class Wurzburg3C extends Component {
 
         return ( 
             <div>
-            <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
+            <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
             <div className="clue-background">
                 <div className="clue-background-title">The City Council</div>
                 <div className="clue-background-div">

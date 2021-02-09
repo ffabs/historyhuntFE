@@ -17,7 +17,7 @@ function Wurzburg0() {
             </div>
             <div className="gameIntro-detail">
                 <div className="gameIntro-detail-icon">⏱️</div>
-                <div>2.07 h</div>
+                <div>2.15 h</div>
             </div>
         </div>
         <Link to="/wuerzburg/start">

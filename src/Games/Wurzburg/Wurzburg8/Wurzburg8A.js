@@ -15,7 +15,7 @@ function Wurzburg8A() {
           title="map"
           // frameborder="0" 
           style={{ border: 0 }}
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:GhIJuB6F61HlSEAR2c73U-PhI0A&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:GhIJuB6F61HlSEARyqFFtvPhI0A&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
           // allowfullscreen 
         />
       </div>
