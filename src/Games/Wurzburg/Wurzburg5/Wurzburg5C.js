@@ -43,7 +43,7 @@ class Wurzburg5C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="25" timelineReference="16th A.D."/>
+                    <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Julius Echter</div>
                         <div className="clue-background-div">Juliusspital hospital question on the facade. Where are the people pointing to?</div>
@@ -56,6 +56,8 @@ class Wurzburg5C extends Component {
                                 <option value="Winter"> ❄️ Winter </option>
                             </select>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

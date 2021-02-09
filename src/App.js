@@ -1,7 +1,7 @@
 import './App.css';
 import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import Home from './Games/Home';
+// import Home from './Games/Home';
 import Wurzburg0 from './Games/Wurzburg/Wurzburg0/Wurzburg0';
 import Wurzburg1A from './Games/Wurzburg/Wurzburg1/Wurzburg1A';
 import Wurzburg1B from './Games/Wurzburg/Wurzburg1/Wurzburg1B';
@@ -9,6 +9,7 @@ import Wurzburg1C from './Games/Wurzburg/Wurzburg1/Wurzburg1C';
 import Wurzburg1D from './Games/Wurzburg/Wurzburg1/Wurzburg1D';
 import Wurzburg2A from './Games/Wurzburg/Wurzburg2/Wurzburg2A';
 import Wurzburg2B from './Games/Wurzburg/Wurzburg2/Wurzburg2B';
+import Wurzburg2BDomTimings from './Games/Wurzburg/Wurzburg2/Wurzburg2BDomTimings';
 import Wurzburg2C1 from './Games/Wurzburg/Wurzburg2/Wurzburg2C1';
 import Wurzburg2C2 from './Games/Wurzburg/Wurzburg2/Wurzburg2C2';
 import Wurzburg2D1 from './Games/Wurzburg/Wurzburg2/Wurzburg2D1';
@@ -58,9 +59,9 @@ function App() {
     <HashRouter>
       <ScrollToTop>
         <Switch>
-          <Route exact={true} path='/' render={() => (
+          {/* <Route exact={true} path='/' render={() => (
             <Home />
-          )}/>
+          )}/> */}
           <Route exact={true} path='/wuerzburg' render={() => (
             <Wurzburg0 />
           )}/>
@@ -81,6 +82,9 @@ function App() {
           )}/>
           <Route exact={true} path='/wuerzburg/kilianus/dom/openings' render={() => (
             <Wurzburg2B />
+          )}/>
+          <Route exact={true} path='/wuerzburg/kilianus/dom/timings' render={() => (
+            <Wurzburg2BDomTimings />
           )}/>
           <Route exact={true} path='/wuerzburg/kilianus/dom/inside' render={() => (
             <Wurzburg2C1 />
@@ -212,7 +216,7 @@ function App() {
             <Wurzburg11D />
           )}/>
           <Route render={() => (
-            <Redirect to="/" />
+            <Redirect to="/wuerzburg" />
           )}/>
         </Switch>
       </ScrollToTop>

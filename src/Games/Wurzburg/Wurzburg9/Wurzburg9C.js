@@ -43,7 +43,7 @@ class Wurzburg9C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="29" timelineReference="19th A.D."/>
+                    <Timeline timelineProgress="9" timelineReference="19-20th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">X Rays</div>
                         <div className="clue-background-div">Which of the following is in his notes?</div>
@@ -56,6 +56,8 @@ class Wurzburg9C extends Component {
                                 <option value="Winter"> ❄️ Winter </option>
                             </select>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

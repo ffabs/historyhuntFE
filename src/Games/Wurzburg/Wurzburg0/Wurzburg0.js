@@ -13,11 +13,11 @@ function Wurzburg0() {
         <div className="gameIntro-details">
             <div className="gameIntro-detail">
                 <div className="gameIntro-detail-icon">🚶</div>
-                <div>6.9 km</div>
+                <div>6.0 km</div>
             </div>
             <div className="gameIntro-detail">
                 <div className="gameIntro-detail-icon">⏱️</div>
-                <div>1.26 h</div>
+                <div>2.07 h</div>
             </div>
         </div>
         <Link to="/wuerzburg/start">

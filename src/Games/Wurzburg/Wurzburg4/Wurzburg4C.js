@@ -83,7 +83,7 @@ class Wurzburg4C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="25" timelineReference="16th A.D."/>
+                    <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Peasants’ War</div>
                         <div className="clue-background-div">In which year of the 16th century and season were the peasants defeated? (bauernkrieg means "peasants’ war" in German)</div>
@@ -120,6 +120,8 @@ class Wurzburg4C extends Component {
                                 +
                             </button>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

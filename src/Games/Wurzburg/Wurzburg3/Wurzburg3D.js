@@ -197,7 +197,7 @@ class Wurzburg3D extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="24" timelineReference="13-14th A.D."/>
+                    <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The City Council</div>
                         <div className="clue-background-div">Where is it pointing to now?</div>
@@ -239,6 +239,8 @@ class Wurzburg3D extends Component {
                                 The bridge 
                             </div>
                         </div>
+                    </div>
+                    <div className="buttons-section">
 
                         <div
                             onClick={this.checkAnswer}

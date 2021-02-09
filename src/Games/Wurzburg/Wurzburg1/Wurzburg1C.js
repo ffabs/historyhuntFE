@@ -43,7 +43,6 @@ class Wurzburg1C extends Component {
     }
 
     showErrors = event => {
-        console.log("errors");
         let firstInputCheck;
         let secondInputCheck;
         let thirdInputCheck;
@@ -97,12 +96,12 @@ class Wurzburg1C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="21" timelineReference="7th A.D."/>
+                    <Timeline timelineProgress="1" timelineReference="7th A.D."/>
                     <div className="clue-background">       
-                        <div className="clue-background-title">A martyrdom that changed everything</div>
+                        <div className="clue-background-title">A martyrdom that changed history</div>
             
-                        <div className="clue-background-div">I am a bishop, as shown by my hat, and I hold a sword, the instrument of my martyrdom. </div> 
-                        <div> I am S.
+                        <div className="clue-background-div">I am a bishop, as shown by my hat, and I hold a sword, the weapon used to killed me. I am... </div> 
+                        <div> S.
                             <input
                                 type="text" 
                                 name="firstInput"
@@ -111,8 +110,8 @@ class Wurzburg1C extends Component {
                             />
                         </div>
 
-                        <div className="clue-background-div">I look young and I hold the bible.</div> 
-                        <div> My name is S.
+                        <div className="clue-background-div">I look young and I hold the bible. My name is... </div> 
+                        <div> S.
                             <input
                                 type="text" 
                                 name="secondInput"
@@ -121,8 +120,8 @@ class Wurzburg1C extends Component {
                             />
                         </div>
 
-                        <div className="clue-background-div">I show no fear for the death. </div>
-                        <div> I am remembered as S.
+                        <div className="clue-background-div">I show no fear for the death. I am remembered as... </div>
+                        <div> S.
                             <input
                                 type="text" 
                                 name="thirdInput"
@@ -130,7 +129,8 @@ class Wurzburg1C extends Component {
                                 className={this.state.thirdInputCSS}
                             />
                         </div>
-
+                    </div>
+                    <div className="buttons-section">
                         <div 
                             type="button" 
                             onClick={this.checkAllInputs}
@@ -138,7 +138,6 @@ class Wurzburg1C extends Component {
                         >
                             Check answers
                         </div>
-
                     </div>
 
                 </div>  

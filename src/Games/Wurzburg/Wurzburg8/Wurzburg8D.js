@@ -5,10 +5,14 @@ import '../Wurzburg.css';
 function Wurzburg8D() {
   return ( 
     <div>
-      <Timeline timelineProgress="28" timelineReference="19th A.D."/>
+      <Timeline timelineProgress="8" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+      </div>
+      <div className="buttons-section">
         <div className="clue-background-div">...next?</div>
+      </div>
+      <div className="buttons-section">
         <Link to="/wuerzburg/xrays">
             <div className="gameNext-button">
                 Yes

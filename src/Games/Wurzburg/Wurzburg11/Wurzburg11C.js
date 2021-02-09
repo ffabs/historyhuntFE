@@ -43,7 +43,7 @@ class Wurzburg11C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="31" timelineReference="21th A.D."/>
+                    <Timeline timelineProgress="11" timelineReference="21th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Current times</div>
                         <div className="clue-background-div">What is the name of the fountain?</div>
@@ -56,6 +56,8 @@ class Wurzburg11C extends Component {
                                 <option value="Winter"> ❄️ Winter </option>
                             </select>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

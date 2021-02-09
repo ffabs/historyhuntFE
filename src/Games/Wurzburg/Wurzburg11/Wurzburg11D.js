@@ -5,9 +5,11 @@ import '../Wurzburg.css';
 function Wurzburg11D() {
   return ( 
     <div>
-      <Timeline timelineProgress="31" timelineReference="21th A.D."/>
+      <Timeline timelineProgress="11" timelineReference="21th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Congrats for reaching the end!</div>
+      </div>
+      <div className="buttons-section">
         <div className="clue-background-div">Feedback?</div>
         <div className="clue-background-div">Recap of the journey and on what you did (score)
         Discounts

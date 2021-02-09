@@ -43,7 +43,7 @@ class Wurzburg7D extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="27" timelineReference="17-18th A.D."/>
+                    <Timeline timelineProgress="7" timelineReference="17-18th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Residenz</div>
                         <div className="clue-background-div">Garden clue</div>
@@ -56,6 +56,8 @@ class Wurzburg7D extends Component {
                                 <option value="Winter"> ❄️ Winter </option>
                             </select>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

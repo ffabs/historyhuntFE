@@ -11,13 +11,17 @@ class Wurzburg3C extends Component {
 
         return ( 
             <div>
-            <Timeline timelineProgress="24" timelineReference="13-14th A.D."/>
+            <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
             <div className="clue-background">
                 <div className="clue-background-title">The City Council</div>
                 <div className="clue-background-div">
                     <Weather /> 
                 </div>
+            </div>
+            <div className="question-section">
                 <div className="clue-background-div">Can you see the shade of the sundial on the building?</div>
+            </div>
+            <div className="buttons-section">
                 <Link to="/wuerzburg/citycouncil/sundial/clue">
                     <div className="gameNext-button">
                         Yes

@@ -43,7 +43,7 @@ class Wurzburg6C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="26" timelineReference="17th A.D."/>
+                    <Timeline timelineProgress="6" timelineReference="17th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Falkenhous</div>
                         <div className="clue-background-div">Which of the following sketches is the right one on the facade?</div>
@@ -56,6 +56,8 @@ class Wurzburg6C extends Component {
                                 <option value="Winter"> ❄️ Winter </option>
                             </select>
                         </div>
+                    </div>
+                    <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
                             className="gameNext-button"

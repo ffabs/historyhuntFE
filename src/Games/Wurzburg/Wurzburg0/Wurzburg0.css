@@ -6,7 +6,7 @@
 }
 
 .gameIntro-title {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 40px;
@@ -36,6 +36,6 @@
     background: #17BC27;
     color: white;
     border-radius: 6px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-weight: bold;
 }

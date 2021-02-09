@@ -5,7 +5,7 @@ import '../Wurzburg.css';
 function Wurzburg3A() {
   return ( 
     <div>
-      <Timeline timelineProgress="24" timelineReference="13-14th A.D."/>
+      <Timeline timelineProgress="4" timelineReference="13-14th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The City Council</div>
         <div className="clue-background-div">Come back at Grafeneckart</div>
@@ -18,7 +18,11 @@ function Wurzburg3A() {
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJP70VHDSQokcR5KaO6hSVBjc&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
           // allowfullscreen 
         />
+      </div>
+      <div className="question-section">
         <div className="clue-background-div">...arrived?</div>
+      </div>
+      <div className="buttons-section">
         <Link to="/wuerzburg/citycouncil">
             <div className="gameNext-button">
                 Yes
