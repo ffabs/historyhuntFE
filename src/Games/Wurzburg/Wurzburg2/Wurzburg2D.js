@@ -98,14 +98,12 @@ class Wurzburg2D extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="23" timelineReference="12th A.D."/>
+                    <Timeline timelineProgress="3" timelineReference="12th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
+                        <div className="clue-background-div">The cathedral, having survived through the centuries, shows many different architectural styles.</div>
                         <div className="clue-background-div">
-                        Find some of the bishops that will join this time travel:
-                        - Herold von Hochheim (primo ma forse non c’è)
-                        - Hermann I von Lobdeburg (va al castello) forse non c’è- Gottfried III. from Hohenlohe (statuetta forse da fuori e conferma il primo ospedale)
-                        - Johann I von Egloffstein (battaglia del 1400 con i cittadini) forse non c’è
+                        Find a bishop that will join this time travel:
                         - Lorenz von Bibra (Martin lutero e tomba figa nella chiesa)
                         </div>
                         <div> I am
@@ -132,6 +130,8 @@ class Wurzburg2D extends Component {
                                 <option value="soymilk"> 🥛 Soymilk </option>
                             </select>
                         </div>
+            </div>
+            <div className="buttons-section">
 
                         <div 
                             type="button" 

@@ -22,30 +22,36 @@ function Wurzburg2B() {
     }
   return ( 
     <div>
-      <Timeline timelineProgress="22" timelineReference="8th A.D."/>
-      <div className="clue-background">
-        <div className="clue-background-title">Kilian’s Cathedral</div>
-        <div className="clue-background-div">The cathedral is normally {doors} at this time.</div>
-        {/* <div className="clue-background-div">Opening times:</div>
-        <div className="clue-background-div">Mon-Sat: 10am-5pm</div>
-        <div className="clue-background-div">Sun: 1pm-6pm</div> */}
-        {doors === "open" &&
-            <div className="clue-background-div">Do you confirm you can go inside?</div>
-        }
-        {doors === "closed" &&
-            <div className="clue-background-div">Can you go inside anyway?</div>
-        }
-        <Link to="/wuerzburg/kilianus/dom/inside">
-            <div className="gameNext-button">
-                Yes
+        <Timeline timelineProgress="2" timelineReference="8th A.D."/>
+        <div className="clue-background">
+            <div className="clue-background-title">Kilian’s Cathedral</div>
+            <div className="clue-background-div">The cathedral is normally {doors} at this time.</div>
             </div>
-        </Link>
-        <Link to="/wuerzburg/kilianus/dom/virtuallyinside">
-            <div className="gameNext-button">
-                No
-            </div>
-        </Link>
-      </div>
+        <div className="question-section">
+            {doors === "open" &&
+                <div className="clue-background-div">Do you confirm you can go inside?</div>
+            }
+            {doors === "closed" &&
+                <div className="clue-background-div">Can you go inside anyway?</div>
+            }
+        </div>
+        <div className="buttons-section">
+            <Link to="/wuerzburg/kilianus/dom/inside">
+                <div className="gameNext-button">
+                    Yes, I am in!
+                </div>
+            </Link>
+            <Link to="/wuerzburg/kilianus/dom/virtuallyinside">
+                <div className="gameNext-button-below">
+                    No, I can't
+                </div>
+            </Link>
+            <Link to="/wuerzburg/kilianus/dom/timings">
+                <div className="gameNext-button-below">
+                    When is it open?
+                </div>
+            </Link>
+        </div>
     </div>  
   );
 }
