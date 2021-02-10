@@ -47,14 +47,14 @@ class Wurzburg4C extends Component {
         let seasonInputCheck;
         let yearInputCheck;
         if (this.state.season === "Spring") {
-            seasonInputCheck = "right";
+            seasonInputCheck = "right-select-input";
         } else {
-            seasonInputCheck = "wrong";
+            seasonInputCheck = "wrong-select-input";
         }
         if (this.state.year === 1525) {
-            yearInputCheck = "right";
+            yearInputCheck = "right-number-input";
         } else {
-            yearInputCheck = "wrong";
+            yearInputCheck = "wrong-number-input";
         }
         this.setState({
             seasonCSS: seasonInputCheck,
@@ -86,10 +86,10 @@ class Wurzburg4C extends Component {
                     <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Peasants’ War</div>
-                        <div className="clue-background-div">In which year of the 16th century and season were the peasants defeated? (bauernkrieg means "peasants’ war" in German)</div>
+                        <div className="clue-background-div">In which season and year of the 16th century were the peasants defeated?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Season: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
+                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                 <option value="Spring"> 🌱 Spring </option>
                                 <option value="Summer"> ☀️ Summer </option>
                                 <option value="Autumn"> 🍂 Autumn </option>

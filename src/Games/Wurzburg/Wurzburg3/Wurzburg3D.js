@@ -200,6 +200,21 @@ class Wurzburg3D extends Component {
                     <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The City Council</div>
+                        <div className="clue-background-div">This building was changed over the centuries though. Can you guess what happened?</div>
+                        <div className="quizSection">
+                            <div
+                                onClick={this.firstInput}
+                                className={this.state.firstCSS}
+                            >
+                                The tower used to be half as high, ending where the clock hangs now
+                            </div>
+                            <div
+                                onClick={this.secondInput}
+                                className={this.state.secondCSS}
+                            >
+                                The window at the bottom used to be the main door, it shows how the street level has changed
+                            </div>
+                        </div>
                         <div className="clue-background-div">Where is it pointing to now?</div>
                         <div className="quizSection">
                             <div

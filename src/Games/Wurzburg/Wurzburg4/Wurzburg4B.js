@@ -11,7 +11,8 @@ function Wurzburg4B() {
         <div className="clue-background-div">The German Peasants' War was Europe's largest and most widespread popular uprising prior to the French Revolution.</div>
       </div>
       <div className="question-section">
-        <div className="clue-background-div">Ready to solve the clue?</div>
+      <div className="clue-background-div">Ready for the next clue?</div>
+        <div className="clue-background-div">Keep in mind the following tip: remember to look around and that "bauernkrieg" means "peasants’ war" in German.</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/peasants/memorial/clue">
