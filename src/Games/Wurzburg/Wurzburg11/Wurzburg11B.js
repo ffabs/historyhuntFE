@@ -1,20 +1,21 @@
 import Timeline from '../WurzburgComponents/Timeline';
+import kilianifest from '../WurzburgImages/kilianifest.png';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 
 function Wurzburg11B() {
   return ( 
     <div>
-      <Timeline timelineProgress="11" timelineReference="21th A.D."/>
+      <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Current times</div>
-        <div className="clue-background-div">nuova sinagoga, 
-la residenza è patrimonio dell'umanità - residenza
-in 2004 celebrations mark 1300 years of Würzburg
-
-Today, Kilian still plays an important role for the city, he is the patron saint of Würzburg and always in July there is a famous fair, called "Kiliani". fontain</div>
+        <img src={kilianifest} className="gameIntro-image" alt="kilianifest" />
+        <div className="clue-background-div">
+          Since 1981 the Residence and its garden are protected by UNESCO in the list of "cultural and natural heritage of the world" considering it as a great expression of the European Baroquethe.
+          {/* In 2010, the € 100 gold coin UNESCO World Heritage - Würzburg Residence and Court Garden appeared */}
+        </div>
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">...ready?</div>
       </div>
       <div className="buttons-section">

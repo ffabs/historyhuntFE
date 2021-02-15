@@ -5,7 +5,7 @@ import '../Wurzburg.css';
 function Wurzburg11A() {
   return ( 
     <div>
-      <Timeline timelineProgress="11" timelineReference="21th A.D."/>
+      <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Current times</div>
         <div className="clue-background-div">Just move to the fontain</div>
@@ -19,7 +19,7 @@ function Wurzburg11A() {
           // allowfullscreen 
         />
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">...arrived?</div>
       </div>
       <div className="buttons-section">

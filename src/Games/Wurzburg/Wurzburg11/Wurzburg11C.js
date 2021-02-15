@@ -43,14 +43,14 @@ class Wurzburg11C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="11" timelineReference="21th A.D."/>
+                    <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Current times</div>
-                        <div className="clue-background-div">What is the name of the fountain?</div>
+                        <div className="clue-background-div">In 2004, a major milestone was reached in the history of Würzburg. What was the celebration for?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>
                             <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
+                                <option value="Spring"> 🎂 1300 years of history </option>
                                 <option value="Summer"> ☀️ Summer </option>
                                 <option value="Autumn"> 🍂 Autumn </option>
                                 <option value="Winter"> ❄️ Winter </option>
