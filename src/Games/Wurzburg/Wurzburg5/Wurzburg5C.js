@@ -88,10 +88,6 @@ checkAnswer = event => {
         secondCSS = "wrongItemSelected";
         answers = "wrong";
     }
-    // if (thirdCSS === "quizItemSelected") {
-    //     thirdCSS = "wrongItemSelected";
-    //     answers = "wrong";
-    // }
     if (forthCSS === "quizItemSelected") {
         forthCSS = "wrongItemSelected";
         answers = "wrong";
@@ -104,10 +100,6 @@ checkAnswer = event => {
         sixthCSS = "wrongItemSelected";
         answers = "wrong";
     }
-    // if (seventhCSS === "quizItemSelected") {
-    //     seventhCSS = "wrongItemSelected";
-    //     answers = "wrong";
-    // }
     if (eightCSS === "quizItemSelected") {
         eightCSS = "wrongItemSelected";
         answers = "wrong";
@@ -116,10 +108,6 @@ checkAnswer = event => {
         ninethCSS = "wrongItemSelected";
         answers = "wrong";
     }
-    // if (tenthCSS === "quizItemSelected") {
-    //     tenthCSS = "wrongItemSelected";
-    //     answers = "wrong";
-    // }
     if (answers === "wrong") {
         this.setState({
             answers: "wrong",
@@ -135,9 +123,13 @@ checkAnswer = event => {
             tenthCSS: [tenthCSS]
         });
     } else {
-        this.setState({
-            answers: "right"
-        })
+        if (thirdCSS === "quizItemSelected" && seventhCSS === "quizItemSelected" && tenthCSS === "quizItemSelected") {
+            this.setState({
+                answers: "right"
+            })
+        } else {
+            answers = "notAll";
+        }
     }
 }
 
@@ -159,7 +151,7 @@ checkAnswer = event => {
                                 onClick={this.firstInput}
                                 className={this.state.firstCSS}
                             >
-                                <div className="quiz-icon">🪴</div>
+                                <div className="quiz-icon">🌿</div>
                                 <div>a botanical garden</div>
                             </div>
                             <div
