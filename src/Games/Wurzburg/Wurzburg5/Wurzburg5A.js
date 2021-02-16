@@ -8,7 +8,7 @@ function Wurzburg5A() {
       <Timeline timelineProgress="5" timelineReference="16th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Julius Echter</div>
-        <div className="clue-background-div">Let's meet the famous bishop Julius Echter Von Mespelbrunn.</div>
+        <div className="clue-background-div">Let's go meeting the bishop Julius Echter Von Mespelbrunn.</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -25,6 +25,11 @@ function Wurzburg5A() {
         <Link to="/wuerzburg/julius/statue">
             <div className="gameNext-button">
                 Yes
+            </div>
+        </Link>
+        <Link to="/wuerzburg/peasants/memorial/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
             </div>
         </Link>
       </div>

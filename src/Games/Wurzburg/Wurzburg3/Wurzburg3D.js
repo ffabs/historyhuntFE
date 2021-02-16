@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Timeline from '../WurzburgComponents/Timeline';
 import {Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 
 
@@ -15,6 +16,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItem",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
             answers: "wrong"
         };
     }
@@ -28,6 +33,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItem",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -40,6 +49,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItem",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -52,6 +65,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItem",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -64,6 +81,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItemSelected",
             fifthCSS: "quizItem",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -76,6 +97,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItemSelected",
             sixthCSS: "quizItem",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -88,6 +113,10 @@ class Wurzburg3D extends Component {
             forthCSS: "quizItem",
             fifthCSS: "quizItem",
             sixthCSS: "quizItemSelected",
+            seventhCSS: "quizItem",
+            eigthCSS: "quizItem",
+            ninethCSS: "quizItem",
+            tenthCSS: "quizItem",
         });
     }
 
@@ -263,6 +292,14 @@ class Wurzburg3D extends Component {
                         >
                             Check answer
                         </div>
+                        <Link to="/wuerzburg/citycouncil/sundial">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                            <div className="gameFeedback-button">Give Feedback</div>
+                        </a>
                     </div>
                 </div>  
             );

@@ -88,30 +88,49 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.quiz-icon {
+    font-size: 35px;
+}
     .quizItem {
         border: 1px solid rgb(24, 23, 23);
         border-radius: 6px;
-        padding: 5px 0px;
-        width: 100px;
+        padding: 5px 10px;
+        width: 110px;
+        height: 95px;
         margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
         .quizItemSelected {
             border: 1px solid rgb(14, 68, 219);
             background-color: rgb(14, 68, 219);
             color: white;
             border-radius: 6px;
-            padding: 5px 0px;
-            width: 100px;
+            padding: 5px 10px;
+            width: 110px;
+            height: 95px;
             margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .wrongItemSelected {
             border: 1px solid rgb(219, 38, 14);
             background-color: rgb(219, 38, 14);
             color: white;
             border-radius: 6px;
-            padding: 5px 0px;
-            width: 100px;
+            padding: 5px 10px;
+            width: 110px;
+            height: 95px;
             margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
 /* removing the input number default increment buttons from Chrome */
