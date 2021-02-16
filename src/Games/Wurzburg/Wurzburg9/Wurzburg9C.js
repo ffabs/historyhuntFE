@@ -23,7 +23,7 @@ class Wurzburg9C extends Component {
     }
 
     checkAnswer = event => {
-        if (this.state.season === "Spring") {
+        if (this.state.season === "hand") {
             this.setState({
                 answers: "right"
             });
@@ -43,17 +43,19 @@ class Wurzburg9C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="9" timelineReference="19-20th A.D."/>
+                    <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
                     <div className="clue-background">
-                        <div className="clue-background-title">X Rays</div>
-                        <div className="clue-background-div">Which of the following is in his notes?</div>
+                        <div className="clue-background-title">X-Rays</div>
+                        <div className="clue-background-div">Find him, what did he use as an object of illustration of the X-rays on?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>
                             <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
+                                <option value="cat"> 🐈 A cat </option>
+                                <option value="dog"> 🐕 A dog </option>
+                                <option value="hand"> 🤚 Another scientist's hand </option>
+                                <option value="skull"> 💀 Another scientist's skull </option>
+                                <option value="horse"> 🐎 His horse </option>
+                                <option value="body"> 🧍 His whole body </option>
                             </select>
                         </div>
                     </div>

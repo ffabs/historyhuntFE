@@ -18,28 +18,32 @@ class Wurzburg4C extends Component {
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 
     updateYear = event => {
         let year = Number(event.target.value);
         this.setState({
-            year: year
+            year: year,
+            yearCSS: "number-input"
         });
     }
 
     higherYear = event => {
         let year = Number(this.state.year) + 1;
         this.setState({
-            year: year
+            year: year,
+            yearCSS: "number-input"
         });
     }
 
     lowerYear = event => {
         let year = Number(this.state.year) - 1;
         this.setState({
-            year: year
+            year: year,
+            yearCSS: "number-input"
         });
     }
 

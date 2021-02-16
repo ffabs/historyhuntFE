@@ -8,7 +8,7 @@ class Timeline extends Component {
         let timelineReference = this.props.timelineReference;
         let minWidth = 20;
         let maxWidth = 100;
-        let incrementWidth = timelineProgress * 7.5;
+        let incrementWidth = timelineProgress * 8;
         let finalWidth = minWidth + incrementWidth;
         if(finalWidth > maxWidth) {
             finalWidth = maxWidth;

@@ -43,17 +43,18 @@ class Wurzburg8C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="8" timelineReference="19th A.D."/>
+                    <Timeline timelineProgress="7" timelineReference="19th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Ring Park</div>
-                        <div className="clue-background-div">Ring Park?</div>
+                        <div className="clue-background-div">What was this before beign the Ring Park?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>
                             <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
+                                <option value="Winter"> 🏘️ Accomodations </option>
+                                <option value="Spring"> 🏰 City walls </option>
+                                <option value="Summer"> 🌊 City water </option>
+                                <option value="Autumn"> 🛣️ Main road to Munich </option>
+                                <option value="Winter"> 🏫 School </option>
                             </select>
                         </div>
                     </div>

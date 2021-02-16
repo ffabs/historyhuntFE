@@ -43,19 +43,20 @@ class Wurzburg10C extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="10" timelineReference="20th A.D."/>
+                    <Timeline timelineProgress="9" timelineReference="20th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">World Wars</div>
-                        <div className="clue-background-div">Which of the following were the bags made?</div>
+                        <div className="clue-background-div">What is the key element of this memorial that allowed National Socialists to misuse it as a “Hero's Memorial”?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>
                             <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
+                                <option value="Spring"> 🐘 the massive depiction of warriors with steel helmets in heavy coats and boots and as dull and heroic </option>
+                                <option value="Summer"> 💣 the representation of weapons </option>
+                                <option value="Autumn"> 📃 the lack of names of the deaths </option>
+                                <option value="Winter"> ✝️ the lack of crosses </option>
                             </select>
                         </div>
+                        <div>What was added after the second world?</div>
                     </div>
                     <div className="buttons-section">
                         <div

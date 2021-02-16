@@ -8,16 +8,13 @@ function Wurzburg5B() {
       <Timeline timelineProgress="5" timelineReference="16th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Julius Echter</div>
-        <div className="clue-background-div">julius echter von mespelbrunn controriforma e cambia tutto</div>
-        <div className="clue-background-div">Juliusspital hospital</div>
-        <div className="clue-background-div">re-establishment of the university</div>
-        <div className="clue-background-div">extension of the fortress </div>
-        <div className="clue-background-div">witch hunts</div>
+        <div className="clue-background-div">Julius Echter was a strong representative of the Counter Reformation, bringing Catholicism back in the diocese of Würzburg and expelling the Protestants. In addition, he is remembered for many other initiatives: he renewed the state legal system, led the diocese out of debt without taxes and re-established the university, which still holds his name today!</div>
+        <div className="clue-background-div">However, he is not remembered only as an important administrative reformer but also as a great builder. One example is the building at the other side of the street that takes his name: Juliusspital.</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/julius/statue/clue">
             <div className="gameNext-button">
-                Yes
+                Next
             </div>
         </Link>
       </div>

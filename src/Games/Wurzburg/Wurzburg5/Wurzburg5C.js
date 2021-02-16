@@ -7,30 +7,29 @@ class Wurzburg5C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
-            season: "Spring",
+            season: "brewery",
             answers: "wrong",
-            seasonCSS: "select-input",
-            yearCSS: "number-input"
+            seasonCSS: "select-input"
         };
     }
 
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 
     checkAnswer = event => {
-        if (this.state.season === "Spring") {
+        if (this.state.season === "winery") {
             this.setState({
                 answers: "right"
             });
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                seasonCSS: "wrong-select-input",
             });
         }
     }
@@ -46,14 +45,17 @@ class Wurzburg5C extends Component {
                     <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Julius Echter</div>
-                        <div className="clue-background-div">Juliusspital hospital question on the facade. Where are the people pointing to?</div>
+                        <div className="clue-background-div">As illustrated in the facade, the Juliusspital was built as an hospital for the elderly, the sick and the needy. Today it still includes a clinic and a retirement home but also something else. What is it?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
+                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
+                                <option value="brewery"> 🍻 a brewery </option>
+                                <option value="fire"> 🧑‍🚒 a fire station </option>
+                                <option value="historical"> 📜 a historical institution </option>
+                                <option value="police"> 🚔 a police station </option>
+                                <option value="school"> 🏫 a school </option>
+                                <option value="tram"> 🚊 a tram deposit </option>
+                                <option value="winery"> 🥂 a winery </option>
                             </select>
                         </div>
                     </div>

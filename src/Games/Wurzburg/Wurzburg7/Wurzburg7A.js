@@ -5,11 +5,10 @@ import '../Wurzburg.css';
 function Wurzburg7A() {
   return ( 
     <div>
-      <Timeline timelineProgress="7" timelineReference="17-18th A.D."/>
+      <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
       <div className="clue-background">
-        <div className="clue-background-title">The Residenz</div>
-        <div className="clue-background-div">Come at the Residenz</div>
-        <div className="clue-background-div">(Residenzplatz 2, 97070 Würzburg), </div>
+        <div className="clue-background-title">The Residence</div>
+        <div className="clue-background-div">Come to the new house of the bishop: the Residence.</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -19,7 +18,7 @@ function Wurzburg7A() {
           // allowfullscreen 
         />
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">...arrived?</div>
       </div>
       <div className="buttons-section">

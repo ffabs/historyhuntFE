@@ -5,11 +5,10 @@ import '../Wurzburg.css';
 function Wurzburg9A() {
   return ( 
     <div>
-      <Timeline timelineProgress="9" timelineReference="19-20th A.D."/>
+      <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
       <div className="clue-background">
-        <div className="clue-background-title">X Rays</div>
+        <div className="clue-background-title">X-Rays</div>
         <div className="clue-background-div">Get to know a scientist</div>
-        <div className="clue-background-div">(QWWJ+V8 Würzburg), </div>
         <iframe 
           className="clue-map"
           title="map"
@@ -19,7 +18,7 @@ function Wurzburg9A() {
           // allowfullscreen 
         />
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">...arrived?</div>
       </div>
       <div className="buttons-section">

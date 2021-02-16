@@ -46,6 +46,7 @@ class Wurzburg6C extends Component {
                     <Timeline timelineProgress="6" timelineReference="17th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Falkenhous</div>
+                        <div>foto e storia della casa: https://wuerzburgwiki.de/wiki/Falkenhaus</div>
                         <div className="clue-background-div">Which of the following sketches is the right one on the facade?</div>
                         <div className="number-form"> 
                             <div className="clue-background-div">Answer: </div>

@@ -28,15 +28,16 @@ import Wurzburg5A from './Games/Wurzburg/Wurzburg5/Wurzburg5A';
 import Wurzburg5B from './Games/Wurzburg/Wurzburg5/Wurzburg5B';
 import Wurzburg5C from './Games/Wurzburg/Wurzburg5/Wurzburg5C';
 import Wurzburg5D from './Games/Wurzburg/Wurzburg5/Wurzburg5D';
-import Wurzburg6A from './Games/Wurzburg/Wurzburg6/Wurzburg6A';
-import Wurzburg6B from './Games/Wurzburg/Wurzburg6/Wurzburg6B';
-import Wurzburg6C from './Games/Wurzburg/Wurzburg6/Wurzburg6C';
-import Wurzburg6D from './Games/Wurzburg/Wurzburg6/Wurzburg6D';
+// import Wurzburg6A from './Games/Wurzburg/Wurzburg6/Wurzburg6A';
+// import Wurzburg6B from './Games/Wurzburg/Wurzburg6/Wurzburg6B';
+// import Wurzburg6C from './Games/Wurzburg/Wurzburg6/Wurzburg6C';
+// import Wurzburg6D from './Games/Wurzburg/Wurzburg6/Wurzburg6D';
 import Wurzburg7A from './Games/Wurzburg/Wurzburg7/Wurzburg7A';
 import Wurzburg7B from './Games/Wurzburg/Wurzburg7/Wurzburg7B';
 import Wurzburg7C from './Games/Wurzburg/Wurzburg7/Wurzburg7C';
 import Wurzburg7D from './Games/Wurzburg/Wurzburg7/Wurzburg7D';
 import Wurzburg7E from './Games/Wurzburg/Wurzburg7/Wurzburg7E';
+import Wurzburg7F from './Games/Wurzburg/Wurzburg7/Wurzburg7F';
 import Wurzburg8A from './Games/Wurzburg/Wurzburg8/Wurzburg8A';
 import Wurzburg8B from './Games/Wurzburg/Wurzburg8/Wurzburg8B';
 import Wurzburg8C from './Games/Wurzburg/Wurzburg8/Wurzburg8C';
@@ -140,7 +141,7 @@ function App() {
           <Route exact={true} path='/wuerzburg/julius/statue/clueAnswer' render={() => (
             <Wurzburg5D />
           )}/>
-          <Route exact={true} path='/wuerzburg/falkenhous' render={() => (
+          {/* <Route exact={true} path='/wuerzburg/falkenhous' render={() => (
             <Wurzburg6A />
           )}/>
           <Route exact={true} path='/wuerzburg/falkenhous/taxes' render={() => (
@@ -151,7 +152,7 @@ function App() {
           )}/>
           <Route exact={true} path='/wuerzburg/falkenhous/taxes/clueAnswer' render={() => (
             <Wurzburg6D />
-          )}/>
+          )}/> */}
           <Route exact={true} path='/wuerzburg/residenz' render={() => (
             <Wurzburg7A />
           )}/>
@@ -164,8 +165,11 @@ function App() {
           <Route exact={true} path='/wuerzburg/residenz/garden/clue' render={() => (
             <Wurzburg7D />
           )}/>
-          <Route exact={true} path='/wuerzburg/residenz/garden/clueAnswer' render={() => (
+          <Route exact={true} path='/wuerzburg/residenz/garden/clueQuestion' render={() => (
             <Wurzburg7E />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/garden/clueAnswer' render={() => (
+            <Wurzburg7F />
           )}/>
           <Route exact={true} path='/wuerzburg/ringpark' render={() => (
             <Wurzburg8A />

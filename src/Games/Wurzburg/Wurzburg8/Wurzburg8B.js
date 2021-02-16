@@ -5,12 +5,17 @@ import '../Wurzburg.css';
 function Wurzburg8B() {
   return ( 
     <div>
-      <Timeline timelineProgress="8" timelineReference="19th A.D."/>
+      <Timeline timelineProgress="7" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Ring Park</div>
-        <div className="clue-background-div">City walls replaced with Ring park</div>
+        <div className="clue-background-div">Now that you have reached the point, you should get some clues on what this park was in the past...</div>
+        <div>burgermeister = mayor</div>
+        <div>wohnungs = housing</div>
+        <div>befeshgungsaniage = fortification</div>
+        <div>schulwesen = school system</div>
+        <div>reformierte = reform</div>
       </div>
-      <div className="buttons-section">
+      <div className="question-section">
         <div className="clue-background-div">Ready for the clue?</div>
       </div>
       <div className="buttons-section">
