@@ -13,11 +13,9 @@ function Wurzburg11D() {
         <div className="clue-background-div">Today, Kilian still plays an important role for the city, he is the patron saint of Würzburg and always in July there is a famous fair, called "Kiliani".</div>
       </div>
       <div className="buttons-section">
-        <Link to="/wuerzburg/currenttimes/intro/clue">
-          <div className="gameNext-button">
-            Feedback
-          </div>
-        </Link>
+        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <div className="gameNext-button">Give Feedback</div>
+        </a>
         <Link to="/wuerzburg/currenttimes/intro/clue">
           <div className="gameNext-button">
           Invite a friend

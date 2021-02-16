@@ -7,10 +7,8 @@ class Wurzburg11C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
-            season: "Spring",
+            year: "1000",
             answers: "wrong",
-            seasonCSS: "select-input",
             yearCSS: "number-input"
         };
     }
@@ -18,23 +16,47 @@ class Wurzburg11C extends Component {
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
+        });
+    }
+
+    updateYear = event => {
+        let year = Number(event.target.value);
+        this.setState({
+            year: year,
+            yearCSS: "number-input"
+        });
+    }
+
+    higherYear = event => {
+        let year = Number(this.state.year) + 50;
+        this.setState({
+            year: year,
+            yearCSS: "number-input"
+        });
+    }
+
+    lowerYear = event => {
+        let year = Number(this.state.year) - 50;
+        this.setState({
+            year: year,
+            yearCSS: "number-input"
         });
     }
 
     checkAnswer = event => {
-        if (this.state.season === "Spring") {
+        if (this.state.year === 1300) {
             this.setState({
                 answers: "right"
             });
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                yearCSS: "wrong-number-input"
             });
         }
     }
-
     render() {
         if(this.state.answers === "right"){
             return (
@@ -46,15 +68,29 @@ class Wurzburg11C extends Component {
                     <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Current times</div>
-                        <div className="clue-background-div">In 2004, a major milestone was reached in the history of Würzburg. What was the celebration for?</div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🎂 1300 years of history </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
-                            </select>
+                        <div className="clue-background-div">In 2004, a major milestone was reached in the history of Würzburg. How many years of history were celebrated?</div>
+                        <div className="number-form">
+                            <button 
+                                className="number-input-less"
+                                type="button" 
+                                onClick={this.lowerYear}
+                            >
+                                -
+                            </button>
+                            <input
+                                className={this.state.yearCSS}
+                                type="number" 
+                                name="amount"
+                                value={this.state.year}
+                                onChange={this.updateYear}
+                            />
+                            <button 
+                                className="number-input-more"
+                                type="button" 
+                                onClick={this.higherYear}
+                            >
+                                +
+                            </button>
                         </div>
                     </div>
                     <div className="buttons-section">
