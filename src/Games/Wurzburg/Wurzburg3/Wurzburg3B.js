@@ -21,6 +21,11 @@ function Wurzburg3B() {
                 Yes
             </div>
         </Link>
+        <Link to="/wuerzburg/domAnswer/citizens">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
       </div>
     </div>  
   );

@@ -41,14 +41,19 @@ function Wurzburg2B() {
                     Yes, I am in!
                 </div>
             </Link>
-            <Link to="/wuerzburg/kilianus/dom/virtuallyinside">
+            {/* <Link to="/wuerzburg/kilianus/dom/virtuallyinside">
                 <div className="gameNext-button-below">
                     No, I can't
                 </div>
-            </Link>
+            </Link> */}
             <Link to="/wuerzburg/kilianus/dom/timings">
                 <div className="gameNext-button-below">
-                    When is it open?
+                    No, when is it open?
+                </div>
+            </Link>
+            <Link to="/wuerzburg/kilianus/dom">
+                <div className="gameNext-button-below">
+                    Back
                 </div>
             </Link>
         </div>

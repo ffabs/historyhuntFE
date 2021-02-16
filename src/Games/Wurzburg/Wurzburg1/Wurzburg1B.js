@@ -20,6 +20,11 @@ function Wurzburg1B() {
                   Yes
               </div>
           </Link>
+          <Link to="/wuerzburg/start">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+          </Link>
       </div>
     </div>  
   );

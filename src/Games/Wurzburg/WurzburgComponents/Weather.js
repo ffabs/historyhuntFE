@@ -59,7 +59,7 @@ class WurzburgWeather extends Component {
         return ( 
             <div>
                 {light === "no" &&
-                    <div>It is probably to dark at this time...</div>
+                    <div>It is probably too dark at this time...</div>
                 }
                 {light === "yes" &&
                     <div>It seems like the weather {this.state.weather} today.</div>

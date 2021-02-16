@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Timeline from '../WurzburgComponents/Timeline';
 import '../Wurzburg.css';
+import {Link} from 'react-router-dom';
 import {Redirect} from 'react-router-dom';
 
 class Wurzburg1C extends Component {
@@ -120,7 +121,7 @@ class Wurzburg1C extends Component {
                             />
                         </div>
 
-                        <div className="clue-background-div">I show no fear for the death. I am remembered as... </div>
+                        <div className="clue-background-div">I show no fear for the death. Usually, I hold a knife but it is currently missing from my statue. I am remembered as... </div>
                         <div> S.
                             <input
                                 type="text" 
@@ -138,6 +139,14 @@ class Wurzburg1C extends Component {
                         >
                             Check answers
                         </div>
+                        <Link to="/wuerzburg/bridge">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                            <div className="gameFeedback-button">Give Feedback</div>
+                        </a>
                     </div>
 
                 </div>  

@@ -6,7 +6,7 @@ function Wurzburg0() {
   return ( 
     <div className="gameIntro">
         <div className="gameIntro-title">
-            <div>Welcome to a time journey</div>
+            <div>A journey through time</div>
             <div>in Würzburg</div>
         </div>
         <img src={wuerzburg} className="gameIntro-image" alt="wuerzburg" />

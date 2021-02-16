@@ -7,7 +7,7 @@ class Wurzburg9C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
+            year: "1896",
             season: "Spring",
             answers: "wrong",
             seasonCSS: "select-input",
@@ -48,14 +48,42 @@ class Wurzburg9C extends Component {
                         <div className="clue-background-title">X-Rays</div>
                         <div className="clue-background-div">Find him, what did he use as an object of illustration of the X-rays on?</div>
                         <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
+                            <div className="clue-background-div">In</div>
+                            <button 
+                                className="number-input-less"
+                                type="button" 
+                                onClick={this.lowerYear}
+                            >
+                                -
+                            </button>
+                            <input
+                                className={this.state.yearCSS}
+                                type="number" 
+                                name="amount"
+                                value={this.state.year}
+                                onChange={this.updateYear}
+                            />
+                            <button 
+                                className="number-input-more"
+                                type="button" 
+                                onClick={this.higherYear}
+                            >
+                                +
+                            </button>
+                            <div className="clue-background-div">he took a x-rays picture of</div>
                             <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="cat"> 🐈 A cat </option>
-                                <option value="dog"> 🐕 A dog </option>
-                                <option value="hand"> 🤚 Another scientist's hand </option>
-                                <option value="skull"> 💀 Another scientist's skull </option>
-                                <option value="horse"> 🐎 His horse </option>
-                                <option value="body"> 🧍 His whole body </option>
+                                <option value="dog"> a scientist's </option>
+                                <option value="horse"> a student's </option>
+                                <option value="skull"> his wife's </option>
+                                <option value="cat"> his own </option>
+                            </select>
+                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
+                                <option value="cat"> 🐈 cat </option>
+                                <option value="dog"> 🐕 dog </option>
+                                <option value="hand"> 🤚 hand </option>
+                                <option value="skull"> 💀 head </option>
+                                <option value="horse"> 🐎 horse </option>
+                                <option value="body"> 🧍 whole body </option>
                             </select>
                         </div>
                     </div>

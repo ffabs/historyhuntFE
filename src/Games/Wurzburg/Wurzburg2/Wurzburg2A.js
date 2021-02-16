@@ -27,6 +27,11 @@ function Wurzburg2A() {
                 Arrived
             </div>
         </Link>
+        <Link to="/wuerzburg/kilianus">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
       </div>
     </div>  
   );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Timeline from '../WurzburgComponents/Timeline';
 import {Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 
 class Wurzburg2D extends Component {
@@ -44,7 +45,7 @@ class Wurzburg2D extends Component {
         } else {
             return ( 
                 <div>
-                    <Timeline timelineProgress="3" timelineReference="12th A.D."/>
+                    <Timeline timelineProgress="2" timelineReference="8th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
                         <div className="clue-background-div">Comparing Lorenz's tombstone with the older ones at his right, what is kept from the Gothic tradition?</div>
@@ -52,13 +53,13 @@ class Wurzburg2D extends Component {
                     <div className="buttons-section">
 
                         <div className="number-form"> 
-                            <select onChange={this.updateAnswer} className={this.state.inputValueCSS}>
-                                <option value="details"> 🔎 abundance of details </option>
-                                <option value="angels"> 👼 angels </option>
-                                <option value="columns"> 🏛️ columns </option>
-                                <option value="emblems"> ⚜️ emblems </option>
-                                <option value="nature"> 🍃 nature </option>
-                                <option value="sword"> 🗡️ sword </option>
+                            <select onChange={this.updateAnswer} className={this.state.inputValueCSS}>        
+                                <option value="details"> 🔎 many details </option>
+                                <option value="nature"> 🍃 natural elements </option>
+                                <option value="angels"> 👼 the angels </option>
+                                <option value="emblems"> ⚜️ the emblems </option>
+                                <option value="sword"> 🗡️ the sword </option>
+                                <option value="columns"> 🏛️ usage of columns </option>
                             </select>
                         </div>
 
@@ -69,6 +70,14 @@ class Wurzburg2D extends Component {
                         >
                             Check answer
                         </div>
+                        <Link to="/wuerzburg/kilianus/dom/inside">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                            <div className="gameFeedback-button">Give Feedback</div>
+                        </a>
                     </div>
                 </div>  
             );

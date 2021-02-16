@@ -11,7 +11,7 @@ class Wurzburg2C extends Component {
     
         return ( 
             <div>
-            <Timeline timelineProgress="3" timelineReference="12th A.D."/>
+            <Timeline timelineProgress="2" timelineReference="8th A.D."/>
             <div className="clue-background">
                 <div className="clue-background-title">Kilian’s Cathedral</div>
                 <div className="clue-background-div">The cathedral, having survived through the centuries, shows many different artistic styles. An interesting example is the monument for the prince-bishop Lorenz von Bibra which shows the transition from Gothic to Renaissance:</div>
@@ -27,7 +27,14 @@ class Wurzburg2C extends Component {
                         Yes
                     </div>
                 </Link>
-                
+                <Link to="/wuerzburg/kilianus/dom/openings">
+                    <div className="gameNext-button-below">
+                        Back
+                    </div>
+                </Link>
+                <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                    <div className="gameFeedback-button">Give Feedback</div>
+                </a>
             </div>
             </div>  
         );
