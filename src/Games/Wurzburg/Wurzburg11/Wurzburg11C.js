@@ -30,7 +30,7 @@ class Wurzburg11C extends Component {
     }
 
     higherYear = event => {
-        let year = Number(this.state.year) + 50;
+        let year = Number(this.state.year) + 100;
         this.setState({
             year: year,
             yearCSS: "number-input"
@@ -38,7 +38,7 @@ class Wurzburg11C extends Component {
     }
 
     lowerYear = event => {
-        let year = Number(this.state.year) - 50;
+        let year = Number(this.state.year) - 100;
         this.setState({
             year: year,
             yearCSS: "number-input"
