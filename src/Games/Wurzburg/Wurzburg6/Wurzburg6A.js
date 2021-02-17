@@ -28,6 +28,11 @@ function Wurzburg6A() {
                 Yes
             </div>
         </Link>
+        <Link to="/wuerzburg/julius/statue/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
       </div>
     </div>  
   );

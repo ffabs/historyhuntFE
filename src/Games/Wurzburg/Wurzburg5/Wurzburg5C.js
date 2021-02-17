@@ -193,8 +193,8 @@ checkAnswer = event => {
                                 onClick={this.seventhInput}
                                 className={this.state.seventhCSS}
                             >                                
-                                <div className="quiz-icon">🧓🏽</div>
-                                <div>a retirement home</div>                                
+                                <div className="quiz-icon">🥐</div>
+                                <div>a bakery</div>                                
                             </div>
                             <div
                                 onClick={this.eightInput}

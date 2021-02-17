@@ -8,7 +8,7 @@ function Wurzburg7A() {
       <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">The Residence</div>
-        <div className="clue-background-div">Come to the new house of the bishop: the Residence.</div>
+        <div className="clue-background-div">Come to the new home of the bishops: the Residence.</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -25,6 +25,11 @@ function Wurzburg7A() {
         <Link to="/wuerzburg/residenz/intro">
             <div className="gameNext-button">
                 Yes
+            </div>
+        </Link>
+        <Link to="/wuerzburg/julius/statue/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
             </div>
         </Link>
       </div>
