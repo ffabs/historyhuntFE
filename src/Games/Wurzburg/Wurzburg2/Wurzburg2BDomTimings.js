@@ -10,7 +10,7 @@ function Wurzburg2BDomTimings() {
         <div className="clue-background-title">Dom opening times:</div>
         <div className="clue-background-div">Mon-Sat: 10am-5pm</div>
         <div className="clue-background-div">Sun: 1pm-6pm</div>
-    </div>
+      </div>
     <div className="buttons-section">
         <Link to="/wuerzburg/kilianus/dom/openings">
             <div className="gameNext-button">

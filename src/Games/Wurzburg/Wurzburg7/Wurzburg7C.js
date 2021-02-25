@@ -47,9 +47,8 @@ class Wurzburg7C extends Component {
                     <div className="clue-background">
                         <div className="clue-background-title">The Residence</div>
                         <div className="clue-background-div">The Chapel (Hofkirche) is a prime example of the sacral Baroque style in Germany. Building it, Neumann, to whom the project was entrusted, had the problem of maintaining the uniform external appearance of the residence and taking into account the division of the facade with its windows and floors: a key problem was that the left side of the Chapel was windowless. How did he solve this problem?</div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
+                        <div className="number-form">
+                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                 <option value="close"> 🧱 Closing the windows to the right </option>
                                 <option value="open"> ⛏️ Creating new windows to the left </option>
                                 <option value="dark"> 🕶️ Keeping the room dark </option>
