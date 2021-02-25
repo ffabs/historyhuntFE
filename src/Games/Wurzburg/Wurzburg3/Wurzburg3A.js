@@ -7,7 +7,7 @@ function Wurzburg3A() {
     <div>
       <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
       <div className="clue-background">
-        <div className="clue-background-title">The City Council</div>
+        <div className="clue-background-title">The Town Hall</div>
         <div className="clue-background-div">Come back towards the bridge and this time stop at the building with the clock tower.</div>
         <iframe 
           className="clue-map"
