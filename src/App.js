@@ -37,6 +37,7 @@ import Wurzburg7B from './Games/Wurzburg/Wurzburg7/Wurzburg7B';
 import Wurzburg7Bhelp from './Games/Wurzburg/Wurzburg7/Wurzburg7Bhelp';
 import Wurzburg7C from './Games/Wurzburg/Wurzburg7/Wurzburg7C';
 import Wurzburg7D from './Games/Wurzburg/Wurzburg7/Wurzburg7D';
+import Wurzburg7DTimings from './Games/Wurzburg/Wurzburg7/Wurzburg7DTimings';
 import Wurzburg7E from './Games/Wurzburg/Wurzburg7/Wurzburg7E';
 import Wurzburg7F from './Games/Wurzburg/Wurzburg7/Wurzburg7F';
 import Wurzburg8A from './Games/Wurzburg/Wurzburg8/Wurzburg8A';
@@ -168,6 +169,9 @@ function App() {
           )}/>
           <Route exact={true} path='/wuerzburg/residenz/garden/clue' render={() => (
             <Wurzburg7D />
+          )}/>
+          <Route exact={true} path='/wuerzburg/residenz/garden/timings' render={() => (
+            <Wurzburg7DTimings />
           )}/>
           <Route exact={true} path='/wuerzburg/residenz/garden/clueQuestion' render={() => (
             <Wurzburg7E />

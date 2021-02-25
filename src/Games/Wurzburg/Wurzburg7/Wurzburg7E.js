@@ -1,36 +1,52 @@
 import Timeline from '../WurzburgComponents/Timeline';
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 
 class Wurzburg7E extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
-            season: "Spring",
+            year: "1",
             answers: "wrong",
-            seasonCSS: "select-input",
             yearCSS: "number-input"
         };
     }
 
-    updateSeason = event => {
-        let season = event.target.value;
+    updateYear = event => {
+        let year = Number(event.target.value);
         this.setState({
-            season: season
+            year: year,
+            yearCSS: "number-input"
+        });
+    }
+
+    higherYear = event => {
+        let year = Number(this.state.year) + 1;
+        this.setState({
+            year: year,
+            yearCSS: "number-input"
+        });
+    }
+
+    lowerYear = event => {
+        let year = Number(this.state.year) - 1;
+        this.setState({
+            year: year,
+            yearCSS: "number-input"
         });
     }
 
     checkAnswer = event => {
-        if (this.state.season === "Spring") {
+        if (this.state.year === 16) {
             this.setState({
                 answers: "right"
             });
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                yearCSS: "wrong-number-input"
             });
         }
     }
@@ -45,16 +61,30 @@ class Wurzburg7E extends Component {
                 <div>
                     <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
                     <div className="clue-background">
-                        <div className="clue-background-title">The Residence</div>
-                        <div className="clue-background-div">The Residence was built when Würzburg was still a fortified town. Therefore, the garden too had to be planned within the fortifications. The solution included two bastions of the fortified town wall, using its differences in height to create a very special landscape. From west to east there is a rise in ground, until the level of the wall is reached.</div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
-                            </select>
+                        <div className="clue-background-title">The Residence Garden</div>
+                        <div className="clue-background-div">Roses can be found in many places of the garden but there is only 1 place where multiple species of roses are collected with their scientific names. Can you find it? How many species are there?</div>
+                        <div className="number-form">
+                            <button 
+                                className="number-input-less"
+                                type="button" 
+                                onClick={this.lowerYear}
+                            >
+                                -
+                            </button>
+                            <input
+                                className={this.state.yearCSS}
+                                type="number" 
+                                name="amount"
+                                value={this.state.year}
+                                onChange={this.updateYear}
+                            />
+                            <button 
+                                className="number-input-more"
+                                type="button" 
+                                onClick={this.higherYear}
+                            >
+                                +
+                            </button>
                         </div>
                     </div>
                     <div className="buttons-section">
@@ -64,6 +94,14 @@ class Wurzburg7E extends Component {
                         >
                             Check answer
                         </div>
+                        <Link to="/wuerzburg/residenz/garden/clue">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                            <div className="gameFeedback-button">Give Feedback</div>
+                        </a>
                     </div>
                 </div>  
             );

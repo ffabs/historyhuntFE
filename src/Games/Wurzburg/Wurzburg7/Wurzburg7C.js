@@ -2,6 +2,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 import '../Wurzburg.css';
+import {Link} from 'react-router-dom';
 
 class Wurzburg7C extends Component {
     constructor (props) {
@@ -46,14 +47,14 @@ class Wurzburg7C extends Component {
                     <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">The Residence</div>
-                        <div className="clue-background-div">The Chapel (Hofkirche) is a prime example of the sacral Baroque style in Germany. Building it, Neumann, to whom the project was entrusted, had the problem of maintaining the uniform external appearance of the residence and taking into account the division of the facade with its windows and floors: a key problem was that the left side of the Chapel was windowless. How did he solve this problem?</div>
+                        <div className="clue-background-div">The Chapel is now a prime example of the sacral Baroque style in Germany but building it was not an easy task. A key problem the architect Neumann faced was that the left side of the Chapel was windowless. How did he solve it?</div>
                         <div className="number-form">
                             <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                <option value="close"> 🧱 Closing the windows to the right </option>
+                                <option value="close"> 🔒 Closing the windows to the right </option>
                                 <option value="open"> ⛏️ Creating new windows to the left </option>
                                 <option value="dark"> 🕶️ Keeping the room dark </option>
                                 <option value="paint"> 🎨 Using bright paint </option>
-                                <option value="mirrors"> 🪞 Using mirrors </option>
+                                <option value="mirrors"> ✨ Using mirrors </option>
                             </select>
                         </div>
                     </div>
@@ -64,6 +65,14 @@ class Wurzburg7C extends Component {
                         >
                             Check answer
                         </div>
+                        <Link to="/wuerzburg/residenz/intro">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                            <div className="gameFeedback-button">Give Feedback</div>
+                        </a>
                     </div>
                 </div>  
             );
