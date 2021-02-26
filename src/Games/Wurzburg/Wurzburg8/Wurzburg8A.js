@@ -8,7 +8,7 @@ function Wurzburg8A() {
       <Timeline timelineProgress="7" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Ring Park</div>
-        <div className="clue-background-div">Let's go for a walk in the ring park, the park that is all around the city.</div>
+        <div className="clue-background-div">Let's go to another green area of the city: the Ring Park.</div>
         {/* <div className="clue-background-div">(QWWJ+V8 Würzburg), </div> */}
         <iframe 
           className="clue-map"

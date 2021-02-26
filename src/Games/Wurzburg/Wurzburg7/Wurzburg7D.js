@@ -20,7 +20,7 @@ function Wurzburg7D() {
           // allowfullscreen 
       /> */}
       <div className="question-section">
-        <div className="clue-background-div">Are you there?</div>
+        <div className="clue-background-div">...are you there?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/residenz/garden/clueQuestion">

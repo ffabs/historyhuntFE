@@ -47,15 +47,15 @@ class Wurzburg8C extends Component {
                     <Timeline timelineProgress="7" timelineReference="19th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Ring Park</div>
-                        <div className="clue-background-div">What was this before beign the Ring Park?</div>
+                        <div className="clue-background-div">What did this park used to be before becoming the Ring Park?</div>
                         <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
+                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                 <option value="Winter"> 🏘️ Accomodations </option>
                                 <option value="Spring"> 🏰 City walls </option>
                                 <option value="Summer"> 🌊 City water </option>
                                 <option value="Autumn"> 🛣️ Main road to Munich </option>
                                 <option value="Winter"> 🏫 School </option>
+                                <option value="Summer"> 🌲 Wild forests </option>
                             </select>
                         </div>
                     </div>

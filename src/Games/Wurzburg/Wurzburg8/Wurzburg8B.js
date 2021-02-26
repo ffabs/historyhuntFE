@@ -8,12 +8,17 @@ function Wurzburg8B() {
       <Timeline timelineProgress="7" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Ring Park</div>
-        <div className="clue-background-div">Now that you have reached the point, you should get some clues on what this park was in the past...</div>
-        <div>burgermeister = mayor</div>
-        <div>wohnungs = housing</div>
-        <div>befeshgungsaniage = fortification</div>
-        <div>schulwesen = school system</div>
-        <div>reformierte = reform</div>
+        <div className="clue-background-div">In order to solve the next clue, it might be helpful to learn the following German words:</div>
+        <ul className="clue-background-div">
+          <li>Burgermeister = Mayor</li>
+          <li>Wald = Forest</li>
+          <li>Wasser = Water</li>
+          <li>Wohnungs = Housing</li>
+          <li>Befeshgungsaniage = Fortification</li>
+          <li>Schulwesen = School System</li>
+          <li>Wohnungs = Housing</li>
+          <li>Reformierte = Reform</li>
+        </ul>
       </div>
       <div className="question-section">
         <div className="clue-background-div">Ready for the clue?</div>
