@@ -8,7 +8,7 @@ function Wurzburg10A() {
       <Timeline timelineProgress="9" timelineReference="20th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">World Wars</div>
-        <div className="clue-background-div">Come back towards the Residence but remaining in the park.</div>
+        <div className="clue-background-div">Come back for a while and reach another area of the Ring Park...</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -25,6 +25,11 @@ function Wurzburg10A() {
         <Link to="/wuerzburg/worldwar/intro">
             <div className="gameNext-button">
                 Yes
+            </div>
+        </Link>
+        <Link to="/wuerzburg/xrays/intro/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
             </div>
         </Link>
       </div>

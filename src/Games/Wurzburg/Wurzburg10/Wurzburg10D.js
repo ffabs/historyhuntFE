@@ -20,6 +20,11 @@ function Wurzburg10D() {
                 Yes
             </div>
         </Link>
+        <Link to="/wuerzburg/worldwar/intro/clue">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
         <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
           <div className="gameFeedback-button">Give Feedback</div>
         </a>

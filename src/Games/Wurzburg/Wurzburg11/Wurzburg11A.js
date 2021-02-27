@@ -28,6 +28,11 @@ function Wurzburg11A() {
                 Yes
             </div>
         </Link>
+        <Link to="/wuerzburg/worldwar/intro/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
       </div>
     </div>  
   );

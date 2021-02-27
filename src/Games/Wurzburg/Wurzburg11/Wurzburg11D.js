@@ -17,9 +17,14 @@ function Wurzburg11D() {
           <div className="gameNext-button">Give Feedback</div>
         </a>
         <Link to="/wuerzburg/currenttimes/intro/clue">
-          <div className="gameNext-button">
+          <div className="gameNext-button-below">
           Invite a friend
           </div>
+        </Link>
+        <Link to="/wuerzburg/currenttimes/intro/clue">
+            <div className="gameNext-button-below">
+                Back
+            </div>
         </Link>
       </div>
     </div>  

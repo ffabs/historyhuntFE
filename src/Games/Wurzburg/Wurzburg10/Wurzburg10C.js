@@ -2,6 +2,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 import '../Wurzburg.css';
+import {Link} from 'react-router-dom';
 
 class Wurzburg10C extends Component {
     constructor (props) {
@@ -65,6 +66,11 @@ class Wurzburg10C extends Component {
                         >
                             Check answer
                         </div>
+                        <Link to="/wuerzburg/worldwar/intro">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
                     </div>
                 </div>  
             );

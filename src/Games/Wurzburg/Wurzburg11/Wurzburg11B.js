@@ -24,6 +24,11 @@ function Wurzburg11B() {
                 Yes
             </div>
         </Link>
+        <Link to="/wuerzburg/currenttimes">
+            <div className="gameNext-button-below">
+                Back
+            </div>
+        </Link>
       </div>
     </div>  
   );
