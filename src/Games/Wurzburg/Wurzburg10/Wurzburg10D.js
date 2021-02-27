@@ -11,10 +11,10 @@ function Wurzburg10D() {
         <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
       </div>
       <div className="question-section">
-        <div className="clue-background-div">Only one clue left! Are you ready to come back to the current times?</div>
+        <div className="clue-background-div">Are you ready to come back to the current times?</div>
       </div>
       <div className="buttons-section">
-        <Link to="/wuerzburg/currenttimes">
+        <Link to="/wuerzburg/currenttimes/intro">
             <div className="gameNext-button">
                 Yes
             </div>

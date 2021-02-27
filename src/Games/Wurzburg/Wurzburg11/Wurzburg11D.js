@@ -1,5 +1,6 @@
 import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
+import kilianifest from '../WurzburgImages/kilianifest.png';
 import '../Wurzburg.css';
 
 function Wurzburg11D() {
@@ -9,6 +10,7 @@ function Wurzburg11D() {
       <div className="clue-background">
         <div className="clue-background-title">Congrats for reaching the end!</div>
       </div>
+      <img src={kilianifest} className="gameIntro-image" alt="kilianifest" />
       <div className="question-section">
         <div className="clue-background-div">Today, Kilian still plays an important role for the city, he is the patron saint of Würzburg and always in July there is a famous fair, called "Kiliani".</div>
       </div>
