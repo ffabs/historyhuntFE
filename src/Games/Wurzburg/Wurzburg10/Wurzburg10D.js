@@ -8,11 +8,10 @@ function Wurzburg10D() {
       <Timeline timelineProgress="9" timelineReference="20th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
-        <div className="clue-background-div">After 1945 six stone crosses were carved in memory of the fallen soldiers of the second world war. Today it is regarded as a memorial to the fallen soldiers and a memorial for peace. </div>
-        <div className="clue-background-div">Only one left</div>
+        <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
       </div>
       <div className="question-section">
-        <div className="clue-background-div">...ready?</div>
+        <div className="clue-background-div">Only one clue left! Are you ready to come back to the current times?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/currenttimes">

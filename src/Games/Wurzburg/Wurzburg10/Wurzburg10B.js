@@ -9,12 +9,14 @@ function Wurzburg10B() {
       <div className="clue-background">
         <div className="clue-background-title">World Wars</div>
         <div className="clue-background-div">
-          Originally, the city of wurzburg erected this war memorial for the fallen soldiers of the first world war. 
-          Even if it was initially rejected by the National Socialists, it was then misused by them as a “Hero's Memorial”.
+          Originally, this war memorial was made before the Second World War for the fallen soldiers of the First World War.
+        </div>
+        <div className="clue-background-div">
+          At the time, even if the National Socialists rejected it initially, they then misused it as a “Hero's Memorial” for Nazi propaganda.
         </div>
       </div>
       <div className="question-section">
-        <div className="clue-background-div">...ready for the clue?</div>
+        <div className="clue-background-div">Are you ready for the clue?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/worldwar/intro/clue">

@@ -8,30 +8,41 @@ class Wurzburg10C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
-            season: "Spring",
+            firstAnswer: "Summer",
+            secondAnswer: "Summer",
             answers: "wrong",
-            seasonCSS: "select-input",
+            firstAnswerCSS: "select-input",
+            secondAnswerCSS: "select-input",
             yearCSS: "number-input"
         };
     }
 
-    updateSeason = event => {
-        let season = event.target.value;
+    updateFirstAnswer = event => {
+        let firstAnswer = event.target.value;
         this.setState({
-            season: season
+            firstAnswer: firstAnswer,
+            firstAnswerCSS: "select-input"
+        });
+    }
+
+    updateSecondAnswer = event => {
+        let secondAnswer = event.target.value;
+        this.setState({
+            secondAnswer: secondAnswer,
+            secondAnswerCSS: "select-input"
         });
     }
 
     checkAnswer = event => {
-        if (this.state.season === "Spring") {
+        if (this.state.firstAnswer === "Spring" && this.state.secondAnswer === "Spring") {
             this.setState({
                 answers: "right"
             });
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                firstAnswerCSS: "wrong-select-input",
+                secondAnswerCSS: "wrong-select-input"
             });
         }
     }
@@ -48,16 +59,24 @@ class Wurzburg10C extends Component {
                     <div className="clue-background">
                         <div className="clue-background-title">World Wars</div>
                         <div className="clue-background-div">What is the key element of this memorial that allowed National Socialists to misuse it as a “Hero's Memorial”?</div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Answer: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.season}>
-                                <option value="Spring"> 🐘 the massive depiction of warriors with steel helmets in heavy coats and boots and as dull and heroic </option>
+                        <div className="number-form">
+                            <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
                                 <option value="Summer"> 💣 the representation of weapons </option>
+                                <option value="Spring"> 🐘 the massive depiction of warriors</option>
                                 <option value="Autumn"> 📃 the lack of names of the deaths </option>
                                 <option value="Winter"> ✝️ the lack of crosses </option>
                             </select>
                         </div>
-                        <div>What was added after the second world?</div>
+                        <div className="clue-background-div"></div>
+                        <div className="clue-background-div">And how was this memorial changed after the Second World War?</div>
+                        <div className="number-form">
+                            <select type="text" onChange={this.updateSecondAnswer} className={this.state.secondAnswerCSS}>
+                                <option value="Summer"> 💣 the weapons were removed</option>
+                                <option value="Winter"> 🐘 the warriors were made bigger</option>
+                                <option value="Autumn"> 📃 the names were removed</option>
+                                <option value="Spring"> ✝️ the crosses were added</option>
+                            </select>
+                        </div>
                     </div>
                     <div className="buttons-section">
                         <div
