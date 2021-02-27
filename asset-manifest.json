@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.12880059.chunk.css",
-    "main.js": "/static/js/main.3667cdb6.chunk.js",
-    "main.js.map": "/static/js/main.3667cdb6.chunk.js.map",
+    "main.js": "/static/js/main.04b5bf69.chunk.js",
+    "main.js.map": "/static/js/main.04b5bf69.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fb9a6a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fb9a6a6.js.map",
     "static/js/2.7772cc90.chunk.js": "/static/js/2.7772cc90.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/lab.c2df3ffe.jpg": "/static/media/lab.c2df3ffe.jpg",
     "static/media/lorenz.1a60a1c3.png": "/static/media/lorenz.1a60a1c3.png",
     "static/media/residenz-in-const.342feab2.png": "/static/media/residenz-in-const.342feab2.png",
+    "static/media/unesco.be8a210c.jpg": "/static/media/unesco.be8a210c.jpg",
     "static/media/uni.svg.dada617f.png": "/static/media/uni.svg.dada617f.png",
     "static/media/wuerzburg-intro.f981b9a9.png": "/static/media/wuerzburg-intro.f981b9a9.png"
   },
@@ -23,6 +24,6 @@
     "static/js/runtime-main.4fb9a6a6.js",
     "static/js/2.7772cc90.chunk.js",
     "static/css/main.12880059.chunk.css",
-    "static/js/main.3667cdb6.chunk.js"
+    "static/js/main.04b5bf69.chunk.js"
   ]
 }
