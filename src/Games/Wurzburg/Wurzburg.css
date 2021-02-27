@@ -145,6 +145,12 @@ input[type=number] {
     margin: 0; 
 }
 
+.align-multipleforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .number-form {
     display: flex;
     margin-top: 20px;

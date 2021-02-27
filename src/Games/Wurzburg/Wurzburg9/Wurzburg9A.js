@@ -8,7 +8,7 @@ function Wurzburg9A() {
       <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">X-Rays</div>
-        <div className="clue-background-div">Get to know a scientist</div>
+        <div className="clue-background-div">Let's get to know a scientist that won the nobel prize in Physics!</div>
         <iframe 
           className="clue-map"
           title="map"
@@ -25,6 +25,11 @@ function Wurzburg9A() {
         <Link to="/wuerzburg/xrays/intro">
             <div className="gameNext-button">
                 Yes
+            </div>
+        </Link>
+        <Link to="/wuerzburg/ringpark/intro/clueAnswer">
+            <div className="gameNext-button-below">
+                Back
             </div>
         </Link>
       </div>
