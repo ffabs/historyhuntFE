@@ -111,16 +111,16 @@ checkAnswer = event => {
     if (answers === "wrong") {
         this.setState({
             answers: "wrong",
-            firstCSS: [firstCSS],
-            secondCSS: [secondCSS],
-            thirdCSS: [thirdCSS],
-            forthCSS: [forthCSS],
-            fifthCSS: [fifthCSS],
-            sixthCSS: [sixthCSS],
-            seventhCSS: [seventhCSS],
-            eightCSS: [eightCSS],
-            ninethCSS: [ninethCSS],
-            tenthCSS: [tenthCSS]
+            firstCSS: firstCSS,
+            secondCSS: secondCSS,
+            thirdCSS: thirdCSS,
+            forthCSS: forthCSS,
+            fifthCSS: fifthCSS,
+            sixthCSS: sixthCSS,
+            seventhCSS: seventhCSS,
+            eightCSS: eightCSS,
+            ninethCSS: ninethCSS,
+            tenthCSS: tenthCSS
         });
     } else {
         if (thirdCSS === "quizItemSelected" && seventhCSS === "quizItemSelected" && tenthCSS === "quizItemSelected") {
