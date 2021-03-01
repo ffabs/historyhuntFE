@@ -11,8 +11,7 @@ class Wurzburg8C extends Component {
             year: "1500",
             season: "Winter",
             answers: "wrong",
-            seasonCSS: "select-input",
-            yearCSS: "number-input"
+            seasonCSS: "select-input"
         };
     }
 

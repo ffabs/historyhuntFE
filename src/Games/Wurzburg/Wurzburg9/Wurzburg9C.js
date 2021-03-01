@@ -19,7 +19,8 @@ class Wurzburg9C extends Component {
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 
@@ -47,6 +48,27 @@ class Wurzburg9C extends Component {
         });
     }
 
+    showErrors = event => {
+        let firstInputCheck;
+        let secondInputCheck;
+        if (this.state.season === "hand") {
+            firstInputCheck = "right-select-input";
+        } else {
+            firstInputCheck = "wrong-select-input";
+        }
+
+        if (this.state.year === 1896) {
+            secondInputCheck = "right-number-input";
+        } else {
+            secondInputCheck = "wrong-number-input";
+        }
+
+        this.setState({
+            seasonCSS: firstInputCheck,
+            yearCSS: secondInputCheck
+        });
+    }
+
     checkAnswer = event => {
         if (this.state.season === "hand" && this.state.year === 1896) {
             this.setState({
@@ -54,9 +76,9 @@ class Wurzburg9C extends Component {
             });
         } else {
             this.setState({
-                answers: "wrong",
-                seasonCSS: "wrong",
+                answers: "wrong"
             });
+            this.showErrors();
         }
     }
 
@@ -112,7 +134,7 @@ class Wurzburg9C extends Component {
                             </div>
                             <div className="number-form"> 
                                 <div className="clue-background-div">of a</div>                            
-                                <select type="text" onChange={this.updateSeason} className={this.state.season}>
+                                <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                     <option value="skull"> 🦴 broken bone </option>
                                     <option value="cat"> 🐈 cat </option>
                                     <option value="dog"> 🐕 dog </option>
