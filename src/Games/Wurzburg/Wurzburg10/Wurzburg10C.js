@@ -62,7 +62,7 @@ class Wurzburg10C extends Component {
                         <div className="number-form">
                             <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
                                 <option value="Summer"> 💣 the representation of weapons </option>
-                                <option value="Spring"> 🐘 the massive depiction of warriors</option>
+                                <option value="Spring"> 🐘 the massive warriors</option>
                                 <option value="Autumn"> 📃 the lack of names of the deaths </option>
                                 <option value="Winter"> ✝️ the lack of crosses </option>
                             </select>

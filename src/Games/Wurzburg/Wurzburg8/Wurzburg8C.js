@@ -9,7 +9,7 @@ class Wurzburg8C extends Component {
         super(props);   
         this.state = {
             year: "1500",
-            season: "Spring",
+            season: "Winter",
             answers: "wrong",
             seasonCSS: "select-input",
             yearCSS: "number-input"
@@ -31,7 +31,7 @@ class Wurzburg8C extends Component {
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                seasonCSS: "wrong-select-input",
             });
         }
     }

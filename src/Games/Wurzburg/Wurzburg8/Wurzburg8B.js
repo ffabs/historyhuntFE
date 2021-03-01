@@ -16,7 +16,6 @@ function Wurzburg8B() {
           <li>Wohnungs = Housing</li>
           <li>Befeshgungsaniage = Fortification</li>
           <li>Schulwesen = School System</li>
-          <li>Wohnungs = Housing</li>
           <li>Reformierte = Reform</li>
         </ul>
       </div>
