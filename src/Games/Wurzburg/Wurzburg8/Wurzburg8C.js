@@ -19,7 +19,8 @@ class Wurzburg8C extends Component {
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 

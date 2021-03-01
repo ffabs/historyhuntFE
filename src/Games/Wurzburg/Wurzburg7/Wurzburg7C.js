@@ -8,18 +8,17 @@ class Wurzburg7C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1500",
             season: "Spring",
             answers: "wrong",
-            seasonCSS: "select-input",
-            yearCSS: "number-input"
+            seasonCSS: "select-input"
         };
     }
 
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 
@@ -31,7 +30,7 @@ class Wurzburg7C extends Component {
         } else {
             this.setState({
                 answers: "wrong",
-                seasonCSS: "wrong",
+                seasonCSS: "wrong-select-input",
             });
         }
     }
@@ -50,11 +49,11 @@ class Wurzburg7C extends Component {
                         <div className="clue-background-div">The Chapel is now a prime example of the sacral Baroque style in Germany but building it was not an easy task. A key problem the architect Neumann faced was that the left side of the Chapel was windowless. How did he solve it?</div>
                         <div className="number-form">
                             <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                <option value="close"> 🔒 Closing the windows to the right </option>
-                                <option value="open"> ⛏️ Creating new windows to the left </option>
-                                <option value="dark"> 🕶️ Keeping the room dark </option>
-                                <option value="paint"> 🎨 Using bright paint </option>
-                                <option value="mirrors"> ✨ Using mirrors </option>
+                                <option value="close"> 🔒 Closing the windows</option>
+                                <option value="open"> ⛏️ Creating new windows</option>
+                                <option value="dark"> 🕶️ Keeping the room dark</option>
+                                <option value="paint"> 🎨 Using bright paint</option>
+                                <option value="mirrors"> ✨ Using mirrors</option>
                             </select>
                         </div>
                     </div>
