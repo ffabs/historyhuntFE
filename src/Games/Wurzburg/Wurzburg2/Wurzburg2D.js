@@ -18,7 +18,8 @@ class Wurzburg2D extends Component {
     updateAnswer = event => {
         let inputValue = event.target.value;
         this.setState({
-            inputValue: inputValue
+            inputValue: inputValue,
+            inputValueCSS: "select-input"
         });
     }
 

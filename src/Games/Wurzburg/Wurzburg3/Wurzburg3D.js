@@ -19,7 +19,8 @@ class Wurzburg3D extends Component {
     updateSeason = event => {
         let season = event.target.value;
         this.setState({
-            season: season
+            season: season,
+            seasonCSS: "select-input"
         });
     }
 
@@ -47,6 +48,27 @@ class Wurzburg3D extends Component {
         });
     }
 
+    showErrors = event => {
+        let firstInputCheck;
+        let secondInputCheck;
+        if (this.state.season === "beginning") {
+            firstInputCheck = "right-select-input";
+        } else {
+            firstInputCheck = "wrong-select-input";
+        }
+
+        if (this.state.year === 20) {
+            secondInputCheck = "right-number-input";
+        } else {
+            secondInputCheck = "wrong-number-input";
+        }
+
+        this.setState({
+            seasonCSS: firstInputCheck,
+            yearCSS: secondInputCheck
+        });
+    }
+
     checkAnswer = event => {
         if (this.state.season === "beginning" && this.state.year === 20) {
             this.setState({
@@ -56,6 +78,7 @@ class Wurzburg3D extends Component {
             this.setState({
                 answers: "wrong"
             });
+            this.showErrors();
         }
     }
 
