@@ -21,7 +21,7 @@ function Wurzburg11D() {
         </a>
         <Link to="/">
           <div className="gameNext-button-below">
-           Back to homepage
+           Back to Homepage
           </div>
         </Link>
         <Link to="/wuerzburg/currenttimes/intro/clue">

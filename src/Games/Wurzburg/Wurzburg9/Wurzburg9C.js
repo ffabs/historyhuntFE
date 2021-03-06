@@ -135,14 +135,14 @@ class Wurzburg9C extends Component {
                             <div className="number-form"> 
                                 <div className="clue-background-div">of a</div>                            
                                 <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                    <option value="skull"> 🦴 broken bone </option>
+                                    <option value="skull"> 🍖 broken bone </option>
                                     <option value="cat"> 🐈 cat </option>
                                     <option value="dog"> 🐕 dog </option>
                                     <option value="hand"> 🤚 hand </option>
                                     <option value="skull"> 💀 head </option>                             
                                     <option value="horse"> 🐎 horse </option>                                    
-                                    <option value="skull"> 🦵 leg </option>   
-                                    <option value="body"> 🧍 whole person </option>
+                                    {/* <option value="skull"> 🦵 leg </option>    */}
+                                    {/* <option value="body"> 🧍 whole person </option> */}
                                 </select>
                             </div>
                         </div>
