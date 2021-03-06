@@ -19,9 +19,9 @@ function Wurzburg11D() {
         <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
           <div className="gameNext-button">Share your Feedback!</div>
         </a>
-        <Link to="/wuerzburg/currenttimes/intro/clue">
+        <Link to="/">
           <div className="gameNext-button-below">
-          Invite a friend
+           Back to the homepage
           </div>
         </Link>
         <Link to="/wuerzburg/currenttimes/intro/clue">

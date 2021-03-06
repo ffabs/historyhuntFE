@@ -10,11 +10,11 @@ function Wurzburg8B() {
         <div className="clue-background-title">Ring Park</div>
         <div className="clue-background-div">In order to solve the next clue, it might be helpful to learn the following German words:</div>
         <ul className="clue-background-div">
-          <li>Burgermeister = Mayor</li>
+          <li>Bürgermeister = Mayor</li>
           <li>Wald = Forest</li>
           <li>Wasser = Water</li>
-          <li>Wohnungs = Housing</li>
-          <li>Befeshgungsaniage = Fortification</li>
+          <li>Wohnung = Housing</li>
+          <li>Befestigungsanlage = Fortification</li>
           <li>Schulwesen = School System</li>
           <li>Reformierte = Reform</li>
         </ul>
