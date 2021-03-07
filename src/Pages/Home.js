@@ -45,7 +45,7 @@ function Home() {
       <Header />
       <div className="home-background">
         <div className="home-background-text">
-          <div>TREASURE HUNT-STYLE EXPERIENCES</div>
+          <div>A TREASURE HUNT-STYLE EXPERIENCE</div>
           <div>TO DISCOVER THE HISTORY</div>
           <div>OF WÜRZBURG</div>
         </div>
