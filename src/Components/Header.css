@@ -1,0 +1,33 @@
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 0px 20px;
+  }
+  
+    .header-text {
+      color: white;
+    }
+
+    .header-links {
+        display: flex;
+        align-items: center;
+    }
+        .header-link {
+            padding: 20px;
+            font-size: 20px;
+        }
+        .header-link:hover {
+            background-color: #139b21;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+@media only screen and (max-width: 500px) {
+  .header-link {
+    padding: 7px;
+    font-size: 15px;
+  }
+}
