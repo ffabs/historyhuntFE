@@ -15,7 +15,7 @@
 .social-section {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
     .social {
         margin: 15px;
@@ -26,3 +26,8 @@
         font-size: 25px;
         margin-top: 40px;
     }
+
+.policies {
+    margin-top: 13px;
+    color: white;
+}

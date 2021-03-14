@@ -3,6 +3,8 @@ import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
 // import Home from './Games/Home';
 import Home from './Pages/Home';
+import Support from './Pages/Support';
+import Thank from './Pages/Thank';
 import Wurzburg0 from './Games/Wurzburg/Wurzburg0/Wurzburg0';
 import Wurzburg1A from './Games/Wurzburg/Wurzburg1/Wurzburg1A';
 import Wurzburg1B from './Games/Wurzburg/Wurzburg1/Wurzburg1B';
@@ -65,6 +67,12 @@ function App() {
         <Switch>
           <Route exact={true} path='/' render={() => (
             <Home />
+          )}/>
+          <Route exact={true} path='/support-us' render={() => (
+            <Support />
+          )}/>  
+          <Route exact={true} path='/thank-you' render={() => (
+            <Thank />
           )}/>
           <Route exact={true} path='/wuerzburg' render={() => (
             <Wurzburg0 />

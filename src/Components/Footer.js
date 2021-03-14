@@ -15,7 +15,6 @@ function Footer() {
         {/* <Link to="/">
             <div className="footer-element">Support us</div>
         </Link> */}
-        {/* <div className="footer-element"> Privacy policy </div> */}
         <div className="footer has-text-centered">
           <div>
             Find us on
@@ -34,6 +33,12 @@ function Footer() {
           <div>
             All Rights Reserved
           </div>
+          <a href="https://www.websitepolicies.com/policies/edit/hE91TkeO" target="_blank" rel="noopener noreferrer" className="policies">
+            Terms and Conditions
+          </a> 
+          <a href="https://www.websitepolicies.com/policies/edit/e5EzZHZ7" target="_blank" rel="noopener noreferrer" className="policies">
+            Privacy Policy
+          </a>    
           <div className="logo-name">
             Ciceru
           </div>
