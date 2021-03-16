@@ -14,9 +14,9 @@ function Header() {
             <Link to="/wuerzburg"> 
                 <div className="header-text header-link">Start game</div>
             </Link>
-            {/* <Link to="/"> 
+            <Link to="/support-us"> 
                 <div className="header-text header-link">Support us</div>
-            </Link> */}
+            </Link>
         </div>
     </div>
   );

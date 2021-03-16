@@ -6,3 +6,29 @@
   a {
     text-decoration: none;
   }
+
+  .support-page {
+    padding: 7px;
+  }
+  .button-paypal {
+    margin: 100px 0px 150px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .donate-button {
+    background-color: #2997D8;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 30px;
+    width: 200px;
+  }
+  .donate-button:hover {
+    background-color: #253B80;
+  }
+  .support-socials {
+    margin: 40px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+  }

@@ -12,9 +12,9 @@ function Footer() {
         <Link to="/wuerzburg">
             <div className="footer-element">Start game</div>
         </Link>
-        {/* <Link to="/">
+        <Link to="/support-us">
             <div className="footer-element">Support us</div>
-        </Link> */}
+        </Link>
         <div className="footer has-text-centered">
           <div>
             Find us on
