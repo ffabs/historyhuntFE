@@ -16,12 +16,9 @@ function Wurzburg11D() {
       {/* <div className="question-section"> */}
       {/* </div> */}
       <div className="buttons-section">
-        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
-          <div className="gameNext-button">Share your Feedback!</div>
-        </a>
-        <Link to="/">
+        <Link to="/support-us">
           <div className="gameNext-button-below">
-           Back to Homepage
+            Support Us!
           </div>
         </Link>
         <Link to="/wuerzburg/currenttimes/intro/clue">
@@ -29,7 +26,10 @@ function Wurzburg11D() {
                 Back
             </div>
         </Link>
-      </div>
+        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+            <div className="gameFeedback-button">Give Feedback</div>
+        </a>
+    </div>
     </div>  
   );
 }
