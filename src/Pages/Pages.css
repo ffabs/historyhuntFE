@@ -32,3 +32,10 @@
     display: flex;
     align-items: center;
   }
+
+  .thankyoupage {
+    margin-bottom: 50px;
+  }
+  .thankyoupage-more {
+    margin-bottom: 100px;
+  }
