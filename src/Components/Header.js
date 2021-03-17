@@ -21,6 +21,22 @@ class Header extends Component {
     }
     
     render() {
+        // let homePage = '';
+        let supportPage = '';
+        let gamePage= '';
+        switch(this.props.page) {
+        // case "Home":
+        //     homePage += ' current';
+        // break;
+        case "Support":
+            supportPage += ' current';
+        break;
+        case "Game":
+            gamePage += ' current';
+        break;
+        default:
+            gamePage += '';
+        }
   
         return (
             <div className="App-header">
@@ -30,10 +46,10 @@ class Header extends Component {
                         <div className="header-text header-link">How it works</div>
                     </HashLink>
                     <Link to="/wuerzburg"> 
-                        <div className="header-text header-link">Start game</div>
+                        <div className={gamePage +" header-text header-link"}>Start game</div>
                     </Link>
                     <Link to="/support-us"> 
-                        <div className="header-text header-link">Support us</div>
+                        <div className={supportPage +" header-text header-link"}>Support us</div>
                     </Link>
                 </div>
 
@@ -54,7 +70,7 @@ class Header extends Component {
                 
                 {this.state.open === true &&
                     <div className="mobile"> 
-                        <Nav />
+                        <Nav {...this.props}/>
                     </div>
                 }
             </div>

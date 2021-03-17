@@ -10,7 +10,7 @@ import annouce from '../Images/annouce.png';
 function Thank() {
   return ( 
     <div className="home">
-      <Header />
+      <Header page={'Support'}/>
       <div className="support-page"> 
         <div className="section-title">
             Thank you for your support!!

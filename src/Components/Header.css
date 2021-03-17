@@ -10,6 +10,9 @@
     .header-text {
       color: white;
     }
+    .current {
+      font-weight: bold;
+    }
 
     .desktop {
         display: flex;
@@ -18,11 +21,6 @@
         .header-link {
             padding: 20px;
             font-size: 20px;
-        }
-        .header-link:hover {
-            background-color: #139b21;
-            padding: 20px;
-            font-weight: bold;
         }
 
 .hamburger, .mobile {

@@ -20,7 +20,7 @@ import feedbackicon from '../Images/feedbackicon.png';
 function Support() {
   return ( 
     <div className="home">
-      <Header /> 
+      <Header page={'Support'}/> 
       <div className="support-page">     
         <div className="section-title">Thank you for your interest in supporting us!</div>
         <img src={flying} className="home-howitworks-image" alt="flying" />

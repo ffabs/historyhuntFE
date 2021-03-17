@@ -8,7 +8,7 @@ import './Wurzburg0.css';
 function Wurzburg0() {
   return ( 
       <div>
-          <div className="header-footer"><Header /></div>
+          <div className="header-footer"><Header page={'Game'}/></div>
       
         <div className="game-page">
             

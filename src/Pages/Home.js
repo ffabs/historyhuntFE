@@ -39,7 +39,7 @@ import statua from '../Images/statua.png';
 function Home() {
   return ( 
     <div className="home">
-      <Header />
+      <Header page={'Home'}/>
       <div className="home-background">
         <div className="home-background-text">
           <div>A TREASURE HUNT-STYLE EXPERIENCE</div>
