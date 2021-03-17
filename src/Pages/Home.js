@@ -31,7 +31,6 @@ import statua from '../Images/statua.png';
 // import jolly from '../Images/jolly.png';
 // import histmosch from '../Images/histmosch.png';
 // import histperson from '../Images/histperson.png';
-// import girlwalking from '../Images/girlwalking.png';
 // import castle from '../Images/castle.png';
 // import perla from '../Images/perla.png';
 // import statue from '../Images/statue.png';
