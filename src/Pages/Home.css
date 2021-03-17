@@ -4,14 +4,14 @@
 
 .home-background {
     text-align: center;
+    position: relative;
 }
   
 .home-background-image {
-    min-height: 360px;
     width: 100%;
     margin-bottom: -3px;
     object-fit: cover;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .home-background-text {
@@ -167,14 +167,14 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
     .home-background-text {
         margin-top: 60px;
     }
     .home-background-support-text {
         margin-top: 300px;
     }
-}
+} */
 
 @media only screen and (max-width: 375px) {
     .home-background-text {
