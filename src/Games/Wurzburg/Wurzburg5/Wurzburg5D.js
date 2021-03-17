@@ -8,8 +8,10 @@ function Wurzburg5D() {
       <Timeline timelineProgress="5" timelineReference="16th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
-        <div className="clue-background-div">In addition to the Juliusspital, he erected the old university as well as multiple churches and schools.</div>
-        <div className="clue-background-div">Finally, he also extended the fortress, renovating and improving it after a fire had damaged it. Probably, he did not expect that in the following centuries his successors would have stop living there...</div>
+        <div className="clue-background-divs">
+          <div className="clue-background-div">In addition to the Juliusspital, he erected the old university as well as multiple churches and schools.</div>
+          <div className="clue-background-div">Finally, he also extended the fortress, renovating and improving it after a fire had damaged it. Probably, he did not expect that in the following centuries his successors would have stop living there...</div>
+        </div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/residenz">

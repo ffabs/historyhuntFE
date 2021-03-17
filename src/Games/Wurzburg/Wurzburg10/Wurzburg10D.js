@@ -8,10 +8,12 @@ function Wurzburg10D() {
       <Timeline timelineProgress="9" timelineReference="20th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
+      {/* </div>
+      <div className="question-section"> */}
+        <div className="clue-background-div question-section">Are you ready to come back to the current times?</div>
       </div>
-      <div className="question-section">
-        <div className="clue-background-div">Are you ready to come back to the current times?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/currenttimes/intro">

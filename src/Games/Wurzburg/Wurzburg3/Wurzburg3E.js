@@ -8,8 +8,10 @@ function Wurzburg3E() {
       <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">Despite the presence of the town hall, the city was still fully under control of the prince-bishops.</div>
         <div className="clue-background-div">The citizens revolted multiple times and in 1400 they suffered a major defeat. However, the contrasts between the bishops and the citizens were not over yet...</div>
+        </div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/peasants">

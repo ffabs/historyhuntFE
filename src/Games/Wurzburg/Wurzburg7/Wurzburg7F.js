@@ -8,9 +8,11 @@ function Wurzburg7F() {
       <Timeline timelineProgress="7" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">Despite the growth of the town and the new achievements of the Residence and its Garden, the age of the prince-bishops was coming to an end.</div>
         <div className="clue-background-div">Secularization finally divorced the sacred and the secular in 1803.</div>
 {/* <div>i bishops sono alla fine e (anche occupazione francese forse Napoleon)</div> */}
+        </div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/ringpark">

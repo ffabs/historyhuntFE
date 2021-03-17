@@ -8,10 +8,13 @@ function Wurzburg8D() {
       <Timeline timelineProgress="7" timelineReference="19th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">This answer also explains why the park is called "Ring", having a round shape all around the city, like the city walls used to!</div>
+      
+      {/* <div className="question-section"> */}
+        <div className="clue-background-div question-section">Let's find out some of its other secrets...</div>
+      {/* </div> */}
       </div>
-      <div className="question-section">
-        <div className="clue-background-div">Let's find out some of its other secrets...</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/xrays">

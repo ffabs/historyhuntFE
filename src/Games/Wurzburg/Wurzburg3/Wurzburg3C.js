@@ -18,12 +18,14 @@ class Wurzburg3C extends Component {
                     <Weather /> 
                 </div> */}
                 {/* (after which the convicts were taken to the small prison in the building) and the citizens' meal (commemorating the repeal of the imperial ban) was held  */} 
+                <div className="clue-background-divs">
                 <div className="clue-background-div">
                     The painting is not just a decoration but also a commemoration of a real linden tree that used to be in front of the town hall.
                     In the Middle Ages, the tree was very involved in the citizens' activities: both the court and the citizens' meal were held under it. 
                 </div>
                 <div className="clue-background-div">
                     So, at the end of the 16th century, after the real tree had fallen over, the painting was done.
+                </div>
                 </div>
             </div>                
             <div className="question-section">

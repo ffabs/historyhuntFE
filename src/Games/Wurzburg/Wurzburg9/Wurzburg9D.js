@@ -10,17 +10,20 @@ function Wurzburg9D() {
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
         <img src={lab} className="gameIntro-image" alt="lab" />
+        <div className="clue-background-divs">
         <div className="clue-background-div">
           If you are interested, you can even visit his lab at the other side of the town for free! For more info check the following link:
         </div>
-        <div>
+        <div className="clue-background-div">
           <a href="http://wilhelmconradroentgen.de/en/home" target="_blank" rel="noopener noreferrer">
             http://wilhelmconradroentgen.de/en/home
           </a>
         </div>
+        
+      {/* <div className="question-section"> */}
+        <div className="clue-background-div question-section">What happened next?</div>
+      {/* </div> */}
       </div>
-      <div className="question-section">
-        <div className="clue-background-div">What happened next?</div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/worldwar">

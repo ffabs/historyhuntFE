@@ -8,11 +8,14 @@ function Wurzburg1B() {
       <Timeline timelineProgress="1" timelineReference="7th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">A martyrdom that changed history</div>
-        <div className="clue-background-div">At the end of the 7th century, three Irish missionaries brought Christianity to the region. Even if this mission got them killed, they succeed eventually.</div>
-        <div className="clue-background-div">The three saints are still commemorated on this very bridge today, each with a statue among the 12 present here.</div>
-      </div>
-      <div className="question-section">
-          <div className="clue-background-div">Are you ready to find them?</div>
+        <div className="clue-background-divs">
+          <div className="clue-background-div">At the end of the 7th century, three Irish missionaries brought Christianity to the region. Even if this mission got them killed, they succeed eventually.</div>
+          <div className="clue-background-div">The three saints are still commemorated on this very bridge today, each with a statue among the 12 present here.</div>
+        
+      {/* </div>
+      <div className="question-section"> */}
+          <div className="clue-background-div question-section">Are you ready to find them?</div>
+        </div>
       </div>
       <div className="buttons-section">
           <Link to="/wuerzburg/bridge/clue">

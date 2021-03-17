@@ -9,12 +9,14 @@ function Wurzburg11B() {
       <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Current times</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">
           After the Second World War, the city recovered quickly from its destructions. Most of the houses and historical buildings were rebuilt.
         </div>
         <div className="clue-background-div">
           Since 1981 the Residence and its garden have even been protected by UNESCO. They are included in the list of "cultural and natural heritage of the world" because considered as a great example of European Baroque.
           {/* In 2010, the € 100 gold coin UNESCO World Heritage - Würzburg Residence and Court Garden appeared */}
+        </div>
         </div>
         <img src={unesco} className="gameIntro-image" alt="unesco" />
       </div>

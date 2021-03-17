@@ -8,8 +8,10 @@ function Wurzburg7D() {
       <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well Done!</div>
-        <div className="clue-background-div">The Residence was built when Würzburg was still a fortified town. Therefore, the garden too had to be planned within the fortifications. The solution included two bastions of the fortified town wall, using its differences in height to create a very special landscape. From west to east there is a rise in ground, until the level of the wall is reached.</div>
-        <div className="clue-background-div">Let's go inside the garden for the next clue!</div>
+        <div className="clue-background-divs">
+          <div className="clue-background-div">The Residence was built when Würzburg was still a fortified town. Therefore, the garden too had to be planned within the fortifications. The solution included two bastions of the fortified town wall, using its differences in height to create a very special landscape. From west to east there is a rise in ground, until the level of the wall is reached.</div>
+          <div className="clue-background-div">Let's go inside the garden for the next clue!</div>
+        </div>
       </div>
       {/* <iframe 
           className="clue-map"

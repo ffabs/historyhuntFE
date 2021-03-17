@@ -8,8 +8,10 @@ function Wurzburg2E() {
       <Timeline timelineProgress="3" timelineReference="12th A.D."/>
       <div className="clue-background">
         <div className="clue-background-title">Well done!</div>
+        <div className="clue-background-divs">
         <div className="clue-background-div">Since the foundation of the bishop and cathedral, the bishops have become increasingly more powerful. In 1168 the bishop of Würzburg was even made duke by the emperor Barbarossa, starting the period of the prince-bishops of Würzburg which lasted until 1803.</div>
         <div className="clue-background-div">Not everyone has always been happy with the powerful bishops though...</div>
+        </div>
       </div>
       <div className="buttons-section">
         <Link to="/wuerzburg/domAnswer/citizens">

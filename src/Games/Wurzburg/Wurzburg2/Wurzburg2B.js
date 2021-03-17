@@ -25,15 +25,18 @@ function Wurzburg2B() {
         <Timeline timelineProgress="2" timelineReference="8th A.D."/>
         <div className="clue-background">
             <div className="clue-background-title">Kilian’s Cathedral</div>
+            <div className="clue-background-divs">
             <div className="clue-background-div">The cathedral is normally {doors} at this time.</div>
-            </div>
-        <div className="question-section">
+            
+        {/* <div className="question-section"> */}
             {doors === "open" &&
-                <div className="clue-background-div">Do you confirm you can go inside?</div>
+                <div className="clue-background-div question-section">Do you confirm you can go inside?</div>
             }
             {doors === "closed" &&
-                <div className="clue-background-div">Can you go inside anyway?</div>
+                <div className="clue-background-div question-section">Can you go inside anyway?</div>
             }
+        {/* </div> */}
+            </div>
         </div>
         <div className="buttons-section">
             <Link to="/wuerzburg/kilianus/dom/inside">
