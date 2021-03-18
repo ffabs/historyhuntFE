@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
+import GameMenu from '../../../Components/GameMenu';
 
 class Wurzburg11C extends Component {
     constructor (props) {
@@ -58,6 +59,7 @@ class Wurzburg11C extends Component {
         } else {
             return ( 
                 <div>
+                    {this.props.gamemenu !== true && <div>
                     <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Current times</div>
@@ -102,6 +104,7 @@ class Wurzburg11C extends Component {
                             <div className="gameFeedback-button">Help</div>
                         </a>
                     </div>
+                    </div>}<GameMenu {...this.props}/>
                 </div>  
             );
         }

@@ -1,0 +1,36 @@
+.pointer {
+    cursor: pointer;
+}
+
+.game-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 40px 20px 30px 20px;
+    /* margin: 70px 0px 20px 0px; */
+    clear: both;
+    position: relative;
+    height: 1px;
+    margin-top: -1px;
+}
+.game-menu-logo {
+    color: #555555;
+}
+.game-menu-show {
+    text-align: center;
+    margin: 50px 0px;
+}
+.game-menu-link {
+    /* font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 40px;
+    color: #555555; */
+    text-decoration: none;
+    background: white;
+    color: #555555;
+    margin: 40px 3px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}

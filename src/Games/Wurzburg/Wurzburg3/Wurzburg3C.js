@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 // import Weather from '../WurzburgComponents/Weather';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
+import GameMenu from '../../../Components/GameMenu';
 
 
 class Wurzburg3C extends Component {
@@ -11,6 +12,8 @@ class Wurzburg3C extends Component {
 
         return ( 
             <div>
+            {this.props.gamemenu !== true && 
+            <div> 
             <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
             <div className="clue-background">
                 <div className="clue-background-title">The Town Hall</div>
@@ -43,6 +46,7 @@ class Wurzburg3C extends Component {
                     </div>
                 </Link>
             </div>
+            </div>}<GameMenu {...this.props}/> 
             </div>  
         );
     }

@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Redirect} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
+import GameMenu from '../../../Components/GameMenu';
 
 class Wurzburg2D extends Component {
 
@@ -46,6 +47,8 @@ class Wurzburg2D extends Component {
         } else {
             return ( 
                 <div>
+                    {this.props.gamemenu !== true && 
+                    <div> 
                     <Timeline timelineProgress="2" timelineReference="8th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
@@ -80,6 +83,9 @@ class Wurzburg2D extends Component {
                             <div className="gameFeedback-button">Help</div>
                         </a>
                     </div>
+                    </div>
+                    }
+                    <GameMenu {...this.props}/>  
                 </div>  
             );
         }

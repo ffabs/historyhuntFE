@@ -1,12 +1,16 @@
+import React, { Component } from 'react';
 import Wurzburg2C from './Wurzburg2C';
 
-function Wurzburg2C2() {
+class Wurzburg2C2 extends Component {
     
-  return ( 
-    <div>
-      <Wurzburg2C inside="false"/>
-    </div>  
-  );
+  render() {
+    
+    return ( 
+      <div>
+        <Wurzburg2C inside="false" {...this.props}/>
+      </div>  
+    );
+  }
 }
 
 export default Wurzburg2C2;

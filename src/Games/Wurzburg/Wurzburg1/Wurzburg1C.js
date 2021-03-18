@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import '../Wurzburg.css';
 import {Link} from 'react-router-dom';
 import {Redirect} from 'react-router-dom';
+import GameMenu from '../../../Components/GameMenu';
 
 class Wurzburg1C extends Component {
 
@@ -97,6 +98,8 @@ class Wurzburg1C extends Component {
         } else {
             return ( 
                 <div>
+                    {this.props.gamemenu !== true && 
+                    <div> 
                     <Timeline timelineProgress="1" timelineReference="7th A.D."/>
                     <div className="clue-background">       
                         <div className="clue-background-title">A martyrdom that changed history</div>
@@ -148,7 +151,9 @@ class Wurzburg1C extends Component {
                             <div className="gameFeedback-button">Help</div>
                         </a>
                     </div>
-
+                    </div>
+                    }
+                    <GameMenu {...this.props}/>  
                 </div>  
             );
         }
