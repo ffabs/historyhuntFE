@@ -301,6 +301,7 @@ input[type=number] {
     .game-page-border {
         border: 0px;
         margin: 0px;
+        min-width: 300px;
     }
     .game-desktop {
         display: none;
