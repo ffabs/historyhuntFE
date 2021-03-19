@@ -33,10 +33,10 @@ function Footer() {
           <div>
             All Rights Reserved
           </div>
-          <a href="https://www.websitepolicies.com/policies/edit/hE91TkeO" target="_blank" rel="noopener noreferrer" className="policies">
+          <a href="https://www.websitepolicies.com/policies/view/hE91TkeO" target="_blank" rel="noopener noreferrer" className="policies">
             Terms and Conditions
           </a> 
-          <a href="https://www.websitepolicies.com/policies/edit/e5EzZHZ7" target="_blank" rel="noopener noreferrer" className="policies">
+          <a href="https://www.websitepolicies.com/policies/view/e5EzZHZ7" target="_blank" rel="noopener noreferrer" className="policies">
             Privacy Policy
           </a>    
           <div className="logo-name">
