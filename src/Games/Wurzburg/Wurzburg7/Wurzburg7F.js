@@ -1,40 +1,101 @@
-import React, { Component } from 'react';
 import Timeline from '../WurzburgComponents/Timeline';
+import React, { Component } from 'react';
+import {Redirect} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
 
 class Wurzburg7F extends Component {
+    constructor (props) {
+        super(props);   
+        this.state = {
+            year: "1500",
+            season: "Winter",
+            answers: "wrong",
+            seasonCSS: "select-input"
+        };
+    }
 
-  render() {
-      return ( 
-        <div>
-          {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="7" timelineReference="19th A.D."/>
-          <div className="clue-background">
-            <div className="clue-background-title">Well done!</div>
-            <div className="clue-background-divs">
-            <div className="clue-background-div">Despite the growth of the town and the new achievements of the Residence and its Garden, the age of the prince-bishops was coming to an end.</div>
-            <div className="clue-background-div">Secularization finally divorced the sacred and the secular in 1803.</div>
-    {/* <div>i bishops sono alla fine e (anche occupazione francese forse Napoleon)</div> */}
-            </div>
-          </div>
-          <div className="buttons-section">
-            <Link to="/wuerzburg/ringpark">
-                <div className="gameNext-button">
-                    Next
-                </div>
-            </Link>
-            <Link to="/wuerzburg/residenz/garden/clueQuestion">
-                <div className="gameNext-button-below">
-                    Back
-                </div>
-            </Link>
-          </div>
-          </div>}<GameMenu {...this.props}/>
-        </div>  
-      );
-  }
+    updateSeason = event => {
+        let season = event.target.value;
+        this.setState({
+            season: season,
+            seasonCSS: "select-input"
+        });
+    }
+
+    checkAnswer = event => {
+        if (this.state.season === "Spring") {
+            this.setState({
+                answers: "right"
+            });
+        } else {
+            this.setState({
+                answers: "wrong",
+                seasonCSS: "wrong-select-input",
+            });
+        }
+    }
+
+    render() {
+        if(this.state.answers === "right"){
+            return (
+                <Redirect to="/wuerzburg/residenz/garden/clueAnswer" />
+            ) 
+        } else {
+            return ( 
+                <div>
+                    {this.props.gamemenu !== true && <div>
+                    <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
+                    <div className="clue-background">
+                        <div className="clue-background-title">The Court Locksmith</div>
+                        <div className="clue-background-divs">
+                        <div className="clue-background-div">The huge iron gates of the garden are some of Oegg's the most important works. That's why a memorial for him is located just nearby. Could you find it?</div>
+                        <div className="question-section"> 
+                            <div className="clue-background-div">Which object does it include?</div>
+                        </div>
+                        </div>
+                        <div className="number-form"> 
+                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
+                                <option value="Winter"> 🔨 a hammer </option>
+                                {/* <option value="Autumn"> 👓 Glasses </option> */}
+                                {/* <option value="Winter"> 🎩 Hat </option> */}
+                                <option value="Summer"> 👷 a helmet </option>
+                                <option value="Summer"> 🔒 a lock </option>
+                                {/* <option value="Summer"> 🧺 Basket </option> */}
+                                {/* <option value="Summer"> 👜 Handbag </option> */}
+                                <option value="Summer"> 👑 a metal crown </option>
+                                {/* <option value="Summer"> 🧵 Thread </option> */}
+                                <option value="Summer"> 🖌️ a paintbrush </option>
+                                <option value="Spring"> 📜 a paper </option>
+                                <option value="Summer"> ⚙️ a piece of metal </option>
+                                <option value="Summer"> 🚪 a piece of the gate </option>
+                                <option value="Summer"> 🧰 a toolbox </option>
+                                {/* <option value="Summer"> 🔥 Fire </option> */}
+                            </select>
+                        </div>
+                    </div>
+                    <div className="buttons-section">
+                        <div
+                            onClick={this.checkAnswer}
+                            className="gameNext-button"
+                        >
+                            Check answer
+                        </div>
+                        <Link to="/wuerzburg/residenz/gate/intro">
+                            <div className="gameNext-button-below">
+                                Back
+                            </div>
+                        </Link>
+                        <Link to="/wuerzburg/residenz/garden/help">
+                            <div className="gameFeedback-button">Help</div>
+                        </Link>
+                    </div>
+                    </div>}<GameMenu {...this.props}/>
+                </div>  
+            );
+        }
+    }
 }
 
 export default Wurzburg7F;

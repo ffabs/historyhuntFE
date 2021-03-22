@@ -3,8 +3,9 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import lorenz from '../WurzburgImages/lorenz.png';
 
-class Wurzburg2BDomTimings extends Component {
+class Wurzburg2DHelp extends Component {
     
   render() {
       return ( 
@@ -12,19 +13,18 @@ class Wurzburg2BDomTimings extends Component {
           {this.props.gamemenu !== true && 
           <div> 
           <Timeline timelineProgress="2" timelineReference="8th A.D."/>
-          <div className="clue-background">
-            <div className="clue-background-title">Dom opening times:</div>
-            <div className="clue-background-div">Mon-Sat: 10am-5pm</div>
-            <div className="clue-background-div">Sun: 1pm-6pm</div>
+            <div className="clue-background">
+            <div className="clue-background-title">Clue Help</div>
+            <div className="clue-background-div">All bishops' statues have emblems around them.</div>
+            <div>
+              <img src={lorenz} className="lorenz-image" alt="lorenz" />
+            </div>
           </div>
         <div className="buttons-section">
-            <Link to="/wuerzburg/kilianus/dom/openings">
+            <Link to="/wuerzburg/kilianus/dom/inside/clue">
                 <div className="gameNext-button">
                     Back
                 </div>
-            </Link>
-            <Link to="/wuerzburg/domAnswer/citizens">
-                <div className="gameFeedback-button">Skip Clue</div>
             </Link>
           </div>
           </div>}<GameMenu {...this.props}/> 
@@ -33,4 +33,4 @@ class Wurzburg2BDomTimings extends Component {
   }
 }
 
-export default Wurzburg2BDomTimings;
+export default Wurzburg2DHelp;

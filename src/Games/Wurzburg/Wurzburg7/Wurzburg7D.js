@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import kirche from '../WurzburgImages/kirche.jpeg';
 
 class Wurzburg7D extends Component {
 
@@ -13,9 +14,12 @@ class Wurzburg7D extends Component {
           <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Well Done!</div>
+            <div>
+              <img src={kirche} className="memorial-image" alt="kirche" />
+            </div>
             <div className="clue-background-divs">
               <div className="clue-background-div">The Residence was built when Würzburg was still a fortified town. Therefore, the garden too had to be planned within the fortifications. The solution included two bastions of the fortified town wall, using its differences in height to create a very special landscape. From west to east there is a rise in ground, until the level of the wall is reached.</div>
-              <div className="clue-background-div">Let's go inside the garden for the next clue!</div>
+              <div className="clue-background-div">Let's go through the garden to reach the next clue!</div>
             </div>
           </div>
           {/* <iframe 
@@ -27,12 +31,17 @@ class Wurzburg7D extends Component {
               // allowfullscreen 
           /> */}
           <div className="question-section">
-            <div className="clue-background-div">...are you there?</div>
+            <div className="clue-background-div">...can you get in?</div>
           </div>
           <div className="buttons-section">
-            <Link to="/wuerzburg/residenz/garden/clueQuestion">
+            <Link to="/wuerzburg/residenz/gate/intro">
                 <div className="gameNext-button">
                     Yes
+                </div>
+            </Link>
+            <Link to="/wuerzburg/residenz/gate/intro">
+                <div className="gameNext-button-below">
+                    No
                 </div>
             </Link>
             <Link to="/wuerzburg/residenz/garden/timings">

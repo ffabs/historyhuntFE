@@ -71,9 +71,9 @@ class Wurzburg7C extends Component {
                                 Back
                             </div>
                         </Link>
-                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                        <Link to="/wuerzburg/residenz/help">
                             <div className="gameFeedback-button">Help</div>
-                        </a>
+                        </Link>
                     </div>
                     </div>}<GameMenu {...this.props}/> 
                 </div>  

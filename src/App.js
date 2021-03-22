@@ -10,6 +10,7 @@ import Wurzburg0 from './Games/Wurzburg/Wurzburg0/Wurzburg0';
 import Wurzburg1A from './Games/Wurzburg/Wurzburg1/Wurzburg1A';
 import Wurzburg1B from './Games/Wurzburg/Wurzburg1/Wurzburg1B';
 import Wurzburg1C from './Games/Wurzburg/Wurzburg1/Wurzburg1C';
+import Wurzburg1CHelp from './Games/Wurzburg/Wurzburg1/Wurzburg1CHelp';
 import Wurzburg1D from './Games/Wurzburg/Wurzburg1/Wurzburg1D';
 import Wurzburg2A from './Games/Wurzburg/Wurzburg2/Wurzburg2A';
 import Wurzburg2B from './Games/Wurzburg/Wurzburg2/Wurzburg2B';
@@ -18,19 +19,23 @@ import Wurzburg2C1 from './Games/Wurzburg/Wurzburg2/Wurzburg2C1';
 import Wurzburg2C2 from './Games/Wurzburg/Wurzburg2/Wurzburg2C2';
 import Wurzburg2D1 from './Games/Wurzburg/Wurzburg2/Wurzburg2D1';
 import Wurzburg2D2 from './Games/Wurzburg/Wurzburg2/Wurzburg2D2';
+import Wurzburg2DHelp from './Games/Wurzburg/Wurzburg2/Wurzburg2DHelp';
 import Wurzburg2E from './Games/Wurzburg/Wurzburg2/Wurzburg2E';
 import Wurzburg3A from './Games/Wurzburg/Wurzburg3/Wurzburg3A';
 import Wurzburg3B from './Games/Wurzburg/Wurzburg3/Wurzburg3B';
 import Wurzburg3C from './Games/Wurzburg/Wurzburg3/Wurzburg3C';
 import Wurzburg3D from './Games/Wurzburg/Wurzburg3/Wurzburg3D';
+import Wurzburg3DHelp from './Games/Wurzburg/Wurzburg3/Wurzburg3DHelp';
 import Wurzburg3E from './Games/Wurzburg/Wurzburg3/Wurzburg3E';
 import Wurzburg4A from './Games/Wurzburg/Wurzburg4/Wurzburg4A';
 import Wurzburg4B from './Games/Wurzburg/Wurzburg4/Wurzburg4B';
 import Wurzburg4C from './Games/Wurzburg/Wurzburg4/Wurzburg4C';
+import Wurzburg4CHelp from './Games/Wurzburg/Wurzburg4/Wurzburg4CHelp';
 import Wurzburg4D from './Games/Wurzburg/Wurzburg4/Wurzburg4D';
 import Wurzburg5A from './Games/Wurzburg/Wurzburg5/Wurzburg5A';
 import Wurzburg5B from './Games/Wurzburg/Wurzburg5/Wurzburg5B';
 import Wurzburg5C from './Games/Wurzburg/Wurzburg5/Wurzburg5C';
+import Wurzburg5CHelp from './Games/Wurzburg/Wurzburg5/Wurzburg5CHelp';
 import Wurzburg5D from './Games/Wurzburg/Wurzburg5/Wurzburg5D';
 // import Wurzburg6A from './Games/Wurzburg/Wurzburg6/Wurzburg6A';
 // import Wurzburg6B from './Games/Wurzburg/Wurzburg6/Wurzburg6B';
@@ -40,10 +45,13 @@ import Wurzburg7A from './Games/Wurzburg/Wurzburg7/Wurzburg7A';
 import Wurzburg7B from './Games/Wurzburg/Wurzburg7/Wurzburg7B';
 import Wurzburg7Bhelp from './Games/Wurzburg/Wurzburg7/Wurzburg7Bhelp';
 import Wurzburg7C from './Games/Wurzburg/Wurzburg7/Wurzburg7C';
+import Wurzburg7CHelp from './Games/Wurzburg/Wurzburg7/Wurzburg7CHelp';
 import Wurzburg7D from './Games/Wurzburg/Wurzburg7/Wurzburg7D';
 import Wurzburg7DTimings from './Games/Wurzburg/Wurzburg7/Wurzburg7DTimings';
 import Wurzburg7E from './Games/Wurzburg/Wurzburg7/Wurzburg7E';
 import Wurzburg7F from './Games/Wurzburg/Wurzburg7/Wurzburg7F';
+import Wurzburg7FHelp from './Games/Wurzburg/Wurzburg7/Wurzburg7FHelp';
+import Wurzburg7G from './Games/Wurzburg/Wurzburg7/Wurzburg7G';
 import Wurzburg8A from './Games/Wurzburg/Wurzburg8/Wurzburg8A';
 import Wurzburg8B from './Games/Wurzburg/Wurzburg8/Wurzburg8B';
 import Wurzburg8C from './Games/Wurzburg/Wurzburg8/Wurzburg8C';
@@ -103,6 +111,9 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/bridge/clue' render={() => (
               <Wurzburg1C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/wuerzburg/bridge/help' render={() => (
+              <Wurzburg1CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/wuerzburg/kilianus' render={() => (
               <Wurzburg1D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
@@ -127,6 +138,9 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/kilianus/dom/virtuallyinside/clue' render={() => (
               <Wurzburg2D2 gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/wuerzburg/kilianus/dom/help' render={() => (
+              <Wurzburg2DHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/wuerzburg/domAnswer' render={() => (
               <Wurzburg2E gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
@@ -141,6 +155,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/wuerzburg/citycouncil/sundial/clue' render={() => (
               <Wurzburg3D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>/wuerzburg/citycouncil/help
+            <Route exact={true} path='/wuerzburg/citycouncil/help' render={() => (
+              <Wurzburg3DHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/citycouncil/sundial/clueAnswer' render={() => (
               <Wurzburg3E gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
@@ -154,6 +171,9 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/peasants/memorial/clue' render={() => (
               <Wurzburg4C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/wuerzburg/peasants/help' render={() => (
+              <Wurzburg4CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/wuerzburg/peasants/memorial/clueAnswer' render={() => (
               <Wurzburg4D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
@@ -165,6 +185,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/wuerzburg/julius/statue/clue' render={() => (
               <Wurzburg5C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/julius/help' render={() => (
+              <Wurzburg5CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/julius/statue/clueAnswer' render={() => (
               <Wurzburg5D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
@@ -192,18 +215,27 @@ class App extends Component {
             )}/>          
             <Route exact={true} path='/wuerzburg/residenz/intro/clue' render={() => (
               <Wurzburg7C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
-            )}/>
+            )}/>         
+            <Route exact={true} path='/wuerzburg/residenz/help' render={() => (
+              <Wurzburg7CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>            
             <Route exact={true} path='/wuerzburg/residenz/garden/clue' render={() => (
               <Wurzburg7D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/residenz/garden/timings' render={() => (
               <Wurzburg7DTimings gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
-            <Route exact={true} path='/wuerzburg/residenz/garden/clueQuestion' render={() => (
+            <Route exact={true} path='/wuerzburg/residenz/gate/intro' render={() => (
               <Wurzburg7E gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
-            <Route exact={true} path='/wuerzburg/residenz/garden/clueAnswer' render={() => (
+            <Route exact={true} path='/wuerzburg/residenz/garden/clueQuestion' render={() => (
               <Wurzburg7F gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/residenz/garden/help' render={() => (
+              <Wurzburg7FHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/residenz/garden/clueAnswer' render={() => (
+              <Wurzburg7G gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/ringpark' render={() => (
               <Wurzburg8A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>

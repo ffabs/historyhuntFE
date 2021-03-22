@@ -20,6 +20,11 @@ class Wurzburg7DTimings extends Component {
             </div>
           </div>
           <div className="buttons-section">
+            <Link to="/wuerzburg/residenz/gate/intro">
+                <div className="gameNext-button-below">
+                    Continue
+                </div>
+            </Link>
             <Link to="/wuerzburg/residenz/garden/clue">
                 <div className="gameNext-button-below">
                     Back

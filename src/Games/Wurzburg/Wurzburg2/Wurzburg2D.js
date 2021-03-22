@@ -54,9 +54,7 @@ class Wurzburg2D extends Component {
                         <div className="clue-background-title">Kilian’s Cathedral</div>
                         <div className="clue-background-div">Comparing Lorenz's tombstone with the older ones at his right, what is kept from the Gothic tradition?</div>
                     </div>
-                    <div className="buttons-section">
-
-                        <div className="number-form"> 
+                    <div className="number-form"> 
                             <select onChange={this.updateAnswer} className={this.state.inputValueCSS}>        
                                 <option value="details"> 🔎 many details </option>
                                 <option value="nature"> 🍃 natural elements </option>
@@ -66,7 +64,7 @@ class Wurzburg2D extends Component {
                                 <option value="columns"> 🏛️ usage of columns </option>
                             </select>
                         </div>
-
+                    <div className="buttons-section">
                         <div 
                             type="button" 
                             onClick={this.checkAnswer}
@@ -78,6 +76,10 @@ class Wurzburg2D extends Component {
                             <div className="gameNext-button-below">
                                 Back
                             </div>
+                        </Link>
+
+                        <Link to="/wuerzburg/kilianus/dom/help">
+                            <div className="gameFeedback-button">Help</div>
                         </Link>
                     </div>
                     </div>

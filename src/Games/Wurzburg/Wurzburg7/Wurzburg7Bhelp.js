@@ -33,6 +33,9 @@ class Wurzburg7Bhelp extends Component {
                     Back
                 </div>
             </Link>
+            <Link to="/wuerzburg/residenz/gate/intro">
+                <div className="gameFeedback-button">Skip Clue</div>
+            </Link>
           </div>
           </div>}<GameMenu {...this.props}/> 
         </div>  
