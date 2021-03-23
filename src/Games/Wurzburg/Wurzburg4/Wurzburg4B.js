@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import peasant from '../WurzburgImages/peasant.png';
 
 class Wurzburg4B extends Component {
 
@@ -16,6 +17,7 @@ class Wurzburg4B extends Component {
             <div className="clue-background-title">The Peasants’ War</div>
             <div className="clue-background-divs">
             <div className="clue-background-div">The German Peasants' War was Europe's largest and most widespread popular uprising prior to the French Revolution.</div>
+            <img src={peasant} className="memorial-image" alt="peasant" />
           {/* </div>
           <div className="question-section"> */}
             <div className="clue-background-div question-section">A tip for the next clue: remember to look around and that "bauernkrieg" means "peasants’ war" in German!</div>

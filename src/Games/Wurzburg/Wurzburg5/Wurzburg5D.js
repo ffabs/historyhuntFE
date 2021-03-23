@@ -5,6 +5,7 @@ import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
 import juliushelp from '../WurzburgImages/juliushelp.png';
 import juliusbar from '../WurzburgImages/juliusbar.png';
+import castle from '../WurzburgImages/castle.png';
 
 class Wurzburg5D extends Component {
 
@@ -23,6 +24,7 @@ class Wurzburg5D extends Component {
               <div className="clue-background-div">In addition to the Juliusspital, he erected the old university as well as multiple churches and schools.</div>
               <div className="clue-background-div">Finally, he also extended the fortress, renovating and improving it after a fire had damaged it. Probably, he did not expect that in the following centuries his successors would have stop living there...</div>
             </div>
+            <img src={castle} className="uni" alt="castle" />
           </div>
           <div className="buttons-section">
             <Link to="/wuerzburg/residenz">

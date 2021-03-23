@@ -5,6 +5,7 @@ import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
 import warriors from '../WurzburgImages/warriors.png';
 import crosses from '../WurzburgImages/crosses.png';
+import planewar from '../WurzburgImages/planewar.png';
 
 class Wurzburg10D extends Component {
 
@@ -20,11 +21,12 @@ class Wurzburg10D extends Component {
               <img src={crosses} className="crosses" alt="crosses" />
             </div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
-          {/* </div>
-          <div className="question-section"> */}
-            <div className="clue-background-div question-section">Are you ready to come back to the current times?</div>
-          </div>
+              <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
+            </div>         
+            <img src={planewar} className="oegg" alt="planewar" />
+            <div className="clue-background-divs">
+              <div className="clue-background-div question-section">Are you ready to fly back to the current times?</div>
+            </div>
           </div>
           <div className="buttons-section">
             <Link to="/wuerzburg/currenttimes/intro">

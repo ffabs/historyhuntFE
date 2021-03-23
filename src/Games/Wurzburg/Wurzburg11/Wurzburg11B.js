@@ -4,6 +4,7 @@ import unesco from '../WurzburgImages/unesco.jpg';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import builder from '../WurzburgImages/builder.png';
 
 class Wurzburg11B extends Component {
 
@@ -18,6 +19,7 @@ class Wurzburg11B extends Component {
             <div className="clue-background-div">
               After the Second World War, the city recovered quickly from its destructions. Most of the houses and historical buildings were rebuilt.
             </div>
+            <img src={builder} className="gameIntro-image" alt="builder" />
             <div className="clue-background-div">
               Since 1981 the Residence and its garden have even been protected by UNESCO. They are included in the list of "cultural and natural heritage of the world" because considered as a great example of European Baroque.
               {/* In 2010, the € 100 gold coin UNESCO World Heritage - Würzburg Residence and Court Garden appeared */}

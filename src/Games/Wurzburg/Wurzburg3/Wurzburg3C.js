@@ -4,6 +4,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import treedesign from '../WurzburgImages/treedesign.png';
 
 
 class Wurzburg3C extends Component {
@@ -26,6 +27,7 @@ class Wurzburg3C extends Component {
                     The painting is not just a decoration but also a commemoration of a real linden tree that used to be in front of the town hall.
                     In the Middle Ages, the tree was very involved in the citizens' activities: both the court and the citizens' meal were held under it. 
                 </div>
+                <img src={treedesign} className="memorial-image" alt="treedesign" />
                 <div className="clue-background-div">
                     So, at the end of the 16th century, after the real tree had fallen over, the painting was done.
                 </div>

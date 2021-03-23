@@ -27,7 +27,7 @@ class Wurzburg9D extends Component {
             <img src={lab} className="gameIntro-image" alt="lab" />
             
           {/* <div className="question-section"> */}
-            <div className="clue-background-div question-section">What happened next?</div>
+            <div className="clue-background-div question-section">Are you ready for what happened next?</div>
           {/* </div> */}
           </div>
           </div>

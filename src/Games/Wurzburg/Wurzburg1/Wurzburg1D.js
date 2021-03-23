@@ -6,6 +6,7 @@ import GameMenu from '../../../Components/GameMenu';
 import kilianus from '../WurzburgImages/kilianus.png';
 import totnam from '../WurzburgImages/totnam.png';
 import kolonatus from '../WurzburgImages/kolonatus.png';
+import bishop from '../WurzburgImages/bishop.png';
 
 class Wurzburg1D extends Component {
   render() {
@@ -24,6 +25,7 @@ class Wurzburg1D extends Component {
           <div className="clue-background-divs">
             <div className="clue-background-div">The three are also called apostles of Franconia and their subsequent veneration leaded to the quick development of the city.</div>
             <div className="clue-background-div">So, at the beginning of the 8th century, the bishop of Würzburg was founded. In the same century, the first mention of wine got cultivated in the town and the first cathedral was build: Dom St. Kilian.</div>
+            <img src={bishop} className="memorial-image" alt="bishop" />
           </div>
         </div>
         <div className="buttons-section">
