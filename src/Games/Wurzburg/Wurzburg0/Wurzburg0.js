@@ -1,3 +1,5 @@
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
+import ReactGA from 'react-ga';
 import React, { Component } from 'react';
 import wuerzburg from '../WurzburgImages/wuerzburg-intro.png';
 import Header from '../../../Components/Header';
@@ -6,6 +8,12 @@ import Footer from '../../../Components/Footer';
 import {Link} from 'react-router-dom';
 import './Wurzburg0.css';
 // import girlwalking from '../../../Images/girlwalking.png';
+
+let consent = getCookieConsentValue();
+if (consent === "true") {
+    ReactGA.initialize('UA-192893120-1');
+    ReactGA.pageview('/wurzburg0');
+}
 
 class Wurzburg0 extends Component {
     
@@ -50,6 +58,15 @@ class Wurzburg0 extends Component {
                 <GameMenu {...this.props}/>
                 </div>
                 </div>
+                <CookieConsent 
+                    enableDeclineButton 
+                    buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
+                    onAccept={() => {
+                        ReactGA.initialize('UA-192893120-1');
+                        ReactGA.pageview('/wurzburg0');
+                    }}
+                    >This website uses Google Analytics cookies to enhance the user experience.
+                </CookieConsent>
                 <div className="header-footer"><Footer /></div>
             </div>
         );

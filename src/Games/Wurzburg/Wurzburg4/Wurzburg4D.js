@@ -1,3 +1,5 @@
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
+import ReactGA from 'react-ga';
 import React, { Component } from 'react';
 import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
@@ -6,6 +8,12 @@ import GameMenu from '../../../Components/GameMenu';
 import memorialbuilding from '../WurzburgImages/memorialbuilding.png';
 import memorialtext from '../WurzburgImages/memorialtext.jpeg';
 import guard from '../WurzburgImages/guard.png';
+
+let consent = getCookieConsentValue();
+if (consent === "true") {
+    ReactGA.initialize('UA-192893120-1');
+    ReactGA.pageview('/wurzburg4D');
+}
 
 class Wurzburg4D extends Component {
 
@@ -40,6 +48,15 @@ class Wurzburg4D extends Component {
             </Link>
           </div>
           </div>}<GameMenu {...this.props}/> 
+          <CookieConsent 
+              enableDeclineButton 
+              buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
+              onAccept={() => {
+                  ReactGA.initialize('UA-192893120-1');
+                  ReactGA.pageview('/wurzburg4D');
+              }}
+              >This website uses Google Analytics cookies to enhance the user experience.
+          </CookieConsent>
         </div>  
       );
     }
