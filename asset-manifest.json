@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b100b16a.chunk.css",
-    "main.js": "/static/js/main.a3a01b1c.chunk.js",
-    "main.js.map": "/static/js/main.a3a01b1c.chunk.js.map",
+    "main.css": "/static/css/main.ebd9e7cd.chunk.css",
+    "main.js": "/static/js/main.f04b4e4e.chunk.js",
+    "main.js.map": "/static/js/main.f04b4e4e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dc7eb9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dc7eb9e.js.map",
     "static/js/2.f0b74c57.chunk.js": "/static/js/2.f0b74c57.chunk.js",
@@ -10,12 +10,14 @@
     "static/js/3.b1f7dddf.chunk.js": "/static/js/3.b1f7dddf.chunk.js",
     "static/js/3.b1f7dddf.chunk.js.map": "/static/js/3.b1f7dddf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b100b16a.chunk.css.map": "/static/css/main.b100b16a.chunk.css.map",
+    "static/css/main.ebd9e7cd.chunk.css.map": "/static/css/main.ebd9e7cd.chunk.css.map",
     "static/js/2.f0b74c57.chunk.js.LICENSE.txt": "/static/js/2.f0b74c57.chunk.js.LICENSE.txt",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
+    "static/media/crosses.7460dd46.png": "/static/media/crosses.7460dd46.png",
     "static/media/flying.e04a246a.png": "/static/media/flying.e04a246a.png",
     "static/media/fontain.cc0f7df1.png": "/static/media/fontain.cc0f7df1.png",
     "static/media/group.ae11ed67.png": "/static/media/group.ae11ed67.png",
+    "static/media/handrays.87193aba.png": "/static/media/handrays.87193aba.png",
     "static/media/home-background.12be6ebd.png": "/static/media/home-background.12be6ebd.png",
     "static/media/juliusbar.2d033066.png": "/static/media/juliusbar.2d033066.png",
     "static/media/juliushelp.cdd5d1c6.png": "/static/media/juliushelp.cdd5d1c6.png",
@@ -31,17 +33,19 @@
     "static/media/peasant.a0f58ecc.png": "/static/media/peasant.a0f58ecc.png",
     "static/media/phonedirection.bf0310b0.png": "/static/media/phonedirection.bf0310b0.png",
     "static/media/residenz-in-const.342feab2.png": "/static/media/residenz-in-const.342feab2.png",
+    "static/media/ring.307bfcc2.png": "/static/media/ring.307bfcc2.png",
     "static/media/statua.a3143918.png": "/static/media/statua.a3143918.png",
     "static/media/totnam.26bb379f.png": "/static/media/totnam.26bb379f.png",
     "static/media/tree.7d260dab.png": "/static/media/tree.7d260dab.png",
     "static/media/unesco.be8a210c.jpg": "/static/media/unesco.be8a210c.jpg",
     "static/media/uni.svg.dada617f.png": "/static/media/uni.svg.dada617f.png",
+    "static/media/warriors.1aefdcbf.png": "/static/media/warriors.1aefdcbf.png",
     "static/media/wuerzburg-intro.f981b9a9.png": "/static/media/wuerzburg-intro.f981b9a9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8dc7eb9e.js",
     "static/js/2.f0b74c57.chunk.js",
-    "static/css/main.b100b16a.chunk.css",
-    "static/js/main.a3a01b1c.chunk.js"
+    "static/css/main.ebd9e7cd.chunk.css",
+    "static/js/main.f04b4e4e.chunk.js"
   ]
 }
