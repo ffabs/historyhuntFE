@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebd9e7cd.chunk.css",
-    "main.js": "/static/js/main.f04b4e4e.chunk.js",
-    "main.js.map": "/static/js/main.f04b4e4e.chunk.js.map",
+    "main.css": "/static/css/main.8db34042.chunk.css",
+    "main.js": "/static/js/main.b61ba90b.chunk.js",
+    "main.js.map": "/static/js/main.b61ba90b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dc7eb9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dc7eb9e.js.map",
     "static/js/2.f0b74c57.chunk.js": "/static/js/2.f0b74c57.chunk.js",
@@ -10,9 +10,11 @@
     "static/js/3.b1f7dddf.chunk.js": "/static/js/3.b1f7dddf.chunk.js",
     "static/js/3.b1f7dddf.chunk.js.map": "/static/js/3.b1f7dddf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ebd9e7cd.chunk.css.map": "/static/css/main.ebd9e7cd.chunk.css.map",
+    "static/css/main.8db34042.chunk.css.map": "/static/css/main.8db34042.chunk.css.map",
     "static/js/2.f0b74c57.chunk.js.LICENSE.txt": "/static/js/2.f0b74c57.chunk.js.LICENSE.txt",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
+    "static/media/bishop.c46cd00a.png": "/static/media/bishop.c46cd00a.png",
+    "static/media/castle.047d27fd.png": "/static/media/castle.047d27fd.png",
     "static/media/crosses.7460dd46.png": "/static/media/crosses.7460dd46.png",
     "static/media/flying.e04a246a.png": "/static/media/flying.e04a246a.png",
     "static/media/fontain.cc0f7df1.png": "/static/media/fontain.cc0f7df1.png",
@@ -23,6 +25,7 @@
     "static/media/juliushelp.cdd5d1c6.png": "/static/media/juliushelp.cdd5d1c6.png",
     "static/media/kilianifest.9bd7c03b.png": "/static/media/kilianifest.9bd7c03b.png",
     "static/media/kilianus.ef2e38c2.png": "/static/media/kilianus.ef2e38c2.png",
+    "static/media/king.6277e2f2.png": "/static/media/king.6277e2f2.png",
     "static/media/kirche.a975f0d5.jpeg": "/static/media/kirche.a975f0d5.jpeg",
     "static/media/kolonatus.099e566d.png": "/static/media/kolonatus.099e566d.png",
     "static/media/lab.c2df3ffe.jpg": "/static/media/lab.c2df3ffe.jpg",
@@ -32,11 +35,16 @@
     "static/media/oegg.21f9c0ed.png": "/static/media/oegg.21f9c0ed.png",
     "static/media/peasant.a0f58ecc.png": "/static/media/peasant.a0f58ecc.png",
     "static/media/phonedirection.bf0310b0.png": "/static/media/phonedirection.bf0310b0.png",
+    "static/media/planewar.9624efd2.png": "/static/media/planewar.9624efd2.png",
     "static/media/residenz-in-const.342feab2.png": "/static/media/residenz-in-const.342feab2.png",
     "static/media/ring.307bfcc2.png": "/static/media/ring.307bfcc2.png",
+    "static/media/soldierw2.0a518ef0.png": "/static/media/soldierw2.0a518ef0.png",
+    "static/media/statua.5e54bcab.png": "/static/media/statua.5e54bcab.png",
     "static/media/statua.a3143918.png": "/static/media/statua.a3143918.png",
+    "static/media/statues.9ed03409.png": "/static/media/statues.9ed03409.png",
     "static/media/totnam.26bb379f.png": "/static/media/totnam.26bb379f.png",
     "static/media/tree.7d260dab.png": "/static/media/tree.7d260dab.png",
+    "static/media/treedesign.4311c1bd.png": "/static/media/treedesign.4311c1bd.png",
     "static/media/unesco.be8a210c.jpg": "/static/media/unesco.be8a210c.jpg",
     "static/media/uni.svg.dada617f.png": "/static/media/uni.svg.dada617f.png",
     "static/media/warriors.1aefdcbf.png": "/static/media/warriors.1aefdcbf.png",
@@ -45,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.8dc7eb9e.js",
     "static/js/2.f0b74c57.chunk.js",
-    "static/css/main.ebd9e7cd.chunk.css",
-    "static/js/main.f04b4e4e.chunk.js"
+    "static/css/main.8db34042.chunk.css",
+    "static/js/main.b61ba90b.chunk.js"
   ]
 }
