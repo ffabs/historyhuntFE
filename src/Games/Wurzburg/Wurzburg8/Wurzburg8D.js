@@ -3,6 +3,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import ring from '../WurzburgImages/ring.png';
 
 class Wurzburg8D extends Component {
 
@@ -13,6 +14,9 @@ class Wurzburg8D extends Component {
           <Timeline timelineProgress="7" timelineReference="19th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Well done!</div>
+            <div>
+              <img src={ring} className="memorial-image" alt="ring" />
+            </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">This answer also explains why the park is called "Ring", having a round shape all around the city, like the city walls used to!</div>
           

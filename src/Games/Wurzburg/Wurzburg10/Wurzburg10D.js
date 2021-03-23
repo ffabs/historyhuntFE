@@ -3,6 +3,8 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import warriors from '../WurzburgImages/warriors.png';
+import crosses from '../WurzburgImages/crosses.png';
 
 class Wurzburg10D extends Component {
 
@@ -13,6 +15,10 @@ class Wurzburg10D extends Component {
           <Timeline timelineProgress="9" timelineReference="20th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Well done!</div>
+            <div className="war-memorial">
+              <img src={warriors} className="warriors" alt="warriors" />
+              <img src={crosses} className="crosses" alt="crosses" />
+            </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
           {/* </div>

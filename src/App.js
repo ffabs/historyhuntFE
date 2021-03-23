@@ -55,18 +55,22 @@ import Wurzburg7G from './Games/Wurzburg/Wurzburg7/Wurzburg7G';
 import Wurzburg8A from './Games/Wurzburg/Wurzburg8/Wurzburg8A';
 import Wurzburg8B from './Games/Wurzburg/Wurzburg8/Wurzburg8B';
 import Wurzburg8C from './Games/Wurzburg/Wurzburg8/Wurzburg8C';
+import Wurzburg8CHelp from './Games/Wurzburg/Wurzburg8/Wurzburg8CHelp';
 import Wurzburg8D from './Games/Wurzburg/Wurzburg8/Wurzburg8D';
 import Wurzburg9A from './Games/Wurzburg/Wurzburg9/Wurzburg9A';
 import Wurzburg9B from './Games/Wurzburg/Wurzburg9/Wurzburg9B';
 import Wurzburg9C from './Games/Wurzburg/Wurzburg9/Wurzburg9C';
+import Wurzburg9CHelp from './Games/Wurzburg/Wurzburg9/Wurzburg9CHelp';
 import Wurzburg9D from './Games/Wurzburg/Wurzburg9/Wurzburg9D';
 import Wurzburg10A from './Games/Wurzburg/Wurzburg10/Wurzburg10A';
 import Wurzburg10B from './Games/Wurzburg/Wurzburg10/Wurzburg10B';
 import Wurzburg10C from './Games/Wurzburg/Wurzburg10/Wurzburg10C';
+import Wurzburg10CHelp from './Games/Wurzburg/Wurzburg10/Wurzburg10CHelp';
 import Wurzburg10D from './Games/Wurzburg/Wurzburg10/Wurzburg10D';
 import Wurzburg11A from './Games/Wurzburg/Wurzburg11/Wurzburg11A';
 import Wurzburg11B from './Games/Wurzburg/Wurzburg11/Wurzburg11B';
 import Wurzburg11C from './Games/Wurzburg/Wurzburg11/Wurzburg11C';
+import Wurzburg11CHelp from './Games/Wurzburg/Wurzburg11/Wurzburg11CHelp';
 import Wurzburg11D from './Games/Wurzburg/Wurzburg11/Wurzburg11D';
 
 class App extends Component {
@@ -246,6 +250,9 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/ringpark/intro/clue' render={() => (
               <Wurzburg8C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/wuerzburg/ringpark/help' render={() => (
+              <Wurzburg8CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/wuerzburg/ringpark/intro/clueAnswer' render={() => (
               <Wurzburg8D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
@@ -257,6 +264,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/wuerzburg/xrays/intro/clue' render={() => (
               <Wurzburg9C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/xrays/help' render={() => (
+              <Wurzburg9CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/xrays/intro/clueAnswer' render={() => (
               <Wurzburg9D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
@@ -270,6 +280,9 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/worldwar/intro/clue' render={() => (
               <Wurzburg10C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/wuerzburg/worldwar/help' render={() => (
+              <Wurzburg10CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/wuerzburg/worldwar/intro/clueAnswer' render={() => (
               <Wurzburg10D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
@@ -281,6 +294,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/wuerzburg/currenttimes/intro/clue' render={() => (
               <Wurzburg11C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/currenttimes/help' render={() => (
+              <Wurzburg11CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/currenttimes/intro/clueAnswer' render={() => (
               <Wurzburg11D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>

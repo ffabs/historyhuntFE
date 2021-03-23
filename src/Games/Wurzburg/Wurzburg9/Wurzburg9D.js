@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import lab from '../WurzburgImages/lab.jpg';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import handrays from '../WurzburgImages/handrays.png';
 
 class Wurzburg9D extends Component {
 
@@ -14,16 +15,16 @@ class Wurzburg9D extends Component {
           <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Well done!</div>
-            <img src={lab} className="gameIntro-image" alt="lab" />
+            <div>
+              <img src={handrays} className="memorial-image" alt="handrays" />
+            </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">
-              If you are interested, you can even visit his lab at the other side of the town for free! For more info check the following link:
-            </div>
-            <div className="clue-background-div">
-              <a href="http://wilhelmconradroentgen.de/en/home" target="_blank" rel="noopener noreferrer">
-                http://wilhelmconradroentgen.de/en/home
+              If you are interested, you can even visit his lab at the other side of the town for free! For more info check the following link: <a href="http://wilhelmconradroentgen.de/en/home" target="_blank" rel="noopener noreferrer">
+                wilhelmconradroentgen.de
               </a>
             </div>
+            <img src={lab} className="gameIntro-image" alt="lab" />
             
           {/* <div className="question-section"> */}
             <div className="clue-background-div question-section">What happened next?</div>
