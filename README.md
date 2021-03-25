@@ -1,1 +1,1 @@
-A journey through time in Würzburg
+Ciceru aims at sharing historical knowledge in a fun way!
