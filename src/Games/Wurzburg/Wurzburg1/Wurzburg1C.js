@@ -29,7 +29,7 @@ class Wurzburg1C extends Component {
     }
 
     firstInput = event => {
-        const firstInputAdded = event.target.value.toLowerCase().trim();
+        const firstInputAdded = event.target.value.toLowerCase().trim().replace(/\s/g, '');
         this.setState({
             firstInputCSS: "formInput",
             firstInputValue: firstInputAdded
@@ -37,7 +37,7 @@ class Wurzburg1C extends Component {
     }
 
     secondInput = event => {
-        const secondInputAdded = event.target.value.toLowerCase().trim();
+        const secondInputAdded = event.target.value.toLowerCase().trim().replace(/\s/g, '');
         this.setState({
             secondInputCSS: "formInput",
             secondInputValue: secondInputAdded
@@ -45,7 +45,7 @@ class Wurzburg1C extends Component {
     }
 
     thirdInput = event => {
-        const thirdInputAdded = event.target.value.toLowerCase().trim();
+        const thirdInputAdded = event.target.value.toLowerCase().trim().replace(/\s/g, '');
         this.setState({
             thirdInputCSS: "formInput",
             thirdInputValue: thirdInputAdded
@@ -56,19 +56,19 @@ class Wurzburg1C extends Component {
         let firstInputCheck;
         let secondInputCheck;
         let thirdInputCheck;
-        if (this.state.firstInputValue === "kilianus") {
+        if (this.state.firstInputValue === "kilianus" || this.state.firstInputValue === "s.kilianus" || this.state.firstInputValue === "skilianus") {
             firstInputCheck = "right";
         } else {
             firstInputCheck = "wrong";
         }
 
-        if (this.state.secondInputValue === "totnan") {
+        if (this.state.secondInputValue === "totnan" || this.state.secondInputValue === "s.totnan" || this.state.secondInputValue === "stotnan") {
             secondInputCheck = "right";
         } else {
             secondInputCheck = "wrong";
         }
 
-        if (this.state.thirdInputValue === "colonatus") {
+        if (this.state.thirdInputValue === "colonatus" || this.state.thirdInputValue === "s.colonatus" || this.state.thirdInputValue === "scolonatus") {
             thirdInputCheck = "right";
         } else {
             thirdInputCheck = "wrong";
@@ -82,11 +82,28 @@ class Wurzburg1C extends Component {
     }
 
     checkAllInputs = event => {
+        let firstInputcheck;
+        let secondInputcheck;
+        let thirdInputcheck;
+
+        if (this.state.firstInputValue === "kilianus" || this.state.firstInputValue === "s.kilianus" || this.state.firstInputValue === "skilianus") {
+            firstInputcheck = "right";
+        }
+        if (this.state.secondInputValue === "totnan" || this.state.secondInputValue === "s.totnan" || this.state.secondInputValue === "stotnan") {
+            secondInputcheck = "right";
+        }
+        if (this.state.thirdInputValue === "colonatus" || this.state.thirdInputValue === "s.colonatus" || this.state.thirdInputValue === "scolonatus") {
+            thirdInputcheck = "right";
+        }
+
+
         if (
-            this.state.firstInputValue === "kilianus" &&
-            this.state.secondInputValue === "totnan" &&
-            this.state.thirdInputValue === "colonatus"
-            ) {
+            firstInputcheck === "right" 
+            &&
+            secondInputcheck === "right" 
+            &&
+            thirdInputcheck === "right"
+        ) {
             this.setState({
                 answers: "right"
             });
@@ -113,7 +130,7 @@ class Wurzburg1C extends Component {
                         <div className="clue-background-title">A martyrdom that changed history</div>
             
                         <div className="clue-background-div">I am a bishop, as shown by my hat, and I hold a sword, the weapon used to killed me. I am... </div> 
-                        <div> S.
+                        <div>
                             <input
                                 type="text" 
                                 name="firstInput"
@@ -123,7 +140,7 @@ class Wurzburg1C extends Component {
                         </div>
 
                         <div className="clue-background-div">I look young and I hold the bible. My name is... </div> 
-                        <div> S.
+                        <div>
                             <input
                                 type="text" 
                                 name="secondInput"
@@ -133,7 +150,7 @@ class Wurzburg1C extends Component {
                         </div>
 
                         <div className="clue-background-div">I show no fear for the death. Usually, I hold a knife but it is currently missing from my statue. I am remembered as... </div>
-                        <div> S.
+                        <div>
                             <input
                                 type="text" 
                                 name="thirdInput"
