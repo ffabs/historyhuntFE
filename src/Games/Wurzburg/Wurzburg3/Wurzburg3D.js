@@ -17,7 +17,7 @@ class Wurzburg3D extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "1",
+            year: "12",
             season: "middle",
             answers: "wrong",
             seasonCSS: "select-input",
@@ -105,40 +105,42 @@ class Wurzburg3D extends Component {
                     <div className="clue-background">
                         <div className="clue-background-title">The Town Hall</div>
                     </div>
-                    <div className="question-section">
+                    <div className="clue-background">
                         <div className="clue-background-div">When was the tree repainted?</div>
                     </div>
-                        <div className="number-form">
-                            <select onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                <option value="middle"> Around the middle </option>
-                                <option value="beginning"> At the beginning </option>
-                                <option value="end"> At the end </option>
-                            </select>
-                            <div className="clue-background-div">of the</div>
-                        </div>
-                        <div className="number-form">
-                            <button 
-                                className="number-input-less"
-                                type="button" 
-                                onClick={this.lowerYear}
-                            >
-                                -
-                            </button>
-                            <input
-                                className={this.state.yearCSS}
-                                type="number" 
-                                name="amount"
-                                value={this.state.year}
-                                onChange={this.updateYear}
-                            />
-                            <button 
-                                className="number-input-more"
-                                type="button" 
-                                onClick={this.higherYear}
-                            >
-                                +
-                            </button>
-                            <div className="clue-background-div">century</div>
+                        <div className="wurzburg3Dform"> 
+                            <div className="number-form">
+                                <select onChange={this.updateSeason} className={this.state.seasonCSS}>
+                                    <option value="middle"> Around the middle </option>
+                                    <option value="beginning"> At the beginning </option>
+                                    <option value="end"> At the end </option>
+                                </select>
+                                <div className="clue-background-div">of the</div>
+                            </div>
+                            <div className="number-form">
+                                <button 
+                                    className="number-input-less"
+                                    type="button" 
+                                    onClick={this.lowerYear}
+                                >
+                                    -
+                                </button>
+                                <input
+                                    className={this.state.yearCSS}
+                                    type="number" 
+                                    name="amount"
+                                    value={this.state.year}
+                                    onChange={this.updateYear}
+                                />
+                                <button 
+                                    className="number-input-more"
+                                    type="button" 
+                                    onClick={this.higherYear}
+                                >
+                                    +
+                                </button>
+                                <div className="clue-background-div">century</div>
+                            </div>
                         </div>
                     <div className="buttons-section">
                         <div

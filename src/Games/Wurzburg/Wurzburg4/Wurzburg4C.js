@@ -103,38 +103,40 @@ class Wurzburg4C extends Component {
                     <div className="clue-background">
                         <div className="clue-background-title">The Peasants’ War</div>
                         <div className="clue-background-div">In which season and year of the 16th century were the peasants defeated?</div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Season: </div>
-                            <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                <option value="Spring"> 🌱 Spring </option>
-                                <option value="Summer"> ☀️ Summer </option>
-                                <option value="Autumn"> 🍂 Autumn </option>
-                                <option value="Winter"> ❄️ Winter </option>
-                            </select>
-                        </div>
-                        <div className="number-form"> 
-                            <div className="clue-background-div">Year: </div>
-                            <button 
-                                className="number-input-less"
-                                type="button" 
-                                onClick={this.lowerYear}
-                            >
-                                -
-                            </button>
-                            <input
-                                className={this.state.yearCSS}
-                                type="number" 
-                                name="amount"
-                                value={this.state.year}
-                                onChange={this.updateYear}
-                            />
-                            <button 
-                                className="number-input-more"
-                                type="button" 
-                                onClick={this.higherYear}
-                            >
-                                +
-                            </button>
+                        <div className="wurzburg3Dform"> 
+                            <div className="number-form"> 
+                                {/* <div className="clue-background-div">Season: </div> */}
+                                <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
+                                    <option value="Spring"> 🌱 Spring </option>
+                                    <option value="Summer"> ☀️ Summer </option>
+                                    <option value="Autumn"> 🍂 Autumn </option>
+                                    <option value="Winter"> ❄️ Winter </option>
+                                </select>
+                            </div>
+                            <div className="number-form"> 
+                                {/* <div className="clue-background-div">Year: </div> */}
+                                <button 
+                                    className="number-input-less"
+                                    type="button" 
+                                    onClick={this.lowerYear}
+                                >
+                                    -
+                                </button>
+                                <input
+                                    className={this.state.yearCSS}
+                                    type="number" 
+                                    name="amount"
+                                    value={this.state.year}
+                                    onChange={this.updateYear}
+                                />
+                                <button 
+                                    className="number-input-more"
+                                    type="button" 
+                                    onClick={this.higherYear}
+                                >
+                                    +
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="buttons-section">

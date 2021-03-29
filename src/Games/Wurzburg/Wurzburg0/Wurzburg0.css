@@ -10,6 +10,7 @@
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 40px;
+    line-height: 40px;
 }
 
 .gameIntro-image {
@@ -18,12 +19,18 @@
 
 .gameIntro-details {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
 }
     .gameIntro-detail {
         display: flex;
         align-items: center;
-        margin: 25px;
-        font-size: 20px;
+        margin: 25px 0px;
+        /* font-size: 20px; */
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
     }
         .gameIntro-detail-icon {
             font-size: 40px;
@@ -36,6 +43,9 @@
     background: #17BC27;
     color: white;
     border-radius: 6px;
-    margin-bottom: 50px;
+    margin: 20px 0px 80px 0px;
     font-weight: bold;
+    
+    font-size: 23px;
+    /* line-height: 40px; */
 }

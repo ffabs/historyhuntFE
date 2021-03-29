@@ -3,7 +3,23 @@
     color: white;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 13px;
-    padding: 3px 0px;
+    /* font-size: 13px; */
+    padding: 2px 3px;
     font-weight: bold;
+
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.timelineNoPadding {
+    background-color: rgb(31, 91, 221);
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-size: 13px; */
+    padding: 2px 0px;
+    font-weight: bold;
+
+    font-size: 15px;
+    line-height: 40px;
 }
