@@ -23,7 +23,7 @@ class Wurzburg2A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Kilian’s Cathedral</div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Dom St. Kilian, so ancient that it was consecreted in the presence of the Frankish king Charlemagne, is still here today documenting centuries of city, church and art history.</div>
+            <div className="clue-background-div">Dom St. Kilian, so ancient that it was consecreted in the presence of the Frankish king Charlemagne, is still here today documenting centuries of city, religion and art history.</div>
             <iframe 
               className="clue-map"
               title="map"

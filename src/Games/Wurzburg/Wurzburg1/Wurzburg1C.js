@@ -29,7 +29,7 @@ class Wurzburg1C extends Component {
     }
 
     firstInput = event => {
-        const firstInputAdded = event.target.value.toLowerCase();
+        const firstInputAdded = event.target.value.toLowerCase().trim();
         this.setState({
             firstInputCSS: "formInput",
             firstInputValue: firstInputAdded
@@ -37,7 +37,7 @@ class Wurzburg1C extends Component {
     }
 
     secondInput = event => {
-        const secondInputAdded = event.target.value.toLowerCase();
+        const secondInputAdded = event.target.value.toLowerCase().trim();
         this.setState({
             secondInputCSS: "formInput",
             secondInputValue: secondInputAdded
@@ -45,7 +45,7 @@ class Wurzburg1C extends Component {
     }
 
     thirdInput = event => {
-        const thirdInputAdded = event.target.value.toLowerCase();
+        const thirdInputAdded = event.target.value.toLowerCase().trim();
         this.setState({
             thirdInputCSS: "formInput",
             thirdInputValue: thirdInputAdded
@@ -68,7 +68,7 @@ class Wurzburg1C extends Component {
             secondInputCheck = "wrong";
         }
 
-        if (this.state.thirdInputValue === "kolonatus") {
+        if (this.state.thirdInputValue === "colonatus") {
             thirdInputCheck = "right";
         } else {
             thirdInputCheck = "wrong";
@@ -85,7 +85,7 @@ class Wurzburg1C extends Component {
         if (
             this.state.firstInputValue === "kilianus" &&
             this.state.secondInputValue === "totnan" &&
-            this.state.thirdInputValue === "kolonatus"
+            this.state.thirdInputValue === "colonatus"
             ) {
             this.setState({
                 answers: "right"
