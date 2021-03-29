@@ -30,9 +30,11 @@ class Wurzburg5D extends Component {
             </div>
             <div className="clue-background-divs">
               <div className="clue-background-div">In addition to the Juliusspital, he erected the old university as well as multiple churches and schools.</div>
+              
+              <img src={castle} className="memorial-image" alt="castle" />
               <div className="clue-background-div">Finally, he also extended the fortress, renovating and improving it after a fire had damaged it. Probably, he did not expect that in the following centuries his successors would have stop living there...</div>
             </div>
-            <img src={castle} className="uni" alt="castle" />
+            
           </div>
           <div className="buttons-section">
             <Link to="/wuerzburg/residenz">
