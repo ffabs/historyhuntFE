@@ -18,7 +18,7 @@ class Wurzburg7A extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="6" timelineReference="17-18th A.D."/>
+          <Timeline timelineProgress="6" timelineReference="17-18th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">The Residence</div>
             <div className="clue-background-div">Come to the new home of the bishops: the Residence.</div>

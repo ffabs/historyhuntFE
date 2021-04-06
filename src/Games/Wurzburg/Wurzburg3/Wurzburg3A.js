@@ -19,7 +19,7 @@ class Wurzburg3A extends Component {
       <div>
         {this.props.gamemenu !== true && 
         <div> 
-        <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
+        <Timeline timelineProgress="4" timelineReference="12-14th A.D." animate="yes"/>
         <div className="clue-background">
           <div className="clue-background-title">The Town Hall</div>
           <div className="clue-background-div">Come back towards the bridge and this time stop at the building with the clock tower.</div>

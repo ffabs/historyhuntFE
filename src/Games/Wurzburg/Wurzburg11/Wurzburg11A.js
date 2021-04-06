@@ -18,7 +18,7 @@ class Wurzburg11A extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="10" timelineReference="20-21th A.D."/>
+          <Timeline timelineProgress="10" timelineReference="20-21th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">Current times</div>
             <div className="clue-background-div">Just move to the fontain</div>

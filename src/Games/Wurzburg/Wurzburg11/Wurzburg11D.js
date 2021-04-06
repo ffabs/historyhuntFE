@@ -19,7 +19,7 @@ class Wurzburg11D extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="10" timelineReference="21th A.D."/>
+          <Timeline timelineProgress="10" timelineReference="21th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">Congrats for reaching the end!</div>
             <div className="clue-background-div">This is the end of the journey. Hopefully you enjoyed discovering the history of this great city!</div>

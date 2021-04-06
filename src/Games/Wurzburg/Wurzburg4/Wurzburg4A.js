@@ -18,9 +18,9 @@ class Wurzburg4A extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div> 
-          <Timeline timelineProgress="5" timelineReference="16th A.D."/>
+          <Timeline timelineProgress="5" timelineReference="16th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">The Peasants’ War</div>
+            <div className="clue-background-title">The Peasants’ Revolt</div>
             <div className="clue-background-div">Go up towards the castle and stop half way in a panorama point.</div>
             <iframe 
               className="clue-map"

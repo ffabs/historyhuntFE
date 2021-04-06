@@ -18,7 +18,7 @@ class Wurzburg9A extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
+          <Timeline timelineProgress="8" timelineReference="19-20th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">X-Rays</div>
             <div className="clue-background-div">Let's get to know a scientist that won the nobel prize in Physics!</div>

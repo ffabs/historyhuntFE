@@ -22,9 +22,9 @@ class Wurzburg4B extends Component {
           <div> 
           <Timeline timelineProgress="5" timelineReference="16th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">The Peasants’ War</div>
+            <div className="clue-background-title">The Peasants’ Revolt</div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">The German Peasants' War was Europe's largest and most widespread popular uprising prior to the French Revolution.</div>
+            <div className="clue-background-div">The German Peasants' Revolt was Europe's largest and most widespread popular uprising prior to the French Revolution.</div>
             <img src={peasant} className="memorial-image" alt="peasant" />
           {/* </div>
           <div className="question-section"> */}

@@ -101,7 +101,7 @@ class Wurzburg4C extends Component {
                     <div> 
                     <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
-                        <div className="clue-background-title">The Peasants’ War</div>
+                        <div className="clue-background-title">The Peasants’ Revolt</div>
                         <div className="clue-background-div">In which season and year of the 16th century were the peasants defeated?</div>
                         <div className="wurzburg3Dform"> 
                             <div className="number-form"> 

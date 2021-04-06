@@ -18,7 +18,7 @@ class Wurzburg10A extends Component {
       return ( 
         <div>
           {this.props.gamemenu !== true && <div>
-          <Timeline timelineProgress="9" timelineReference="20th A.D."/>
+          <Timeline timelineProgress="9" timelineReference="20th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">World Wars</div>
             <div className="clue-background-div">Come back for a while and reach another area of the Ring Park...</div>
