@@ -164,7 +164,7 @@ checkAnswer = event => {
                     <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Julius Echter</div>
-                        <div className="clue-background-div">As illustrated in the facade, the Juliusspital was built as an hospital for the elderly, the sick and the needy. Which of the following 3 does the Juliusspital include today?</div>
+                        <div className="clue-background-div">As illustrated in the facade, the Juliusspital was built as an hospital for the elderly, the sick and the needy. Which of the following does the Juliusspital include today?</div>
                         <div className="quizSection">
                             <div
                                 onClick={this.firstInput}

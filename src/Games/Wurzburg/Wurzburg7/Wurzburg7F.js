@@ -85,7 +85,7 @@ class Wurzburg7F extends Component {
                                 <option value="Summer"> ✉️ a letter by the bishop </option>
                                 <option value="Summer"> 📜 his title as locksmith </option>
                                 <option value="Spring"> 📐 the designs of the gates </option>
-                                <option value="Summer"> 🧰 the amount of iron used </option>
+                                <option value="Summer"> ⚙️ the amount of iron used </option>
                                 <option value="Summer"> 💰 the cost of the work </option>
                                 <option value="Summer"> 📅 when he was at the court </option>
                             </select>

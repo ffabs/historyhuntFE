@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
 import juliushelp from '../WurzburgImages/juliushelp.png';
-import juliusbar from '../WurzburgImages/juliusbar.png';
+// import juliusbar from '../WurzburgImages/juliusbar.png';
 import castle from '../WurzburgImages/castle.png';
 
 let consent = getCookieConsentValue();
@@ -26,7 +26,7 @@ class Wurzburg5D extends Component {
             <div className="clue-background-title">Well done!</div>
             <div>
               <img src={juliushelp} className="memorial-image" alt="juliushelp" />
-              <img src={juliusbar} className="memorial-image" alt="juliusbar" />
+              {/* <img src={juliusbar} className="memorial-image" alt="juliusbar" /> */}
             </div>
             <div className="clue-background-divs">
               <div className="clue-background-div">In addition to the Juliusspital, he erected the old university as well as multiple churches and schools.</div>
