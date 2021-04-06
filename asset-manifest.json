@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.787c96c6.chunk.css",
-    "main.js": "/static/js/main.88f750d5.chunk.js",
-    "main.js.map": "/static/js/main.88f750d5.chunk.js.map",
+    "main.js": "/static/js/main.617a8978.chunk.js",
+    "main.js.map": "/static/js/main.617a8978.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16444440.js",
     "runtime-main.js.map": "/static/js/runtime-main.16444440.js.map",
     "static/js/2.51df22e8.chunk.js": "/static/js/2.51df22e8.chunk.js",
@@ -21,7 +21,6 @@
     "static/media/group.ae11ed67.png": "/static/media/group.ae11ed67.png",
     "static/media/handrays.87193aba.png": "/static/media/handrays.87193aba.png",
     "static/media/home-background.12be6ebd.png": "/static/media/home-background.12be6ebd.png",
-    "static/media/juliusbar.2d033066.png": "/static/media/juliusbar.2d033066.png",
     "static/media/juliushelp.cdd5d1c6.png": "/static/media/juliushelp.cdd5d1c6.png",
     "static/media/kilianifest.9bd7c03b.png": "/static/media/kilianifest.9bd7c03b.png",
     "static/media/kilianus.ef2e38c2.png": "/static/media/kilianus.ef2e38c2.png",
@@ -54,6 +53,6 @@
     "static/js/runtime-main.16444440.js",
     "static/js/2.51df22e8.chunk.js",
     "static/css/main.787c96c6.chunk.css",
-    "static/js/main.88f750d5.chunk.js"
+    "static/js/main.617a8978.chunk.js"
   ]
 }
