@@ -60,26 +60,34 @@ class Wurzburg7F extends Component {
                         <div className="clue-background-divs">
                         <div className="clue-background-div">The huge iron gates of the garden are some of Oegg's the most important works. That's why a memorial for him is located just nearby. Could you find it?</div>
                         <div className="question-section"> 
-                            <div className="clue-background-div">Which object does it include?</div>
+                            <div className="clue-background-div">What is written on the paper he holds?</div>
                         </div>
                         </div>
                         <div className="number-form"> 
                             <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                <option value="Winter"> 🔨 a hammer </option>
                                 {/* <option value="Autumn"> 👓 Glasses </option> */}
                                 {/* <option value="Winter"> 🎩 Hat </option> */}
-                                <option value="Summer"> 👷 a helmet </option>
-                                <option value="Summer"> 🔒 a lock </option>
                                 {/* <option value="Summer"> 🧺 Basket </option> */}
                                 {/* <option value="Summer"> 👜 Handbag </option> */}
-                                <option value="Summer"> 👑 a metal crown </option>
                                 {/* <option value="Summer"> 🧵 Thread </option> */}
+                                {/* <option value="Summer"> 🔥 Fire </option> */}
+
+                                {/* <option value="Winter"> 🔨 a hammer </option>
+                                <option value="Summer"> 👷 a helmet </option>
+                                <option value="Summer"> 🔒 a lock </option>
+                                <option value="Summer"> 👑 a metal crown </option>
                                 <option value="Summer"> 🖌️ a paintbrush </option>
                                 <option value="Spring"> 📜 a paper </option>
                                 <option value="Summer"> ⚙️ a piece of metal </option>
                                 <option value="Summer"> 🚪 a piece of the gate </option>
-                                <option value="Summer"> 🧰 a toolbox </option>
-                                {/* <option value="Summer"> 🔥 Fire </option> */}
+                                <option value="Summer"> 🧰 a toolbox </option> */}
+
+                                <option value="Summer"> ✉️ a letter by the bishop </option>
+                                <option value="Summer"> 📜 his title as locksmith </option>
+                                <option value="Spring"> 📐 the designs of the gates </option>
+                                <option value="Summer"> 🧰 the amount of iron used </option>
+                                <option value="Summer"> 💰 the cost of the work </option>
+                                <option value="Summer"> 📅 when he was at the court </option>
                             </select>
                         </div>
                     </div>

@@ -109,6 +109,10 @@ checkAnswer = event => {
         sixthCSS = "wrongItemSelected";
         answers = "wrong";
     }
+    if (seventhCSS === "quizItemSelected") {
+        seventhCSS = "wrongItemSelected";
+        answers = "wrong";
+    }
     if (eightCSS === "quizItemSelected") {
         eightCSS = "wrongItemSelected";
         answers = "wrong";
@@ -132,12 +136,17 @@ checkAnswer = event => {
             tenthCSS: tenthCSS
         });
     } else {
-        if (thirdCSS === "quizItemSelected" && seventhCSS === "quizItemSelected" && tenthCSS === "quizItemSelected") {
+        if (thirdCSS === "quizItemSelected" 
+        // && seventhCSS === "quizItemSelected" 
+        && tenthCSS === "quizItemSelected") {
             this.setState({
                 answers: "right"
             })
         } else {
             answers = "notAll";
+            this.setState({
+                answers: "notAll"
+            })
         }
     }
 }
@@ -155,7 +164,7 @@ checkAnswer = event => {
                     <Timeline timelineProgress="5" timelineReference="16th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Julius Echter</div>
-                        <div className="clue-background-div">As illustrated in the facade, the Juliusspital was built as an hospital for the elderly, the sick and the needy. Which of the following does the Juliusspital include today?</div>
+                        <div className="clue-background-div">As illustrated in the facade, the Juliusspital was built as an hospital for the elderly, the sick and the needy. Which of the following 3 does the Juliusspital include today?</div>
                         <div className="quizSection">
                             <div
                                 onClick={this.firstInput}
@@ -199,12 +208,19 @@ checkAnswer = event => {
                                 <div className="quiz-icon">🚔</div>
                                 <div>a police station</div>                                 
                             </div>
-                            <div
+                            {/* <div
                                 onClick={this.seventhInput}
                                 className={this.state.seventhCSS}
                             >                                
                                 <div className="quiz-icon">🥐</div>
                                 <div>a bakery</div>                                
+                            </div> */}
+                            <div
+                                onClick={this.seventhInput}
+                                className={this.state.seventhCSS}
+                            >                                
+                                <div className="quiz-icon">🥙</div>
+                                <div>a kebab shop</div>                                
                             </div>
                             <div
                                 onClick={this.eightInput}
@@ -229,6 +245,11 @@ checkAnswer = event => {
                             </div>
                         </div>
                     </div>
+                    {this.state.answers === "notAll" &&
+                        <div className="clue-background">
+                            <div className="clue-background-div red">There should be 2 correct answers</div>
+                        </div>
+                    }
                     <div className="buttons-section">
                         <div
                             onClick={this.checkAnswer}
