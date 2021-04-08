@@ -65,7 +65,7 @@ class Wurzburg0 extends Component {
                         // allowfullscreen 
                     />
                     <Link to="/wuerzburg/start">
-                        <div className="gameIntro-button">
+                        <div className="additional-margins gameIntro-button">
                             Start the journey
                         </div>
                     </Link>
