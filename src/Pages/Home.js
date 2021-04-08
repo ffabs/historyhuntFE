@@ -70,8 +70,8 @@ class Home extends Component {
           </div>
           <img src={homeBackground} className="home-background-image" alt="wuerzburg" />
         </div>
-        <div className="sections-howitworks">
-          <div id="how" className="section-title">How it works</div>
+        <div id="how" className="sections-howitworks">
+          <div className="section-title">How it works</div>
           <div className="section-howitworks-background">
             <div className="howitworks-step-title">Step 1</div>
             <div className="howitworks-step-elements">

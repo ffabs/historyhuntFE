@@ -39,6 +39,10 @@ class Wurzburg0 extends Component {
                     <img src={wuerzburg} className="gameIntro-image" alt="wuerzburg" />
                     <div className="gameIntro-details">
                         <div className="gameIntro-detail">
+                            <div className="gameIntro-detail-icon">🔎</div>
+                            <div>11 clues</div>
+                        </div>
+                        <div className="gameIntro-detail">
                             <div className="gameIntro-detail-icon">🚶</div>
                             <div>6.0 km</div>
                         </div>
@@ -47,12 +51,11 @@ class Wurzburg0 extends Component {
                             <div>2.5 h</div>
                         </div>
                     </div>
-                    <div className="gameIntro-details">
-                        <div className="gameIntro-detail">
-                            <div className="gameIntro-detail-icon">🔎</div>
-                            <div>11 clues</div>
+                    <Link to="/wuerzburg/start">
+                        <div className="gameIntro-button">
+                            Start the journey
                         </div>
-                    </div>
+                    </Link>
                     <iframe 
                         className="clue-map"
                         title="map"

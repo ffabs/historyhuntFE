@@ -28,12 +28,12 @@
         align-items: center;
         margin: 25px 0px;
         /* font-size: 20px; */
-        font-size: 23px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 600;
         line-height: 40px;
     }
         .gameIntro-detail-icon {
-            font-size: 40px;
+            font-size: 28px;
             margin: 6px;
         }
 
