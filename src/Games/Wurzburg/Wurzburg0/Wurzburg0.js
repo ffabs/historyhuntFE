@@ -58,7 +58,7 @@ class Wurzburg0 extends Component {
                         title="map"
                         // frameborder="0" 
                         style={{ border: 0 }}
-                        src="https://www.google.com/maps/embed/v1/view?zoom=16&center=49.7913%2C9.9534&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+                        src="https://www.google.com/maps/embed/v1/view?zoom=15&center=49.7933,9.9326&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
                         // allowfullscreen 
                     />
                     <Link to="/wuerzburg/start">
