@@ -26,7 +26,7 @@
     .gameIntro-detail {
         display: flex;
         align-items: center;
-        margin: 25px 0px;
+        margin: 25px 6px;
         /* font-size: 20px; */
         font-size: 18px;
         font-weight: 600;
@@ -34,7 +34,9 @@
     }
         .gameIntro-detail-icon {
             font-size: 28px;
-            margin: 6px;
+        }
+        .gameIntro-detail-text {
+            margin-left: 6px;
         }
 
 .gameIntro-button {

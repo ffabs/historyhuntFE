@@ -40,15 +40,15 @@ class Wurzburg0 extends Component {
                     <div className="gameIntro-details">
                         <div className="gameIntro-detail">
                             <div className="gameIntro-detail-icon">🔎</div>
-                            <div>11 clues</div>
+                            <div className="gameIntro-detail-text">11 clues</div>
                         </div>
                         <div className="gameIntro-detail">
                             <div className="gameIntro-detail-icon">🚶</div>
-                            <div>6.0 km</div>
+                            <div className="gameIntro-detail-text">6.0 km</div>
                         </div>
                         <div className="gameIntro-detail">
                             <div className="gameIntro-detail-icon">⏱️</div>
-                            <div>2.5 h</div>
+                            <div className="gameIntro-detail-text">2.5 h</div>
                         </div>
                     </div>
                     <Link to="/wuerzburg/start">
