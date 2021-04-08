@@ -2,6 +2,7 @@ import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import ReactGA from 'react-ga';
 import React, { Component } from 'react';
 import wuerzburg from '../WurzburgImages/wuerzburg-intro.png';
+import playground from '../WurzburgImages/playground.jpeg';
 import Header from '../../../Components/Header';
 import GameMenu from '../../../Components/GameMenu';
 import Footer from '../../../Components/Footer';
@@ -56,14 +57,17 @@ class Wurzburg0 extends Component {
                             Start the journey
                         </div>
                     </Link>
-                    <iframe 
+
+                    <img src={playground} className="gameIntro-image" alt="wuerzburg-playground" />
+                    
+                    {/* <iframe 
                         className="clue-map"
                         title="map"
                         // frameborder="0" 
                         style={{ border: 0 }}
                         src="https://www.google.com/maps/embed/v1/view?zoom=15&center=49.7933,9.9326&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
                         // allowfullscreen 
-                    />
+                    /> */}
                     <Link to="/wuerzburg/start">
                         <div className="additional-margins gameIntro-button">
                             Start the journey
