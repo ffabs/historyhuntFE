@@ -44,9 +44,23 @@ class Wurzburg0 extends Component {
                         </div>
                         <div className="gameIntro-detail">
                             <div className="gameIntro-detail-icon">⏱️</div>
-                            <div>2.15 h</div>
+                            <div>2.5 h</div>
                         </div>
                     </div>
+                    <div className="gameIntro-details">
+                        <div className="gameIntro-detail">
+                            <div className="gameIntro-detail-icon">🔎</div>
+                            <div>11 clues</div>
+                        </div>
+                    </div>
+                    <iframe 
+                        className="clue-map"
+                        title="map"
+                        // frameborder="0" 
+                        style={{ border: 0 }}
+                        src="https://www.google.com/maps/embed/v1/view?zoom=11&center=49.7913%2C9.9534&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+                        // allowfullscreen 
+                    />
                     <Link to="/wuerzburg/start">
                         <div className="gameIntro-button">
                             Start the journey
