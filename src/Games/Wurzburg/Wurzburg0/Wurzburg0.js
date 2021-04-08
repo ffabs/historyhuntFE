@@ -57,6 +57,8 @@ class Wurzburg0 extends Component {
                             Start the journey
                         </div>
                     </Link>
+                    
+                    <div className="gameIntro-detail">The playground is the city center:</div>
 
                     <img src={playground} className="gameIntro-image" alt="wuerzburg-playground" />
                     
