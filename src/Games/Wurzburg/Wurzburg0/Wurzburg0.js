@@ -69,7 +69,6 @@ class Wurzburg0 extends Component {
                             Start the journey
                         </div>
                     </Link>
-                    
                 </div>  
                 </div>}
                 <GameMenu {...this.props}/>
