@@ -35,7 +35,6 @@ class Timeline extends Component {
             <div className={timeline} style={{width: finalWidth+"%"}}> 
                 {/* <div className="shine"></div> */}
                     {timelineReference}
-                {/* <div className="shine"></div> */}
             </div>  
         );
     }

@@ -23,7 +23,7 @@ class Wurzburg7FHelp extends Component {
           <Timeline timelineProgress="5" timelineReference="16th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">He is holding a paper:</div>
+            <div className="clue-background-div">He is holding a paper with the designs of the gates.</div>
             <div>
               <img src={oegg} className="oegg" alt="oegg" />
             </div>

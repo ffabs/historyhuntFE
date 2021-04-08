@@ -105,6 +105,7 @@ class Wurzburg9C extends Component {
                         <div className="clue-background-title">X-Rays</div>
                         <div className="clue-background-div">Could you find him? What did he do to illustrate the X-rays?</div>
                         <div className="align-multipleforms">
+                        <div className="wurzburg3Dform">
                             <div className="number-form"> 
                                 <div className="clue-background-div">In</div>
                                 <button 
@@ -130,7 +131,7 @@ class Wurzburg9C extends Component {
                                 </button>
                             </div>
                             <div className="number-form"> 
-                                <div className="clue-background-div">he took a x-rays picture </div>
+                                <div className="clue-background-div">he took a x-rays picture of</div>
                                 {/* <select type="text" onChange={this.updateSeason} className={this.state.season}>
                                     <option value="picture"> </option>
                                     <option value="horse"> a student's </option>
@@ -142,19 +143,19 @@ class Wurzburg9C extends Component {
                                     <option value="cat"> his own </option>
                                 </select> */}
                             </div>
-                            <div className="number-form"> 
-                                <div className="clue-background-div">of a</div>                            
+                            <div className="number-form">                          
                                 <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
-                                    <option value="skull"> 🍖 broken bone </option>
-                                    <option value="cat"> 🐈 cat </option>
-                                    <option value="dog"> 🐕 dog </option>
-                                    <option value="hand"> 🤚 hand </option>
-                                    <option value="skull"> 💀 head </option>                             
-                                    <option value="horse"> 🐎 horse </option>                                    
+                                    <option value="skull"> 🍖 a broken bone </option>
+                                    <option value="cat"> 🐈 a cat </option>
+                                    <option value="dog"> 🐕 a dog </option>
+                                    <option value="hand"> 🤚 a hand </option>
+                                    <option value="skull"> 💀 a head </option>                             
+                                    <option value="horse"> 🐎 a horse </option>                                    
                                     {/* <option value="skull"> 🦵 leg </option>    */}
                                     {/* <option value="body"> 🧍 whole person </option> */}
                                 </select>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div className="buttons-section">

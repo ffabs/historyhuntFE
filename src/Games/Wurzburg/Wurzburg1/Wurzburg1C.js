@@ -136,6 +136,7 @@ class Wurzburg1C extends Component {
                                 name="firstInput"
                                 onChange={this.firstInput}
                                 className={this.state.firstInputCSS}
+                                spellcheck="false"
                             />
                         </div>
 
@@ -146,6 +147,7 @@ class Wurzburg1C extends Component {
                                 name="secondInput"
                                 onChange={this.secondInput}
                                 className={this.state.secondInputCSS}
+                                spellcheck="false"
                             />
                         </div>
 
@@ -156,6 +158,7 @@ class Wurzburg1C extends Component {
                                 name="thirdInput"
                                 onChange={this.thirdInput}
                                 className={this.state.thirdInputCSS}
+                                spellcheck="false"
                             />
                         </div>
                     </div>

@@ -115,6 +115,8 @@ class Wurzburg3D extends Component {
                                     <option value="beginning"> At the beginning </option>
                                     <option value="end"> At the end </option>
                                 </select>
+                            </div>
+                            <div className="closerTop center">
                                 <div className="clue-background-div">of the</div>
                             </div>
                             <div className="number-form">
@@ -139,6 +141,8 @@ class Wurzburg3D extends Component {
                                 >
                                     +
                                 </button>
+                            </div>
+                            <div className="center">
                                 <div className="clue-background-div">century</div>
                             </div>
                         </div>
