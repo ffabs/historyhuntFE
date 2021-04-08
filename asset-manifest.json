@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc6fc487.chunk.css",
-    "main.js": "/static/js/main.8d399edf.chunk.js",
-    "main.js.map": "/static/js/main.8d399edf.chunk.js.map",
+    "main.css": "/static/css/main.8542ae5e.chunk.css",
+    "main.js": "/static/js/main.34882217.chunk.js",
+    "main.js.map": "/static/js/main.34882217.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16444440.js",
     "runtime-main.js.map": "/static/js/runtime-main.16444440.js.map",
     "static/js/2.51df22e8.chunk.js": "/static/js/2.51df22e8.chunk.js",
@@ -10,9 +10,10 @@
     "static/js/3.52bd9cbe.chunk.js": "/static/js/3.52bd9cbe.chunk.js",
     "static/js/3.52bd9cbe.chunk.js.map": "/static/js/3.52bd9cbe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dc6fc487.chunk.css.map": "/static/css/main.dc6fc487.chunk.css.map",
+    "static/css/main.8542ae5e.chunk.css.map": "/static/css/main.8542ae5e.chunk.css.map",
     "static/js/2.51df22e8.chunk.js.LICENSE.txt": "/static/js/2.51df22e8.chunk.js.LICENSE.txt",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
+    "static/media/Wurzburg.css": "/static/media/arrow.d1ba4b8b.svg",
     "static/media/bishop.c46cd00a.png": "/static/media/bishop.c46cd00a.png",
     "static/media/castle.047d27fd.png": "/static/media/castle.047d27fd.png",
     "static/media/crosses.7460dd46.png": "/static/media/crosses.7460dd46.png",
@@ -52,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.16444440.js",
     "static/js/2.51df22e8.chunk.js",
-    "static/css/main.dc6fc487.chunk.css",
-    "static/js/main.8d399edf.chunk.js"
+    "static/css/main.8542ae5e.chunk.css",
+    "static/js/main.34882217.chunk.js"
   ]
 }
