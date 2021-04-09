@@ -24,7 +24,7 @@ class Wurzburg8A extends Component {
             <div className="clue-background-title">Ring Park</div>
             <div className="clue-background-div">Let's go to another green area of the city: the Ring Park.</div>
             {/* <div className="clue-background-div">(QWWJ+V8 Würzburg), </div> */}
-            <div><img src={destination8} className="destination2" alt="destination8" /></div>
+            <div><img src={destination8} className="destination1" alt="destination8" /></div>
             <iframe 
               className="clue-map"
               title="map"

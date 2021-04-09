@@ -23,7 +23,7 @@ class Wurzburg9A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">X-Rays</div>
             <div className="clue-background-div">Let's get to know a scientist that won the nobel prize in Physics!</div>
-            <div><img src={destination9} className="destination2" alt="destination9" /></div>
+            <div><img src={destination9} className="destination1" alt="destination9" /></div>
             <iframe 
               className="clue-map"
               title="map"
