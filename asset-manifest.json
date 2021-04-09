@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dd34afb6.chunk.css",
-    "main.js": "/static/js/main.3daeb7c4.chunk.js",
-    "main.js.map": "/static/js/main.3daeb7c4.chunk.js.map",
+    "main.js": "/static/js/main.1d364a1e.chunk.js",
+    "main.js.map": "/static/js/main.1d364a1e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16444440.js",
     "runtime-main.js.map": "/static/js/runtime-main.16444440.js.map",
     "static/js/2.51df22e8.chunk.js": "/static/js/2.51df22e8.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/crosses.7460dd46.png": "/static/media/crosses.7460dd46.png",
     "static/media/destination1.14162aa0.png": "/static/media/destination1.14162aa0.png",
     "static/media/destination10.1aefdcbf.png": "/static/media/destination10.1aefdcbf.png",
-    "static/media/destination2.6de872bf.png": "/static/media/destination2.6de872bf.png",
+    "static/media/destination2.24254694.png": "/static/media/destination2.24254694.png",
     "static/media/destination3.f20a0218.png": "/static/media/destination3.f20a0218.png",
     "static/media/destination4.fc4b72b8.png": "/static/media/destination4.fc4b72b8.png",
     "static/media/destination5.ceb05943.png": "/static/media/destination5.ceb05943.png",
@@ -68,6 +68,6 @@
     "static/js/runtime-main.16444440.js",
     "static/js/2.51df22e8.chunk.js",
     "static/css/main.dd34afb6.chunk.css",
-    "static/js/main.3daeb7c4.chunk.js"
+    "static/js/main.1d364a1e.chunk.js"
   ]
 }
