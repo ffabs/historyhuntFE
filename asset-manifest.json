@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ececddc.chunk.css",
-    "main.js": "/static/js/main.9cc90526.chunk.js",
-    "main.js.map": "/static/js/main.9cc90526.chunk.js.map",
+    "main.css": "/static/css/main.dd34afb6.chunk.css",
+    "main.js": "/static/js/main.1af4556a.chunk.js",
+    "main.js.map": "/static/js/main.1af4556a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16444440.js",
     "runtime-main.js.map": "/static/js/runtime-main.16444440.js.map",
     "static/js/2.51df22e8.chunk.js": "/static/js/2.51df22e8.chunk.js",
@@ -10,13 +10,23 @@
     "static/js/3.52bd9cbe.chunk.js": "/static/js/3.52bd9cbe.chunk.js",
     "static/js/3.52bd9cbe.chunk.js.map": "/static/js/3.52bd9cbe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5ececddc.chunk.css.map": "/static/css/main.5ececddc.chunk.css.map",
+    "static/css/main.dd34afb6.chunk.css.map": "/static/css/main.dd34afb6.chunk.css.map",
     "static/js/2.51df22e8.chunk.js.LICENSE.txt": "/static/js/2.51df22e8.chunk.js.LICENSE.txt",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
     "static/media/Wurzburg.css": "/static/media/arrow.d1ba4b8b.svg",
     "static/media/bishop.c46cd00a.png": "/static/media/bishop.c46cd00a.png",
     "static/media/castle.047d27fd.png": "/static/media/castle.047d27fd.png",
     "static/media/crosses.7460dd46.png": "/static/media/crosses.7460dd46.png",
+    "static/media/destination1.3f8cc0f8.png": "/static/media/destination1.3f8cc0f8.png",
+    "static/media/destination10.1aefdcbf.png": "/static/media/destination10.1aefdcbf.png",
+    "static/media/destination2.6de872bf.png": "/static/media/destination2.6de872bf.png",
+    "static/media/destination3.f20a0218.png": "/static/media/destination3.f20a0218.png",
+    "static/media/destination4.fc4b72b8.png": "/static/media/destination4.fc4b72b8.png",
+    "static/media/destination5.ceb05943.png": "/static/media/destination5.ceb05943.png",
+    "static/media/destination6.c366ac08.png": "/static/media/destination6.c366ac08.png",
+    "static/media/destination7.21f9c0ed.png": "/static/media/destination7.21f9c0ed.png",
+    "static/media/destination8.307bfcc2.png": "/static/media/destination8.307bfcc2.png",
+    "static/media/destination9.c83beef6.png": "/static/media/destination9.c83beef6.png",
     "static/media/flying.e04a246a.png": "/static/media/flying.e04a246a.png",
     "static/media/fontain.cc0f7df1.png": "/static/media/fontain.cc0f7df1.png",
     "static/media/group.ae11ed67.png": "/static/media/group.ae11ed67.png",
@@ -30,9 +40,8 @@
     "static/media/kolonatus.099e566d.png": "/static/media/kolonatus.099e566d.png",
     "static/media/lab.c2df3ffe.jpg": "/static/media/lab.c2df3ffe.jpg",
     "static/media/lorenz.1a60a1c3.png": "/static/media/lorenz.1a60a1c3.png",
-    "static/media/memorialbuilding.fc4b72b8.png": "/static/media/memorialbuilding.fc4b72b8.png",
     "static/media/memorialtext.6dfdb1f8.jpeg": "/static/media/memorialtext.6dfdb1f8.jpeg",
-    "static/media/oegg.21f9c0ed.png": "/static/media/oegg.21f9c0ed.png",
+    "static/media/oegg.ccc704c3.png": "/static/media/oegg.ccc704c3.png",
     "static/media/peasant.a0f58ecc.png": "/static/media/peasant.a0f58ecc.png",
     "static/media/phonedirection.bf0310b0.png": "/static/media/phonedirection.bf0310b0.png",
     "static/media/planewar.9624efd2.png": "/static/media/planewar.9624efd2.png",
@@ -54,7 +63,7 @@
   "entrypoints": [
     "static/js/runtime-main.16444440.js",
     "static/js/2.51df22e8.chunk.js",
-    "static/css/main.5ececddc.chunk.css",
-    "static/js/main.9cc90526.chunk.js"
+    "static/css/main.dd34afb6.chunk.css",
+    "static/js/main.1af4556a.chunk.js"
   ]
 }
