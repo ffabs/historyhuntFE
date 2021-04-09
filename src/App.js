@@ -28,6 +28,7 @@ import Wurzburg3D from './Games/Wurzburg/Wurzburg3/Wurzburg3D';
 import Wurzburg3DHelp from './Games/Wurzburg/Wurzburg3/Wurzburg3DHelp';
 import Wurzburg3E from './Games/Wurzburg/Wurzburg3/Wurzburg3E';
 import Wurzburg4A from './Games/Wurzburg/Wurzburg4/Wurzburg4A';
+import Wurzburg4AHelp from './Games/Wurzburg/Wurzburg4/Wurzburg4AHelp';
 import Wurzburg4B from './Games/Wurzburg/Wurzburg4/Wurzburg4B';
 import Wurzburg4C from './Games/Wurzburg/Wurzburg4/Wurzburg4C';
 import Wurzburg4CHelp from './Games/Wurzburg/Wurzburg4/Wurzburg4CHelp';
@@ -168,6 +169,9 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/wuerzburg/peasants' render={() => (
               <Wurzburg4A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg/peasants/help' render={() => (
+              <Wurzburg4AHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/peasants/memorial' render={() => (
               <Wurzburg4B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
