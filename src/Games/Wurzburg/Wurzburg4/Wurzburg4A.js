@@ -34,18 +34,18 @@ class Wurzburg4A extends Component {
             />
           </div>
           <div className="question-section">
-            <div className="clue-background-div">...arrived?</div>
+            <div className="clue-background-div">...do you need further directions?</div>
           </div>
           
             <div className="buttons-section">
               <Link to="/wuerzburg/peasants/help">
                   <div className="gameNext-button">
-                      I need help
+                      Yes, please!
                   </div>
               </Link>
               <Link to="/wuerzburg/peasants/memorial">
                   <div className="gameNext-button-below">
-                      Yes
+                      No, I found it!
                   </div>
               </Link>
               <Link to="/wuerzburg/citycouncil/sundial/clueAnswer">
