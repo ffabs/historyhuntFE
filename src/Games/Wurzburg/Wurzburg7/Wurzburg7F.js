@@ -58,7 +58,7 @@ class Wurzburg7F extends Component {
                     <div className="clue-background">
                         <div className="clue-background-title">The Court Locksmith</div>
                         <div className="clue-background-divs">
-                        <div className="clue-background-div">The huge iron gates of the garden are some of Oegg's the most important works. That's why a memorial for him is just nearby. Could you find it?</div>
+                        <div className="clue-background-div">The huge iron gates of the garden are some of Oegg's the most important works and that's why a memorial for him is here.</div>
                         <div className="question-section"> 
                             <div className="clue-background-div">What is written on the paper he holds?</div>
                         </div>

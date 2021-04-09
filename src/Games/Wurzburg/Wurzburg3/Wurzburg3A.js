@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination3 from '../WurzburgImages/destination3.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,6 +24,7 @@ class Wurzburg3A extends Component {
         <div className="clue-background">
           <div className="clue-background-title">The Town Hall</div>
           <div className="clue-background-div">Come back towards the bridge and this time stop at the building with the clock tower.</div>
+          <div><img src={destination3} className="destination1" alt="destination3" /></div>
           <iframe 
             className="clue-map"
             title="map"

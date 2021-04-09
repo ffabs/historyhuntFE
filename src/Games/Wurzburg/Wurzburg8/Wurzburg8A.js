@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination8 from '../WurzburgImages/destination8.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,6 +24,7 @@ class Wurzburg8A extends Component {
             <div className="clue-background-title">Ring Park</div>
             <div className="clue-background-div">Let's go to another green area of the city: the Ring Park.</div>
             {/* <div className="clue-background-div">(QWWJ+V8 Würzburg), </div> */}
+            <div><img src={destination8} className="destination2" alt="destination8" /></div>
             <iframe 
               className="clue-map"
               title="map"

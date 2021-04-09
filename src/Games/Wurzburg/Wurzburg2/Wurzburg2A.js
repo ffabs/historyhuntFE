@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination2 from '../WurzburgImages/destination2.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -24,6 +25,7 @@ class Wurzburg2A extends Component {
             <div className="clue-background-title">Kilian’s Cathedral</div>
             <div className="clue-background-divs">
             <div className="clue-background-div">Dom St. Kilian, so ancient that it was consecreted in the presence of the Frankish king Charlemagne, is still here today documenting centuries of city, religion and art history.</div>
+            <div><img src={destination2} className="destination2" alt="destination2" /></div>
             <iframe 
               className="clue-map"
               title="map"

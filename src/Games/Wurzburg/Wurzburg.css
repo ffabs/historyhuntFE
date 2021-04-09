@@ -1,3 +1,11 @@
+.destination1 {
+    width: 100%;
+    margin: 40px 0px;
+}
+.destination2 {
+    width: 50%;
+    margin: 40px 0px;
+}
 .center {
     display: flex;
     justify-content: center;

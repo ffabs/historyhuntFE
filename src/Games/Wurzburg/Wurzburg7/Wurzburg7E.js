@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination7 from '../WurzburgImages/destination7.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -22,6 +23,7 @@ class Wurzburg7E extends Component {
           <div className="clue-background">
             <div className="clue-background-title">The Court Locksmith</div>
             <div className="clue-background-div">Come to the north gates of the garden to meet Johann Georg Oegg, the court locksmith.</div>
+            <div><img src={destination7} className="destination2" alt="destination7" /></div>
             <iframe 
               className="clue-map"
               title="map"

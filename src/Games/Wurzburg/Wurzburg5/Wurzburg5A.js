@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination5 from '../WurzburgImages/destination5.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -22,6 +23,7 @@ class Wurzburg5A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Julius Echter</div>
             <div className="clue-background-div">Let's go meeting the bishop Julius Echter Von Mespelbrunn.</div>
+            <div><img src={destination5} className="destination2" alt="destination5" /></div>
             <iframe 
               className="clue-map"
               title="map"

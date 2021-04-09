@@ -5,6 +5,7 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination9 from '../WurzburgImages/destination9.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -22,12 +23,13 @@ class Wurzburg9A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">X-Rays</div>
             <div className="clue-background-div">Let's get to know a scientist that won the nobel prize in Physics!</div>
+            <div><img src={destination9} className="destination2" alt="destination9" /></div>
             <iframe 
               className="clue-map"
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8bRERbqRokcRyqGnD1_BOPc&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:GhIJK4cW2c7kSEARNDMzMzPfI0A&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           </div>
