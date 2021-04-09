@@ -6,6 +6,7 @@ import {Redirect} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
+import destination9new from '../WurzburgImages/destination9new.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -103,6 +104,7 @@ class Wurzburg9C extends Component {
                     <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">X-Rays</div>
+                        <div><img src={destination9new} className="destination2" alt="destination9" /></div>
                         <div className="clue-background-div">Could you find him? What did he do to illustrate the X-rays?</div>
                         <div className="align-multipleforms">
                         <div className="wurzburg3Dform">
