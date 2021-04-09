@@ -22,7 +22,7 @@ class Wurzburg4A extends Component {
           <Timeline timelineProgress="5" timelineReference="16th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">The Peasants’ Revolt</div>
-            <div className="clue-background-div">Go up towards the castle and stop half way near a panorama point.</div>
+            <div className="clue-background-div">Go up towards the castle and stop half way near a memorial and a panorama point.</div>
             <div><img src={destination4} className="destination1" alt="destination4" /></div>
             <iframe 
               className="clue-map"

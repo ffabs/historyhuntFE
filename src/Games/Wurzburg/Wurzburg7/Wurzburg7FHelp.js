@@ -25,7 +25,7 @@ class Wurzburg7FHelp extends Component {
             <div className="clue-background-title">Clue Help</div>
             <div className="clue-background-div">He is holding a paper with the designs of the gates.</div>
             <div>
-              <img src={oegg} className="oegg" alt="oegg" />
+              <img src={oegg} className="destination1" alt="oegg" />
             </div>
           </div>
         <div className="buttons-section">

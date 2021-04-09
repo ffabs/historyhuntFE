@@ -23,7 +23,7 @@ class Wurzburg7G extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Well done!</div>
             <div>
-              <img src={oegg} className="oegg" alt="oegg" />
+              <img src={oegg} className="destination1" alt="oegg" />
             </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">Despite the growth of the town and the new achievements of the Residence, the age of the prince-bishops was coming to an end.</div>
