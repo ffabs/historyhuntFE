@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.acea03e3.chunk.css",
-    "main.js": "/static/js/main.b79066b8.chunk.js",
-    "main.js.map": "/static/js/main.b79066b8.chunk.js.map",
+    "main.css": "/static/css/main.38f4747f.chunk.css",
+    "main.js": "/static/js/main.4b1c5858.chunk.js",
+    "main.js.map": "/static/js/main.4b1c5858.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16444440.js",
     "runtime-main.js.map": "/static/js/runtime-main.16444440.js.map",
     "static/js/2.51df22e8.chunk.js": "/static/js/2.51df22e8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.52bd9cbe.chunk.js": "/static/js/3.52bd9cbe.chunk.js",
     "static/js/3.52bd9cbe.chunk.js.map": "/static/js/3.52bd9cbe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.acea03e3.chunk.css.map": "/static/css/main.acea03e3.chunk.css.map",
+    "static/css/main.38f4747f.chunk.css.map": "/static/css/main.38f4747f.chunk.css.map",
     "static/js/2.51df22e8.chunk.js.LICENSE.txt": "/static/js/2.51df22e8.chunk.js.LICENSE.txt",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
     "static/media/Wurzburg.css": "/static/media/arrow.d1ba4b8b.svg",
@@ -30,23 +30,25 @@
     "static/media/destination9new.4f72e7d2.png": "/static/media/destination9new.4f72e7d2.png",
     "static/media/flying.e04a246a.png": "/static/media/flying.e04a246a.png",
     "static/media/fontain.cc0f7df1.png": "/static/media/fontain.cc0f7df1.png",
+    "static/media/gothic.36cb2037.png": "/static/media/gothic.36cb2037.png",
     "static/media/group.ae11ed67.png": "/static/media/group.ae11ed67.png",
     "static/media/handrays.87193aba.png": "/static/media/handrays.87193aba.png",
     "static/media/home-background.12be6ebd.png": "/static/media/home-background.12be6ebd.png",
-    "static/media/juliushelp.cdd5d1c6.png": "/static/media/juliushelp.cdd5d1c6.png",
+    "static/media/juliushelp.c12eba37.png": "/static/media/juliushelp.c12eba37.png",
     "static/media/kilianifest.9bd7c03b.png": "/static/media/kilianifest.9bd7c03b.png",
     "static/media/kilianus.ef2e38c2.png": "/static/media/kilianus.ef2e38c2.png",
     "static/media/king.6277e2f2.png": "/static/media/king.6277e2f2.png",
     "static/media/kirche.a975f0d5.jpeg": "/static/media/kirche.a975f0d5.jpeg",
     "static/media/kolonatus.099e566d.png": "/static/media/kolonatus.099e566d.png",
     "static/media/lab.c2df3ffe.jpg": "/static/media/lab.c2df3ffe.jpg",
-    "static/media/lorenz.1a60a1c3.png": "/static/media/lorenz.1a60a1c3.png",
+    "static/media/lorenz.99f5979b.png": "/static/media/lorenz.99f5979b.png",
     "static/media/memorialtext.6dfdb1f8.jpeg": "/static/media/memorialtext.6dfdb1f8.jpeg",
     "static/media/oegg.ccc704c3.png": "/static/media/oegg.ccc704c3.png",
     "static/media/peasant.a0f58ecc.png": "/static/media/peasant.a0f58ecc.png",
     "static/media/phonedirection.bf0310b0.png": "/static/media/phonedirection.bf0310b0.png",
     "static/media/planewar.9624efd2.png": "/static/media/planewar.9624efd2.png",
     "static/media/playground.d5f0091b.jpeg": "/static/media/playground.d5f0091b.jpeg",
+    "static/media/renaissance.c2760668.png": "/static/media/renaissance.c2760668.png",
     "static/media/residenz-in-const.342feab2.png": "/static/media/residenz-in-const.342feab2.png",
     "static/media/ring.31938197.png": "/static/media/ring.31938197.png",
     "static/media/soldierw2.0a518ef0.png": "/static/media/soldierw2.0a518ef0.png",
@@ -67,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.16444440.js",
     "static/js/2.51df22e8.chunk.js",
-    "static/css/main.acea03e3.chunk.css",
-    "static/js/main.b79066b8.chunk.js"
+    "static/css/main.38f4747f.chunk.css",
+    "static/js/main.4b1c5858.chunk.js"
   ]
 }
