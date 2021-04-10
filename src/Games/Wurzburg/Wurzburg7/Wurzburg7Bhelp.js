@@ -26,6 +26,10 @@ class Wurzburg7Bhelp extends Component {
             <div className="clue-background-div">
               Closed on: 01.01, Shrove Tuesday, 24.12, 25.12, 31.12
             </div>
+
+          <div className="corona clue-background-div"> 
+            <b>In case it is closed due to corona, just skip this clue!</b>
+          </div>
             <iframe 
               className="clue-map"
               title="map"
@@ -34,9 +38,6 @@ class Wurzburg7Bhelp extends Component {
               src="https://www.google.com/maps/embed/v1/place?q=place_id:EilSZXNpZGVuenBsYXR6IDIsIDk3MDcwIFfDvHJ6YnVyZywgR2VybWFueSJQEk4KNAoyCX-8rcYtkKJHEbTU2CjpVwakGh4LEO7B7qEBGhQKEgmBQKOSF5GiRxEwPdAeLLcdHAwQAioUChIJ8aeSwS2QokcR9H0kmd9-fuw&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
-          </div>
-          <div className="corona clue-background-div"> 
-            <b>In case it is closed due to corona, just skip this clue!</b>
           </div>
           <div className="buttons-section">
             <Link to="/wuerzburg/residenz/intro">
