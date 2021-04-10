@@ -35,6 +35,9 @@ class Wurzburg7Bhelp extends Component {
               // allowfullscreen 
             />
           </div>
+          <div className="clue-background-div"> 
+            <b>In case it is closed due to corona, just skip this clue!</b>
+          </div>
           <div className="buttons-section">
             <Link to="/wuerzburg/residenz/intro">
                 <div className="gameNext-button-below">

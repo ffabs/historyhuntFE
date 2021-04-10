@@ -69,6 +69,10 @@
 }
 .clue-background-div-i {
     font-size: 15px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
 }
     .clue-background-div {
         margin: 15px;
