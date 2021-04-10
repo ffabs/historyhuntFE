@@ -1,3 +1,8 @@
+.imgclue2 {
+    max-width: 40%;
+    height: 250px;
+    margin: 0px 10px;
+}
 .destination1 {
     width: 100%;
     margin: 40px 0px;
@@ -427,7 +432,7 @@ input[type=number] {
 }
 
 .lorenz-image {
-    width: 40%;
+    width: 80%;
 }
 .uni {
     width: 40%;

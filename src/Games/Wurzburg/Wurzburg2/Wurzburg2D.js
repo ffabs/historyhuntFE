@@ -60,16 +60,14 @@ class Wurzburg2D extends Component {
                     <Timeline timelineProgress="2" timelineReference="8th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Kilian’s Cathedral</div>
-                        <div className="clue-background-div">Comparing Lorenz's tombstone with the older ones at his right, what is kept from the Gothic tradition?</div>
+                        <div className="clue-background-div">Comparing Lorenz's tombstone with the older one at his right and the new one at his left, what is kept from the Gothic tradition?</div>
                     </div>
                     <div className="number-form"> 
                             <select onChange={this.updateAnswer} className={this.state.inputValueCSS}>        
-                                <option value="details"> 🔎 many details </option>
-                                <option value="nature"> 🍃 natural elements </option>
-                                <option value="angels"> 👼 the angels </option>
-                                <option value="emblems"> ⚜️ the emblems </option>
-                                <option value="sword"> 🗡️ the sword </option>
-                                <option value="columns"> 🏛️ usage of columns </option>
+                                <option value="angels"> 👼 angels in the baldachin </option>
+                                <option value="columns"> 🏛️ columns </option>
+                                <option value="emblems"> ⚜️ emblems </option>
+                                <option value="nature"> 📐 sharp shapes </option>
                             </select>
                         </div>
                     <div className="buttons-section">

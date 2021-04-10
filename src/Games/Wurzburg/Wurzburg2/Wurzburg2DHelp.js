@@ -5,7 +5,8 @@ import Timeline from '../WurzburgComponents/Timeline';
 import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
-import lorenz from '../WurzburgImages/lorenz.png';
+import gothic from '../WurzburgImages/gothic.png';
+import renaissance from '../WurzburgImages/renaissance.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,9 +24,11 @@ class Wurzburg2DHelp extends Component {
           <Timeline timelineProgress="2" timelineReference="8th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">All bishops' statues have emblems around them.</div>
+            <div className="clue-background-div">All bishops' statues have representative symbols around them!</div>
             <div>
-              <img src={lorenz} className="lorenz-image" alt="lorenz" />
+              <img src={gothic} className="lorenz-image" alt="gothic" />
+            </div><div>
+              <img src={renaissance} className="lorenz-image" alt="renaissance" />
             </div>
           </div>
         <div className="buttons-section">
