@@ -38,7 +38,7 @@ class Wurzburg7B extends Component {
             </Link>
             <Link to="/wuerzburg/residenz/intro/help">
                 <div className="gameNext-button-below">
-                    No, how can I get in?
+                    No
                 </div>
             </Link>
             <Link to="/wuerzburg/residenz">
