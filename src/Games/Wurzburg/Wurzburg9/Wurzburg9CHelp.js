@@ -23,7 +23,7 @@ class Wurzburg9CHelp extends Component {
           <Timeline timelineProgress="8" timelineReference="19-20th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">In 1896, he took a x-rays picture of a hand:</div>
+            <div className="clue-background-div">The answer is in the description of the image!</div>
             <div>
               <img src={handrays} className="memorial-image" alt="handrays" />
             </div>

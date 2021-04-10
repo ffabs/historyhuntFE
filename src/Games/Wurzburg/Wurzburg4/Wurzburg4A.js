@@ -38,7 +38,7 @@ class Wurzburg4A extends Component {
           </div>
           
             <div className="buttons-section">
-              <Link to="/wuerzburg/peasants/help">
+              <Link to="/wuerzburg/peasants/directions">
                   <div className="gameNext-button">
                       Yes, please!
                   </div>

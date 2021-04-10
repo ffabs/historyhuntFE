@@ -88,12 +88,12 @@ class Wurzburg10C extends Component {
                     <Timeline timelineProgress="9" timelineReference="20th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">World Wars</div>
-                        <div className="clue-background-div">What is the key element of this memorial that allowed National Socialists to misuse it as a “Hero's Memorial”?</div>
+                        <div className="clue-background-div">What is the key element of this memorial that allowed National Socialists to misuse it for the "Nazi Propaganda"?</div>
                         <div className="number-form">
                             <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
                                 <option value="Summer"> 💣 presence of weapons </option>
                                 <option value="Spring"> 🐘 massive warriors</option>
-                                <option value="Autumn"> 📃 lack of real names </option>
+                                {/* <option value="Autumn"> 📃 lack of real names </option> */}
                                 <option value="Winter"> ✝️ presence of crosses </option>
                             </select>
                         </div>
@@ -103,7 +103,7 @@ class Wurzburg10C extends Component {
                             <select type="text" onChange={this.updateSecondAnswer} className={this.state.secondAnswerCSS}>
                                 <option value="Summer"> 💣 weapons were added</option>
                                 <option value="Winter"> 🐘 warriors were added</option>
-                                <option value="Autumn"> 📃 names were removed</option>
+                                {/* <option value="Autumn"> 📃 names were removed</option> */}
                                 <option value="Spring"> ✝️ crosses were added</option>
                             </select>
                         </div>

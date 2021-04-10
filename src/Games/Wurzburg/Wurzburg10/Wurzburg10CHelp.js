@@ -24,7 +24,8 @@ class Wurzburg10CHelp extends Component {
         <Timeline timelineProgress="9" timelineReference="20th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">The massive warriors allowed National Socialists to misuse this as a “Hero's Memorial”. After the Second World War, crosses were added, one for each year of the second war.</div>
+            <div className="clue-background-div">For the first question, compare your size with the ones of the soldiers!</div>
+            <div className="clue-background-div">For the second question, check the dates on the crosses and consider that the First World War ended in 1918!</div>
             <div className="war-memorial">
               <img src={warriors} className="warriors" alt="warriors" />
               <img src={crosses} className="crosses" alt="crosses" />

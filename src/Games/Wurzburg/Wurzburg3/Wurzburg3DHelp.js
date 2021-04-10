@@ -23,7 +23,7 @@ class Wurzburg3DHelp extends Component {
           <Timeline timelineProgress="4" timelineReference="12-14th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">As written at the bottom of the tree, it was repainted at the beginning of the 20th century:</div>
+            <div className="clue-background-div">The answer is at the bottom of the tree!</div>
             <div>
               <img src={tree} className="tree-image" alt="tree" />
             </div>

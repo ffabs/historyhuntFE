@@ -27,7 +27,7 @@ class Wurzburg10B extends Component {
                 Originally, this war memorial was made before the Second World War for the fallen soldiers of the First World War.
               </div>
               <div className="clue-background-div">
-                At the time, even if the National Socialists rejected it initially, they then misused it as a “Hero's Memorial” for Nazi propaganda.
+                At the time, the National Socialists rejected it but then misused it as a “Hero's Memorial” for Nazi propaganda.
               </div>
             </div>
             <img src={soldierw2} className="oegg" alt="soldierw2"/>

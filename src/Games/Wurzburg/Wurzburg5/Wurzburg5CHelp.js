@@ -24,7 +24,7 @@ class Wurzburg5CHelp extends Component {
           <Timeline timelineProgress="5" timelineReference="16th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">There are 2 correct answers: a clinic and a winery.</div>
+            <div className="clue-background-div">The 2 right answers are on the sides of the entrance!</div>
             <div>
               <img src={juliushelp} className="memorial-image" alt="juliushelp" />
               {/* <img src={juliusbar} className="memorial-image" alt="juliusbar" /> */}

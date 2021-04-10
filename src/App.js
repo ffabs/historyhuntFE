@@ -170,7 +170,7 @@ class App extends Component {
             <Route exact={true} path='/wuerzburg/peasants' render={() => (
               <Wurzburg4A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
-            <Route exact={true} path='/wuerzburg/peasants/help' render={() => (
+            <Route exact={true} path='/wuerzburg/peasants/directions' render={() => (
               <Wurzburg4AHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/wuerzburg/peasants/memorial' render={() => (

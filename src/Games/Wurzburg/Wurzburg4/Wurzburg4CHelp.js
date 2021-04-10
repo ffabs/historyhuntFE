@@ -24,7 +24,7 @@ class Wurzburg4CHelp extends Component {
           <Timeline timelineProgress="5" timelineReference="16th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Next to the memorial, there is a sign about the battle that happened in spring 1525.</div>
+            <div className="clue-background-div">Next to the memorial, there is a sign about the battle that happened in...</div>
             <div>
               {/* <img src={memorialbuilding} className="memorial-image" alt="memorialbuilding" /> */}
               <img src={memorialtext} className="memorial-image" alt="memorialtext" />

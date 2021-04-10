@@ -23,7 +23,7 @@ class Wurzburg8CHelp extends Component {
           <Timeline timelineProgress="7" timelineReference="19th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">The city walls used to stand where the Ring park is now:</div>
+            <div className="clue-background-div">Fortifications used to stand where the Ring park is now:</div>
             <div>
               <img src={ring} className="memorial-image" alt="ring" />
             </div>
