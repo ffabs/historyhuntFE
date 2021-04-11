@@ -34,6 +34,11 @@ class Wurzburg11D extends Component {
                 Support Us!
               </div>
             </Link>
+            <Link to="/">
+              <div className="gameNext-button-below">
+                Home
+              </div>
+            </Link>
             <Link to="/wuerzburg/currenttimes/intro/clue">
                 <div className="gameNext-button-below">
                     Back
