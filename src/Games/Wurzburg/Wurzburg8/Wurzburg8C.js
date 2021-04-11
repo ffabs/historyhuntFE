@@ -61,8 +61,8 @@ class Wurzburg8C extends Component {
                         <div className="number-form"> 
                             <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                 <option value="Winter"> 🏘️ Accomodations </option>
+                                <option value="Summer"> 🌊 City aqueduct </option>
                                 <option value="Spring"> 🏰 City walls </option>
-                                <option value="Summer"> 🌊 City water </option>
                                 <option value="Autumn"> 🛣️ Main road to Munich </option>
                                 <option value="Winter"> 🏫 School </option>
                                 <option value="Summer"> 🌲 Wild forests </option>

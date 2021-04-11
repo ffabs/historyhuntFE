@@ -153,7 +153,7 @@ class Wurzburg3D extends Component {
                         >
                             Check answer
                         </div>
-                        <Link to="/wuerzburg/citycouncil">
+                        <Link to="/wuerzburg/citycouncil/sundial">
                             <div className="gameNext-button-below">
                                 Back
                             </div>
