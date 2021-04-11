@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Wurzburg.css';
 import GameMenu from '../../../Components/GameMenu';
 import ring from '../WurzburgImages/ring.png';
+import ringparkfinal from '../WurzburgImages/ringparkfinal.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -27,7 +28,9 @@ class Wurzburg8D extends Component {
             </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">This answer also explains why the park is called "Ring", having a round shape all around the city, like the city walls used to!</div>
-          
+            <div>
+              <img src={ringparkfinal} className="memorial-image" alt="ring park" />
+            </div>
           {/* <div className="question-section"> */}
             <div className="clue-background-div question-section">Let's find out some of its other secrets...</div>
           {/* </div> */}

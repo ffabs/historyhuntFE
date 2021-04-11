@@ -31,7 +31,7 @@ class Wurzburg2A extends Component {
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJs12zIdSPokcRJ4YwI8k4eMM&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:GhIJBoGVQ4vlSEARN4lBYOXcI0A&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           

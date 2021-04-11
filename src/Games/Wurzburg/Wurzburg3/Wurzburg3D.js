@@ -17,7 +17,7 @@ class Wurzburg3D extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            year: "12",
+            year: "14",
             season: "middle",
             answers: "wrong",
             seasonCSS: "select-input",
