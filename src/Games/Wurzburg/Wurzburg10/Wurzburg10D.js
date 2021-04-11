@@ -29,7 +29,7 @@ class Wurzburg10D extends Component {
               <img src={crosses} className="crosses" alt="crosses" />
             </div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war or heroes.</div>
+              <div className="clue-background-div">Today this is still a memorial for the fallen soldiers but it is considered as a memorial for peace and not for war.</div>
             </div>         
             <img src={planewar} className="oegg" alt="planewar" />
             <div className="clue-background-divs">

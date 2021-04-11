@@ -29,7 +29,7 @@ class Wurzburg11B extends Component {
             </div>
             <img src={builder} className="gameIntro-image" alt="builder" />
             <div className="clue-background-div">
-              Since 1981 the Residence and its garden have even been protected by UNESCO. They are included in the list of "cultural and natural heritage of the world" because considered as a great example of European Baroque.
+              Since 1981 the Residence and its garden have even been protected by UNESCO because considered as a great example of European Baroque.
               {/* In 2010, the € 100 gold coin UNESCO World Heritage - Würzburg Residence and Court Garden appeared */}
             </div>
             </div>

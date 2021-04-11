@@ -24,7 +24,7 @@ class Wurzburg9B extends Component {
             <div className="clue-background-title">X-Rays</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">At the end of the 19th century, the Physics professor Wilhelm Röntgen stumbled on X-rays and began studying them.</div>
-            <div className="clue-background-div">In 1895 he submitted the first paper written on X-rays to Würzburg's Physical-Medical Society journal. In that paper he referred to the radiation as "X", to indicate that it was an unknown type of radiation, but the name stuck until today!</div>
+            <div className="clue-background-div">When he submitted the first paper ever written on X-rays, he referred to the radiation as "X" to indicate that it was an unknown type. The name stuck until today!</div>
           </div>
           <img src={xraysdesign} className="memorial-image" alt="xraysdesign"/>
           </div>

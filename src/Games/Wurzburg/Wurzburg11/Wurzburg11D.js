@@ -24,7 +24,7 @@ class Wurzburg11D extends Component {
             <div className="clue-background-title">Congrats for reaching the end!</div>
             <div className="clue-background-div">This is the end of the journey. Hopefully you enjoyed discovering the history of this great city!</div>
             <img src={kilianifest} className="gameIntro-image" alt="kilianifest" />
-            <div className="clue-background-div">By the way, do you remember how the journey started? Today, Kilian still plays an important role for the city, he is the patron saint of Würzburg and always in July there is a big fair with fireworks called "Kiliani"!</div>
+            <div className="clue-background-div">By the way, do you remember how the journey started? Today, Kilian still plays an important role for the city, he is the patron saint of Würzburg and every July there is a big fair with fireworks called "Kiliani"!</div>
           </div>
           {/* <div className="question-section"> */}
           {/* </div> */}
