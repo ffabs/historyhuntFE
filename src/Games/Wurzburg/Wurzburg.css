@@ -314,7 +314,7 @@ input[type=number] {
     padding: 10px;
     text-align-last: left;
     border-color: black;
-    border-radius: 8px;
+    border-radius: 0px;
 }
     .wrong-select-input {
         cursor: pointer;
