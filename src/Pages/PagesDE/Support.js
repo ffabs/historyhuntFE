@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Header from '../../Components/ComponentsDE/Header';
 import Footer from '../../Components/ComponentsDE/Footer';
 import '../../App.css';
-import './Pages.css';
+import '../Pages.css';
 import { SocialIcon } from 'react-social-icons';
 import flying from '../../Images/flying.png';
 import feedbackicon from '../../Images/feedbackicon.png';

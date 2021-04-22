@@ -1,5 +1,5 @@
 import '../../App.css';
-import './Header.css';
+import '../Header.css';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import React, { Component } from 'react';
@@ -10,8 +10,21 @@ class Header extends Component {
     constructor() {
         super();
         this.state = {
-            open: false
+            open: false,
+            languageCSS: "hide",
         };
+    }
+
+    showHideLanguages = event => {
+        let newLanguageCss;
+        if (this.state.languageCSS === "hide") {
+            newLanguageCss = "language-switcher";
+        } else {
+            newLanguageCss = "hide";
+        }
+        this.setState({
+            languageCSS: newLanguageCss
+        });
     }
 
     handleClick() {
@@ -51,6 +64,17 @@ class Header extends Component {
                     <Link to="/DE/support-us"> 
                         <div className={supportPage +" header-text header-link"}>Unterstütze uns</div>
                     </Link>
+                    <div onClick={this.showHideLanguages}>
+                        <div className={" header-text header-link language-selector"}>🇩🇪 Deutsch ▾</div>
+                    </div>
+                    <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
+                        <Link to="/"> 
+                            <div className="language-option">🇬🇧 English</div>
+                        </Link>
+                        <Link to="/DE"> 
+                            <div className="language-option current">🇩🇪 Deutsch ✔️</div>
+                        </Link>    
+                    </div>
                 </div>
 
                 <div className="hamburger">

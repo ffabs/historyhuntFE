@@ -1,5 +1,5 @@
 import '../../App.css';
-import './Header.css';
+import '../Header.css';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import React, { Component } from 'react';
@@ -67,12 +67,12 @@ class Header extends Component {
                     <div onClick={this.showHideLanguages}>
                         <div className={" header-text header-link language-selector"}>🇬🇧 English ▾</div>
                     </div>
-                    <div className={this.state.languageCSS}>
+                    <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
                         <Link to="/"> 
                             <div className="language-option current">🇬🇧 English ✔️</div>
                         </Link>
                         <Link to="/DE"> 
-                            <div className="language-option">🇩🇪 Deutsche</div>
+                            <div className="language-option">🇩🇪 Deutsch</div>
                         </Link>    
                     </div>        
                 </div>

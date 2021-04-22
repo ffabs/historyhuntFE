@@ -1,6 +1,6 @@
 import '../../App.css';
-import './Header.css';
-import './GameMenu.css';
+import '../Header.css';
+import '../GameMenu.css';
 import React, { Component } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
 import {Link} from 'react-router-dom';

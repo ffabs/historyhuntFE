@@ -4,7 +4,7 @@
 
 .home-background {
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
   
 .home-background-image {
@@ -18,7 +18,7 @@
     position: absolute;
     margin-top: 70px;
     width: 100%;
-    top: 25%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -31,7 +31,7 @@
     position: absolute;
     margin-top: 380px;
     width: 100%;
-    top: 25%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -159,6 +159,12 @@
     }
     .home-howitworks-image {
         height: 200px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .home-background {
+        position: relative;
     }
 }
 
