@@ -5,6 +5,24 @@
     text-align: center;
 }
 
+.game-language-switcher {
+    padding: 8px 15px;
+    background-color: #282c34;
+    color: white;
+    border-radius: 0px 0px 6px 6px;
+    cursor: pointer;
+}
+.game-language-selector {
+    font-weight: 600;
+}
+.game-newlanguagecss {
+    margin: 0px 0px 0px -50px;
+}
+.game-language-options {
+    color: white;
+    margin: 4px 0px 0px 55px;
+}
+
 .gameIntro-title {
     font-size: 25px;
     font-weight: bold;

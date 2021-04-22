@@ -17,6 +17,24 @@ if (consent === "true") {
 }
 
 class Wurzburg0 extends Component {
+    constructor() {
+        super();
+        this.state = {
+            languageCSS: "hide",
+        };
+    }
+  
+    showHideLanguages = event => {
+      let newLanguageCss;
+      if (this.state.languageCSS === "hide") {
+          newLanguageCss = "";
+      } else {
+          newLanguageCss = "hide";
+      }
+      this.setState({
+          languageCSS: newLanguageCss
+      });
+    }
     
     render() {
         return ( 
@@ -33,6 +51,21 @@ class Wurzburg0 extends Component {
                 {this.props.gamemenu !== true && 
                 <div> 
                     <div className="gameIntro">
+
+                    <div onClick={this.showHideLanguages} className="game-language-switcher">
+                        <div onClick={this.showHideLanguages}>
+                            <div className="game-language-selector">🇩🇪 Deutsche Version ▾</div>
+                        </div>
+                        <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
+                            <Link to='/wuerzburg'> 
+                                <div className="game-language-options-uk">🇬🇧 English version</div>
+                            </Link>
+                            {/* <Link to={"/DE/wuerzburg"}> 
+                                <div className="game-language-options-de game-language-options language-option-nav">🇩🇪 Deutsche Version ✔️</div>
+                            </Link>     */}
+                        </div> 
+                    </div>
+
                     <div className="gameIntro-title">
                         <div>Eine Reise durch die Zeit</div>
                         <div>in Würzburg</div>

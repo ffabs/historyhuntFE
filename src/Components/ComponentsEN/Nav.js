@@ -65,7 +65,7 @@ class Nav extends Component {
                 </div>
                 <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
                     <Link to={url}> 
-                        <div className="nav language-option-nav current">🇬🇧 English ✔️</div>
+                        <div className="language-option-nav-en nav language-option-nav current">🇬🇧 English ✔️</div>
                     </Link>
                     <Link to={"/DE" + url}> 
                         <div className="nav language-option-nav">🇩🇪 Deutsch</div>

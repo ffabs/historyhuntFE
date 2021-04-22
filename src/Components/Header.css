@@ -66,6 +66,10 @@
   margin-left: 68px;
   margin-top: -10px;
 }
+.language-option-nav-en {
+  margin-left: 53px;
+  margin-bottom: -10px;
+}
 
 @media only screen and (max-width: 810px) {
   .App-header {
