@@ -25,9 +25,9 @@ class Wurzburg1A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Würzburg vor Würzburg</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Archäologische Funde haben bewiesen, dass seit 1000 v. Celtics waren dort, wo sich jetzt die Festung befindet. Nachdem es eine römische Festung geworden war, wurde dieses Gebiet von den Alemannen und schließlich im 6. Jahrhundert von den Franken besiedelt.</div>
+              <div className="clue-background-div">Archäologische Funde haben bewiesen, dass dort 1000 v. Chr. Kelten lebten, wo sich jetzt die Festung befindet. Nachdem es eine römische Festung geworden war, wurde dieses Gebiet von den Alemannen und schließlich im 6. Jahrhundert von den Franken besiedelt.</div>
               <img src={annouce} className="memorial-image" alt="annouce" />
-              <div className="clue-background-div">Trotz dieser ursprünglichen Siedlungen musste die offizielle Geschichte Würzburgs noch beginnen. Kommen Sie zur alten Brücke und entdecken Sie, wie es angefangen hat!</div>
+              <div className="clue-background-div">Trotz dieser ursprünglichen Siedlungen, hatte die offizielle Geschichte Würzburgs noch nicht begonnen. Kommen Sie zur alten Brücke und entdecken Sie, wie es angefangen hat!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
@@ -39,7 +39,7 @@ class Wurzburg1A extends Component {
             />
           {/* </div>
           <div className="question-section"> */}
-            <div className="clue-background-div question-section">Bist du da?</div>
+            <div className="clue-background-div question-section">Sind Sie da?</div>
             </div>
           </div>
           <div className="buttons-section">

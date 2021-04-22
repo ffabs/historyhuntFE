@@ -32,7 +32,7 @@ class Wurzburg1D extends Component {
             </div>
           <div className="clue-background-divs">
             <div className="clue-background-div">The three are also called apostles of Franconia and their subsequent veneration leaded to the quick development of the city.</div>
-            <div className="clue-background-div">So, at the beginning of the 8th century, the bishop of Würzburg was founded. In the same century, the first mention of wine got cultivated in the town and the first cathedral was build: Dom St. Kilian.</div>
+            <div className="clue-background-div">So, at the beginning of the 8th century, the bishopric of Würzburg was founded. In the same century, the first mention of wine got cultivated in the town and the first cathedral was build: Dom St. Kilian.</div>
             <img src={bishop} className="memorial-image" alt="bishop" />
           </div>
         </div>

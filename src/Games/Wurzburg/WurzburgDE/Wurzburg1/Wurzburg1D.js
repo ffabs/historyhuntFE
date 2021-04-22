@@ -32,7 +32,7 @@ class Wurzburg1D extends Component {
             </div>
           <div className="clue-background-divs">
             <div className="clue-background-div">Die drei werden auch als fränkische Apostel bezeichnet und ihre anschließende Verehrung führte zur raschen Entwicklung der Stadt.</div>
-            <div className="clue-background-div">So wurde zu Beginn des 8. Jahrhunderts der Bischof von Würzburg gegründet. Im selben Jahrhundert wurde in der Stadt erstmals Wein angebaut und die erste Kathedrale gebaut: Dom St. Kilian.</div>
+            <div className="clue-background-div">So wurde zu Beginn des 8. Jahrhunderts das Bistum von Würzburg gegründet. Im selben Jahrhundert wurde in der Stadt erstmals Wein angebaut und die erste Kathedrale gebaut: Dom St. Kilian.</div>
             <img src={bishop} className="memorial-image" alt="bishop" />
           </div>
         </div>

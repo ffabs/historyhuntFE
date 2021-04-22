@@ -24,7 +24,7 @@ class Wurzburg2A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Dom St. Kilian</div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Dom St. Kilian, so alt, dass er in Gegenwart des fränkischen Königs Karl dem Großen geweiht wurde, dokumentiert noch heute Jahrhunderte der Stadt-, Religions- und Kunstgeschichte.</div>
+            <div className="clue-background-div">Dom St. Kilian ist so alt, dass er zur Zeit des fränkischen Königs Karl dem Großen geweiht wurde und überliefert noch heute Jahrhunderte der Stadt-, Religions- und Kunstgeschichte.</div>
             <div><img src={destination2} className="destination1" alt="destination2" /></div>
             <iframe 
               className="clue-map"
@@ -36,7 +36,7 @@ class Wurzburg2A extends Component {
             />
           
           {/* <div className="question-section"> */}
-            <div className="clue-background-div question-section">Lass uns da hin gehen!</div>
+            <div className="clue-background-div question-section">Lassen Sie uns dorthin gehen!</div>
           {/* </div> */}
             </div>
           </div>

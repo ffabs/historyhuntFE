@@ -55,7 +55,7 @@ class Wurzburg2B extends Component {
                 <div className="buttons-section">
                     <Link to="/DE/wuerzburg/kilianus/dom/inside">
                         <div className="gameNext-button">
-                            Ja, ich bin dabei!
+                            Ja, ich bin drin!
                         </div>
                     </Link>
                     {/* <Link to="/wuerzburg/kilianus/dom/virtuallyinside">

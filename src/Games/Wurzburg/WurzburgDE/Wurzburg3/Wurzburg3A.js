@@ -23,7 +23,7 @@ class Wurzburg3A extends Component {
         <Timeline timelineProgress="4" timelineReference="12.-14. Jh. n.Chr." animate="yes"/>
         <div className="clue-background">
           <div className="clue-background-title">Das Rathaus</div>
-          <div className="clue-background-div">Kommen Sie zurück zur Brücke und halten Sie diesmal am Gebäude mit dem Glockenturm.</div>
+          <div className="clue-background-div">Kommen Sie zurück zur Brücke und stoppen Sie diesmal am Gebäude mit dem Glockenturm.</div>
           <div><img src={destination3} className="destination1" alt="destination3" /></div>
           <iframe 
             className="clue-map"
@@ -35,7 +35,7 @@ class Wurzburg3A extends Component {
           />
         </div>
         <div className="question-section">
-          <div className="clue-background-div">...ist eingetroffen?</div>
+          <div className="clue-background-div">...sind Sie da?</div>
         </div>
         <div className="buttons-section">
           <Link to="/DE/wuerzburg/citycouncil">

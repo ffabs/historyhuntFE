@@ -26,7 +26,7 @@ class Support extends Component {
           
           <div className="howitworks-step-subtitle">Ciceru ist ein unabhängiges, selbst finanziertes Projekt mit der Vision, historisches Wissen auf spielerische Weise zu teilen!</div>     
 
-          <div className="howitworks-step-subtitle">Wenn Ihnen unsere Arbeit gefällt, können Sie uns mit einem Tipp unterstützen.</div>
+          <div className="howitworks-step-subtitle">Wenn Ihnen unsere Arbeit gefällt, können Sie uns mit einer Spende unterstützen.</div>
           <div className="howitworks-step-subtitle">Das hier gesammelte Geld wird verwendet, um neue historische Erlebnisse im Stil der Schatzsuche zu erhalten und zu schaffen.</div>
         
           <div className="button-paypal">
@@ -35,7 +35,7 @@ class Support extends Component {
             </a> 
           </div>
             
-          <div className="howitworks-step-subtitle">Sie können uns auch mit Ihrem Feedback unterstützen und indem Sie unsere Social-Media-Konten mögen / verfolgen:</div>
+          <div className="howitworks-step-subtitle">Sie können uns auch mit Ihrem Feedback unterstützen und indem Sie unseren Social-Media-Kanälen folgen oder uns ein Like geben:</div>
           <div className="social-section support-socials">
               <div className="social">
                 <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">

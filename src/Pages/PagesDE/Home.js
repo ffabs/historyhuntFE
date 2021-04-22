@@ -31,13 +31,13 @@ class Home extends Component {
         <Header page={'Home'}/>
         <div className="home-background">
           <div className="home-background-text">
-            <div>EINE SCHATZJAGD ERFAHRUNG</div>
+            <div>EINE SCHATZSUCHE</div>
             <div>UM DIE GESCHICHTE WÜRZBURGS</div>
             <div>ZU ENTDECKEN</div>
           </div>
           <div className="home-background-support-text">
             <div>EIN KOSTENLOSES REAL WORLD HISTORY GAME,</div>
-            <div>GEFÜHRT VON IHREM TELEFON</div>
+            <div>GEFÜHRT VON IHREM SMARTPHONE</div>
             <div>ZU SPIELEN IN WÜRZBURG, DEUTSCHLAND</div>
             <div className="home-background-form">
               <Link to="/DE/wuerzburg">
@@ -57,7 +57,7 @@ class Home extends Component {
               <div><img src={group} className="home-howitworks-image" alt="wuerzburg" /></div>
               <div>
                 <div className="howitworks-step-subtitle">Komm nach Würzburg</div>
-                <div className="howitworks-step-text">Sie müssen in der Stadt selbst sein, um ihre alte Geschichte wirklich zu entdecken!</div>
+                <div className="howitworks-step-text">Sie müssen selbst in der Stadt sein, um ihre alte Geschichte wirklich zu entdecken!</div>
               </div>
               <div><img src={fontain} className="home-howitworks-image" alt="wuerzburg" /></div>
             </div>
@@ -70,7 +70,7 @@ class Home extends Component {
               <img src={peasant} className="home-howitworks-image" alt="wuerzburg" />
               <div>
                 <div className="howitworks-step-subtitle">Starte das Spiel</div>
-                <div className="howitworks-step-text">Lassen Sie sich in die Vergangenheit reisen und verfolgen Sie die Zeitachse dieser Stadt!</div>
+                <div className="howitworks-step-text">Reisen Sie in die Vergangenheit und verfolgen Sie die Zeitachse dieser Stadt!</div>
               </div>
               <img src={statua} className="home-howitworks-image" alt="wuerzburg" />
             </div>
@@ -94,7 +94,7 @@ class Home extends Component {
               <img src={guyhappy} className="home-howitworks-image" alt="wuerzburg" />
               <div>
                 <div className="howitworks-step-subtitle">Löse die Hinweise</div>
-                <div className="howitworks-step-text">Jeder Ort fordert Sie auf, seine Geschichte zu entdecken. Finde die richtigen Antworten und schalte die nächsten Schritte frei!</div>
+                <div className="howitworks-step-text">Jeder Ort fordert Sie auf, seine Geschichte zu entdecken. Finden Sie die richtigen Antworten und schalten Sie die nächsten Schritte frei!</div>
               </div>
               <img src={girlhappy} className="home-howitworks-image" alt="wuerzburg" />
             </div>

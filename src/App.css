@@ -10,7 +10,10 @@ body {
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
-
 a {
   text-decoration: none;
+}
+
+.hide {
+  display: none;
 }

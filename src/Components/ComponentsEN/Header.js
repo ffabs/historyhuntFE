@@ -10,8 +10,21 @@ class Header extends Component {
     constructor() {
         super();
         this.state = {
-            open: false
+            open: false,
+            languageCSS: "hide",
         };
+    }
+
+    showHideLanguages = event => {
+        let newLanguageCss;
+        if (this.state.languageCSS === "hide") {
+            newLanguageCss = "language-switcher";
+        } else {
+            newLanguageCss = "hide";
+        }
+        this.setState({
+            languageCSS: newLanguageCss
+        });
     }
 
     handleClick() {
@@ -51,6 +64,17 @@ class Header extends Component {
                     <Link to="/support-us"> 
                         <div className={supportPage +" header-text header-link"}>Support us</div>
                     </Link>
+                    <div onClick={this.showHideLanguages}>
+                        <div className={" header-text header-link language-selector"}>🇬🇧 English ▾</div>
+                    </div>
+                    <div className={this.state.languageCSS}>
+                        <Link to="/"> 
+                            <div className="language-option current">🇬🇧 English ✔️</div>
+                        </Link>
+                        <Link to="/DE"> 
+                            <div className="language-option">🇩🇪 Deutsche</div>
+                        </Link>    
+                    </div>        
                 </div>
 
                 <div className="hamburger">

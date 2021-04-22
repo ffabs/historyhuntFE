@@ -26,10 +26,10 @@ class Thank extends Component {
           <div className="section-title">
             Danke für Ihre Unterstützung!!
           </div>
-          <div className="howitworks-step-subtitle thankyoupage">Vielen Dank, dass Sie uns dabei helfen, neue historische Erlebnisse im Stil der Schatzsuche zu pflegen und zu schaffen.</div>
+          <div className="howitworks-step-subtitle thankyoupage">Vielen Dank, dass Sie uns dabei helfen, neue historische Erlebnisse im Stil der Schatzsuche zu pflegen und zu kreieren.</div>
           <img src={annouce} className="home-howitworks-image thankyoupage" alt="annouce" />
           <div className="howitworks-step-subtitle thankyoupage-more">Wir sehen uns im nächsten Abenteuer!</div>
-          <div className="howitworks-step-subtitle ">Übrigens, wenn Sie Ciceru weiter unterstützen möchten, vergessen Sie nicht, Ihr Feedback zu teilen und unsere Social-Media-Konten zu mögen!</div>
+          <div className="howitworks-step-subtitle ">Übrigens, wenn Sie Ciceru weiter unterstützen möchten, vergessen Sie nicht, Ihr Feedback zu teilen und ein Like zu geben!</div>
           <div className="social-section support-socials">
               <div className="social">
                 <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">

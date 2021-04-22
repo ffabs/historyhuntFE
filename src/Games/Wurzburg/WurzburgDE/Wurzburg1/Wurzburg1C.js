@@ -151,7 +151,7 @@ class Wurzburg1C extends Component {
                             />
                         </div>
 
-                        <div className="clue-background-div">Ich habe keine Angst vor dem Tod. Normalerweise halte ich ein Messer, aber es fehlt derzeit in meiner Statue. Ich erinnere mich als...</div>
+                        <div className="clue-background-div">Ich habe keine Angst vor dem Tod. Normalerweise halte ich ein Messer, aber es fehlt derzeit in meiner Statue. Mein Name ist...</div>
                         <div>
                             <input
                                 type="text" 

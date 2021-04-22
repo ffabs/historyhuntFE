@@ -34,7 +34,7 @@ class Wurzburg9A extends Component {
             />
           </div>
           <div className="question-section">
-            <div className="clue-background-div">...ist eingetroffen?</div>
+            <div className="clue-background-div">...sind Sie da?</div>
           </div>
           <div className="buttons-section">
             <Link to="/DE/wuerzburg/xrays/intro">

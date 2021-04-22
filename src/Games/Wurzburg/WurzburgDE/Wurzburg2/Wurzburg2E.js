@@ -31,7 +31,7 @@ class Wurzburg2E extends Component {
               <img src={renaissance} className="imgclue2" alt="renaissance" />
             </div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Seit der Gründung des Bischofs und der Kathedrale sind die Bischöfe immer mächtiger geworden. 1168 wurde der Bischof von Würzburg sogar vom Kaiser Barbarossa zum Herzog ernannt, womit die Zeit der Fürstbischöfe von Würzburg begann, die bis 1803 dauerte.</div>
+            <div className="clue-background-div">Seit der Gründung des Bischofs und der Kathedrale sind die Bischöfe immer mächtiger geworden. 1168 wurde der Bischof von Würzburg sogar vom Kaiser Barbarossa zum Herzog ernannt, womit die Zeit der Fürstbischöfe von Würzburg begann, die bis 1803 andauerte.</div>
             <img src={king} className="memorial-image" alt="king" />
             <div className="clue-background-div">Nicht jeder war immer glücklich mit den mächtigen Bischöfen...</div>
             </div>

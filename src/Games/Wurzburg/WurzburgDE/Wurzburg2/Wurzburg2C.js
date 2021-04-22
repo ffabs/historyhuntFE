@@ -29,7 +29,7 @@ class Wurzburg2C extends Component {
                 <img src={lorenz} className="lorenz-image" alt="lorenz" />
             </div>
             <div className="question-section">
-                <div className="clue-background-div">Könnten Sie es finden?</div>
+                <div className="clue-background-div">Konnten Sie es finden?</div>
                 {/* <div>{this.props.inside}</div> */}
             </div>
             <div className="buttons-section">

@@ -24,12 +24,12 @@ class Wurzburg1B extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Ein Martyrium, das die Geschichte verändert hat</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Ende des 7. Jahrhunderts brachten drei irische Missionare das Christentum in die Region. Selbst wenn diese Mission sie getötet hat, haben sie schließlich Erfolg.</div>
-              <div className="clue-background-div">Die drei Heiligen werden noch heute auf dieser Brücke erinnert, jede mit einer Statue unter den 12 hier anwesenden.</div>
+              <div className="clue-background-div">Ende des 7. Jahrhunderts brachten drei irische Missionare das Christentum in die Region. Obwohl sie dieser Mission gestorben sind, hatten sie schließlich Erfolg.</div>
+              <div className="clue-background-div">An die drei Heiligen wird noch heute auf dieser Brücke erinnert. Jeder von ihnen hat eine eigene Statue unter den insgesamt 12.</div>
               <img src={statues} className="memorial-image" alt="statues" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Bist du bereit, sie zu finden?</div>
+              <div className="clue-background-div question-section">Sind Sie bereit, sie zu finden?</div>
             </div>
           </div>
           <div className="buttons-section">

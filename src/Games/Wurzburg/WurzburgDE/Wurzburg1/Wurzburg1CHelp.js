@@ -25,7 +25,7 @@ class Wurzburg1CHelp extends Component {
           <Timeline timelineProgress="1" timelineReference="7. Jh. n.Chr."/>
             <div className="clue-background">
             <div className="clue-background-title">Hinweis Hilfe</div>
-            <div className="clue-background-div">Schreiben Sie die Namen so, wie sie auf die Statuen geschrieben sind:</div>
+            <div className="clue-background-div">Schreiben Sie die Namen so, wie sie auf den Statuen geschrieben sind:</div>
             <div>
               <img src={kilianus} className="solution-image" alt="kilianus" />
               <img src={totnam} className="solution-image" alt="totnam" />
