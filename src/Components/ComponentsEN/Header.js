@@ -37,18 +37,22 @@ class Header extends Component {
         // let homePage = '';
         let supportPage = '';
         let gamePage= '';
+        let url;
         switch(this.props.page) {
         // case "Home":
         //     homePage += ' current';
         // break;
         case "Support":
             supportPage += ' current';
+            url = "/support-us";
         break;
         case "Game":
             gamePage += ' current';
+            url = "/wuerzburg";
         break;
         default:
             gamePage += '';
+            url = "/";
         }
   
         return (
@@ -68,10 +72,10 @@ class Header extends Component {
                         <div className={" header-text header-link language-selector"}>🇬🇧 English ▾</div>
                     </div>
                     <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
-                        <Link to="/"> 
+                        <Link to={url}> 
                             <div className="language-option current">🇬🇧 English ✔️</div>
                         </Link>
-                        <Link to="/DE"> 
+                        <Link to={"/DE" + url}> 
                             <div className="language-option">🇩🇪 Deutsch</div>
                         </Link>    
                     </div>        

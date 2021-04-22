@@ -27,15 +27,19 @@ class Nav extends Component {
     render() {
         let supportPage = '';
         let gamePage= '';
+        let url;
         switch(this.props.page) {
           case "Support":
             supportPage += ' current';
+            url = "/support-us";
           break;
           case "Game":
             gamePage += ' current';
+            url = "/wuerzburg";
           break;
           default:
             gamePage += '';
+            url = "/";
         }
 
       return (        
@@ -60,10 +64,10 @@ class Nav extends Component {
                     <div className={" nav language-selector"}>🇬🇧 English ▾</div>
                 </div>
                 <div className={this.state.languageCSS} onClick={this.showHideLanguages}>
-                    <Link to="/"> 
+                    <Link to={url}> 
                         <div className="nav language-option-nav current">🇬🇧 English ✔️</div>
                     </Link>
-                    <Link to="/DE"> 
+                    <Link to={"/DE" + url}> 
                         <div className="nav language-option-nav">🇩🇪 Deutsch</div>
                     </Link>    
                 </div> 
