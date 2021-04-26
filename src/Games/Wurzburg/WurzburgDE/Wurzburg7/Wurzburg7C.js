@@ -56,11 +56,11 @@ class Wurzburg7C extends Component {
                     <Timeline timelineProgress="6" timelineReference="17.-18. Jh. n.Chr."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Die Residenz</div>
-                        <div className="clue-background-div">Die Kapelle ist heute ein Paradebeispiel für den sakralen Barockstil in Deutschland, aber der Bau war keine leichte Aufgabe. Ein Hauptproblem des Architekten Neumann war, dass die linke Seite der Kapelle fensterlos war. Wie hat er es gelöst?</div>
+                        <div className="clue-background-div">Die Kapelle ist heute ein Paradebeispiel für den sakralen Barockstil in Deutschland, aber der Bau war keine leichte Aufgabe. Ein Hauptproblem des Architekten Neumanns war, dass die linke Seite der Kapelle fensterlos war. Wie hat er es gelöst?</div>
                         <div className="number-form">
                             <select type="text" onChange={this.updateSeason} className={this.state.seasonCSS}>
                                 <option value="close"> 🔒 Fenster schließen</option>
-                                <option value="open"> ⛏️ Neue Fenster erstellen</option>
+                                <option value="open"> ⛏️ Neue Fenster bauen</option>
                                 <option value="dark"> 🕶️ Den Raum dunkel halten</option>
                                 <option value="paint"> 🎨 Mit heller Farbe</option>
                                 <option value="mirrors"> ✨ Spiegel verwenden</option>

@@ -31,7 +31,7 @@ class Wurzburg5D extends Component {
               <div className="clue-background-div">Neben dem Juliusspital errichtete er die alte Universität sowie mehrere Kirchen und Schulen.</div>
               
               <img src={castle} className="memorial-image" alt="castle" />
-              <div className="clue-background-div">Schließlich erweiterte er auch die Festung, renovierte und verbesserte sie, nachdem ein Feuer sie beschädigt hatte. Wahrscheinlich hatte er nicht erwartet, dass seine Nachfolger in den folgenden Jahrhunderten aufgehört hätten, dort zu leben...</div>
+              <div className="clue-background-div">Schließlich erweiterte er auch die Festung, renovierte und verbesserte sie, nachdem ein Feuer sie beschädigt hatte. Wahrscheinlich hatte er nicht erwartet, dass seine Nachfolger in den folgenden Jahrhunderten aufhören würden, dort zu leben...</div>
             </div>
             
           </div>
@@ -46,6 +46,9 @@ class Wurzburg5D extends Component {
                   Zurück
                 </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/> 
           <CookieConsent 

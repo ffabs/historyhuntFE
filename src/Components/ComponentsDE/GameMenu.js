@@ -43,8 +43,8 @@ class GameMenu extends Component {
                             <div className="game-menu-link">Unterstütze uns</div>
                         </Link>
                         <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
-                        <div className="game-menu-link">Feedback geben</div>
-                    </a>
+                            <div className="game-menu-link">Feedback geben</div>
+                        </a>
                     </div>
                 }
 

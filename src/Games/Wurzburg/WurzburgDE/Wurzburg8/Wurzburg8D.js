@@ -27,7 +27,7 @@ class Wurzburg8D extends Component {
               <img src={ring} className="memorial-image" alt="ring" />
             </div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Diese Antwort erklärt auch, warum der Park "Ring" heißt und rund um die Stadt eine runde Form hat, wie es die Stadtmauern früher getan haben!</div>
+            <div className="clue-background-div">Diese Antwort erklärt auch, warum der Park "Ring" heißt und rund um die Stadt eine runde Form hat, wie sie früher auch die Stadtmauern hatten!</div>
             <div>
               <img src={ringparkfinal} className="memorial-image" alt="ring park" />
             </div>
@@ -47,6 +47,9 @@ class Wurzburg8D extends Component {
                   Zurück
                 </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/> 
           <CookieConsent 

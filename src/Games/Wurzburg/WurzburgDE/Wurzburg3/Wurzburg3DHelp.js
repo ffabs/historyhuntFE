@@ -23,7 +23,7 @@ class Wurzburg3DHelp extends Component {
           <Timeline timelineProgress="4" timelineReference="12.-14. Jh. n.Chr."/>
             <div className="clue-background">
             <div className="clue-background-title">Hinweis Hilfe</div>
-            <div className="clue-background-div">Die Antwort ist am Ende des Baumes!</div>
+            <div className="clue-background-div">Die Antwort ist bei den Wurzeln des Baumes!</div>
             <div>
               <img src={tree} className="tree-image" alt="tree" />
             </div>

@@ -54,7 +54,7 @@ class Wurzburg7D extends Component {
             </Link>
             <Link to="/DE/wuerzburg/residenz/garden/timings">
                 <div className="gameNext-button-below">
-                  Wann sind sie geöffnet?
+                  Wann ist er geöffnet?
                 </div>
             </Link>
             <Link to="/DE/wuerzburg/residenz/intro/clue">
@@ -62,6 +62,9 @@ class Wurzburg7D extends Component {
                   Zurück
                 </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/>
           <CookieConsent 

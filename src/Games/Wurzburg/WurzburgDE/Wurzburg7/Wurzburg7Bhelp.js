@@ -28,7 +28,7 @@ class Wurzburg7Bhelp extends Component {
             </div>
 
           <div className="corona clue-background-div"> 
-            <b>Falls es wegen Korona geschlossen ist, überspringen Sie einfach diesen Hinweis!</b>
+            <b>Falls es wegen Corona geschlossen ist, überspringen Sie einfach diesen Hinweis!</b>
           </div>
             <iframe 
               className="clue-map"

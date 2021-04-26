@@ -29,6 +29,9 @@ class Wurzburg11D extends Component {
           {/* <div className="question-section"> */}
           {/* </div> */}
           <div className="buttons-section">
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                <div className="gameNext-button-below">Give Feedback</div>
+            </a>
             <Link to="/support-us">
               <div className="gameNext-button-below">
                 Support Us!

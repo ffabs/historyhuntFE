@@ -32,9 +32,9 @@ class Wurzburg4D extends Component {
               <img src={memorialtext} className="memorial-image" alt="memorialtext" />
             </div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Interessanterweise fand die Revolution von Martin Luther in ungefähr denselben Jahren statt. Auch wenn Luthers Gedanken den Aufstandsbewegungen mehr Intensität verliehen haben mögen, haben sie sie nicht geschaffen, und er hat sich sogar den Aufständen widersetzt. Eigentlich wurde Martin Luther sogar vom Bischof Lorenz Von Bibra (früher im Dom getroffen) empfangen und sie verstanden sich sehr gut.</div>
+              <div className="clue-background-div">Interessanterweise fand die Revolution von Martin Luther in ungefähr denselben Jahren statt. Auch wenn Luthers Gedanken den Aufstandsbewegungen mehr Intensität verliehen haben mögen, haben sie sie nicht geschaffen, und er hat sich sogar den Aufständen widersetzt. Eigentlich wurde Martin Luther sogar vom Bischof Lorenz Von Bibra (wir haben ihn vorhin schon im Dom getroffen) empfangen und sie verstanden sich sehr gut.</div>
               <img src={guard} className="memorial-image" alt="guard" />
-              <div className="clue-background-div">Nicht lange danach war ein neuer Bischof nicht so freundlich zu Luthers Ideen...</div>
+              <div className="clue-background-div">Nicht lange danach gab es einen neuen Bischof, der Luthers Ideen nicht unterstützte...</div>
             </div>
           </div>
           <div className="buttons-section">
@@ -48,6 +48,9 @@ class Wurzburg4D extends Component {
                   Zurück
                 </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/> 
           <CookieConsent 

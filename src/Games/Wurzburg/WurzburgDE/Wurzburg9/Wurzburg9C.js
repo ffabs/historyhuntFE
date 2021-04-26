@@ -103,7 +103,7 @@ class Wurzburg9C extends Component {
                     {this.props.gamemenu !== true && <div>
                     <Timeline timelineProgress="8" timelineReference="19.-20. Jh. n.Chr."/>
                     <div className="clue-background">
-                        <div className="clue-background-title">Xrays</div>
+                        <div className="clue-background-title">Röntgen</div>
                         <div><img src={destination9new} className="destination2" alt="destination9" /></div>
                         <div className="clue-background-div">Könntest du ihn finden? Was hat er getan, um die Röntgenstrahlen zu veranschaulichen?</div>
                         <div className="align-multipleforms">

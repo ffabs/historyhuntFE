@@ -28,7 +28,7 @@ class Wurzburg3E extends Component {
             </div>
             <div className="clue-background-divs">
             <div className="clue-background-div">Trotz der Anwesenheit des Rathauses war die Stadt immer noch vollständig unter der Kontrolle der Fürstbischöfe.</div>
-            <div className="clue-background-div">Die Bürger empörten sich mehrmals und erlitten 1400 eine schwere Niederlage. Die Kontraste zwischen den Bischöfen und den Bürgern waren jedoch noch nicht vorbei...</div>
+            <div className="clue-background-div">Die Bürger empörten sich mehrmals und erlitten 1400 eine schwere Niederlage. Die Konflikte zwischen den Bischöfen und den Bürgern waren jedoch noch nicht vorbei...</div>
             </div>
           </div>
           <div className="buttons-section">
@@ -42,6 +42,9 @@ class Wurzburg3E extends Component {
                 Zurück
               </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/> 
           <CookieConsent 

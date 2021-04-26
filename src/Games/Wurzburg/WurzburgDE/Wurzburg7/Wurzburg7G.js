@@ -26,7 +26,7 @@ class Wurzburg7G extends Component {
               <img src={oegg} className="destination1" alt="oegg" />
             </div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Trotz des Wachstums der Stadt und der neuen Errungenschaften der Residenz ging das Zeitalter der Fürstbischöfe zu Ende.</div>
+            <div className="clue-background-div">Trotz des Wachstums der Stadt und der neuen Errungenschaften der Residenz, ging das Zeitalter der Fürstbischöfe zu Ende.</div>
             <div className="clue-background-div">Die Säkularisierung trennte 1803 schließlich das Heilige und das Säkulare.</div>
     {/* <div>i bishops sono alla fine e (anche occupazione francese forse Napoleon)</div> */}
             </div>
@@ -42,6 +42,9 @@ class Wurzburg7G extends Component {
                   Zurück
                 </div>
             </Link>
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameFeedback-button">Feedback geben</div>
+            </a>
           </div>
           </div>}<GameMenu {...this.props}/>
           <CookieConsent 

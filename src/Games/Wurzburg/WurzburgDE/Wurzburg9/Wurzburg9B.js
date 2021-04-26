@@ -21,10 +21,10 @@ class Wurzburg9B extends Component {
           {this.props.gamemenu !== true && <div>
           <Timeline timelineProgress="8" timelineReference="19.-20. Jh. n.Chr."/>
           <div className="clue-background">
-            <div className="clue-background-title">Xrays</div>
+            <div className="clue-background-title">Röntgen</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Ende des 19. Jahrhunderts stolperte der Physikprofessor Wilhelm Röntgen über Röntgenstrahlen und begann, sie zu studieren.</div>
-            <div className="clue-background-div">Als er das erste Papier einreichte, das jemals auf Xrays geschrieben wurde, bezeichnete er die Strahlung als "X", um anzuzeigen, dass es sich um einen unbekannten Typ handelte. Der Name ist bis heute geblieben!</div>
+              <div className="clue-background-div">Ende des 19. Jahrhunderts stieß der Physikprofessor Wilhelm Röntgen auf Röntgenstrahlen und begann, sie zu studieren.</div>
+            <div className="clue-background-div">Als er den ersten Aufsatz einreichte, der jemals über die Röntgenstrahlen geschrieben wurde, bezeichnete er die Strahlung als "X", um anzuzeigen, dass es sich um einen unbekannten Typ handelte. Der Name ist im Englischen bis heute geblieben (X-rays)!</div>
           </div>
           <img src={xraysdesign} className="memorial-image" alt="xraysdesign"/>
           </div>

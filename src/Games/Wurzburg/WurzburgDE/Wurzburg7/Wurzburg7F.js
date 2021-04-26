@@ -71,7 +71,7 @@ class Wurzburg7F extends Component {
                                 <option value="Spring"> 📐 die Entwürfe der Tore </option>
                                 {/* <option value="Summer"> ⚙️ die Menge des verwendeten Eisens </option> */}
                                 <option value="Summer"> 💰 die Kosten der Arbeit </option>
-                                <option value="Summer"> 📅 als er am Hof war </option>
+                                {/* <option value="Summer"> 📅 als er am Hof war </option> */}
                             </select>
                         </div>
                     </div>

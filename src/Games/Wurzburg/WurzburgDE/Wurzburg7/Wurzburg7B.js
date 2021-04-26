@@ -25,7 +25,7 @@ class Wurzburg7B extends Component {
             {/* <div className="clue-background-div">After the Swedish war and occupation, within a space of 100 years a bishop’s palace was built, the Residenz and the bishops moved from the fortress to the Residenz.</div> */}
             <div className="clue-background-div">Der Bischof Johann Philipp Franz von Schönborn wollte als Monarch seiner Zeit auftreten und lebte in einem Schloss, das mit dem von Versailles oder Schönbrunn vergleichbar war. Nachdem er in einem Gerichtsverfahren ein Vermögen gewonnen hatte, nutzte er es 1720, um dieses beeindruckende Bauprojekt durchzuführen.</div>
           </div>
-            <div className="clue-background-div-i">The Residence under construction in 1731:</div>
+            <div className="clue-background-div-i">Die Residenz im Bau 1731:</div>
             <div><img src={residenz} className="gameIntro-image" alt="residenz" /></div>
           <div className="question-section">
             <div className="clue-background-div">Kannst du in die Hofkapelle gehen?</div>

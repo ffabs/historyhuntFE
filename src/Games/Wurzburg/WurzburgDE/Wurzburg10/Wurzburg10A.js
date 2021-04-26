@@ -22,7 +22,7 @@ class Wurzburg10A extends Component {
           <Timeline timelineProgress="9" timelineReference="20. Jh. n.Chr." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">Weltkriege</div>
-            <div className="clue-background-div">Kommen Sie für eine Weile zurück und erreichen Sie einen anderen Bereich des Ringparks...</div>
+            <div className="clue-background-div">Gehen Sie wieder ein Stück zurück und kommen Sie zu einem anderen Bereich des Ringparks...</div>
             <div><img src={destination10} className="destination1" alt="destination10" /></div>
             <iframe 
               className="clue-map"

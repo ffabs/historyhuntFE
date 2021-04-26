@@ -24,18 +24,18 @@ class Wurzburg4AHelp extends Component {
           {this.props.gamemenu !== true && <div> 
           <Timeline timelineProgress="5" timelineReference="16. Jh. n.Chr."/>
           <div className="clue-background">
-            <div className="clue-background-title">Richtungen</div>
+            <div className="clue-background-title">Weganweisungen</div>
             <div className="clue-background-div">1. Überqueren Sie die Brücke und die Hauptstraße...</div>
             <div><img src={street0} className="destination1" alt="street0" /></div>
             <div className="clue-background-div">2. Suchen Sie nach der folgenden winzigen Straße:</div>
             <div><img src={street1} className="destination1" alt="street1" /></div>
             <div className="clue-background-div">3. Folgen Sie weiter der Straße und dann der Treppe:</div>
             <div><img src={street2} className="destination1" alt="street2" /></div>
-            <div className="clue-background-div">4. Ihr Ziel ist gerade am Ende der Treppe!</div>
+            <div className="clue-background-div">4. Ihr Ziel ist genau am Ende der Treppe!</div>
             <div><img src={destination4} className="destination1" alt="destination4" /></div>
           </div>
           <div className="question-section">
-            <div className="clue-background-div">...ist eingetroffen?</div>
+            <div className="clue-background-div">...sind Sie angekommen?</div>
           </div>
           
             <div className="buttons-section">

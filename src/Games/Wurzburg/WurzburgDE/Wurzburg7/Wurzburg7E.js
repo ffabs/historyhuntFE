@@ -34,7 +34,7 @@ class Wurzburg7E extends Component {
             />
           </div>
           <div className="question-section">
-            <div className="clue-background-div">...ist eingetroffen?</div>
+            <div className="clue-background-div">...sind Sie angekommen?</div>
           </div>
           <div className="buttons-section">
             <Link to="/DE/wuerzburg/residenz/garden/clueQuestion">

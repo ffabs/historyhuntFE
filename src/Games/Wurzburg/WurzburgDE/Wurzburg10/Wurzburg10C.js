@@ -94,7 +94,7 @@ class Wurzburg10C extends Component {
                                 <option value="Summer"> 💣 Waffen </option>
                                 <option value="Spring"> 🐘 große Krieger</option>
                                 {/* <option value="Autumn"> 📃 lack of real names </option> */}
-                                <option value="Winter"> ✝️ Kreuzen </option>
+                                <option value="Winter"> ✝️ Kreuze </option>
                             </select>
                         </div>
                         <div className="clue-background-div"></div>
@@ -104,7 +104,7 @@ class Wurzburg10C extends Component {
                                 <option value="Summer"> 💣 Waffen</option>
                                 <option value="Winter"> 🐘 Krieger</option>
                                 {/* <option value="Autumn"> 📃 names were removed</option> */}
-                                <option value="Spring"> ✝️ Kreuzen</option>
+                                <option value="Spring"> ✝️ Kreuze</option>
                             </select>
                         </div>
                     </div>

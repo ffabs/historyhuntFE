@@ -24,11 +24,15 @@ class Wurzburg11D extends Component {
             <div className="clue-background-title">Herzlichen Glückwunsch zum Erreichen des Endes!</div>
             <div className="clue-background-div">Dies ist das Ende der Reise. Hoffentlich hat es Ihnen Spaß gemacht, die Geschichte dieser großartigen Stadt zu entdecken!</div>
             <img src={kilianifest} className="gameIntro-image" alt="kilianifest" />
-            <div className="clue-background-div">Erinnerst du dich übrigens, wie die Reise begann? Noch heute spielt Kilian eine wichtige Rolle für die Stadt, er ist der Schutzpatron von Würzburg und jedes Jahr im Juli gibt es eine große Messe mit Feuerwerk namens "Kiliani"!</div>
+            <div className="clue-background-div">Erinnern Sie sich übrigens, wie die Reise begann? Noch heute spielt Kilian eine wichtige Rolle für die Stadt, er ist der Schutzpatron von Würzburg und jedes Jahr im Juli gibt es eine große Messe mit Feuerwerk namens "Kiliani"!</div>
           </div>
           {/* <div className="question-section"> */}
           {/* </div> */}
           <div className="buttons-section">
+
+            <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=7d82dcd485" target="_blank" rel="noopener noreferrer">
+                <div className="gameNext-button-below">Feedback geben</div>
+            </a>
             <Link to="/DE/support-us">
               <div className="gameNext-button-below">
                 Unterstütze uns!

@@ -24,9 +24,9 @@ class Wurzburg3B extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Das Rathaus</div>
             <div className="clue-background-divs">
-            <div className="clue-background-div">Im 12. Jahrhundert gründeten die Würzburger eine Gesellschaft, um den steigenden Forderungen der Fürstbischöfe entgegenzuwirken. In der Folge verließ der Bischof im 13. Jahrhundert die Stadt, um geschützt in der Burg zu leben, und verbot den Stadtrat.</div>
+            <div className="clue-background-div">Im 12. Jahrhundert gründeten die Würzburger eine Gesellschaft, um den steigenden Forderungen der Fürstbischöfe entgegenzuwirken. In Folge darauf, verließ der Bischof im 13. Jahrhundert die Stadt, um geschützt in der Burg zu leben, und verbot den Stadtrat.</div>
             <img src={castle} className="memorial-image" alt="castle" />
-            <div className="clue-background-div">Dennoch beschaffte der Stadtrat zu Beginn des 14. Jahrhunderts dieses Turmgebäude, das seitdem als Rathaus oder Rathaus dient.</div>
+            <div className="clue-background-div">Dennoch kam der Stadtrat zu Beginn des 14. Jahrhunderts in den Besitz dieses Turmgebäude, das seitdem als Rathaus oder Rathaus dient.</div>
             </div>
           </div>
           <div className="question-section">

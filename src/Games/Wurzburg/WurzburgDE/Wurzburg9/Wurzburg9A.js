@@ -21,7 +21,7 @@ class Wurzburg9A extends Component {
           {this.props.gamemenu !== true && <div>
           <Timeline timelineProgress="8" timelineReference="19.-20. Jh. n.Chr." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">Xrays</div>
+            <div className="clue-background-title">Röntgen</div>
             <div className="clue-background-div">Lernen wir einen Wissenschaftler kennen, der den Nobelpreis für Physik gewonnen hat!</div>
             <div><img src={destination9} className="destination1" alt="destination9" /></div>
             <iframe 

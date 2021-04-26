@@ -24,7 +24,7 @@ class Wurzburg5CHelp extends Component {
           <Timeline timelineProgress="5" timelineReference="16. Jh. n.Chr."/>
             <div className="clue-background">
             <div className="clue-background-title">Hinweis Hilfe</div>
-            <div className="clue-background-div">Die 2 richtigen Antworten befinden sich an den Seiten des Eingangs!</div>
+            <div className="clue-background-div">Die 2 richtigen Antworten befinden sich an den beiden Seiten des Eingangs!</div>
             <div>
               <img src={juliushelp} className="memorial-image" alt="juliushelp" />
               {/* <img src={juliusbar} className="memorial-image" alt="juliusbar" /> */}
