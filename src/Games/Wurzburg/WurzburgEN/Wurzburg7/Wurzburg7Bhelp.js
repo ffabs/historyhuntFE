@@ -28,7 +28,7 @@ class Wurzburg7Bhelp extends Component {
             </div>
 
           <div className="corona clue-background-div"> 
-            <b>In case it is closed due to corona, just skip this clue!</b>
+            <b>In case it is closed due to Corona, just skip this clue!</b>
           </div>
             <iframe 
               className="clue-map"
