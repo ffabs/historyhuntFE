@@ -5,31 +5,31 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munichemblemhelp from '../../MunichImages/munichemblemhelp.png';
+import munich_clue3help from '../../MunichImages/munich_clue3help.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich1BHelp');
+    ReactGA.pageview('/munich3CHelp');
 }
 
-class Wurzburg1CHelp extends Component {
+class Wurzburg3CHelp extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+          <Timeline timelineProgress="3" timelineReference="13th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Look for the following coat of arms:</div>
+            <div className="clue-background-div">Look at this side of the building!</div>
             <div>
-              <img src={munichemblemhelp} className="lorenz-image" alt="munichemblemhelp" />
+              <img src={munich_clue3help} className="solution-image" alt="munich_clue3help" />
             </div>
           </div>
         <div className="buttons-section">
-            <Link to="/munich/cityhall">
+            <Link to="/munich/wittelsbach/clue">
                 <div className="gameNext-button">
                     Back
                 </div>
@@ -41,7 +41,7 @@ class Wurzburg1CHelp extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich1BHelp');
+                  ReactGA.pageview('/munich3CHelp');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>  
@@ -50,4 +50,4 @@ class Wurzburg1CHelp extends Component {
   }
 }
 
-export default Wurzburg1CHelp;
+export default Wurzburg3CHelp;

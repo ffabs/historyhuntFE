@@ -142,6 +142,21 @@ import Wurzburg11DDE from './Games/Wurzburg/WurzburgDE/Wurzburg11/Wurzburg11D';
 
 
 import Munich1A from './Games/Munich/MunichEN/Munich1/Munich1A';
+import Munich1B from './Games/Munich/MunichEN/Munich1/Munich1B';
+import Munich1BHelp from './Games/Munich/MunichEN/Munich1/Munich1BHelp';
+import Munich1C from './Games/Munich/MunichEN/Munich1/Munich1C';
+import Munich1CHelp from './Games/Munich/MunichEN/Munich1/Munich1CHelp';
+import Munich1D from './Games/Munich/MunichEN/Munich1/Munich1D';
+import Munich2A from './Games/Munich/MunichEN/Munich2/Munich2A';
+import Munich2B from './Games/Munich/MunichEN/Munich2/Munich2B';
+import Munich2C from './Games/Munich/MunichEN/Munich2/Munich2C';
+import Munich2CHelp from './Games/Munich/MunichEN/Munich2/Munich2CHelp';
+import Munich2D from './Games/Munich/MunichEN/Munich2/Munich2D';
+import Munich3A from './Games/Munich/MunichEN/Munich3/Munich3A';
+import Munich3B from './Games/Munich/MunichEN/Munich3/Munich3B';
+import Munich3C from './Games/Munich/MunichEN/Munich3/Munich3C';
+import Munich3CHelp from './Games/Munich/MunichEN/Munich3/Munich3CHelp';
+import Munich3D from './Games/Munich/MunichEN/Munich3/Munich3D';
 
 
 class App extends Component {
@@ -568,6 +583,52 @@ class App extends Component {
             <Route exact={true} path='/munich/start' render={() => (
               <Munich1A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/munich/cityhall' render={() => (
+              <Munich1B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/start/help' render={() => (
+              <Munich1BHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/partnerships' render={() => (
+              <Munich1C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/partnerships/help' render={() => (
+              <Munich1CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/partnercities/clueAnswer' render={() => (
+              <Munich1D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/marktplatz' render={() => (
+              <Munich2A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/marktplatz/clueintro' render={() => (
+              <Munich2B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/marktplatz/clue' render={() => (
+              <Munich2C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/marktplatz/cluehelp' render={() => (
+              <Munich2CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/saltz/clueAnswer' render={() => (
+              <Munich2D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/wittelsbach' render={() => (
+              <Munich3A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/wittelsbach/clueintro' render={() => (
+              <Munich3B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/wittelsbach/clue' render={() => (
+              <Munich3C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/wittelsbach/cluehelp' render={() => (
+              <Munich3CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/alterhof/clueAnswer' render={() => (
+              <Munich3D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            
 
 
             <Route render={() => (

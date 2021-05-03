@@ -11,30 +11,31 @@ import destination1 from '../../MunichImages/destination1.png';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich1A');
+    ReactGA.pageview('/munich3A');
 }
 
-class Munich1A extends Component {
+class Munich3A extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D." animate="yes"/>
+          <Timeline timelineProgress="2" timelineReference="12th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Munich before Munich</div>
+            <div className="clue-background-title">The Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Even centuries before Munich was founded, its surranding areas were inhabitated...</div>
+              <div className="clue-background-div">Henry lost Munich and most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsback as Duke of Bavaria, starting in this way the longest and most conservative reign of any dynasty in Germany...</div>
+              <div className="clue-background-div"><i>Barbarossa also ordered to transfer the bridge back to where it used to be but this never happened as probably Munich was already too big to fall.</i></div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              <div className="clue-background-div">Come to the New Town Hall (or Neues Rathaus) to discover who used to live here!</div>
+              <div className="clue-background-div">Let's go to Wittelsbach's Old Court!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_0T5Jot1nkcRZ3kV_GGLAFE&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLST_l-51nkcR7RNhg-M6V80&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           {/* </div>
@@ -43,12 +44,12 @@ class Munich1A extends Component {
             </div>
           </div>
           <div className="buttons-section">
-            <Link to="/munich/cityhall">
+            <Link to="/munich/wittelsbach/clueintro">
               <div className="gameNext-button">
                   Yes, I am!
               </div>
             </Link>
-            <Link to="/munich">
+            <Link to="/munich/saltz/clueAnswer">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -62,7 +63,7 @@ class Munich1A extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich1A');
+                  ReactGA.pageview('/munich3A');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -71,4 +72,4 @@ class Munich1A extends Component {
     }
 }
 
-export default Munich1A;
+export default Munich3A;

@@ -5,45 +5,44 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munichemblem from '../../MunichImages/munichemblem.png';
+import money from '../../MunichImages/money.png';
+import mouse from '../../MunichImages/mouse.png';
+import fire from '../../MunichImages/fire.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/wurzburg1B');
+    ReactGA.pageview('/wurzburg3B');
 }
 
-class Munich1B extends Component {
+class Munich3B extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+          <Timeline timelineProgress="3" timelineReference="13th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">Munich before Munich</div>
+            <div className="clue-background-title">Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">The answer is in the symbol of the city, the Munich's coat of arms.</div>
-              <div className="clue-background-div">Let's get inside to look for it!</div>
-              <img src={munichemblem} className="memorial-image" alt="MunichEmblem" />
+              <div className="clue-background-div">Growth and even Council but bad management, Jews as well as issues like Pestilences and fires.</div>
+              <div className="clue-background-div">Let's check the area inside the court!</div>
+              <img src={money} className="memorial-image" alt="money" />
+              <img src={mouse} className="memorial-image" alt="mouse" />
+              <img src={fire} className="memorial-image" alt="fire" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Could you find it?</div>
+              <div className="clue-background-div question-section">Are you there?</div>
             </div>
           </div>
           <div className="buttons-section">
-              <Link to="/munich/partnerships">
+              <Link to="/munich/wittelsbach/clue">
                   <div className="gameNext-button">
                       Yes
                   </div>
               </Link>
-              <Link to="/munich/start/help">
-                <div className="gameNext-button-below">
-                    No, how does it look?
-                </div>
-              </Link>
-              <Link to="/munich/start">
+              <Link to="/munich/wittelsbach">
                 <div className="gameNext-button-below">
                     Back
                 </div>
@@ -58,7 +57,7 @@ class Munich1B extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/wurzburg1B');
+                  ReactGA.pageview('/wurzburg3B');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -67,4 +66,4 @@ class Munich1B extends Component {
   }
 }
 
-export default Munich1B;
+export default Munich3B;
