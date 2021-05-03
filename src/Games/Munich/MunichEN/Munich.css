@@ -1,0 +1,504 @@
+.imgclue2 {
+    max-width: 40%;
+    height: 250px;
+    margin: 0px 10px;
+}
+.destination1 {
+    width: 100%;
+    margin: 40px 0px;
+}
+.destination2 {
+    width: 50%;
+    margin: 40px 0px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corona {
+    margin: 30px 0px;
+}
+.closerTop {
+    margin-top: -30px;
+}
+.game-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.game-page-border {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0px;
+    max-width: 420px;
+    min-width: 400px;
+    margin-bottom: 100px;
+}
+.game-desktop {
+    font-size: 20px;
+    margin: 60px 0px 40px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+.header-footer {
+    color: white;
+}
+
+.clue-background {
+    display: flex;
+    flex-direction: column;
+    /* font-size: 19px; */
+    text-align: center;
+    align-items: center;
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.clue-background-title {
+    font-size: 25px;
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+.clue-background-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* font-size: 19px;
+    line-height: 30px; */
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.clue-background-div-i {
+    font-size: 15px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+    .clue-background-div {
+        margin: 15px;
+        text-align: left;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+.question-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* font-size: 19px; */
+    /* line-height: 30px; */
+    margin-top: 30px;
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.gameNext-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: white;
+    color: #17BC27;
+    border: 1px solid #17BC27;
+    border-radius: 6px;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    /* font-size: 19px; */
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.gameFeedback-button {
+    text-decoration: none;
+    background: white;
+    color: #17BC27;
+    margin: 40px 3px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    /* font-size: 19px; */
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+}
+    .gameNext-button-below {
+        text-decoration: none;
+        padding: 10px 20px;
+        background: white;
+        color: #17BC27;
+        border: 1px solid #17BC27;
+        border-radius: 6px;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        cursor: pointer;
+        /* font-size: 19px; */
+
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    
+.formInput {
+    margin: 15px 5px 35px 5px;
+    padding: 5px;
+    /* font-size: 19px; */
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    -webkit-appearance: none;
+    /* -webkit-box-shadow: 0px 2px 4px black;
+    box-shadow: 0px 2px 4px black; */
+    border-radius: 8px;
+    border-color: black;
+}
+
+.right {
+    border: 1px solid #17BC27;
+    margin: 15px 5px 35px 5px;
+    padding: 5px;
+    /* font-size: 19px; */
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0px 2px 4px #17BC27;
+    box-shadow: 0px 2px 4px #17BC27;
+    border-radius: 8px;
+}
+
+.wrong {
+    border: 1px solid red;
+    margin: 15px 5px 35px 5px;
+    padding: 5px;
+    /* font-size: 19px; */
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0px 2px 4px red;
+    box-shadow: 0px 2px 4px red;
+    border-radius: 8px;
+}
+
+.red {
+    color: red;
+    text-align: center;
+}
+
+.quizSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quiz-icon {
+    font-size: 35px;
+}
+    .quizItem {
+        border: 1px solid rgb(24, 23, 23);
+        border-radius: 6px;
+        padding: 5px 10px;
+        width: 110px;
+        /* height: 95px; */
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 21px;
+        height: 130px;
+        line-height: 40px;
+    }
+        .quizItemSelected {
+            border: 1px solid rgb(14, 68, 219);
+            background-color: rgb(14, 68, 219);
+            color: white;
+            border-radius: 6px;
+            padding: 5px 10px;
+            width: 110px;
+            /* height: 95px; */
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 21px;
+            height: 130px;
+            line-height: 40px;
+        }
+        .wrongItemSelected {
+            border: 1px solid rgb(219, 38, 14);
+            background-color: rgb(219, 38, 14);
+            color: white;
+            border-radius: 6px;
+            padding: 5px 10px;
+            width: 110px;
+            /* height: 95px; */
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 21px;
+            height: 130px;
+            line-height: 40px;
+        }
+
+/* removing the input number default increment buttons from Chrome */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+  }
+/* removing the input number default increment buttons from Mozilla */
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+
+.align-multipleforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wurzburg3Dform {
+    margin: 20px 0px 40px 0px;
+}
+
+.number-form {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.select-input {
+    cursor: pointer;
+    background-color: white;
+    border-width: 2px;    
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 60px;
+    margin: 20px 0px 30px 0px;
+    /* min-width: 270px; */
+    min-width: 314px;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    background: url(../MunichImages/arrow.svg) no-repeat right white;
+    appearance: none;
+    padding: 10px;
+    text-align-last: left;
+    border-color: black;
+    border-radius: 0px;
+}
+    .wrong-select-input {
+        cursor: pointer;
+        background-color: white;
+        -webkit-appearance: none;
+        box-shadow: 0px 2px 4px red;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+        height: 60px;
+        margin: 20px 0px 30px 0px;
+        /* min-width: 270px; */
+        min-width: 314px;
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        background: url(../MunichImages/arrow.svg) no-repeat right white;
+        appearance: none;
+        padding: 10px;
+        text-align-last: left;
+        border-radius: 8px;
+    }
+    .right-select-input {
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 0px 2px 4px #17BC27;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+        height: 60px;
+        margin: 20px 0px 30px 0px;
+        /* min-width: 270px; */
+        min-width: 314px;
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        background: url(../MunichImages/arrow.svg) no-repeat right white;
+        appearance: none;
+        padding: 10px;
+        text-align-last: left;
+        border-radius: 8px;
+    }
+.number-input {
+    text-align: center;
+    background: #FFFFFF;
+    border-bottom: auto;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0px;     
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    border-color: black;
+    height: 58px;
+    width: 65px;
+}
+    .wrong-number-input {
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px red;
+        margin: 0px; 
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+        width: 65px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: red;
+        height: 58px;
+    }
+    .right-number-input {
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px #17BC27;
+        margin: 0px; 
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 40px;
+        border-color: black;
+        width: 65px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: #17BC27;
+        height: 58px;
+    }
+.number-input-more {
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border-radius: 0px 8px 8px 0px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 64px;
+    width: 64px;
+}
+.number-input-less {
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 64px;
+    width: 64px;
+}
+
+.clue-map {
+    margin: 20px 0px;
+    width: 100%;
+    height: 550px;
+}
+
+.lorenz-image {
+    width: 80%;
+}
+.uni {
+    width: 40%;
+    margin: 20px 0px;
+}
+.solution-image {
+    margin: 40px 0px;
+    height: 250px;
+}
+.tree-image {
+    margin: 0px;
+    width: 100%;
+    max-width: 400px;
+}
+.memorial-image {
+    margin: 10px 0px;
+    width: 90%;
+    max-width: 400px;
+}
+.oegg {
+    margin: 10px 0px;
+    width: 50%;
+    max-width: 350px;
+}
+.war-memorial {
+    display: flex;
+    align-items: baseline;
+    margin: 10px 0px;
+}
+    .warriors {
+        max-width: 200px;
+        margin-right: 20px;
+    }
+    .crosses {
+        width: 50%;
+        max-width: 50px;
+        margin-left: 20px;
+    }
+.peasant-memorials {
+    display: flex;
+    align-items: center;
+}
+    .memorial50 {
+        width: 150px;
+    }
+
+
+@media only screen and (max-width: 420px) {
+    .game-page {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .game-page-border {
+        border: 0px;
+        margin: 0px;
+        min-width: 300px;
+    }
+    .game-desktop {
+        display: none;
+    }
+    .header-footer {
+        display: none;
+    }
+    .solution-image {
+        margin: 20px 0px;
+        height: 180px;
+    }
+}

@@ -140,6 +140,10 @@ import Wurzburg11CDE from './Games/Wurzburg/WurzburgDE/Wurzburg11/Wurzburg11C';
 import Wurzburg11CHelpDE from './Games/Wurzburg/WurzburgDE/Wurzburg11/Wurzburg11CHelp';
 import Wurzburg11DDE from './Games/Wurzburg/WurzburgDE/Wurzburg11/Wurzburg11D';
 
+
+import Munich1A from './Games/Munich/MunichEN/Munich1/Munich1A';
+
+
 class App extends Component {
   
   constructor (props) {
@@ -559,6 +563,12 @@ class App extends Component {
             <Route exact={true} path='/DE/wuerzburg/currenttimes/intro/clueAnswer' render={() => (
               <Wurzburg11DDE gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+
+
+            <Route exact={true} path='/munich/start' render={() => (
+              <Munich1A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+
 
             <Route render={() => (
               <Redirect to="/" />
