@@ -25,8 +25,7 @@ class Munich3A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">The Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Henry lost Munich and most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsback as Duke of Bavaria, starting in this way the longest and most conservative reign of any dynasty in Germany...</div>
-              <div className="clue-background-div"><i>Barbarossa also ordered to transfer the bridge back to where it used to be but this never happened as probably Munich was already too big to fall.</i></div>
+              <div className="clue-background-div">Henry lost Munich and most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsbach as Duke of Bavaria, starting the longest reign of any dynasty in Germany...</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
               <div className="clue-background-div">Let's go to Wittelsbach's Old Court!</div>
               <img src={destination1} className="destination1" alt="destination1" />
@@ -35,7 +34,7 @@ class Munich3A extends Component {
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLST_l-51nkcR7RNhg-M6V80&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=4HQH%2B54%20Munich&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           {/* </div>

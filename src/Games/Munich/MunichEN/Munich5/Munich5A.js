@@ -5,48 +5,47 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-// import annouce from '../../MunichImages/annouce.png';
 import destination1 from '../../MunichImages/destination1.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich2A');
+    ReactGA.pageview('/munich5A');
 }
 
-class Munich2A extends Component {
+class Munich5A extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="2" timelineReference="12th A.D." animate="yes"/>
+          <Timeline timelineProgress="4" timelineReference="14th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Salt, the white gold</div>
+            <div className="clue-background-title">City Walls</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Go back to Marienplatz. Try to imagine .... salt.. This square is the original trade center of Munich which used to be called just <i>Marktplatz</i> (market square).</div>
+              <div className="clue-background-div">Let's go to Isartor to discover the history of the city walls!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLWM3jSROqEcRswsOX7NRrd4&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJg-Bu7Il1nkcR1XYh_kKr8pE&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           {/* </div>
           <div className="question-section"> */}
-            <div className="clue-background-div question-section">Are you there?</div>
+          <div className="clue-background-div question-section">Arrived?</div>
             </div>
           </div>
           <div className="buttons-section">
-            <Link to="/munich/marktplatz/clueintro">
+            <Link to="/munich/walls/clueintro">
               <div className="gameNext-button">
-                  Yes, I am!
+                  Yes
               </div>
             </Link>
-            <Link to="/munich/partnercities/clueAnswer">
+            <Link to="/munich/bavarian/clueAnswer">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -60,7 +59,7 @@ class Munich2A extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich2A');
+                  ReactGA.pageview('/munich5A');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -69,4 +68,4 @@ class Munich2A extends Component {
     }
 }
 
-export default Munich2A;
+export default Munich5A;

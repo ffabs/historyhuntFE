@@ -33,12 +33,12 @@ class Wurzburg3D extends Component {
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/marktplatz">
+          <Link to="/munich/louis">
             <div className="gameNext-button">
                 Next Clue
             </div>
           </Link>
-          <Link to="/munich/partnerships">
+          <Link to="/munich/wittelsbach/clue">
               <div className="gameNext-button-below">
                   Back
               </div>

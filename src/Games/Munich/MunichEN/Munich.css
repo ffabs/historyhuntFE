@@ -453,6 +453,11 @@ input[type=number] {
     width: 90%;
     max-width: 400px;
 }
+.munich-text-image {
+    margin: 0px 20px;
+    width: 90%;
+    max-width: 400px;
+}
 .oegg {
     margin: 10px 0px;
     width: 50%;

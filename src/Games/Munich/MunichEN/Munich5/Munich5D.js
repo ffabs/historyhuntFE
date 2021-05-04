@@ -5,32 +5,30 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich2_oldcityhall from '../../MunichImages/munich2_oldcityhall.png';
-import annouce from '../../MunichImages/annouce.png';
+import munich_clue5help from '../../MunichImages/munich_clue5help.png';
+import castle from '../../MunichImages/castle.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich2D');
+    ReactGA.pageview('/munich5D');
 }
 
-class Wurzburg2D extends Component {
+class Wurzburg5D extends Component {
   render() {
     return ( 
       <div>
         {this.props.gamemenu !== true && 
         <div> 
-        <Timeline timelineProgress="2" timelineReference="12th A.D." animate="no"/>
+        <Timeline timelineProgress="4" timelineReference="14th A.D."/>
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich2_oldcityhall} className="solution-image" alt="oldcityhall" />
+            <img src={munich_clue5help} className="solution-image" alt="Isartor" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">Following the street until the Isar, the Ludwigsbrücke stands where the original bridge used to be.</div>
-            <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Friedrich I (the famous Barbarossa) issues the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
-            <img src={annouce} className="memorial-image" alt="annouce" />
-            <div className="clue-background-div">In this document, Barbarossa accepts Henry's foundation of Munich but instructed him to pay 1/3 of his income from the new bridge to the Bishop. However, Henry's good favour with Barbarossa did not last....</div>
+          <div className="clue-background-div">Despite the fact that after Louis IV Munich was not at the center of the empire anymore, the walls were not the only impressive constructions built in those years...</div>
+            <img src={castle} className="memorial-image" alt="castle" />
           </div>
         </div>
         <div className="buttons-section">
@@ -39,7 +37,7 @@ class Wurzburg2D extends Component {
                 Next Clue
             </div>
           </Link>
-          <Link to="/munich/marktplatz/clue">
+          <Link to="/munich/walls/clue">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -56,7 +54,7 @@ class Wurzburg2D extends Component {
             buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
             onAccept={() => {
                 ReactGA.initialize('UA-192893120-1');
-                ReactGA.pageview('/munich2D');
+                ReactGA.pageview('/munich5D');
             }}
             >This website uses Google Analytics cookies to enhance the user experience.
         </CookieConsent>  
@@ -65,4 +63,4 @@ class Wurzburg2D extends Component {
   }
 }
 
-export default Wurzburg2D;
+export default Wurzburg5D;

@@ -25,7 +25,7 @@ class Munich1B extends Component {
             <div className="clue-background-title">Munich before Munich</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">The answer is in the symbol of the city, the Munich's coat of arms.</div>
-              <div className="clue-background-div">Let's get inside to look for it!</div>
+              <div className="clue-background-div">Let's check the entrance of the Town Hall and look for it!</div>
               <img src={munichemblem} className="memorial-image" alt="MunichEmblem" />
           {/* </div>
           <div className="question-section"> */}

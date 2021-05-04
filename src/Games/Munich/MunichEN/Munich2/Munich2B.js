@@ -6,6 +6,9 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 import salt from '../../MunichImages/salt.png';
+// import guard from '../../MunichImages/guard.png';
+import archer from '../../MunichImages/archer.png';
+import fire from '../../MunichImages/fire.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -30,9 +33,15 @@ class Munich2B extends Component {
               </div>
               <img src={salt} className="memorial-image" alt="salt" />
               <div className="clue-background-div">
-                In the first half of the 12th century, Bishop Otto I of Freising had established a toll bridge in Föhring (now a Munich suburb).
-                However, the Duke of Bavaria, Henry the Lion, wanted to get this business, destroying Otto's toll bridge and building a new one 8 km away, where Munich is now.
+                In the first half of the 12th century, Bishop Otto I had established a toll bridge in Föhring (now a Munich suburb).
               </div>
+              {/* <img src={guard} className="memorial-image" alt="guard" /> */}
+              <img src={archer} className="memorial-image" alt="archer" />
+              
+              <div className="clue-background-div">
+                However, the Duke of Bavaria, Henry the Lion, wanted to get this business all for himself. He destroyed Otto's toll bridge and built a new one where Munich is now.
+              </div>
+              <img src={fire} className="memorial-image" alt="fire" />
           {/* </div>
           <div className="question-section"> */}
               <div className="clue-background-div question-section">Are you ready to find the original Salt way?</div>

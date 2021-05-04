@@ -5,41 +5,42 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich2_oldcityhall from '../../MunichImages/munich2_oldcityhall.png';
-import annouce from '../../MunichImages/annouce.png';
+import munich_clue4help from '../../MunichImages/munich_clue4help.png';
+import castle from '../../MunichImages/castle.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich2D');
+    ReactGA.pageview('/munich4D');
 }
 
-class Wurzburg2D extends Component {
+class Wurzburg4D extends Component {
   render() {
     return ( 
       <div>
         {this.props.gamemenu !== true && 
         <div> 
-        <Timeline timelineProgress="2" timelineReference="12th A.D." animate="no"/>
+        <Timeline timelineProgress="4" timelineReference="14th A.D."/>
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich2_oldcityhall} className="solution-image" alt="oldcityhall" />
+              <img src={munich_clue4help} className="solution-image" alt="Louis IV" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">Following the street until the Isar, the Ludwigsbrücke stands where the original bridge used to be.</div>
-            <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Friedrich I (the famous Barbarossa) issues the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
-            <img src={annouce} className="memorial-image" alt="annouce" />
-            <div className="clue-background-div">In this document, Barbarossa accepts Henry's foundation of Munich but instructed him to pay 1/3 of his income from the new bridge to the Bishop. However, Henry's good favour with Barbarossa did not last....</div>
+          <div className="clue-background-div">issues with the Pope when it was weaker (not recognised his election, excommunication, called the bavarian.., maybe because the Pope was with the Habsburgers?!)but then decided that emperor were elected by a collage without the pope and excluding bavaria duke</div>
+            
+            <div className="clue-background-div">Munich became a focal point for the empire, center of intellectual (theologians, philosophers, artists...disputes with Catholic Church...) state administration set up (ducal court, court chapel, chancellery) To reward Munich for its loyalty (and also to line his own pockets), Ludwig created a lucrative monopoly for the city in 1322 by ordering that all the salt mined within Hallein or Reichenhall must pass directly through Munich.</div>
+            <img src={castle} className="memorial-image" alt="castle" />
+            <div className="clue-background-div">famous city gates and walls constructed (there was an inner wall section though)</div>
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/wittelsbach">
+          <Link to="/munich/walls">
             <div className="gameNext-button">
                 Next Clue
             </div>
           </Link>
-          <Link to="/munich/marktplatz/clue">
+          <Link to="/munich/louis/clue">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -56,7 +57,7 @@ class Wurzburg2D extends Component {
             buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
             onAccept={() => {
                 ReactGA.initialize('UA-192893120-1');
-                ReactGA.pageview('/munich2D');
+                ReactGA.pageview('/munich4D');
             }}
             >This website uses Google Analytics cookies to enhance the user experience.
         </CookieConsent>  
@@ -65,4 +66,4 @@ class Wurzburg2D extends Component {
   }
 }
 
-export default Wurzburg2D;
+export default Wurzburg4D;
