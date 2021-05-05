@@ -5,45 +5,43 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import money from '../../MunichImages/money.png';
-import mouse from '../../MunichImages/mouse.png';
-import fire from '../../MunichImages/fire.png';
+import munichFirstImage from '../../MunichImages/firstimagemunichsmall.jpeg';
+import bricks from '../../MunichImages/bricks.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich3B');
+    ReactGA.pageview('/munich6B');
 }
 
-class Munich3B extends Component {
+class Munich6B extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="3" timelineReference="13th A.D." animate="yes"/>
+          <Timeline timelineProgress="5" timelineReference="15-16th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Wittelsbach's Old Court</div>
+            <div className="clue-background-title">Becoming a city of art</div>
             <div className="clue-background-divs">
-              <img src={money} className="memorial-image" alt="money" />
-              <div className="clue-background-div">During the centuries that this dinasty has ruled, the city has experienced periods of wealth, culture, population growth and the establishment of the city council.</div>
-              <img src={mouse} className="munich-text-image" alt="mouse" />
-              <div className="clue-background-div">Nevertheless, under this dinasty the city has also been through periods of impoverishment, bad city management, religious persecutions, pestilences and fires.</div>
-              <img src={fire} className="memorial-image" alt="fire" />
-              <div className="clue-background-div">Let's check the area inside their court!</div>
+              <div className="clue-background-div">This is how Munich appeared at the end of the 15th century.</div>
+              <div className="clue-background-div-i-munich">The oldest existing image of Munich - Hartmann Schedel in 1493</div>
+              <img src={munichFirstImage} className="tree-image" alt="munichFirstImage" />
+              <div className="clue-background-div">Even if in the 15th Munich was not the center of the empire enymore, the city invested heavily on buildings and arts (after 15th more bricks to avoid fires): the tanzenhaus (later rathaus), the kunstkammer, the antiquarian, the residenz, city arsenal, brothel 1430s at am anger, a slaughterhause in 1465 followed by a municipal backery</div>
+              <img src={bricks} className="munich-text-image" alt="bricks" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you there?</div>
+              <div className="clue-background-div question-section">Are you ready for the clue?</div>
             </div>
           </div>
           <div className="buttons-section">
-              <Link to="/munich/wittelsbach/clue">
+              <Link to="/munich/firstimage/clue">
                   <div className="gameNext-button">
                       Yes
                   </div>
               </Link>
-              <Link to="/munich/wittelsbach">
+              <Link to="/munich/firstimage">
                 <div className="gameNext-button-below">
                     Back
                 </div>
@@ -58,7 +56,7 @@ class Munich3B extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich3B');
+                  ReactGA.pageview('/munich6B');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -67,4 +65,4 @@ class Munich3B extends Component {
   }
 }
 
-export default Munich3B;
+export default Munich6B;

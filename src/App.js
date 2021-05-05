@@ -167,6 +167,26 @@ import Munich5B from './Games/Munich/MunichEN/Munich5/Munich5B';
 import Munich5C from './Games/Munich/MunichEN/Munich5/Munich5C';
 import Munich5CHelp from './Games/Munich/MunichEN/Munich5/Munich5CHelp';
 import Munich5D from './Games/Munich/MunichEN/Munich5/Munich5D';
+import Munich6A from './Games/Munich/MunichEN/Munich6/Munich6A';
+import Munich6B from './Games/Munich/MunichEN/Munich6/Munich6B';
+import Munich6C from './Games/Munich/MunichEN/Munich6/Munich6C';
+import Munich6CHelp from './Games/Munich/MunichEN/Munich6/Munich6CHelp';
+import Munich6D from './Games/Munich/MunichEN/Munich6/Munich6D';
+import Munich7A from './Games/Munich/MunichEN/Munich7/Munich7A';
+import Munich7B from './Games/Munich/MunichEN/Munich7/Munich7B';
+import Munich7C from './Games/Munich/MunichEN/Munich7/Munich7C';
+import Munich7CHelp from './Games/Munich/MunichEN/Munich7/Munich7CHelp';
+import Munich7D from './Games/Munich/MunichEN/Munich7/Munich7D';
+import Munich8A from './Games/Munich/MunichEN/Munich8/Munich8A';
+import Munich8B from './Games/Munich/MunichEN/Munich8/Munich8B';
+import Munich8C from './Games/Munich/MunichEN/Munich8/Munich8C';
+import Munich8CHelp from './Games/Munich/MunichEN/Munich8/Munich8CHelp';
+import Munich8D from './Games/Munich/MunichEN/Munich8/Munich8D';
+import Munich9A from './Games/Munich/MunichEN/Munich9/Munich9A';
+import Munich9B from './Games/Munich/MunichEN/Munich9/Munich9B';
+import Munich9C from './Games/Munich/MunichEN/Munich9/Munich9C';
+import Munich9CHelp from './Games/Munich/MunichEN/Munich9/Munich9CHelp';
+import Munich9D from './Games/Munich/MunichEN/Munich9/Munich9D';
 
 
 class App extends Component {
@@ -667,6 +687,66 @@ class App extends Component {
             )}/>
             <Route exact={true} path='/munich/year/clueAnswer' render={() => (
               <Munich5D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/firstimage' render={() => (
+              <Munich6A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/firstimage/clueintro' render={() => (
+              <Munich6B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/firstimage/clue' render={() => (
+              <Munich6C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/firstimage/cluehelp' render={() => (
+              <Munich6CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/cupolas/clueAnswer' render={() => (
+              <Munich6D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/michael' render={() => (
+              <Munich7A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/michael/clueintro' render={() => (
+              <Munich7B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/michael/clue' render={() => (
+              <Munich7C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/michael/cluehelp' render={() => (
+              <Munich7CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/william/clueAnswer' render={() => (
+              <Munich7D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/william' render={() => (
+              <Munich8A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/william/clueintro' render={() => (
+              <Munich8B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/william/clue' render={() => (
+              <Munich8C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/william/cluehelp' render={() => (
+              <Munich8CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/1589/clueAnswer' render={() => (
+              <Munich8D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/max' render={() => (
+              <Munich9A gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/max/clueintro' render={() => (
+              <Munich9B gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/max/clue' render={() => (
+              <Munich9C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/max/cluehelp' render={() => (
+              <Munich9CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/diana/clueAnswer' render={() => (
+              <Munich9D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             
 

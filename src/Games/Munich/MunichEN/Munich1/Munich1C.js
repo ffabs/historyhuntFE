@@ -23,7 +23,7 @@ if (consent === "true") {
     ReactGA.pageview('/munich1C');
 }
 
-class Wurzburg1C extends Component {
+class Munich1C extends Component {
     constructor (props) {
         super(props);
         this.state = {
@@ -281,4 +281,4 @@ checkAnswer = event => {
     }
 }
 
-export default Wurzburg1C;
+export default Munich1C;

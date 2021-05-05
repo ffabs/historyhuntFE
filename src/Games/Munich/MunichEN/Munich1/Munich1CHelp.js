@@ -13,7 +13,7 @@ if (consent === "true") {
     ReactGA.pageview('/munich1CHelp');
 }
 
-class Wurzburg1CHelp extends Component {
+class Munich1CHelp extends Component {
     
   render() {
       return ( 
@@ -50,4 +50,4 @@ class Wurzburg1CHelp extends Component {
   }
 }
 
-export default Wurzburg1CHelp;
+export default Munich1CHelp;

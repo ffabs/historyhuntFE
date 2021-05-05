@@ -5,45 +5,40 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import money from '../../MunichImages/money.png';
-import mouse from '../../MunichImages/mouse.png';
-import fire from '../../MunichImages/fire.png';
+import bible from '../../MunichImages/bible.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich3B');
+    ReactGA.pageview('/munich7B');
 }
 
-class Munich3B extends Component {
+class Munich7B extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="3" timelineReference="13th A.D." animate="yes"/>
+          <Timeline timelineProgress="6" timelineReference="16th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Wittelsbach's Old Court</div>
+            <div className="clue-background-title">Jesuits and the counter reformation</div>
             <div className="clue-background-divs">
-              <img src={money} className="memorial-image" alt="money" />
-              <div className="clue-background-div">During the centuries that this dinasty has ruled, the city has experienced periods of wealth, culture, population growth and the establishment of the city council.</div>
-              <img src={mouse} className="munich-text-image" alt="mouse" />
-              <div className="clue-background-div">Nevertheless, under this dinasty the city has also been through periods of impoverishment, bad city management, religious persecutions, pestilences and fires.</div>
-              <img src={fire} className="memorial-image" alt="fire" />
-              <div className="clue-background-div">Let's check the area inside their court!</div>
+              <div className="clue-background-div">In the 16th A.D. the Protestant Reformation movement started by Martin Luther arrived to Munich too. As a response, Munich became even more Catholic, embracing the counter reformation, welcoming the ultra-religious Jesuits and even ruling that only Catholics could be citizen of the city.</div>
+              <img src={bible} className="munich-text-image" alt="bible" />
+              <div className="clue-background-div">In addition, many of Munich's future elite were now educated at the new Jesuit college, part of a vast complex of Jesuit buildings, including the St Michael's Church, the biggest late-Renaissance church in Germnay.</div>
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you there?</div>
+              <div className="clue-background-div question-section">Are you ready to discover some of its secrets?</div>
             </div>
           </div>
           <div className="buttons-section">
-              <Link to="/munich/wittelsbach/clue">
+              <Link to="/munich/michael/clue">
                   <div className="gameNext-button">
                       Yes
                   </div>
               </Link>
-              <Link to="/munich/wittelsbach">
+              <Link to="/munich/michael">
                 <div className="gameNext-button-below">
                     Back
                 </div>
@@ -58,7 +53,7 @@ class Munich3B extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich3B');
+                  ReactGA.pageview('/munich7B');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -67,4 +62,4 @@ class Munich3B extends Component {
   }
 }
 
-export default Munich3B;
+export default Munich7B;

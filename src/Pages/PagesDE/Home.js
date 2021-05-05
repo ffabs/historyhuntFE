@@ -31,7 +31,7 @@ class Home extends Component {
         <Header page={'Home'}/>
         <div className="home-background">
           <div className="home-background-text">
-            <div>EINE SCHATZSUCHE</div>
+            <div>DIE SCHATZSUCHE</div>
             <div>UM DIE GESCHICHTE WÜRZBURGS</div>
             <div>ZU ENTDECKEN</div>
           </div>

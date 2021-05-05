@@ -10,7 +10,7 @@ import munichemblem from '../../MunichImages/munichemblem.png';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/wurzburg1B');
+    ReactGA.pageview('/munich1B');
 }
 
 class Munich1B extends Component {
@@ -58,7 +58,7 @@ class Munich1B extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/wurzburg1B');
+                  ReactGA.pageview('/munich1B');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   

@@ -5,41 +5,41 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich2_oldcityhall from '../../MunichImages/munich2_oldcityhall.png';
-import annouce from '../../MunichImages/annouce.png';
+import munich_clue6help from '../../MunichImages/munich_clue6help.png';
+// import munichflag from '../../MunichImages/munich-flag.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich2D');
+    ReactGA.pageview('/munich6D');
 }
 
-class Munich2D extends Component {
+class Munich6D extends Component {
   render() {
     return ( 
       <div>
         {this.props.gamemenu !== true && 
         <div> 
-        <Timeline timelineProgress="2" timelineReference="12th A.D." animate="no"/>
+        <Timeline timelineProgress="5" timelineReference="15-16th A.D."/>
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich2_oldcityhall} className="solution-image" alt="oldcityhall" />
+              <img src={munich_clue6help} className="solution-image" alt="cupolas" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">Following the street until the Isar, the Ludwigsbrücke stands where the original bridge used to be.</div>
-            <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Friedrich I (the famous Barbarossa) issues the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
-            <img src={annouce} className="memorial-image" alt="annouce" />
-            <div className="clue-background-div">In this document, Barbarossa accepts Henry's foundation of Munich but instructed him to pay 1/3 of his income from the new bridge to the Bishop. However, Henry's good favour with Barbarossa did not last....</div>
+            <div className="clue-background-div">munich's Frauenkirche red bricks (but cupolas later done) the last late gothic building in bavaria and the larsgest halled church in southern germnay.</div>
+            {/* <div><img src={munichflag} className="memorial-image" alt="munich-flag" /></div> */}
+            <div className="clue-background-div">Even if Frauenkirche was the most significant church in the 15th century, the 16th century had another protagonist...</div>
+            <div className="clue-background-div"><i>consider to change this clue to have only 15th century stuff here and the next one for 16th</i></div>
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/wittelsbach">
+          <Link to="/munich/michael">
             <div className="gameNext-button">
                 Next Clue
             </div>
           </Link>
-          <Link to="/munich/marktplatz/clue">
+          <Link to="/munich/firstimage/clue">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -56,7 +56,7 @@ class Munich2D extends Component {
             buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
             onAccept={() => {
                 ReactGA.initialize('UA-192893120-1');
-                ReactGA.pageview('/munich2D');
+                ReactGA.pageview('/munich6D');
             }}
             >This website uses Google Analytics cookies to enhance the user experience.
         </CookieConsent>  
@@ -65,4 +65,4 @@ class Munich2D extends Component {
   }
 }
 
-export default Munich2D;
+export default Munich6D;

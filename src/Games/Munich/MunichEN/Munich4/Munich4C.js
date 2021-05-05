@@ -10,10 +10,10 @@ import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/wurzburg4C');
+    ReactGA.pageview('/munich4C');
 }
 
-class Wurzburg4C extends Component {
+class Munich4C extends Component {
 
     constructor (props) {
         super(props);   
@@ -101,7 +101,7 @@ class Wurzburg4C extends Component {
                         buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
                         onAccept={() => {
                             ReactGA.initialize('UA-192893120-1');
-                            ReactGA.pageview('/wurzburg4C');
+                            ReactGA.pageview('/munich4C');
                         }}
                         >This website uses Google Analytics cookies to enhance the user experience.
                     </CookieConsent>   
@@ -111,4 +111,4 @@ class Wurzburg4C extends Component {
     }
 }
 
-export default Wurzburg4C;
+export default Munich4C;

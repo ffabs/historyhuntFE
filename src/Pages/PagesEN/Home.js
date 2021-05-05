@@ -52,7 +52,7 @@ class Home extends Component {
         <Header page={'Home'}/>
         <div className="home-background">
           <div className="home-background-text">
-            <div>A TREASURE HUNT-STYLE EXPERIENCE</div>
+            <div>THE TREASURE HUNT-STYLE EXPERIENCE</div>
             <div>TO DISCOVER THE HISTORY</div>
             <div>OF WÜRZBURG</div>
           </div>

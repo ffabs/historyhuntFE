@@ -14,7 +14,7 @@ if (consent === "true") {
     ReactGA.pageview('/munich5D');
 }
 
-class Wurzburg5D extends Component {
+class Munich5D extends Component {
   render() {
     return ( 
       <div>
@@ -32,7 +32,7 @@ class Wurzburg5D extends Component {
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/wittelsbach">
+          <Link to="/munich/firstimage">
             <div className="gameNext-button">
                 Next Clue
             </div>
@@ -63,4 +63,4 @@ class Wurzburg5D extends Component {
   }
 }
 
-export default Wurzburg5D;
+export default Munich5D;

@@ -10,10 +10,10 @@ import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich3C');
+    ReactGA.pageview('/munich9C');
 }
 
-class Munich3C extends Component {
+class Munich9C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
@@ -96,13 +96,13 @@ class Munich3C extends Component {
     render() {
         if(this.state.answers === "right"){
             return (
-                <Redirect to="/munich/alterhof/clueAnswer" />
+                <Redirect to="/munich/diana/clueAnswer" />
             ) 
         } else {
             return ( 
                 <div>
                     {this.props.gamemenu !== true && <div>
-                        <Timeline timelineProgress="3" timelineReference="13th A.D."/>
+                        <Timeline timelineProgress="7" timelineReference="17th A.D."/>
                         <div className="clue-background">
                         <div className="clue-background-title">Wittelsbach's Old Court</div>
                         <div className="clue-background-div">Among the symbols on the building, there is one particularly prominent. What does it show?</div>
@@ -146,12 +146,12 @@ class Munich3C extends Component {
                         >
                             Check answers
                         </div>
-                        <Link to="/munich/wittelsbach/clueintro">
+                        <Link to="/munich/max/clueintro">
                             <div className="gameNext-button-below">
                                 Back
                             </div>
                         </Link>
-                        <Link to="/munich/wittelsbach/cluehelp">
+                        <Link to="/munich/max/cluehelp">
                             <div className="gameFeedback-button">Help</div>
                         </Link>
                     </div>
@@ -161,7 +161,7 @@ class Munich3C extends Component {
                         buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
                         onAccept={() => {
                             ReactGA.initialize('UA-192893120-1');
-                            ReactGA.pageview('/munich3C');
+                            ReactGA.pageview('/munich9C');
                         }}
                         >This website uses Google Analytics cookies to enhance the user experience.
                     </CookieConsent>
@@ -171,4 +171,4 @@ class Munich3C extends Component {
     }
 }
 
-export default Munich3C;
+export default Munich9C;
