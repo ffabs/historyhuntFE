@@ -17,11 +17,11 @@ class Munich9C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
-            firstAnswer: "Spring",
+            firstAnswer: "Winter",
             secondAnswer: "Summer",
             thirdAnswer: "Summer",
             answers: "wrong",
-            firstAnswerCSS: "select-input",
+            firstAnswerCSS: "select-input-munich7 select-input",
             secondAnswerCSS: "select-input",
             thirdAnswerCSS: "select-input"
         };
@@ -31,57 +31,25 @@ class Munich9C extends Component {
         let firstAnswer = event.target.value;
         this.setState({
             firstAnswer: firstAnswer,
-            firstAnswerCSS: "select-input"
-        });
-    }
-
-    updateSecondAnswer = event => {
-        let secondAnswer = event.target.value;
-        this.setState({
-            secondAnswer: secondAnswer,
-            secondAnswerCSS: "select-input"
-        });
-    }
-
-    updateThirdAnswer = event => {
-        let thirdAnswer = event.target.value;
-        this.setState({
-            thirdAnswer: thirdAnswer,
-            thirdAnswerCSS: "select-input"
+            firstAnswerCSS: "select-input-munich7 select-input"
         });
     }
 
     showErrors = event => {
         let firstInputCheck;
-        let secondInputCheck;
-        let thirdInputCheck;
         if (this.state.firstAnswer === "Spring") {
-            firstInputCheck = "right-select-input-munich";
+            firstInputCheck = "select-input-munich7 right-select-input-munich";
         } else {
-            firstInputCheck = "wrong-select-input-munich";
-        }
-
-        if (this.state.secondAnswer === "Spring") {
-            secondInputCheck = "right-select-input-munich";
-        } else {
-            secondInputCheck = "wrong-select-input-munich";
-        }
-
-        if (this.state.thirdAnswer === "Spring") {
-            thirdInputCheck = "right-select-input-munich";
-        } else {
-            thirdInputCheck = "wrong-select-input-munich";
+            firstInputCheck = "select-input-munich7 wrong-select-input-munich";
         }
 
         this.setState({
-            firstAnswerCSS: firstInputCheck,
-            secondAnswerCSS: secondInputCheck,
-            thirdAnswerCSS: thirdInputCheck
+            firstAnswerCSS: firstInputCheck
         });
     }
 
     checkAnswer = event => {
-        if (this.state.firstAnswer === "Spring" && this.state.secondAnswer === "Spring" && this.state.thirdAnswer === "Spring") {
+        if (this.state.firstAnswer === "Spring") {
             this.setState({
                 answers: "right"
             });
@@ -104,38 +72,17 @@ class Munich9C extends Component {
                     {this.props.gamemenu !== true && <div>
                         <Timeline timelineProgress="7" timelineReference="17th A.D."/>
                         <div className="clue-background">
-                        <div className="clue-background-title">Wittelsbach's Old Court</div>
-                        <div className="clue-background-div">Among the symbols on the building, there is one particularly prominent. What does it show?</div>
+                        <div className="clue-background-title">Maximilian I and the Court Gardens</div>
+                        <div className="clue-background-div">At the top of the building, there is a statue that was built a few years earlier (the original is now in the Residenzmuseum). What does the main statue mean?</div>
                         <div className="munich-parent-forms">
                             <div className="munich-form">
-                                <div className="clue-background-div">A</div>
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
-                                    <option value="Spring"> ⬛ black</option>
-                                    <option value="Winter"> 🟦 blue</option>
-                                    <option value="Winter"> 🟨 gold</option>
-                                    <option value="Winter"> 🟥 red</option>
-                                    <option value="Winter"> ⬜ white</option>
+                                    <option value="Winter"> 🍺 The power of beer</option>
+                                    <option value="Winter"> 🌲 The power of nature</option>
+                                    <option value="Winter"> ✝️ The power of religion</option>
+                                    <option value="Winter"> 💪 The strength of Diana</option>
+                                    <option value="Spring"> 💰 The wealth of Baviera</option>
                                 </select>
-                            </div>
-                            <div className="clue-background-div"></div>
-                            <div className="munich-form">
-                                <select type="text" onChange={this.updateSecondAnswer} className={this.state.secondAnswerCSS}>
-                                    <option value="Spring"> 🐉 dragon</option>
-                                    <option value="Spring"> 🦅 eagle</option>
-                                    <option value="Winter"> 🦁 lion </option>
-                                    <option value="Winter"> 🐍 snake </option>
-                                </select>
-                                <div className="clue-background-div">on a</div>
-                            </div>
-                            <div className="munich-form">
-                                <select type="text" onChange={this.updateThirdAnswer} className={this.state.thirdAnswerCSS}>
-                                    <option value="Winter"> ⬛ black</option>
-                                    <option value="Winter"> 🟦 blue</option>
-                                    <option value="Spring"> 🟨 gold</option>
-                                    <option value="Winter"> 🟥 red</option>
-                                    <option value="Winter"> ⬜ white</option>                                
-                                </select>
-                                <div className="clue-background-div">background</div>
                             </div>
                         </div>
                     </div>

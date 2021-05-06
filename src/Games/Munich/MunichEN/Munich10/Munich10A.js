@@ -11,28 +11,29 @@ import destination1 from '../../MunichImages/destination1.png';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich9A');
+    ReactGA.pageview('/munich10A');
 }
 
-class Munich9A extends Component {
+class Munich10A extends Component {
     
   render() {
       return ( 
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="7" timelineReference="17th A.D." animate="yes"/>
+          <Timeline timelineProgress="10" timelineReference="17th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">Maximilian I and the Court Gardens</div>
+            <div className="clue-background-title">The 30 Years War</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Let's go to the Court Garden built by MaximilianI!</div>
+              <div className="clue-background-div">Let's go back to Marienplatz to watch Mary's Column!</div>
+              {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
               title="map"
               // frameborder="0" 
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJySIbSo11nkcR6g3VmgfXU40&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy5zeKYt1nkcRLz5kT4UiUfQ&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
               // allowfullscreen 
             />
           {/* </div>
@@ -41,12 +42,12 @@ class Munich9A extends Component {
             </div>
           </div>
           <div className="buttons-section">
-            <Link to="/munich/max/clueintro">
+            <Link to="/munich/30ywar/clueintro">
               <div className="gameNext-button">
                   Yes, I am!
               </div>
             </Link>
-            <Link to="/munich/1589/clueAnswer">
+            <Link to="/munich/diana/clueAnswer">
               <div className="gameNext-button-below">
                   Back
               </div>
@@ -60,7 +61,7 @@ class Munich9A extends Component {
               buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
               onAccept={() => {
                   ReactGA.initialize('UA-192893120-1');
-                  ReactGA.pageview('/munich9A');
+                  ReactGA.pageview('/munich10A');
               }}
               >This website uses Google Analytics cookies to enhance the user experience.
           </CookieConsent>   
@@ -69,4 +70,4 @@ class Munich9A extends Component {
     }
 }
 
-export default Munich9A;
+export default Munich10A;

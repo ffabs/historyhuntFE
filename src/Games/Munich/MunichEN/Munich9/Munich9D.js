@@ -5,8 +5,8 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue3help from '../../MunichImages/munich_clue3help.png';
-import munichflag from '../../MunichImages/munich-flag.png';
+import munich_clue9help from '../../MunichImages/munich_clue9help.png';
+import castle from '../../MunichImages/castle.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -24,16 +24,17 @@ class Munich9D extends Component {
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich_clue3help} className="solution-image" alt="munich_partnerships" />
+              <img src={munich_clue9help} className="solution-image" alt="riches of bavaria"/>
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">This specific coat of arms is the origin of the colors of nowadays flag of Munich!</div>
-            <div><img src={munichflag} className="memorial-image" alt="munich-flag" /></div>
-            <div className="clue-background-div">Actually, a black eagle on a gold background is the Empire's own coat of arms. Let's find out why it has become a symbol of Munich...</div>
+            <div className="clue-background-div">Indeed it represents the wealth of Bavaria from salt from the Alps.</div>
+            <img src={castle} className="memorial-image" alt="castle" />
+            <div className="clue-background-div">His biggest building project, though, was a new city wall, which was started too late though...</div>
+            <div className="clue-background-div">Are you ready for the last clue?</div>
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/louis">
+          <Link to="/munich/30ywar">
             <div className="gameNext-button">
                 Next Clue
             </div>

@@ -10,20 +10,22 @@ import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 let consent = getCookieConsentValue();
 if (consent === "true") {
     ReactGA.initialize('UA-192893120-1');
-    ReactGA.pageview('/munich3C');
+    ReactGA.pageview('/munich10C');
 }
 
-class Munich3C extends Component {
+class Munich10C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
             firstAnswer: "Spring",
             secondAnswer: "Summer",
-            thirdAnswer: "Summer",
+            thirdAnswer: "Spring",
+            forthAnswer: "Summer",
             answers: "wrong",
             firstAnswerCSS: "select-input",
             secondAnswerCSS: "select-input",
-            thirdAnswerCSS: "select-input"
+            thirdAnswerCSS: "select-input",
+            forthAnswerCSS: "select-input"
         };
     }
 
@@ -51,10 +53,19 @@ class Munich3C extends Component {
         });
     }
 
+    updateForthAnswer = event => {
+        let forthAnswer = event.target.value;
+        this.setState({
+            forthAnswer: forthAnswer,
+            forthAnswerCSS: "select-input"
+        });
+    }
+
     showErrors = event => {
         let firstInputCheck;
         let secondInputCheck;
         let thirdInputCheck;
+        let forthInputCheck;
         if (this.state.firstAnswer === "Spring") {
             firstInputCheck = "right-select-input-munich";
         } else {
@@ -73,15 +84,22 @@ class Munich3C extends Component {
             thirdInputCheck = "wrong-select-input-munich";
         }
 
+        if (this.state.forthAnswer === "Spring") {
+            forthInputCheck = "right-select-input-munich";
+        } else {
+            forthInputCheck = "wrong-select-input-munich";
+        }
+
         this.setState({
             firstAnswerCSS: firstInputCheck,
             secondAnswerCSS: secondInputCheck,
-            thirdAnswerCSS: thirdInputCheck
+            thirdAnswerCSS: thirdInputCheck,
+            forthAnswerCSS: forthInputCheck
         });
     }
 
     checkAnswer = event => {
-        if (this.state.firstAnswer === "Spring" && this.state.secondAnswer === "Spring" && this.state.thirdAnswer === "Spring") {
+        if (this.state.firstAnswer === "Spring" && this.state.secondAnswer === "Spring" && this.state.thirdAnswer === "Spring" && this.state.forthAnswer === "Spring") {
             this.setState({
                 answers: "right"
             });
@@ -96,46 +114,49 @@ class Munich3C extends Component {
     render() {
         if(this.state.answers === "right"){
             return (
-                <Redirect to="/munich/alterhof/clueAnswer" />
+                <Redirect to="/munich/westphalia/clueAnswer" />
             ) 
         } else {
             return ( 
                 <div>
                     {this.props.gamemenu !== true && <div>
-                        <Timeline timelineProgress="3" timelineReference="13th A.D."/>
+                        <Timeline timelineProgress="10" timelineReference="17th A.D."/>
                         <div className="clue-background">
-                        <div className="clue-background-title">Wittelsbach's Old Court</div>
-                        <div className="clue-background-div">Among the symbols on the building, there is one particularly prominent. What does it show?</div>
+                        <div className="clue-background-title">The 30 Years War</div>
+                        <div className="clue-background-div">The golden statue was actually created at the end of the 16th  for William V grave in St. Michael but since 1639 it was joined by four bronze depicting the demons Munich survived. Can you associate the right one to the right statue?</div>
                         <div className="munich-parent-forms">
                             <div className="munich-form">
-                                <div className="clue-background-div">A</div>
+                                <div className="clue-background-div">Hunger:</div>
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
-                                    <option value="Spring"> ⬛ black</option>
-                                    <option value="Winter"> 🟦 blue</option>
-                                    <option value="Winter"> 🟨 gold</option>
-                                    <option value="Winter"> 🟥 red</option>
-                                    <option value="Winter"> ⬜ white</option>
+                                    <option value="Spring"> 🐉 dragon</option>
+                                    <option value="Summer"> 🐟 fish </option>
+                                    <option value="Summer"> 🦄 unicorn</option>
                                 </select>
                             </div>
                             <div className="clue-background-div"></div>
                             <div className="munich-form">
+                                <div className="clue-background-div">War:</div>
                                 <select type="text" onChange={this.updateSecondAnswer} className={this.state.secondAnswerCSS}>
-                                    <option value="Winter"> 🐉 dragon</option>
-                                    <option value="Spring"> 🦅 eagle</option>
-                                    <option value="Winter"> 🦁 lion </option>
-                                    <option value="Winter"> 🐍 snake </option>
+                                    <option value="Summer"> 🦅 eagle</option>
+                                    <option value="Summer"> 🐎 horse </option>
+                                    <option value="Spring"> 🦁 lion </option>
                                 </select>
-                                <div className="clue-background-div">on a</div>
                             </div>
                             <div className="munich-form">
+                                <div className="clue-background-div">Plague:</div>
                                 <select type="text" onChange={this.updateThirdAnswer} className={this.state.thirdAnswerCSS}>
-                                    <option value="Winter"> ⬛ black</option>
-                                    <option value="Winter"> 🟦 blue</option>
-                                    <option value="Spring"> 🟨 gold</option>
-                                    <option value="Winter"> 🟥 red</option>
-                                    <option value="Winter"> ⬜ white</option>                                
+                                    <option value="Spring"> 🐍 basilisk</option> 
+                                    <option value="Summer"> 🐕 dog</option>      
+                                    <option value="Summer"> 🐭 mouse</option>                      
                                 </select>
-                                <div className="clue-background-div">background</div>
+                            </div>
+                            <div className="munich-form">
+                                <div className="clue-background-div">Heresy:</div>
+                                <select type="text" onChange={this.updateForthAnswer} className={this.state.forthAnswerCSS}>
+                                    <option value="Summer"> 🐒 monkey</option>
+                                    <option value="Summer"> 🐖 pig</option>
+                                    <option value="Spring"> 🐍 serpent</option>                             
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -146,12 +167,12 @@ class Munich3C extends Component {
                         >
                             Check answers
                         </div>
-                        <Link to="/munich/wittelsbach/clueintro">
+                        <Link to="/munich/30ywar/clueintro">
                             <div className="gameNext-button-below">
                                 Back
                             </div>
                         </Link>
-                        <Link to="/munich/wittelsbach/cluehelp">
+                        <Link to="/munich/30ywar/cluehelp">
                             <div className="gameFeedback-button">Help</div>
                         </Link>
                     </div>
@@ -161,7 +182,7 @@ class Munich3C extends Component {
                         buttonStyle={{ background: "#00695c", color: "white", fontWeight: "bold" }}
                         onAccept={() => {
                             ReactGA.initialize('UA-192893120-1');
-                            ReactGA.pageview('/munich3C');
+                            ReactGA.pageview('/munich10C');
                         }}
                         >This website uses Google Analytics cookies to enhance the user experience.
                     </CookieConsent>
@@ -171,4 +192,4 @@ class Munich3C extends Component {
     }
 }
 
-export default Munich3C;
+export default Munich10C;
