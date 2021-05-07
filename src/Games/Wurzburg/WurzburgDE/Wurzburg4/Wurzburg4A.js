@@ -22,7 +22,7 @@ class Wurzburg4A extends Component {
           <Timeline timelineProgress="5" timelineReference="16. Jh. n.Chr." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">Der Bauernkrieg</div>
-            <div className="clue-background-div">Gehen Sie in Richtung Schloss und halten Sie auf halber Strecke in der Nähe eines Denkmals und eines Panoramapunkts.</div>
+            <div className="clue-background-div">Gehen Sie in Richtung Festung und halten Sie auf halber Strecke in der Nähe eines Denkmals und eines Panoramapunkts.</div>
             <div><img src={destination4} className="destination1" alt="destination4" /></div>
             <iframe 
               className="clue-map"

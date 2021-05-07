@@ -26,7 +26,7 @@ class Munich7CHelp extends Component {
             <div>
               <img src={munich_clue7help} className="solution-image" alt="munich_clue7help" />
             </div>
-            <div className="clue-background-div">To answer the first question, read the name of the second statue from the top, sounds familiar?</div>
+            <div className="clue-background-div">To answer the first question, read the name of the second statue at the bottom left, sounds familiar?</div>
             <div className="clue-background-div">The answer of the second question is the beginning of the text over the doors!</div>
           </div>
         <div className="buttons-section">
