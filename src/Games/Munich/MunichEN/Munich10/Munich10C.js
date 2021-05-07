@@ -22,10 +22,10 @@ class Munich10C extends Component {
             thirdAnswer: "Spring",
             forthAnswer: "Summer",
             answers: "wrong",
-            firstAnswerCSS: "select-input",
-            secondAnswerCSS: "select-input",
-            thirdAnswerCSS: "select-input",
-            forthAnswerCSS: "select-input"
+            firstAnswerCSS: "select-input-munich",
+            secondAnswerCSS: "select-input-munich",
+            thirdAnswerCSS: "select-input-munich",
+            forthAnswerCSS: "select-input-munich"
         };
     }
 
@@ -33,7 +33,7 @@ class Munich10C extends Component {
         let firstAnswer = event.target.value;
         this.setState({
             firstAnswer: firstAnswer,
-            firstAnswerCSS: "select-input"
+            firstAnswerCSS: "select-input-munich"
         });
     }
 
@@ -41,7 +41,7 @@ class Munich10C extends Component {
         let secondAnswer = event.target.value;
         this.setState({
             secondAnswer: secondAnswer,
-            secondAnswerCSS: "select-input"
+            secondAnswerCSS: "select-input-munich"
         });
     }
 
@@ -49,7 +49,7 @@ class Munich10C extends Component {
         let thirdAnswer = event.target.value;
         this.setState({
             thirdAnswer: thirdAnswer,
-            thirdAnswerCSS: "select-input"
+            thirdAnswerCSS: "select-input-munich"
         });
     }
 
@@ -57,7 +57,7 @@ class Munich10C extends Component {
         let forthAnswer = event.target.value;
         this.setState({
             forthAnswer: forthAnswer,
-            forthAnswerCSS: "select-input"
+            forthAnswerCSS: "select-input-munich"
         });
     }
 

@@ -20,7 +20,7 @@ class Munich7C extends Component {
             firstAnswer: "Winter",
             textInputValue: "",
             answers: "wrong",
-            firstAnswerCSS: "select-input-munich7 select-input",
+            firstAnswerCSS: "select-input-munich7 select-input-munich",
             textInputCSS: "formInput"
         };
     }
@@ -29,7 +29,7 @@ class Munich7C extends Component {
         let firstAnswer = event.target.value;
         this.setState({
             firstAnswer: firstAnswer,
-            firstAnswerCSS: "select-input-munich7 select-input"
+            firstAnswerCSS: "select-input-munich7 select-input-munich"
         });
     }
 

@@ -39,7 +39,7 @@ class Munich1C extends Component {
             tenthCSS: "quizItem",
             season: "brewery",
             answers: "wrong",
-            seasonCSS: "select-input"
+            seasonCSS: "select-input-munich"
         };
     }
 

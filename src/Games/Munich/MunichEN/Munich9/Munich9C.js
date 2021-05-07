@@ -21,9 +21,9 @@ class Munich9C extends Component {
             secondAnswer: "Summer",
             thirdAnswer: "Summer",
             answers: "wrong",
-            firstAnswerCSS: "select-input-munich7 select-input",
-            secondAnswerCSS: "select-input",
-            thirdAnswerCSS: "select-input"
+            firstAnswerCSS: "select-input-munich7 select-input-munich",
+            secondAnswerCSS: "select-input-munich",
+            thirdAnswerCSS: "select-input-munich"
         };
     }
 
@@ -31,7 +31,7 @@ class Munich9C extends Component {
         let firstAnswer = event.target.value;
         this.setState({
             firstAnswer: firstAnswer,
-            firstAnswerCSS: "select-input-munich7 select-input"
+            firstAnswerCSS: "select-input-munich7 select-input-munich"
         });
     }
 
