@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.29d4e0de.chunk.css",
-    "main.js": "/static/js/main.54937332.chunk.js",
-    "main.js.map": "/static/js/main.54937332.chunk.js.map",
+    "main.css": "/static/css/main.05121efc.chunk.css",
+    "main.js": "/static/js/main.49442c98.chunk.js",
+    "main.js.map": "/static/js/main.49442c98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06d00304.js",
     "runtime-main.js.map": "/static/js/runtime-main.06d00304.js.map",
     "static/js/2.9f858e24.chunk.js": "/static/js/2.9f858e24.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6235f826.chunk.js": "/static/js/3.6235f826.chunk.js",
     "static/js/3.6235f826.chunk.js.map": "/static/js/3.6235f826.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.29d4e0de.chunk.css.map": "/static/css/main.29d4e0de.chunk.css.map",
+    "static/css/main.05121efc.chunk.css.map": "/static/css/main.05121efc.chunk.css.map",
     "static/js/2.9f858e24.chunk.js.LICENSE.txt": "/static/js/2.9f858e24.chunk.js.LICENSE.txt",
     "static/media/amsterdam.8e866315.png": "/static/media/amsterdam.8e866315.png",
     "static/media/annouce.737b5995.png": "/static/media/annouce.737b5995.png",
@@ -103,7 +103,7 @@
   "entrypoints": [
     "static/js/runtime-main.06d00304.js",
     "static/js/2.9f858e24.chunk.js",
-    "static/css/main.29d4e0de.chunk.css",
-    "static/js/main.54937332.chunk.js"
+    "static/css/main.05121efc.chunk.css",
+    "static/js/main.49442c98.chunk.js"
   ]
 }
