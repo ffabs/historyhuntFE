@@ -22,7 +22,7 @@ class Wurzburg1CHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="7. Jh. n.Chr."/>
+          <Timeline timelineProgress="2" timelineReference="7. Jh. n.Chr."/>
             <div className="clue-background">
             <div className="clue-background-title">Hinweis Hilfe</div>
             <div className="clue-background-div">Schreiben Sie die Namen so, wie sie auf den Statuen geschrieben sind:</div>

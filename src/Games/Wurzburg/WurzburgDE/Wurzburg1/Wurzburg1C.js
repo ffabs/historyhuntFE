@@ -125,7 +125,7 @@ class Wurzburg1C extends Component {
                 <div>
                     {this.props.gamemenu !== true && 
                     <div> 
-                    <Timeline timelineProgress="1" timelineReference="7. Jh. n.Chr."/>
+                    <Timeline timelineProgress="2" timelineReference="7. Jh. n.Chr."/>
                     <div className="clue-background">       
                         <div className="clue-background-title">Ein Martyrium, das die Geschichte verändert hat</div>
             

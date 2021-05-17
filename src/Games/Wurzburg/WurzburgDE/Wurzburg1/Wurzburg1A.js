@@ -21,7 +21,7 @@ class Wurzburg1A extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="0" timelineReference="10. Jh. v.Chr."/>
+          <Timeline timelineProgress="0.5" timelineReference="10. Jh. v.Chr."/>
           <div className="clue-background">
             <div className="clue-background-title">Würzburg vor Würzburg</div>
             <div className="clue-background-divs">

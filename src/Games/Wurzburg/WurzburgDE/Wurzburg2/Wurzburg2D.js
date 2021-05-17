@@ -57,7 +57,7 @@ class Wurzburg2D extends Component {
                 <div>
                     {this.props.gamemenu !== true && 
                     <div> 
-                    <Timeline timelineProgress="2" timelineReference="8. Jh. n.Chr."/>
+                    <Timeline timelineProgress="2.5" timelineReference="8. Jh. n.Chr."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Dom St. Kilian</div>
                         <div className="clue-background-div">Wenn man Lorenz 'Grabstein mit dem älteren zu seiner Rechten und dem neuen zu seiner Linken vergleicht, was bleibt von der gotischen Tradition erhalten?</div>

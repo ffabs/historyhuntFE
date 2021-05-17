@@ -21,7 +21,7 @@ class Wurzburg2DHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="2" timelineReference="8. Jh. n.Chr."/>
+          <Timeline timelineProgress="2.5" timelineReference="8. Jh. n.Chr."/>
             <div className="clue-background">
             <div className="clue-background-title">Hinweis Hilfe</div>
             <div className="clue-background-div">Alle Bischofsstatuen sind mit repräsentativen Symbolen versehen!</div>

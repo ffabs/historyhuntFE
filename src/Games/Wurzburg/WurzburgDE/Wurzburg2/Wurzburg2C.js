@@ -22,7 +22,7 @@ class Wurzburg2C extends Component {
             <div>
             {this.props.gamemenu !== true && 
             <div> 
-            <Timeline timelineProgress="2" timelineReference="8. Jh. n.Chr."/>
+            <Timeline timelineProgress="2.5" timelineReference="8. Jh. n.Chr."/>
             <div className="clue-background">
                 <div className="clue-background-title">Dom St. Kilian</div>
                 <div className="clue-background-div">Die Kathedrale, die im Laufe der Jahrhunderte überlebt hat, zeigt viele verschiedene künstlerische Stile. Ein interessantes Beispiel ist das Denkmal für den Fürstbischof Lorenz von Bibra, das den Übergang von der Gotik zur Renaissance zeigt:</div>

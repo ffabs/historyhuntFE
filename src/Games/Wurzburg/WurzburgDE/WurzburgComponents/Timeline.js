@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Timeline.css';
+import './TimelineDE.css';
 
 class Timeline extends Component {
 
@@ -8,7 +8,7 @@ class Timeline extends Component {
         let timelineReference = this.props.timelineReference;
         let animate = this.props.animate;
 
-        let minWidth = 28;
+        let minWidth = 25;
         let maxWidth = 100;
         let incrementWidth = timelineProgress * 7;
         let finalWidth = minWidth + incrementWidth;
@@ -16,9 +16,9 @@ class Timeline extends Component {
 
         if(finalWidth < maxWidth && animate === "yes") {
             if(timelineProgress > 3) {
-                timeline = "animatedTimeline30";
+                timeline = "animatedTimeline40";
             } else {
-                timeline = "animatedTimeline";
+                timeline = "animatedTimeline30";
             } 
         }
         if(finalWidth >= maxWidth && animate !== "yes") {
