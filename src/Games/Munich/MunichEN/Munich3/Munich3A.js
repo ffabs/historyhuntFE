@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
-import destination1 from '../../MunichImages/destination1.png';
+import destination1 from '../../MunichImages/munichlocation3.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -27,7 +27,7 @@ class Munich3A extends Component {
             <div className="clue-background-divs">
               <div className="clue-background-div">Henry lost Munich and most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsbach as Duke of Bavaria, starting the longest reign of any dynasty in Germany...</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              <div className="clue-background-div">Let's go to Wittelsbach's Old Court!</div>
+              <div className="clue-background-div">Let's go to Wittelsbach's Old Court that was built a few decades later!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"

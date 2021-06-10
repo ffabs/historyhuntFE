@@ -42,7 +42,7 @@ class GameMenu extends Component {
                         <Link target="_blank" to="/support-us">
                             <div className="game-menu-link">Support us</div>
                         </Link>
-                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                        <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e1b6b5f512&attribution=false" target="_blank" rel="noopener noreferrer">
                         <div className="game-menu-link">Give Feedback</div>
                     </a>
                     </div>

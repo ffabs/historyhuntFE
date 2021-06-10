@@ -20,7 +20,7 @@ class Munich5CHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="4" timelineReference="14th A.D."/>
+          <Timeline timelineProgress="4.5" timelineReference="15th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
             <div className="clue-background-div">The answer is on the walls of Isartor!</div>

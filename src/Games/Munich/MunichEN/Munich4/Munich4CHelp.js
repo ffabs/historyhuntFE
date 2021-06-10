@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue4help from '../../MunichImages/munich_clue4help.png';
+import munich_clue4help from '../../MunichImages/munichhelp4.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,9 +23,9 @@ class Munich4CHelp extends Component {
           <Timeline timelineProgress="4" timelineReference="14th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">The answer is in the description of his statue!</div>
+            <div className="clue-background-div">The answer is in the plate at the bottom of the statue!</div>
             <div>
-              <img src={munich_clue4help} className="solution-image" alt="Louis IV" />
+              <img src={munich_clue4help} className="memorial-image" alt="Louis IV" />
             </div>
           </div>
         <div className="buttons-section">

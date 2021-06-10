@@ -74,7 +74,7 @@ class Support extends Component {
           <div className="howitworks-step-subtitle">You can also support us with your feedback and by liking / following our social media accounts:</div>
           <div className="social-section support-socials">
               <div className="social">
-                <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+                <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e1b6b5f512&attribution=false" target="_blank" rel="noopener noreferrer">
                 <img src={feedbackicon} className="home-howitworks-image" alt="feedbackicon" style={{ height: 50, width: 50 }}/>
                 </a> 
               </div>

@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue3help from '../../MunichImages/munich_clue3help.png';
+import munich_clue3help from '../../MunichImages/munichhelp3.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,7 +23,7 @@ class Munich3CHelp extends Component {
           <Timeline timelineProgress="3" timelineReference="13th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Look at this side of the building!</div>
+            <div className="clue-background-div">Look to the symbol to the left, on this side of the building!</div>
             <div>
               <img src={munich_clue3help} className="solution-image" alt="munich_clue3help" />
             </div>

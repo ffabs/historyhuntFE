@@ -46,7 +46,7 @@ class Munich8D extends Component {
                   Back
               </div>
           </Link>
-          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=d9e99d59ba&attribution=false" target="_blank" rel="noopener noreferrer">
               <div className="gameFeedback-button">Give Feedback</div>
           </a>
         </div>

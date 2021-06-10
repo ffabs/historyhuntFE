@@ -17,14 +17,20 @@ class Munich9C extends Component {
     constructor (props) {
         super(props);   
         this.state = {
+            firstInputValue: "",
+            firstInputCSS: "formInput",
             firstAnswer: "Winter",
-            secondAnswer: "Summer",
-            thirdAnswer: "Summer",
             answers: "wrong",
-            firstAnswerCSS: "select-input-munich7 select-input-munich",
-            secondAnswerCSS: "select-input-munich",
-            thirdAnswerCSS: "select-input-munich"
+            firstAnswerCSS: "select-input-munich7 select-input-munich"
         };
+    }
+
+    firstInput = event => {
+        const firstInputAdded = event.target.value.toLowerCase().trim().replace(/\s/g, '');
+        this.setState({
+            firstInputCSS: "formInput",
+            firstInputValue: firstInputAdded
+        });
     }
 
     updateFirstAnswer = event => {
@@ -37,19 +43,25 @@ class Munich9C extends Component {
 
     showErrors = event => {
         let firstInputCheck;
+        let firstInputCSS;
         if (this.state.firstAnswer === "Spring") {
             firstInputCheck = "select-input-munich7 right-select-input-munich";
         } else {
             firstInputCheck = "select-input-munich7 wrong-select-input-munich";
         }
-
+        if (this.state.firstInputValue === "patronaboiaria") {
+            firstInputCSS = "right"
+        } else {
+            firstInputCSS = "wrong"
+        }
         this.setState({
-            firstAnswerCSS: firstInputCheck
+            firstAnswerCSS: firstInputCheck,
+            firstInputCSS: firstInputCSS,
         });
     }
 
     checkAnswer = event => {
-        if (this.state.firstAnswer === "Spring") {
+        if (this.state.firstAnswer === "Spring" && this.state.firstInputValue === "patronaboiaria") {
             this.setState({
                 answers: "right"
             });
@@ -72,17 +84,26 @@ class Munich9C extends Component {
                     {this.props.gamemenu !== true && <div>
                         <Timeline timelineProgress="7" timelineReference="17th A.D."/>
                         <div className="clue-background">
-                        <div className="clue-background-title">Maximilian I and the Court Gardens</div>
-                        <div className="clue-background-div">At the top of the building, there is a statue that was built a few years earlier (the original is now in the Residenzmuseum). What does the main statue mean?</div>
+                        <div className="clue-background-title">Maximilian I</div>
+                        <div className="clue-background-div">In addition to the two lions a statue of what else is guarding the facade?</div>
                         <div className="munich-parent-forms">
                             <div className="munich-form">
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
-                                    <option value="Winter"> 🍺 The power of beer</option>
-                                    <option value="Winter"> 🌲 The power of nature</option>
-                                    <option value="Winter"> ✝️ The power of religion</option>
-                                    <option value="Winter"> 💪 The strength of Diana</option>
-                                    <option value="Spring"> 💰 The wealth of Baviera</option>
+                                    <option value="Winter"> 🦅 Eagle</option>
+                                    <option value="Winter"> 🐉 Dragon </option>
+                                    <option value="Winter"> ⚔️ Soldier</option>
+                                    <option value="Spring"> ✝️ Holy Mary</option>
                                 </select>
+                            </div>
+                            <div className="clue-background-div">And what is it written below as a description?</div>
+                            <div>
+                                <input
+                                    type="text" 
+                                    name="firstInput"
+                                    onChange={this.firstInput}
+                                    className={this.state.firstInputCSS}
+                                    spellcheck="false"
+                                />
                             </div>
                         </div>
                     </div>

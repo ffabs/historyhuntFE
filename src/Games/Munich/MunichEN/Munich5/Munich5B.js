@@ -22,9 +22,9 @@ class Munich5B extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="4" timelineReference="14th A.D."/>
+          <Timeline timelineProgress="4.5" timelineReference="15th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">City Walls</div>
+            <div className="clue-background-title">A New Cathedral</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">
                 famous city gates and walls constructed (there was an inner wall section though)

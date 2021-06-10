@@ -26,6 +26,7 @@ class Munich3B extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
+              <div className="clue-background-div">Da cambiare (non è interessante): scrivere da quando a quando..</div>
               <img src={money} className="memorial-image" alt="money" />
               <div className="clue-background-div">During the centuries that this dinasty has ruled, the city has experienced periods of wealth, culture, population growth and the establishment of the city council.</div>
               <img src={mouse} className="munich-text-image" alt="mouse" />

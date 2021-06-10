@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munichemblemhelp from '../../MunichImages/munichemblemhelp.png';
+import munichemblemhelp from '../../MunichImages/munichhelp1.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -20,7 +20,7 @@ class Munich1CHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+          <Timeline timelineProgress="1.5" timelineReference="8-12th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
             <div className="clue-background-div">Look for the following coat of arms:</div>

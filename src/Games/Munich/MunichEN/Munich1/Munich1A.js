@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
-import destination1 from '../../MunichImages/destination1.png';
+import destination1 from '../../MunichImages/munichlocation1.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -21,11 +21,11 @@ class Munich1A extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D." animate="yes"/>
+          <Timeline timelineProgress="1.5" timelineReference="8-12th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">Munich before Munich</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Centuries before Munich was founded, its area was already inhabitated...</div>
+              <div className="clue-background-div">Centuries before Munich was founded, its area was already partially inhabited.</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
               <div className="clue-background-div">Come to the New Town Hall (or Neues Rathaus) to discover who used to live around here!</div>
               <img src={destination1} className="destination1" alt="destination1" />

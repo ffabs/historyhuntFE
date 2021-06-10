@@ -27,7 +27,7 @@ class Munich9D extends Component {
               <img src={munich_clue9help} className="solution-image" alt="riches of bavaria"/>
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">Indeed it represents the wealth of Bavaria from salt from the Alps.</div>
+            <div className="clue-background-div">The veneration of Mary as Patrona Bavariae was particularly encouraged by the very religious Elector Maximilian I, who wanted to place Bavaria under the rule of Mary and saw himself only as Mary's governor. In 1610 he had a coin minted showing Maria as the patron saint of Munich. During this time, Catholic devotion to Mary was increasingly used as a distinguishing feature between Catholicism and Protestantism.</div>
             <img src={castle} className="memorial-image" alt="castle" />
             <div className="clue-background-div">His biggest building project, though, was a new city wall, which was started too late though...</div>
             <div className="clue-background-div">Are you ready for the last clue?</div>
@@ -44,7 +44,7 @@ class Munich9D extends Component {
                   Back
               </div>
           </Link>
-          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=d9e99d59ba&attribution=false" target="_blank" rel="noopener noreferrer">
               <div className="gameFeedback-button">Give Feedback</div>
           </a>
         </div>

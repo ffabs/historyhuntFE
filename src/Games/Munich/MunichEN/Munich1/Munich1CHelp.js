@@ -20,10 +20,10 @@ class Munich1CHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+          <Timeline timelineProgress="1.5" timelineReference="8-12th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Look for the partner cities' coat of arms at the entrance of the New Town Hall:</div>
+            <div className="clue-background-div"> Could you find it? (at the ceiling, doors, walls)  Look for the partner cities' coat of arms at the entrance of the New Town Hall:</div>
             <div>
               <img src={munich_clue1help} className="solution-image" alt="munich_clue1help" />
             </div>

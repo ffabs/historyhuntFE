@@ -24,17 +24,17 @@ class Munich9B extends Component {
           <div> 
           <Timeline timelineProgress="7" timelineReference="17th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Maximilian I and the Court Gardens</div>
+            <div className="clue-background-title">Maximilian I</div>
             <div className="clue-background-divs">
               {/* <img src={money} className="memorial-image" alt="money" /> */}
               <div className="clue-background-div">He was a typical "absolutist" ruler, wanted to make Bavaria a regional power of renown.</div>
               {/* <img src={mouse} className="munich-text-image" alt="mouse" /> */}
-              <div className="clue-background-div">This motivated him to start building as well great monuments: a grand Residenz in Munich, with Hofkapelle, Reiche Kapelle, Kaiserall and the Hofgarten.</div>
+              <div className="clue-background-div">This motivated him to start building as well great monuments: expanding the Residenz making it a grand one commissioned what is now called the Maximilian Residenz (Maximilianische Residenz ), the west wing of the palace. Until the 19th century, it was the only publicly visible facade and it still is preserved. (as well as with Hofkapelle, Reiche Kapelle, Kaiserall and the Hofgarten...)</div>
               {/* <img src={fire} className="memorial-image" alt="fire" /> */}
-              <div className="clue-background-div">Let's go to the center of the gardens and check the Diana Temple made build by Maximilian!</div>
+              <div className="clue-background-div">The building is guarded by 2 lions (which have a very bright nouse because it is considered to bring good luck) but also by something else!</div>
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you ready for the clue?</div>
+              <div className="clue-background-div question-section">Are you ready to find what it was build by Maximilian?</div>
             </div>
           </div>
           <div className="buttons-section">

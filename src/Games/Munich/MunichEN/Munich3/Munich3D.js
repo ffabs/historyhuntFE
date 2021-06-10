@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue3help from '../../MunichImages/munich_clue3help.png';
+import munich_clue3help from '../../MunichImages/munichsuccess3.png';
 import munichflag from '../../MunichImages/munich-flag.png';
 
 let consent = getCookieConsentValue();
@@ -43,7 +43,7 @@ class Munich3D extends Component {
                   Back
               </div>
           </Link>
-          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=d9e99d59ba&attribution=false" target="_blank" rel="noopener noreferrer">
               <div className="gameFeedback-button">Give Feedback</div>
           </a>
         </div>

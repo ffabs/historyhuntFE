@@ -24,7 +24,7 @@ class Munich8A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">The Hofbräuhaus</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Let's go to the famous Hofbräuhaus beer hall!</div>
+              <div className="clue-background-div">Let's go back towards Marienplatz to arrive to the famous Hofbräuhaus beer hall!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"

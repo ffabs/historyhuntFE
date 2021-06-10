@@ -167,10 +167,10 @@ checkAnswer = event => {
             return ( 
                 <div>
                     {this.props.gamemenu !== true && <div> 
-                    <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+                    <Timeline timelineProgress="1.5" timelineReference="8-12th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">Munich before Munich</div>
-                        <div className="clue-background-div">Around Munich's coat of arms, the coat of arms of the current Munich's partner cities can be found. Which of the following are there?</div>
+                        <div className="clue-background-div">Around Munich's coat of arms, the coat of arms of the current Munich's partner cities can be found. Which among the following are partner cities?</div>
                         <div className="quizSection">
                             <div
                                 onClick={this.firstInput}

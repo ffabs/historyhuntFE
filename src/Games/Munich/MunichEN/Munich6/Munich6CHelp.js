@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue6help from '../../MunichImages/munich_clue6help.png';
+import munich_clue6help from '../../MunichImages/munichlocation6.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {

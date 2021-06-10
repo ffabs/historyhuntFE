@@ -20,29 +20,28 @@ class Munich1B extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="1" timelineReference="8-12th A.D."/>
+          <Timeline timelineProgress="1.5" timelineReference="8-12th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Munich before Munich</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">The answer is in the symbol of the city, the Munich's coat of arms.</div>
-              <div className="clue-background-div">Let's check the entrance of the Town Hall and look for it!</div>
+              <div className="clue-background-div">The answer is in the symbol of the city (the Munich's coat of arms) which can be found in many places in the Town Hall.</div>
               <img src={munichemblem} className="memorial-image" alt="MunichEmblem" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Could you find it?</div>
+              <div className="clue-background-div question-section">Let's check inside the entrance and look for it!</div>
             </div>
           </div>
           <div className="buttons-section">
-              <Link to="/munich/partnerships">
+              <Link to="/munich/coatofarms">
                   <div className="gameNext-button">
-                      Yes
+                      Next
                   </div>
               </Link>
-              <Link to="/munich/start/help">
+              {/* <Link to="/munich/start/help">
                 <div className="gameNext-button-below">
                     No, how does it look?
                 </div>
-              </Link>
+              </Link> */}
               <Link to="/munich/start">
                 <div className="gameNext-button-below">
                     Back

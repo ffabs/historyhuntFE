@@ -20,11 +20,11 @@ class Munich5A extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="4" timelineReference="14th A.D."/>
+          <Timeline timelineProgress="4.5" timelineReference="15th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">City Walls</div>
+            <div className="clue-background-title">A New Cathedral</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Let's go to Isartor to discover the history of the city walls!</div>
+              <div className="clue-background-div">Despite the fact that after Louis IV Munich was not at the center of the empire anymore, the walls were not the only impressive constructions built in those years...</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"

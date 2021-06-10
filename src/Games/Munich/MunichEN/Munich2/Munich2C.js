@@ -5,6 +5,7 @@ import {Redirect} from 'react-router-dom';
 import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
+import compass from '../../MunichImages/compass2.png';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 
 let consent = getCookieConsentValue();
@@ -16,38 +17,177 @@ if (consent === "true") {
 class Munich2C extends Component {
 
     constructor (props) {
-        super(props);   
+        super(props);
         this.state = {
-            firstInputValue: "",
-            firstInputCSS: "formInput",
-            answers: "wrong"
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
         };
     }
-
+    
     firstInput = event => {
-        const firstInputAdded = event.target.value.toLowerCase().trim().replace(/\s/g, '');
         this.setState({
-            firstInputCSS: "formInput",
-            firstInputValue: firstInputAdded
+            firstCSS: "compassSelected",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
         });
     }
-
-    showErrors = event => {
+    secondInput = event => {
         this.setState({
-            firstInputCSS: "wrong",
+            firstCSS: "compassItem",
+            secondCSS: "mainDirection compassSelected",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
         });
     }
-
-    checkAllInputs = event => {
-        if (this.state.firstInputValue === "tal") {
+    thirdInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassSelected",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
+        });
+    }
+    forthInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "mainDirection compassSelected",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
+        });
+    }
+    fifthInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "mainDirection compassSelected",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
+        });
+    }
+    sixthInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassSelected",
+            seventhCSS: "compassItem",
+            eightCSS: "compassItem"
+        });
+    }
+    seventhInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "mainDirection compassSelected",
+            eightCSS: "compassItem"
+        });
+    }
+    eightInput = event => {
+        this.setState({
+            firstCSS: "compassItem",
+            secondCSS: "compassItem",
+            thirdCSS: "compassItem",
+            forthCSS: "compassItem",
+            fifthCSS: "compassItem",
+            sixthCSS: "compassItem",
+            seventhCSS: "compassItem",
+            eightCSS: "compassSelected"
+        });
+    }
+    
+    checkAnswer = event => {
+        let firstCSS = this.state.firstCSS;
+        let secondCSS = this.state.secondCSS;
+        let thirdCSS = this.state.thirdCSS;
+        let forthCSS = this.state.forthCSS;
+        let fifthCSS = this.state.fifthCSS;
+        let sixthCSS = this.state.sixthCSS;
+        let seventhCSS = this.state.seventhCSS;
+        let eightCSS = this.state.eightCSS;
+        let answers = "right";
+        if (firstCSS === "compassSelected") {
+            firstCSS = "wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (secondCSS === "mainDirection compassSelected") {
+            secondCSS = "mainDirection wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (thirdCSS === "compassSelected") {
+            thirdCSS = "wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (forthCSS === "mainDirection compassSelected") {
+            forthCSS = "mainDirection wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (fifthCSS === "mainDirection compassSelected") {
+            fifthCSS = "mainDirection wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (sixthCSS === "compassSelected") {
+            sixthCSS = "wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (seventhCSS === "mainDirection compassSelected") {
+            seventhCSS = "mainDirection wrongCompassSelected";
+            answers = "wrong";
+        }
+        if (answers === "wrong") {
             this.setState({
-                answers: "right"
+                answers: "wrong",
+                firstCSS: firstCSS,
+                secondCSS: secondCSS,
+                thirdCSS: thirdCSS,
+                forthCSS: forthCSS,
+                fifthCSS: fifthCSS,
+                sixthCSS: sixthCSS,
+                seventhCSS: seventhCSS,
+                eightCSS: eightCSS
             });
         } else {
-            this.setState({
-                answers: "wrong"
-            });
-            this.showErrors();
+            if (eightCSS === "compassSelected") {
+                this.setState({
+                    answers: "right"
+                })
+            } else {
+                answers = "notAll";
+                this.setState({
+                    answers: "notAll"
+                })
+            }
         }
     }
 
@@ -63,25 +203,81 @@ class Munich2C extends Component {
                     <div> 
                     <Timeline timelineProgress="2" timelineReference="12th A.D."/>
                     <div className="clue-background">       
-                        <div className="clue-background-title">Salt, the white gold</div>
-            
-                        <div className="clue-background-div">The main square of Munich is exactly on the way from the first toll bridge of Munich build by Henry the Lion.</div> 
-                        <div className="clue-background-div">What is the current name of the street arriving to the main square and pointing to the direction of the first bridge of Munich?</div> 
-                        <div>
-                            <input
-                                type="text" 
-                                name="firstInput"
-                                onChange={this.firstInput}
-                                className={this.state.firstInputCSS}
-                                spellcheck="false"
-                            />
+                        <div className="clue-background-title">Salt, the white gold</div> 
+                        <div className="clue-background-div">From which direction was the salt coming to this square?</div>
+                        <div className="compassAlign">
+                            <div
+                                onClick={this.firstInput}
+                                className={"nordwest "+this.state.firstCSS}
+                            >
+                                {/* <img src={venice} className="city-image" alt="venice" /> */}
+                                <div><b>Nord-West</b></div>                                 
+                            </div>
+                            <div
+                                onClick={this.secondInput}
+                                className={this.state.secondCSS}
+                            >
+                                {/* <img src={venice} className="city-image" alt="venice" /> */}
+                                <div><b>Nord</b></div>                                 
+                            </div>
+                            <div
+                                onClick={this.thirdInput}
+                                className={"nordeast "+this.state.thirdCSS}
+                            >
+                                {/* <img src={venice} className="city-image" alt="venice" /> */}
+                                <div><b>Nord-East</b></div>                                 
+                            </div>
                         </div>
-
+                        <div className="compassAlign">
+                            <div
+                                onClick={this.forthInput}
+                                className={this.state.forthCSS}
+                            >
+                                {/* <img src={venice} className="city-image" alt="venice" /> */}
+                                <div><b>West</b></div>                                 
+                            </div>
+                            <img src={compass} className="compass" alt="compass" />
+                            <div
+                                onClick={this.fifthInput}
+                                className={this.state.fifthCSS}
+                            >
+                                {/* <img src={london} className="city-image" alt="london" /> */}
+                                <div><b>East</b></div>                                   
+                            </div>
+                        </div>
+                        <div className="compassAlign">
+                            <div
+                                onClick={this.sixthInput}
+                                className={"southwest "+this.state.sixthCSS}
+                            >
+                                {/* <img src={milan} className="city-image" alt="milan" /> */}
+                                <div><b>South-West</b></div>                                 
+                            </div>
+                            <div
+                                onClick={this.seventhInput}
+                                className={this.state.seventhCSS}
+                            >                                
+                                {/* <img src={prague} className="city-image" alt="prague" /> */}
+                                <div><b>South</b></div>                                
+                            </div>
+                            <div
+                                onClick={this.eightInput}
+                                className={"southeast "+this.state.eightCSS}
+                            >
+                                {/* <img src={venice} className="city-image" alt="venice" /> */}
+                                <div><b>South-East</b></div>                                 
+                            </div>
+                        </div>
                     </div>
+                    {this.state.answers === "notAll" &&
+                        <div className="clue-background">
+                            <div className="clue-background-div red"><b>Choose one direction clicking on it!</b></div>
+                        </div>
+                    }
                     <div className="buttons-section">
                         <div 
                             type="button" 
-                            onClick={this.checkAllInputs}
+                            onClick={this.checkAnswer}
                             className="gameNext-button"
                         >
                             Check answer

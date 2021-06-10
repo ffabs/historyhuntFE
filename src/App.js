@@ -144,6 +144,8 @@ import Wurzburg11DDE from './Games/Wurzburg/WurzburgDE/Wurzburg11/Wurzburg11D';
 import Munich1A from './Games/Munich/MunichEN/Munich1/Munich1A';
 import Munich1B from './Games/Munich/MunichEN/Munich1/Munich1B';
 import Munich1BHelp from './Games/Munich/MunichEN/Munich1/Munich1BHelp';
+import Munich1C0 from './Games/Munich/MunichEN/Munich1/Munich1C0';
+import Munich1C0Help from './Games/Munich/MunichEN/Munich1/Munich1C0Help';
 import Munich1C from './Games/Munich/MunichEN/Munich1/Munich1C';
 import Munich1CHelp from './Games/Munich/MunichEN/Munich1/Munich1CHelp';
 import Munich1D from './Games/Munich/MunichEN/Munich1/Munich1D';
@@ -624,13 +626,19 @@ class App extends Component {
             <Route exact={true} path='/munich/start/help' render={() => (
               <Munich1BHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
+            <Route exact={true} path='/munich/coatofarms' render={() => (
+              <Munich1C0 gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/munich/coatofarms/cluehelp' render={() => (
+              <Munich1C0Help gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
             <Route exact={true} path='/munich/partnerships' render={() => (
               <Munich1C gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/munich/partnerships/help' render={() => (
               <Munich1CHelp gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
-            <Route exact={true} path='/munich/partnercities/clueAnswer' render={() => (
+            <Route exact={true} path='/munich/monks/clueAnswer' render={() => (
               <Munich1D gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
             )}/>
             <Route exact={true} path='/munich/marktplatz' render={() => (

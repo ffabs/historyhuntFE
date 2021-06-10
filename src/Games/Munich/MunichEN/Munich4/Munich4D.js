@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue4help from '../../MunichImages/munich_clue4help.png';
+import munich_clue4help from '../../MunichImages/munichsuccess4.png';
 import castle from '../../MunichImages/castle.png';
 
 let consent = getCookieConsentValue();
@@ -24,7 +24,7 @@ class Munich4D extends Component {
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich_clue4help} className="solution-image" alt="Louis IV" />
+              <img src={munich_clue4help} className="memorial-image" alt="Louis IV" />
           </div>
           <div className="clue-background-divs">
           <div className="clue-background-div">issues with the Pope when it was weaker (not recognised his election, excommunication, called the bavarian.., maybe because the Pope was with the Habsburgers?!)but then decided that emperor were elected by a collage without the pope and excluding bavaria duke</div>
@@ -32,10 +32,11 @@ class Munich4D extends Component {
             <div className="clue-background-div">Munich became a focal point for the empire, center of intellectual (theologians, philosophers, artists...disputes with Catholic Church...) state administration set up (ducal court, court chapel, chancellery) To reward Munich for its loyalty (and also to line his own pockets), Ludwig created a lucrative monopoly for the city in 1322 by ordering that all the salt mined within Hallein or Reichenhall must pass directly through Munich.</div>
             <img src={castle} className="memorial-image" alt="castle" />
             <div className="clue-background-div">famous city gates and walls constructed (there was an inner wall section though)</div>
+            <div className="clue-background-div">show images of the city gates</div>
           </div>
         </div>
         <div className="buttons-section">
-          <Link to="/munich/walls">
+          <Link to="/munich/firstimage">
             <div className="gameNext-button">
                 Next Clue
             </div>
@@ -45,7 +46,7 @@ class Munich4D extends Component {
                   Back
               </div>
           </Link>
-          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=d9e99d59ba&attribution=false" target="_blank" rel="noopener noreferrer">
               <div className="gameFeedback-button">Give Feedback</div>
           </a>
         </div>

@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 import guard from '../../MunichImages/guard.png';
-import histsoldier from '../../MunichImages/histsoldier.png';
+// import histsoldier from '../../MunichImages/histsoldier.png';
 import kingchill from '../../MunichImages/kingchill.png';
 
 
@@ -28,10 +28,10 @@ class Munich4B extends Component {
             <div className="clue-background-title">A Holy Roman Emperor</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">
-                elected german king but a rival elected king (Habsburg friedrich der Schöne) defeated in the last great knights battle and who simply stayed ruling Austria in 1328 emperor of the holy roman empire.
+                elected german king but a rival elected king (Habsburg friedrich der Schöne) defeated in the last great knights battle and in 1328 emperor of the holy roman empire.
               </div>
               <img src={guard} className="memorial-image" alt="guard" />
-              <img src={histsoldier} className="memorial-image" alt="histsoldier" />
+              {/* <img src={histsoldier} className="memorial-image" alt="histsoldier" /> */}
               <img src={kingchill} className="memorial-image" alt="king" />
               <div className="clue-background-div question-section">Are you ready to discover more about him?</div>
             </div>

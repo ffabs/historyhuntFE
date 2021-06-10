@@ -82,7 +82,7 @@ class Munich5C extends Component {
                 <div>
                     {this.props.gamemenu !== true && 
                     <div> 
-                    <Timeline timelineProgress="4" timelineReference="14th A.D."/>
+                    <Timeline timelineProgress="4.5" timelineReference="15th A.D."/>
                     <div className="clue-background">
                         <div className="clue-background-title">City Walls</div>
                         <div className="clue-background-div">In which year of the 14th century were they built?</div>

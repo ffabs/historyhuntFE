@@ -28,12 +28,11 @@ class Munich2B extends Component {
             <div className="clue-background-title">Salt, the white gold</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">
-                Salt used to be very important for food conservation and even used for payments.
-                The area were Munich is on the Salt way, from Saltzburg and Reichenhall to Augsburg.
+                Salt used to be a very important business (for food conservation and even used for payments...)
               </div>
               <img src={salt} className="memorial-image" alt="salt" />
               <div className="clue-background-div">
-                In the first half of the 12th century, Bishop Otto I had established a toll bridge in Föhring (now a Munich suburb).
+              To benefit from the salt trade coming the Alps, Bishop Otto I had established a toll bridge over the Isar river in Föhring (now a Munich suburb) in the first half of the 12th century.
               </div>
               {/* <img src={guard} className="memorial-image" alt="guard" /> */}
               <img src={archer} className="memorial-image" alt="archer" />
@@ -44,7 +43,7 @@ class Munich2B extends Component {
               <img src={fire} className="memorial-image" alt="fire" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you ready to find the original Salt way?</div>
+              <div className="clue-background-div question-section">Are you ready to discover more about the original Salt way?</div>
             </div>
           </div>
           <div className="buttons-section">

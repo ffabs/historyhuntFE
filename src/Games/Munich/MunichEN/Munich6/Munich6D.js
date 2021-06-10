@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue6help from '../../MunichImages/munich_clue6help.png';
+import munich_clue6help from '../../MunichImages/munichlocation6.png';
 // import munichflag from '../../MunichImages/munich-flag.png';
 
 let consent = getCookieConsentValue();
@@ -29,6 +29,7 @@ class Munich6D extends Component {
           <div className="clue-background-divs">
             <div className="clue-background-div">munich's Frauenkirche red bricks (but cupolas later done) the last late gothic building in bavaria and the larsgest halled church in southern germnay.</div>
             {/* <div><img src={munichflag} className="memorial-image" alt="munich-flag" /></div> */}
+            <div className="clue-background-div">You can also go up to one tower if you want.. more info:...</div>
             <div className="clue-background-div">Even if Frauenkirche was the most significant church in the 15th century, the 16th century had another protagonist...</div>
             <div className="clue-background-div"><i>consider to change this clue to have only 15th century stuff here and the next one for 16th</i></div>
           </div>
@@ -44,7 +45,7 @@ class Munich6D extends Component {
                   Back
               </div>
           </Link>
-          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=e11c3c40f6" target="_blank" rel="noopener noreferrer">
+          <a href="https://us1.list-manage.com/survey?u=27bed50594116df471c55e108&id=d9e99d59ba&attribution=false" target="_blank" rel="noopener noreferrer">
               <div className="gameFeedback-button">Give Feedback</div>
           </a>
         </div>

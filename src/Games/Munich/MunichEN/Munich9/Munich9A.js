@@ -23,7 +23,7 @@ class Munich9A extends Component {
           <div> 
           <Timeline timelineProgress="7" timelineReference="17th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">Maximilian I and the Court Gardens</div>
+            <div className="clue-background-title">Maximilian I</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">Let's go to the Court Garden built by MaximilianI!</div>
               <img src={destination1} className="destination1" alt="destination1" />

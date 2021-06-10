@@ -7,7 +7,7 @@ import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
 // import destination1 from '../../MunichImages/destination1.png';
-import munich6location from '../../MunichImages/munich6location.png';
+import munich6location from '../../MunichImages/munichlocation6.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -26,19 +26,19 @@ class Munich6A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Becoming a city of art</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Try to go inside Isartor to watch the city from an higher point of view!</div>
+              <div className="clue-background-div">Despite the fact that after Louis IV Munich was not at the center of the empire anymore, the walls were not the only impressive constructions built in those years...</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              {/* <div className="clue-background-div">Let's go to Wittelsbach's Old Court!</div> */}
+              <div className="clue-background-div">Let's go to Munich's Frauenkirche!</div>
               {/* <img src={destination1} className="destination1" alt="destination1" /> */}
               <img src={munich6location} className="destination1" alt="destination1" />
-            {/* <iframe 
-              className="clue-map"
-              title="map"
-              // frameborder="0" 
-              style={{ border: 0 }}
-              src="https://www.google.com/maps/embed/v1/place?q=4HQH%2B54%20Munich&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
-              // allowfullscreen 
-            /> */}
+              <iframe 
+                className="clue-map"
+                title="map"
+                // frameborder="0" 
+                style={{ border: 0 }}
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJl3iTk_R1nkcRWv8Z_6jCLAA&key=AIzaSyDx8TjLXQy9CIDjVVVU2EH2LXibwQRNKxs" 
+                // allowfullscreen 
+              />
           {/* </div>
           <div className="question-section"> */}
             <div className="clue-background-div question-section">Can you get in?</div>

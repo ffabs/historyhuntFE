@@ -106,7 +106,7 @@ class Munich7C extends Component {
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
                                     <option value="Winter"> members of Munich elite</option>
                                     <option value="Winter"> bishops of Munich</option>
-                                    <option value="Spring"> Wittelsbach's family</option>
+                                    <option value="Spring"> rulers of Baviera</option>
                                 </select>
                             </div>
                             <div className="clue-background-div"></div>
