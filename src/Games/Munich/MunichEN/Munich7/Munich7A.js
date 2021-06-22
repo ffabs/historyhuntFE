@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
-import destination1 from '../../MunichImages/destination1.png';
+import munichlocation7 from '../../MunichImages/newmunichlocation7.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -28,7 +28,7 @@ class Munich7A extends Component {
               <div className="clue-background-div">Let's go to St. Michael's Church, 1585 foundation stone.</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
               <div className="clue-background-div">Let's go there!</div>
-              <img src={destination1} className="destination1" alt="destination1" />
+              <img src={munichlocation7} className="destination1" alt="St. Michael's Church" />
             <iframe 
               className="clue-map"
               title="map"

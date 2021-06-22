@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue10help from '../../MunichImages/munich_clue10help.png';
+import munich_clue10help from '../../MunichImages/munichhelp10.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -25,7 +25,7 @@ class Munich10CHelp extends Component {
             <div className="clue-background-title">Clue Help</div>
             <div className="clue-background-div">Check the statues of the animal getting fought by the angels!</div>
             <div>
-              <img src={munich_clue10help} className="solution-image" alt="munich_clue10help" />
+              <img src={munich_clue10help} className="destination1" alt="munich_clue10help" />
             </div>
           </div>
         <div className="buttons-section">

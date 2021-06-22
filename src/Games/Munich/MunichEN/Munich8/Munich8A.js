@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import destination1 from '../../MunichImages/destination1.png';
+import munichlocation8 from '../../MunichImages/munichlocation8.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -25,7 +25,7 @@ class Munich8A extends Component {
             <div className="clue-background-title">The Hofbräuhaus</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">Let's go back towards Marienplatz to arrive to the famous Hofbräuhaus beer hall!</div>
-              <img src={destination1} className="destination1" alt="destination1" />
+              <img src={munichlocation8} className="destination1" alt="hofbrauhaus" />
             <iframe 
               className="clue-map"
               title="map"

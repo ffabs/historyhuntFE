@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue8help from '../../MunichImages/munich_clue8help.png';
+import munich_clue8help from '../../MunichImages/munichhelp8.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -23,7 +23,7 @@ class Munich8CHelp extends Component {
           <Timeline timelineProgress="6" timelineReference="16th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">The answer is on its outside walls!</div>
+            <div className="clue-background-div">The answer is on its outside walls, just below the Hofbräuhaus symbol!</div>
             <div>
               <img src={munich_clue8help} className="tree-image" alt="beer hall" />
             </div>

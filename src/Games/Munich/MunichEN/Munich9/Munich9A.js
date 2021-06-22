@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
-import destination1 from '../../MunichImages/destination1.png';
+import munichlocation9 from '../../MunichImages/munichlocation9.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -26,7 +26,7 @@ class Munich9A extends Component {
             <div className="clue-background-title">Maximilian I</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">Let's go to the Court Garden built by MaximilianI!</div>
-              <img src={destination1} className="destination1" alt="destination1" />
+              <img src={munichlocation9} className="destination1" alt="Residenz" />
             <iframe 
               className="clue-map"
               title="map"

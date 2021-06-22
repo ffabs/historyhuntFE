@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue10help from '../../MunichImages/munich_clue10help.png';
+import munich_clue10help from '../../MunichImages/munichhelp10.png';
 import munichflag from '../../MunichImages/munich-flag.png';
 
 let consent = getCookieConsentValue();
@@ -24,7 +24,7 @@ class Munich10D extends Component {
         <div className="clue-background">
           <div className="clue-background-title">Congrats for reaching the end!</div>
           <div>
-              <img src={munich_clue10help} className="solution-image" alt="mary's column" />
+              <img src={munich_clue10help} className="destination1" alt="mary's column" />
           </div>
           <div className="clue-background-divs">
             <div className="clue-background-div">This is the end of the journey. Hopefully you enjoyed discovering the history of this great city!</div>

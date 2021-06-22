@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue8help from '../../MunichImages/munich_clue8help.png';
+import munich_clue8help from '../../MunichImages/munichsuccess8.png';
 import barrel from '../../MunichImages/barrelandbeer.png';
 // import beer from '../../MunichImages/beer.png';
 

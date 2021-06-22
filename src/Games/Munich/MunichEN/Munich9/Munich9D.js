@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import munich_clue9help from '../../MunichImages/munich_clue9help.png';
+import munich_clue9help from '../../MunichImages/munichhelp9new.png';
 import castle from '../../MunichImages/castle.png';
 
 let consent = getCookieConsentValue();
@@ -24,7 +24,7 @@ class Munich9D extends Component {
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
-              <img src={munich_clue9help} className="solution-image" alt="riches of bavaria"/>
+              <img src={munich_clue9help} className="destination1" alt="riches of bavaria"/>
           </div>
           <div className="clue-background-divs">
             <div className="clue-background-div">The veneration of Mary as Patrona Bavariae was particularly encouraged by the very religious Elector Maximilian I, who wanted to place Bavaria under the rule of Mary and saw himself only as Mary's governor. In 1610 he had a coin minted showing Maria as the patron saint of Munich. During this time, Catholic devotion to Mary was increasingly used as a distinguishing feature between Catholicism and Protestantism.</div>
