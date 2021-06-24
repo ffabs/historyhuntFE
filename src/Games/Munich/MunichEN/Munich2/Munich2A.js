@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 // import annouce from '../../MunichImages/annouce.png';
+import salt from '../../MunichImages/salt.png';
 import destination1 from '../../MunichImages/munichlocation1.png';
 
 let consent = getCookieConsentValue();
@@ -25,7 +26,11 @@ class Munich2A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Salt, the white gold</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Go back to Marienplatz. Try to imagine .... salt.. This square is the original trade center of Munich which used to be called just <i>Marktplatz</i> (market square).</div>
+              <div className="clue-background-div">
+               The origins of Munich are related to the salt business, which used to be crucially important for food conservation until the invention of refrigeration.
+              </div>
+              <img src={salt} className="memorial-image" alt="salt" />
+              <div className="clue-background-div">Let's go back to Marienplatz for the next clue. This square was the original trade center of the city and for this reason used to be called simply as <i>Marktplatz</i>, meaning 'market square'.</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
@@ -46,7 +51,7 @@ class Munich2A extends Component {
                   Yes, I am!
               </div>
             </Link>
-            <Link to="/munich/partnercities/clueAnswer">
+            <Link to="/munich/monks/clueAnswer">
               <div className="gameNext-button-below">
                   Back
               </div>

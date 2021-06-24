@@ -27,10 +27,10 @@ class Munich1D extends Component {
               <img src={munichemblemhelp} className="solution-image" alt="munich emblem" />
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">The inspiration behind Munich's unique coat of arms was indeed the fact that this area was orinally inabitated by monks from the 8th century.</div>
+            <div className="clue-background-div">The inspiration behind Munich's unique coat of arms was that this area was inabitated by monks since the 8th century.</div>
             <div className="clue-background-div">It is even probable that the name of the city is a derivation from the German word <i>Mönche</i>, meaning 'monks'.</div>
             <img src={bishop} className="memorial-image" alt="bishop" />
-            <div className="clue-background-div">However, the city was not born for religious movements but rather for economic reasons...</div>
+            <div className="clue-background-div">However, the city was not born for religious reasons but rather for economic ones...</div>
           </div>
         </div>
         <div className="buttons-section">

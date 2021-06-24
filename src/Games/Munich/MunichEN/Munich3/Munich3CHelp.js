@@ -20,7 +20,7 @@ class Munich3CHelp extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="3" timelineReference="13th A.D."/>
+          <Timeline timelineProgress="3" timelineReference="12-13th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
             <div className="clue-background-div">Look to the symbol to the left, on this side of the building!</div>

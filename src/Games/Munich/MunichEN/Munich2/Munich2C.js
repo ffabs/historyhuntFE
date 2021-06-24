@@ -204,7 +204,7 @@ class Munich2C extends Component {
                     <Timeline timelineProgress="2" timelineReference="12th A.D."/>
                     <div className="clue-background">       
                         <div className="clue-background-title">Salt, the white gold</div> 
-                        <div className="clue-background-div">From which direction was the salt coming to this square?</div>
+                        <div className="clue-background-div">From which direction was salt coming to this square?</div>
                         <div className="compassAlign">
                             <div
                                 onClick={this.firstInput}

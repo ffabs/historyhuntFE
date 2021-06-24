@@ -23,7 +23,7 @@ class Munich2CHelp extends Component {
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
 
-            <div className="clue-background-div">As a hint, check the map and zoom out to find the closest way to the river:</div>
+            <div className="clue-background-div">As a hint, check the map and zoom out to find the closest way to the river. That's where the original Munich toll bridge used to be!</div>
             <iframe 
               className="clue-map"
               title="map"

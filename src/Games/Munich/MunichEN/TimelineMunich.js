@@ -15,7 +15,7 @@ class Timeline extends Component {
         let timeline = "timeline";
 
         if(finalWidth < maxWidth && animate === "yes") {
-            if(timelineProgress > 3) {
+            if(timelineProgress > 2) {
                 timeline = "animatedTimeline30";
             } else {
                 timeline = "animatedTimeline";

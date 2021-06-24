@@ -22,20 +22,21 @@ class Munich3B extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="3" timelineReference="13th A.D." animate="yes"/>
+          <Timeline timelineProgress="3" timelineReference="12-13th A.D."/>
           <div className="clue-background">
             <div className="clue-background-title">Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Da cambiare (non è interessante): scrivere da quando a quando..</div>
+              <div className="clue-background-div">The Wittelsbach's reign is the longest of any other dynasty in Germany, lasting from the end of the 12th century until 1918!</div>
               <img src={money} className="memorial-image" alt="money" />
-              <div className="clue-background-div">During the centuries that this dinasty has ruled, the city has experienced periods of wealth, culture, population growth and the establishment of the city council.</div>
-              <img src={mouse} className="munich-text-image" alt="mouse" />
+              <div className="clue-background-div">This building was the residence of the family from the 13th to the 15th centuries.</div>
+              {/* <div className="clue-background-div">During these centuries, Munich has experienced periods of wealth, culture, population growth and the establishment of the city council.</div> */}
+              {/* <img src={mouse} className="munich-text-image" alt="mouse" />
               <div className="clue-background-div">Nevertheless, under this dinasty the city has also been through periods of impoverishment, bad city management, religious persecutions, pestilences and fires.</div>
-              <img src={fire} className="memorial-image" alt="fire" />
-              <div className="clue-background-div">Let's check the area inside their court!</div>
+              <img src={fire} className="memorial-image" alt="fire" /> */}
+              {/* <div className="clue-background-div">Let's check the area inside their court!</div> */}
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you there?</div>
+              <div className="clue-background-div question-section">Let's walk inside the courtyard to solve the next clue! Are you there?</div>
             </div>
           </div>
           <div className="buttons-section">

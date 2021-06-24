@@ -27,10 +27,10 @@ class Munich2D extends Component {
               <img src={munich2_oldcityhall} className="memorial-image" alt="oldcityhall" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">Following the street until the Isar, the Ludwigsbrücke stands where the original bridge used to, exactly on the "Salt way" from Saltzburg and Reichenhall to Augsburg.</div>
-            <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Friedrich I (the famous Barbarossa) issues the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
+          <div className="clue-background-div">If you would follow this direction until the river, you would end up at the 'Ludwig bridge'. This bridge stands where the first one used to and is therefore part of the original "Salt way" from Saltzburg and Reichenhall to Augsburg.</div>
+            <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Barbarossa issued the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
             <img src={annouce} className="memorial-image" alt="annouce" />
-            <div className="clue-background-div">However, Henry's good favour with Barbarossa did not last....</div>
+            <div className="clue-background-div">However, Henry's good favour with Barbarossa did not last...</div>
           </div>
         </div>
         <div className="buttons-section">

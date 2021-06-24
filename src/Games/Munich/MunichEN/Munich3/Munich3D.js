@@ -20,7 +20,7 @@ class Munich3D extends Component {
       <div>
         {this.props.gamemenu !== true && 
         <div> 
-        <Timeline timelineProgress="3" timelineReference="13th A.D."/>
+        <Timeline timelineProgress="3" timelineReference="12-13th A.D."/>
         <div className="clue-background">
           <div className="clue-background-title">Well done!</div>
           <div>
@@ -29,7 +29,7 @@ class Munich3D extends Component {
           <div className="clue-background-divs">
             <div className="clue-background-div">This specific coat of arms is the origin of the colors of nowadays flag of Munich!</div>
             <div><img src={munichflag} className="memorial-image" alt="munich-flag" /></div>
-            <div className="clue-background-div">Actually, a black eagle on a gold background is the Empire's own coat of arms. Let's find out why it has become a symbol of Munich...</div>
+            <div className="clue-background-div">Actually, a black eagle on a gold background is the Holy Roman Empire's own coat of arms. Let's find out why it has become a symbol of Munich in the next clue!</div>
           </div>
         </div>
         <div className="buttons-section">

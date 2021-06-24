@@ -23,7 +23,7 @@ class Munich1CHelp extends Component {
           <Timeline timelineProgress="1.5" timelineReference="8-12th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Check the entrance of the Town Hall and look at the ceiling, over the doors and on the wall to the left:</div>
+            <div className="clue-background-div">You can find it multiple times in the entrance of the Town Hall: look at the ceiling, over the doors, on the wall to the left...</div>
             <div>
               <img src={munich_clue1help} className="solution-image" alt="munich_clue1help" />
             </div>

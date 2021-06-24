@@ -102,7 +102,7 @@ class Munich3C extends Component {
             return ( 
                 <div>
                     {this.props.gamemenu !== true && <div>
-                        <Timeline timelineProgress="3" timelineReference="13th A.D."/>
+                        <Timeline timelineProgress="3" timelineReference="12-13th A.D."/>
                         <div className="clue-background">
                         <div className="clue-background-title">Wittelsbach's Old Court</div>
                         <div className="clue-background-div">Among the symbols on the building, there is one particularly prominent. What does it show?</div>

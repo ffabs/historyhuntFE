@@ -27,10 +27,10 @@ class Munich2B extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Salt, the white gold</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">
-                Salt used to be a very important business (for food conservation and even used for payments...)
+              {/* <div className="clue-background-div">
+               Before the invention of refrigeration, salt used to be crucially important for food conservation and was even used as a form of payment.
               </div>
-              <img src={salt} className="memorial-image" alt="salt" />
+              <img src={salt} className="memorial-image" alt="salt" /> */}
               <div className="clue-background-div">
               To benefit from the salt trade coming the Alps, Bishop Otto I had established a toll bridge over the Isar river in Föhring (now a Munich suburb) in the first half of the 12th century.
               </div>
@@ -38,12 +38,12 @@ class Munich2B extends Component {
               <img src={archer} className="memorial-image" alt="archer" />
               
               <div className="clue-background-div">
-                However, the Duke of Bavaria, Henry the Lion, wanted to get this business all for himself. He destroyed Otto's toll bridge and built a new one where Munich is now.
+                However, the Duke of Bavaria, Henry the Lion, wanted to get this business for himself. He destroyed Otto's toll bridge and built a new one where Munich is now.
               </div>
               <img src={fire} className="memorial-image" alt="fire" />
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you ready to discover more about the original Salt way?</div>
+              <div className="clue-background-div question-section">Are you ready to discover more about the original "Salt way"?</div>
             </div>
           </div>
           <div className="buttons-section">

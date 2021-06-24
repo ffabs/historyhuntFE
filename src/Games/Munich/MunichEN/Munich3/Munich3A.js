@@ -21,13 +21,13 @@ class Munich3A extends Component {
         <div>
           {this.props.gamemenu !== true && 
           <div> 
-          <Timeline timelineProgress="2" timelineReference="12th A.D."/>
+          <Timeline timelineProgress="3" timelineReference="12-13th A.D." animate="yes"/>
           <div className="clue-background">
             <div className="clue-background-title">The Wittelsbach's Old Court</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Henry lost Munich and most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsbach as Duke of Bavaria, starting the longest reign of any dynasty in Germany...</div>
+              <div className="clue-background-div">Henry lost most of his lands due to Barbarossa, who instead appointed Otto I von Wittelsbach as Duke of Bavaria.</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              <div className="clue-background-div">Let's go to Wittelsbach's Old Court that was built a few decades later!</div>
+              <div className="clue-background-div">Let's go to Wittelsbach's Old Court!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"

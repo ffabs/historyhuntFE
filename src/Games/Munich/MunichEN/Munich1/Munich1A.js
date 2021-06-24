@@ -27,7 +27,7 @@ class Munich1A extends Component {
             <div className="clue-background-divs">
               <div className="clue-background-div">Centuries before Munich was founded, its area was already partially inhabited.</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              <div className="clue-background-div">Come to the New Town Hall (or Neues Rathaus) to discover who used to live around here!</div>
+              <div className="clue-background-div">Come to the New Town Hall to discover who used to live around here!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"
