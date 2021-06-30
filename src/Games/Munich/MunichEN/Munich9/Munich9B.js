@@ -27,14 +27,14 @@ class Munich9B extends Component {
             <div className="clue-background-title">Maximilian I</div>
             <div className="clue-background-divs">
               {/* <img src={money} className="memorial-image" alt="money" /> */}
-              <div className="clue-background-div">He was a typical "absolutist" ruler, wanted to make Bavaria a regional power of renown.</div>
+              <div className="clue-background-div">Maximilian was a typical absolutist ruler and therefore wanted to make Bavaria a power of fame.</div>
               {/* <img src={mouse} className="munich-text-image" alt="mouse" /> */}
-              <div className="clue-background-div">This motivated him to start building as well great monuments: expanding the Residenz making it a grand one commissioned what is now called the Maximilian Residenz (Maximilianische Residenz ), the west wing of the palace. Until the 19th century, it was the only publicly visible facade and it still is preserved. (as well as with Hofkapelle, Reiche Kapelle, Kaiserall and the Hofgarten...)</div>
+              <div className="clue-background-div">This motivated him to build great monuments and expand the Residence with an additional west wing.</div>
               {/* <img src={fire} className="memorial-image" alt="fire" /> */}
-              <div className="clue-background-div">The building is guarded by 2 lions (which have a very bright nouse because it is considered to bring good luck) but also by something else!</div>
+              {/* <div className="clue-background-div">The building is guarded by 2 lions (which have a very bright nouse because it is considered to bring good luck) but also by something else!</div> */}
           {/* </div>
           <div className="question-section"> */}
-              <div className="clue-background-div question-section">Are you ready to find what it was build by Maximilian?</div>
+              <div className="clue-background-div question-section">Are you ready to discover more about Maximilian I and his time by looking at his building?</div>
             </div>
           </div>
           <div className="buttons-section">

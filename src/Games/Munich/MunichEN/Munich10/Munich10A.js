@@ -23,7 +23,7 @@ class Munich10A extends Component {
           <div> 
           <Timeline timelineProgress="10" timelineReference="17th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">The 30 Years War</div>
+            <div className="clue-background-title">The 30 Years' War</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">Let's go back to Marienplatz to watch Mary's Column!</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}

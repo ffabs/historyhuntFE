@@ -85,7 +85,7 @@ class Munich9C extends Component {
                         <Timeline timelineProgress="7" timelineReference="17th A.D."/>
                         <div className="clue-background">
                         <div className="clue-background-title">Maximilian I</div>
-                        <div className="clue-background-div">In addition to the two lions a statue of what else is guarding the facade?</div>
+                        <div className="clue-background-div">In addition to statues of lions, there is another statue guarding the facade. What is it about?</div>
                         <div className="munich-parent-forms">
                             <div className="munich-form">
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
@@ -95,7 +95,7 @@ class Munich9C extends Component {
                                     <option value="Spring"> ✝️ Holy Mary</option>
                                 </select>
                             </div>
-                            <div className="clue-background-div">And what is it written below as a description?</div>
+                            <div className="clue-background-div">And what is it written under it?</div>
                             <div>
                                 <input
                                     type="text" 

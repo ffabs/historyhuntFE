@@ -25,7 +25,8 @@ class Munich9A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Maximilian I</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Let's go to the Court Garden built by MaximilianI!</div>
+              <div className="clue-background-div">Let's go to Maximilian's residence!</div>
+              {/* <i>Maximilianische Residenz</i>, meaning  */}
               <img src={munichlocation9} className="destination1" alt="Residenz" />
             <iframe 
               className="clue-map"

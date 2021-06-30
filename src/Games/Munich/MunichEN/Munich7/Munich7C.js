@@ -98,15 +98,16 @@ class Munich7C extends Component {
                     {this.props.gamemenu !== true && <div>
                         <Timeline timelineProgress="6" timelineReference="16th A.D."/>
                         <div className="clue-background">
-                        <div className="clue-background-title">Jesuits and the counter reformation</div>
+                        <div className="clue-background-title">Jesuits and the Counter Reformation</div>
                         <div className="munich-parent-forms">
                         <div className="clue-background-div">What are the statues on the facade about?</div>
                         
                             <div className="munich-form">
                                 <select type="text" onChange={this.updateFirstAnswer} className={this.state.firstAnswerCSS}>
-                                    <option value="Winter"> members of Munich elite</option>
-                                    <option value="Winter"> bishops of Munich</option>
-                                    <option value="Spring"> rulers of Baviera</option>
+                                    <option value="Winter"> Local bishops</option>
+                                    <option value="Winter"> Local elite</option>
+                                    <option value="Winter"> Local Jesuits</option>
+                                    <option value="Spring"> Local rulers</option>
                                 </select>
                             </div>
                             <div className="clue-background-div"></div>

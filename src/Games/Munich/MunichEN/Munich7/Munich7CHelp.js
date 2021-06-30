@@ -24,10 +24,10 @@ class Munich7CHelp extends Component {
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
             <div>
-              <img src={munich_clue7help} className="solution-image" alt="munich_clue7help" />
+              <img src={munich_clue7help} className="tree-image" alt="munich_clue7help" />
             </div>
-            <div className="clue-background-div">To answer the first question, read the name of the second statue at the bottom left, sounds familiar?</div>
-            <div className="clue-background-div">The answer of the second question is the beginning of the text over the doors!</div>
+            <div className="clue-background-div">To answer the first question, read the name of the second statue at the bottom left. Does it sound familiar?</div>
+            <div className="clue-background-div">To answer the second question, read the golden text over the doors. The name is at the beginning!</div>
           </div>
         <div className="buttons-section">
             <Link to="/munich/michael/clue">

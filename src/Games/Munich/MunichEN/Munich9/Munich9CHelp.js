@@ -23,7 +23,7 @@ class Munich9CHelp extends Component {
           <Timeline timelineProgress="7" timelineReference="17th A.D."/>
             <div className="clue-background">
             <div className="clue-background-title">Clue Help</div>
-            <div className="clue-background-div">Look for following statue, above and a bit further with respect to the lions:</div>
+            <div className="clue-background-div">Look for statue shown below. It is on the facade and a bit further with respect to the lions:</div>
             <div>
               <img src={munich_clue9help} className="destination1" alt="munich_clue9help" />
             </div>

@@ -39,7 +39,7 @@ class Munich4C extends Component {
     }
 
     checkAllInputs = event => {
-        if (this.state.firstInputValue === "derbayer" || this.state.firstInputValue === "kaiserludwigderbayer") {
+        if (this.state.firstInputValue === "derbayer" || this.state.firstInputValue === "kaiserludwigderbayer" || this.state.firstInputValue === "bayer") {
             this.setState({
                 answers: "right"
             });

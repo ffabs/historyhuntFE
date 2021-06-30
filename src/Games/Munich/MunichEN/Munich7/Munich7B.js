@@ -22,11 +22,12 @@ class Munich7B extends Component {
           <div> 
           <Timeline timelineProgress="6" timelineReference="16th A.D."/>
           <div className="clue-background">
-            <div className="clue-background-title">Jesuits and the counter reformation</div>
+            <div className="clue-background-title">Jesuits and the Counter Reformation</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">In the 16th A.D. the Protestant Reformation movement started by Martin Luther arrived to Munich too. As a response, Munich became even more Catholic, embracing the counter reformation, welcoming the ultra-religious Jesuits and even ruling that only Catholics could be citizen of the city.</div>
+              <div className="clue-background-div">In the 16th A.D., the Protestant Movement started by Martin Luther arrived also to Munich.</div>
+              <div className="clue-background-div">As a response, Munich became even more Catholic: the Counter Reformation movement and the ultra-religious Jesuits were welcomed into the city, most of Munich's elite started being educated at the new Jesuit college and it was even decided that only Catholics could be citizen of Munich.</div>
               <img src={bible} className="munich-text-image" alt="bible" />
-              <div className="clue-background-div">In addition, many of Munich's future elite were now educated at the new Jesuit college, part of a vast complex of Jesuit buildings, including the St Michael's Church, the biggest late-Renaissance church in Germnay.</div>
+              <div className="clue-background-div">The vast complex of Jesuit buildings built in this century, included St. Michael's Church, the biggest late-Renaissance church in Germany.</div>
           {/* </div>
           <div className="question-section"> */}
               <div className="clue-background-div question-section">Are you ready to discover some of its secrets?</div>

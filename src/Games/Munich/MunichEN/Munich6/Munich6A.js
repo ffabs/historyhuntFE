@@ -26,7 +26,7 @@ class Munich6A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">Becoming a city of art</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Despite the fact that after Louis IV Munich was not at the center of the empire anymore, the walls were not the only impressive constructions built in those years...</div>
+              <div className="clue-background-div">After Ludwig IV, Munich was not the center of the empire anymore but impressive constructions were still built.</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
               <div className="clue-background-div">Let's go to Munich's Frauenkirche!</div>
               {/* <img src={destination1} className="destination1" alt="destination1" /> */}
@@ -41,7 +41,7 @@ class Munich6A extends Component {
               />
           {/* </div>
           <div className="question-section"> */}
-            <div className="clue-background-div question-section">Can you get in?</div>
+            <div className="clue-background-div question-section">Are you there?</div>
             </div>
           </div>
           <div className="buttons-section">
@@ -50,7 +50,7 @@ class Munich6A extends Component {
                   Yes!
               </div>
             </Link>
-            <Link to="/munich/year/clueAnswer">
+            <Link to="/munich/bavarian/clueAnswer">
               <div className="gameNext-button-below">
                   Back
               </div>

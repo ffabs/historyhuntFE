@@ -25,7 +25,7 @@ class Munich4A extends Component {
           <div className="clue-background">
             <div className="clue-background-title">A Holy Roman Emperor</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Leave the Court from the nothern entrance and meet the emperor Louis IV (German: Ludwig) of the house of Wittelsbach!</div>
+              <div className="clue-background-div">Leave the Court from the nothern entrance and meet the emperor Ludwig IV of the House of Wittelsbach!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 
               className="clue-map"

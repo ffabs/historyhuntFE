@@ -28,9 +28,12 @@ class Munich4B extends Component {
             <div className="clue-background-title">A Holy Roman Emperor</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">
-                elected german king but a rival elected king (Habsburg friedrich der Schöne) defeated in the last great knights battle and in 1328 emperor of the holy roman empire.
+                Ludwig's election as king of Germany in 1314 was controversial, as Frederick 'the Handsome' of the House of Habsburg was simultaneously elected king by a separate set of electors.
               </div>
               <img src={guard} className="memorial-image" alt="guard" />
+              <div className="clue-background-div">
+              Eventually, Ludwig defeated Frederick in the last great knights battle and in 1328 became emperor of the Holy Roman Empire.
+              </div>
               {/* <img src={histsoldier} className="memorial-image" alt="histsoldier" /> */}
               <img src={kingchill} className="memorial-image" alt="king" />
               <div className="clue-background-div question-section">Are you ready to discover more about him?</div>

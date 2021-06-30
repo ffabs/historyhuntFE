@@ -27,9 +27,12 @@ class Munich8B extends Component {
             <div className="clue-background-title">The Hofbräuhaus</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">
-                William V William V found the beer in Munich bad so he imported beer from Saxony and then founded this beer hall as the brewery to the old Royal Residence.
+                Originally, the quality of the local beer was very low and even dangerous for customers. To solve this issue, the <i>Beer Purity Law</i> was issued in the first part of the 16th century.
               </div>
               <img src={barrel} className="memorial-image" alt="barrel" />
+              <div className="clue-background-div">
+                Nevertheless, William V did not like the taste of the local beer and therefore he founded his own brewery, the Hofbräuhaus!
+              </div>
               <img src={beer} className="memorial-image" alt="beer" />
               <div className="clue-background-div question-section">Are you ready to discover more about it?</div>
             </div>

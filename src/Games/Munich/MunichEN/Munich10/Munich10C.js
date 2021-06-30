@@ -122,8 +122,9 @@ class Munich10C extends Component {
                     {this.props.gamemenu !== true && <div>
                         <Timeline timelineProgress="10" timelineReference="17th A.D."/>
                         <div className="clue-background">
-                        <div className="clue-background-title">The 30 Years War</div>
-                        <div className="clue-background-div">The golden statue was actually created at the end of the 16th  for William V grave in St. Michael but since 1639 it was joined by four bronze depicting the demons Munich survived: hunger, war, plague and heresy. How are they represented?</div>
+                        <div className="clue-background-title">The 30 Years' War</div>
+                        {/* <div className="clue-background-div">The golden statue was actually created at the end of the 16th  for William V grave in St. Michael but since 1639 it was joined by four bronze depicting the demons Munich survived: hunger, war, plague and heresy. How are they represented?</div> */}
+                        <div className="clue-background-div">The golden statue of Mary was joined by four bronze depicting the demons Munich survived: hunger, war, plague and heresy. How are they represented?</div>
                         <div className="munich-parent-forms">
                             <div className="munich-form">
                                 <div className="clue-background-div">Hunger:</div>

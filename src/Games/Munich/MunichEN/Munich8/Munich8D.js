@@ -28,11 +28,10 @@ class Munich8D extends Component {
             <img src={munich_clue8help} className="solution-image" alt="beer hall" />
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">William V's politics and spending (especially on Church-related projects and foreign missionaries outside Bavaria) put tremendous strain on the Bavarian treasury, which was already suffering from other art investiments. As a consequence to all the debts, he abdicated in favour of his son Maximilian I.</div>
+            <div className="clue-background-div">However, William's politics defending Catholicism led to many debts and a weakening of the Bavarian treasury. As a consequence he abdicated in favour of his son Maximilian I.</div>
             <img src={barrel} className="memorial-image" alt="barrel" />
-            <div className="clue-background-div">Hironically, his son used beer to bring some order to the financial debts. He nationalized the Weißbier brewing industry and erected his own brewereries including extending the Hofbräuhaus.</div>
-            {/* <img src={beer} className="memorial-image" alt="beer" /> */}
-            <div className="clue-background-div">Funny also that he had a very Jesuit education and therefore he ordered to arrest Münchner caught going to the pub instead of attending mass.</div>
+            <div className="clue-background-div">Ironically, beer was used by Maximilian to bring some financial order back, by nationalizing the Weißbier beer industry!</div>
+            {/* <div className="clue-background-div">Nevertheless, Maximilian had received a strong religious education and he also ordered to arrest locals caught going to the pub instead of attending mass!</div> */}
           </div>
         </div>
         <div className="buttons-section">

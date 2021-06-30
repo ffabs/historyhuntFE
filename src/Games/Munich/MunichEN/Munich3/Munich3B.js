@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 import money from '../../MunichImages/money.png';
-import mouse from '../../MunichImages/mouse.png';
-import fire from '../../MunichImages/fire.png';
+// import mouse from '../../MunichImages/mouse.png';
+// import fire from '../../MunichImages/fire.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {

@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-import salt from '../../MunichImages/salt.png';
+// import salt from '../../MunichImages/salt.png';
 // import guard from '../../MunichImages/guard.png';
 import archer from '../../MunichImages/archer.png';
 import fire from '../../MunichImages/fire.png';

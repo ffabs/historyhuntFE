@@ -27,10 +27,10 @@ class Munich10D extends Component {
               <img src={munich_clue10help} className="destination1" alt="mary's column" />
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">This is the end of the journey. Hopefully you enjoyed discovering the history of this great city!</div>
+            {/* <div className="clue-background-div">However, the erection of this column didn't determine the end of the war. There was another battle also in Munich but this time the new walls were finished and the Swedish didn't win.</div> */}
+            <div className="clue-background-div">In 1468 the war ended definitively with the <i>Peace of Westphalia.</i> It consisted of an agreement between European leaders of non-interference in internal affairs and is therefore regarded as the institution of the principle of "state sovereignty"!</div>
+            <div className="clue-background-div">This is the end of the journey! We hope you enjoyed discovering the first centuries of this great city!</div>
             <div><img src={munichflag} className="memorial-image" alt="munich-flag" /></div>
-            <div className="clue-background-div">However, the erection of this column didn't determine the end of the war. There was another battle also in Munich but this time the new walls were finished and the Swedish didn't win.</div>
-            <div className="clue-background-div">In 1468, the war finally end, with the important peace of Westphalia: an agreement among European leaders to manage religious and political affairs only in their territories (the concept of 'sovreign states')!</div>
           </div>
         </div>
         <div className="buttons-section">

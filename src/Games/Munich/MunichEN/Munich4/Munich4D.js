@@ -27,12 +27,11 @@ class Munich4D extends Component {
               <img src={munich_clue4help} className="memorial-image" alt="Louis IV" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">issues with the Pope when it was weaker (not recognised his election, excommunication, called the bavarian.., maybe because the Pope was with the Habsburgers?!)but then decided that emperor were elected by a collage without the pope and excluding bavaria duke</div>
+          <div className="clue-background-div">Actually, he started being called "the Bavarian" in a derogatory way by the Pope, who did not recognise him as Emperor and who even excommunicated him.</div>
             
-            <div className="clue-background-div">Munich became a focal point for the empire, center of intellectual (theologians, philosophers, artists...disputes with Catholic Church...) state administration set up (ducal court, court chapel, chancellery) To reward Munich for its loyalty (and also to line his own pockets), Ludwig created a lucrative monopoly for the city in 1322 by ordering that all the salt mined within Hallein or Reichenhall must pass directly through Munich.</div>
+            <div className="clue-background-div">
+              Nevertheless, in the 14th century Munich gained much importance thanks to Ludwig: it was the center of the empire, became even richer thanks to a lucrative salt monopoly he created for the city and was expanded by building the famous city gates still visible today!</div>
             <img src={castle} className="memorial-image" alt="castle" />
-            <div className="clue-background-div">famous city gates and walls constructed (there was an inner wall section though)</div>
-            <div className="clue-background-div">show images of the city gates</div>
           </div>
         </div>
         <div className="buttons-section">

@@ -27,9 +27,10 @@ class Munich9D extends Component {
               <img src={munich_clue9help} className="destination1" alt="riches of bavaria"/>
           </div>
           <div className="clue-background-divs">
-            <div className="clue-background-div">The veneration of Mary as Patrona Bavariae was particularly encouraged by the very religious Elector Maximilian I, who wanted to place Bavaria under the rule of Mary and saw himself only as Mary's governor. In 1610 he had a coin minted showing Maria as the patron saint of Munich. During this time, Catholic devotion to Mary was increasingly used as a distinguishing feature between Catholicism and Protestantism.</div>
+            <div className="clue-background-div">Catholic devotion to Mary was increasingly used as a distinguishing feature between Catholicism and Protestantism. So, the veneration of Holy Mary as <i>Patrona Bavariae</i> was particularly encouraged by Maximilian I.</div>
+            {/*, who was very religious and saw himself only as Holy Mary's governor who saw himself only as Holy Mary's governor. and wanted to place Bavaria under the rule of Mary and, who was very religious and wanted to place Bavaria under the rule of Mary and saw himself only as Mary's governor. In 1610 he had a coin minted showing Maria as the patron saint of Munich.  */}
             <img src={castle} className="memorial-image" alt="castle" />
-            <div className="clue-background-div">His biggest building project, though, was a new city wall, which was started too late though...</div>
+            <div className="clue-background-div">The Residence expansion wasn't Maximilian's biggest construction project though! He also planned the construction of a new city wall, which however began too late...</div>
             <div className="clue-background-div">Are you ready for the last clue?</div>
           </div>
         </div>

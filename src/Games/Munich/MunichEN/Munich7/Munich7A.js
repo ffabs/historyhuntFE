@@ -23,11 +23,11 @@ class Munich7A extends Component {
           <div> 
           <Timeline timelineProgress="6" timelineReference="16th A.D." animate="yes"/>
           <div className="clue-background">
-            <div className="clue-background-title">Jesuits and the counter reformation</div>
+            <div className="clue-background-title">Jesuits and the Counter Reformation</div>
             <div className="clue-background-divs">
-              <div className="clue-background-div">Let's go to St. Michael's Church, 1585 foundation stone.</div>
+              <div className="clue-background-div">Let's go to St. Michael's Church!</div>
               {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
-              <div className="clue-background-div">Let's go there!</div>
+              {/* <div className="clue-background-div">Let's go there 1585 foundation stone!</div> */}
               <img src={munichlocation7} className="destination1" alt="St. Michael's Church" />
             <iframe 
               className="clue-map"
