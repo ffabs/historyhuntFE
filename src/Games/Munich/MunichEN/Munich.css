@@ -220,6 +220,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0px;
+    max-width: 320px;
 }
 .compassItem {
     /* border: 1px solid rgb(24, 23, 23); */
@@ -237,6 +238,7 @@
     font-size: 19px;
     height: 20px;
     line-height: 40px;
+    cursor: pointer;
 }
 .nordwest {
     margin: 0px -20px -88px 0px;
@@ -269,6 +271,7 @@
         font-size: 19px;
         height: 20px;
         line-height: 40px;
+        cursor: pointer;        
     }
     .wrongCompassSelected {
         border: 1px solid rgb(219, 38, 14);
@@ -286,6 +289,7 @@
         font-size: 19px;
         height: 20px;
         line-height: 40px;
+        cursor: pointer;
     }
     .quizItem {
         border: 1px solid rgb(24, 23, 23);
@@ -530,6 +534,16 @@ input[type=number] {
     margin: 40px 0px;
     height: 250px;
 }
+.bridge {
+    margin: -60px 0px;
+    width: 100%;
+    max-width: 400px;
+}
+.saltway {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 400px;
+}
 .tree-image {
     margin: 0px;
     width: 100%;
@@ -568,6 +582,10 @@ input[type=number] {
     display: flex;
     align-items: center;
 }
+    .half-image {
+        width: 40%;
+        margin: 0px 10px;
+    }
     .memorial50 {
         width: 150px;
     }

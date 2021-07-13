@@ -9,8 +9,8 @@ function Footer() {
         <Link to="/">
             <div className="footer-element">Homepage</div>
         </Link>
-        <Link to="/wuerzburg">
-            <div className="footer-element">Start game</div>
+        <Link to="/games">
+            <div className="footer-element">Choose a game</div>
         </Link>
         <Link to="/support-us">
             <div className="footer-element">Support us</div>

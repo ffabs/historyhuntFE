@@ -4,6 +4,7 @@ import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
 
 import Home from './Pages/PagesEN/Home';
+import Games from './Pages/PagesEN/Games';
 import Support from './Pages/PagesEN/Support';
 import Thank from './Pages/PagesEN/Thank';
 
@@ -11,6 +12,7 @@ import HomeDE from './Pages/PagesDE/Home';
 import SupportDE from './Pages/PagesDE/Support';
 import ThankDE from './Pages/PagesDE/Thank';
 
+import Wurzburg1Overview from './Games/Wurzburg/Wurzburg1EN/Wurzburg1Overview/Wurzburg1Overview';
 
 import Wurzburg0 from './Games/Wurzburg/WurzburgEN/Wurzburg0/Wurzburg0';
 import Wurzburg1A from './Games/Wurzburg/WurzburgEN/Wurzburg1/Wurzburg1A';
@@ -235,6 +237,14 @@ class App extends Component {
             <Route exact={true} path='/DE/thank-you' render={() => (
               <ThankDE />
             )}/>
+            
+            <Route exact={true} path='/games' render={() => (
+              <Games gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+            <Route exact={true} path='/wuerzburg-origins' render={() => (
+              <Wurzburg1Overview gamemenu={this.state.gamemenu} handleGamemenu={this.handleGamemenu}/>
+            )}/>
+
 
 
             <Route exact={true} path='/wuerzburg' render={() => (

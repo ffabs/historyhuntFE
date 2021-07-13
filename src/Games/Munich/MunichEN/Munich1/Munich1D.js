@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 import munichemblemhelp from '../../MunichImages/munichsuccess1.png';
-import bishop from '../../MunichImages/bishop.png';
+import munichname from '../../MunichImages/munichname.png';
+import money from '../../MunichImages/money.png';
 
 let consent = getCookieConsentValue();
 if (consent === "true") {
@@ -28,8 +29,9 @@ class Munich1D extends Component {
           </div>
           <div className="clue-background-divs">
             <div className="clue-background-div">The inspiration behind Munich's unique coat of arms was that this area was inabitated by monks since the 8th century.</div>
+            <img src={munichname} className="memorial-image" alt="monks" />
             <div className="clue-background-div">It is even probable that the name of the city is a derivation from the German word <i>Mönche</i>, meaning 'monks'.</div>
-            <img src={bishop} className="memorial-image" alt="bishop" />
+            <img src={money} className="memorial-image" alt="money" />
             <div className="clue-background-div">However, the city was not born for religious reasons but rather for economic ones...</div>
           </div>
         </div>

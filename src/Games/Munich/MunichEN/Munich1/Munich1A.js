@@ -5,7 +5,7 @@ import Timeline from '../TimelineMunich';
 import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
-// import annouce from '../../MunichImages/annouce.png';
+import annouce from '../../MunichImages/annouce.png';
 import destination1 from '../../MunichImages/munichlocation1.png';
 
 let consent = getCookieConsentValue();
@@ -26,7 +26,7 @@ class Munich1A extends Component {
             <div className="clue-background-title">Munich before Munich</div>
             <div className="clue-background-divs">
               <div className="clue-background-div">Centuries before Munich was founded, its area was already partially inhabited.</div>
-              {/* <img src={annouce} className="memorial-image" alt="annouce" /> */}
+              <img src={annouce} className="memorial-image" alt="annouce" />
               <div className="clue-background-div">Come to the New Town Hall to discover who used to live around here!</div>
               <img src={destination1} className="destination1" alt="destination1" />
             <iframe 

@@ -47,21 +47,28 @@ if (consent === "true") {
 class Home extends Component {
 
   render() {    
+    // let x = navigator.geolocation;
+    // x.getCurrentPosition(success, failure);
+    // function success(position){
+    //   console.log("may lat is " + position.coords.latitude);
+    // }
+    // function failure(){}
+
     return ( 
       <div className="home">
         <Header page={'Home'}/>
         <div className="home-background">
           <div className="home-background-text">
-            <div>THE TREASURE HUNT-STYLE EXPERIENCE</div>
+            <div>THE TREASURE HUNT-STYLE EXPERIENCES</div>
             <div>TO DISCOVER THE HISTORY</div>
             <div>OF WÜRZBURG</div>
           </div>
           <div className="home-background-support-text">
-            <div>A FREE REAL WORLD HISTORY GAME,</div>
+            <div>REAL WORLD HISTORY GAMES,</div>
             <div>GUIDED BY YOUR PHONE</div>
             <div>TO BE PLAYED IN WÜRZBURG, GERMANY</div>
             <div className="home-background-form">
-              <Link to="/wuerzburg">
+              <Link to="/games">
                   <div className="home-background-button">
                       Play Now
                   </div>
@@ -90,7 +97,7 @@ class Home extends Component {
               {/* <img src={annouce} className="home-howitworks-image" alt="wuerzburg" /> */}
               <img src={peasant} className="home-howitworks-image" alt="wuerzburg" />
               <div>
-                <div className="howitworks-step-subtitle">Start the game</div>
+                <div className="howitworks-step-subtitle">Start a game</div>
                 <div className="howitworks-step-text">Let yourself travel back in time, retracing the timeline of this city!</div>
               </div>
               <img src={statua} className="home-howitworks-image" alt="wuerzburg" />
@@ -137,7 +144,7 @@ class Home extends Component {
           </div> */}
 
           <div className="home-background-form">
-            <Link to="/wuerzburg">
+            <Link to="/games">
                 <div className="home-background-button button-end">
                     Play Now
                 </div>

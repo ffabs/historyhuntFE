@@ -33,9 +33,9 @@ class Nav extends Component {
             supportPage += ' current';
             url = "/support-us";
           break;
-          case "Game":
+          case "Games":
             gamePage += ' current';
-            url = "/wuerzburg";
+            url = "/games";
           break;
           default:
             gamePage += '';
@@ -54,8 +54,8 @@ class Nav extends Component {
                 <HashLink to="/#how">
                   <div className="nav">How it works</div>
                 </HashLink>
-                <Link to="/wuerzburg">
-                  <div className={gamePage + " nav"}>Start game</div>
+                <Link to="/games">
+                  <div className={gamePage + " nav"}>Choose a game</div>
                 </Link>
                 <Link to="/support-us">
                   <div className={supportPage + " nav"}>Support us</div>

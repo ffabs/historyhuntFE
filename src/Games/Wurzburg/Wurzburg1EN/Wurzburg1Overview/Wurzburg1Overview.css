@@ -1,0 +1,117 @@
+.game-overview-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.gameoverview-coverimage {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.gameoverview-title {
+    font-size: 30px;
+    margin: 80px 0px 20px 0px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+
+.gameoverview-desc {
+    font-size: 20px;
+    margin: 190px 5px 20px 5px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+
+
+
+.gameoverview-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0px 50px 0px;
+}
+
+.gaveoverview-details {
+    line-height: 50px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 10px;
+}
+
+.gameoverview-image {
+    width: 200px;
+    margin: 20px 50px;
+}
+
+.gameoverview-journey-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px 50px 0px;
+}
+.game-images {
+    max-width: 300px;
+    max-height: 300px;
+}
+.gameoverview-journey-section {
+    margin: 20px;
+}
+.gameoverview-journey {
+    font-size: 18px;
+    margin: 30px 10px;
+    line-height: 40px;
+    width: 300px;
+}
+
+
+
+
+.gameoverview-titlesection {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.gameoverview-how {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.gameoverview-how-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: 0px 10px;
+    line-height: 30px;
+}
+.gameoverview-image-how {
+    width: 80px;
+    margin: 20px;
+}
+.ticket-call {
+    margin: 100px 0px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.gameoverview-question {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 645px) {
+    .gameoverview-how {
+        flex-direction: column;
+    }
+}

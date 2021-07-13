@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import '../Munich.css';
 import GameMenu from '../../../../Components/ComponentsEN/GameMenu';
 import munich2_oldcityhall from '../../MunichImages/munichsuccess2.png';
+import saltway from '../../MunichImages/saltway.png';
 import annouce from '../../MunichImages/annouce.png';
 
 let consent = getCookieConsentValue();
@@ -27,7 +28,8 @@ class Munich2D extends Component {
               <img src={munich2_oldcityhall} className="memorial-image" alt="oldcityhall" />
           </div>
           <div className="clue-background-divs">
-          <div className="clue-background-div">If you would follow this direction until the river, you would end up at the 'Ludwig bridge'. This bridge stands where the first one used to and is therefore part of the original "Salt way" from Saltzburg and Reichenhall to Augsburg.</div>
+          <div className="clue-background-div">If you would follow this direction until the river, you would end up at the 'Ludwig bridge'. This bridge stands where the first one used to and is therefore part of the original "Salt way" from Saltzburg to Augsburg.</div>
+            <img src={saltway} className="saltway" alt="saltway" />
             <div className="clue-background-div">Consequently to Henry's actions, in 1158, the Holy Roman Emperor Barbarossa issued the first document where Munich is mentioned, now considered as the Munich's foundation document.</div>
             <img src={annouce} className="memorial-image" alt="annouce" />
             <div className="clue-background-div">However, Henry's good favour with Barbarossa did not last...</div>

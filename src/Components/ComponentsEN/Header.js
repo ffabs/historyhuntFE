@@ -46,9 +46,9 @@ class Header extends Component {
             supportPage += ' current';
             url = "/support-us";
         break;
-        case "Game":
+        case "Games":
             gamePage += ' current';
-            url = "/wuerzburg";
+            url = "/games";
         break;
         default:
             gamePage += '';
@@ -62,8 +62,8 @@ class Header extends Component {
                     <HashLink to="/#how"> 
                         <div className="header-text header-link">How it works</div>
                     </HashLink>
-                    <Link to="/wuerzburg"> 
-                        <div className={gamePage +" header-text header-link"}>Start game</div>
+                    <Link to="/games"> 
+                        <div className={gamePage +" header-text header-link"}>Choose a game</div>
                     </Link>
                     <Link to="/support-us"> 
                         <div className={supportPage +" header-text header-link"}>Support us</div>
